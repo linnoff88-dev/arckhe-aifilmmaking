@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>3.1 Diálogo e Atuação | AI FILMMAKING</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = { darkMode: 'class', theme: { extend: { colors: {
+      primary: '#FB7185', dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' } } } } }
+  </script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+    html:not(.dark) .text-amber-400 { color: #92400e; }
+    html:not(.dark) .text-orange-400 { color: #c2410c; }
+    html:not(.dark) .text-rose-400 { color: #9f1239; }
+    html:not(.dark) .text-blue-400 { color: #2563eb; }
+    html:not(.dark) .text-teal-400 { color: #0d9488; }
+    html:not(.dark) .text-emerald-400 { color: #059669; }
+    html:not(.dark) .text-purple-400 { color: #7c3aed; }
+    html:not(.dark) .text-red-400 { color: #b91c1c; }
+    html:not(.dark) .bg-rose-500\/20 { background-color: rgba(225,29,72,.12); }
+    html:not(.dark) .bg-rose-500\/10 { background-color: rgba(225,29,72,.08); }
+    html:not(.dark) .border-rose-500\/30 { border-color: rgba(225,29,72,.25); }
+    html:not(.dark) .hover\:bg-amber-500\/10:hover { background-color: rgba(217,119,6,.08); }
+    html:not(.dark) .hover\:bg-orange-500\/10:hover { background-color: rgba(234,88,12,.08); }
+    html:not(.dark) .hover\:bg-rose-500\/10:hover { background-color: rgba(225,29,72,.08); }
+    html:not(.dark) .hover\:bg-blue-500\/10:hover { background-color: rgba(37,99,235,.08); }
+    html:not(.dark) .hover\:bg-teal-500\/10:hover { background-color: rgba(13,148,136,.08); }
+    html:not(.dark) .hover\:bg-emerald-500\/10:hover { background-color: rgba(5,150,105,.08); }
+    html:not(.dark) .hover\:bg-purple-500\/10:hover { background-color: rgba(124,58,237,.08); }
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+    html:not(.dark) .text-primary { color: #be123c; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(190,18,60,.08); }
+    html:not(.dark) .border-primary\/30 { border-color: rgba(190,18,60,.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255,255,255,.95); }
+    html:not(.dark) svg[role="img"] { filter: saturate(.82) brightness(.96); }
+    .dark .border-dark-600 { border-color: #374151; }
+    .dark .divide-dark-600 > :not([hidden]) ~ :not([hidden]) { border-color: #374151; }
+  </style>
+<link href="https://inematds.github.io/aifilmmaking/curso/trilha3/modulo-3-1.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/en/curso/trilha3/modulo-3-1.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/es/curso/trilha3/modulo-3-1.html" hreflang="es" rel="alternate"/></head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="modulo-3-1.html" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">PT</a><a href="../../en/curso/trilha3/modulo-3-1.html" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="../../es/curso/trilha3/modulo-3-1.html" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<!-- NAV -->
+<nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-14">
+<div class="flex items-center space-x-4">
+<a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html"><span class="text-2xl">🎬</span><span class="font-bold text-lg hidden sm:inline">AI FILMMAKING</span></a>
+<span class="text-neutral-600">|</span>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium" href="https://inema.club" target="_blank">INEMA.CLUB</a>
+</div>
+<div class="flex items-center space-x-1 sm:space-x-2 overflow-x-auto">
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors whitespace-nowrap" href="../trilha1/index.html"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamentos</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-orange-400 hover:bg-orange-500/10 transition-colors whitespace-nowrap" href="../trilha2/index.html"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Pré-Produção</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-rose-400 bg-rose-500/10 whitespace-nowrap" href="index.html"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Atuação</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors whitespace-nowrap" href="../trilha4/index.html"><span class="sm:hidden">T4</span><span class="hidden sm:inline">Cinematografia</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-teal-400 hover:bg-teal-500/10 transition-colors whitespace-nowrap" href="../trilha5/index.html"><span class="sm:hidden">T5</span><span class="hidden sm:inline">IA Visual</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors whitespace-nowrap" href="../trilha6/index.html"><span class="sm:hidden">T6</span><span class="hidden sm:inline">Pós-Produção</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors whitespace-nowrap" href="../trilha7/index.html"><span class="sm:hidden">T7</span><span class="hidden sm:inline">Carreira</span></a>
+<button class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2" id="theme-toggle">
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-dark-icon" viewbox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-light-icon" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd"></path></svg>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<!-- BREADCRUMB -->
+<nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="flex items-center space-x-2 text-sm text-neutral-400">
+<a class="hover:text-rose-400" href="../../index.html">Início</a><span>/</span>
+<a class="hover:text-rose-400" href="index.html">Trilha 3</a><span>/</span>
+<span class="text-rose-400">Módulo 3.1</span>
+</div>
+</nav>
+<!-- HEADER -->
+<header class="bg-gradient-to-br from-rose-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<span class="inline-block px-3 py-1 bg-rose-500/20 text-rose-400 text-xs font-semibold rounded-full mb-4">MÓDULO 3.1</span>
+<h1 class="text-3xl sm:text-4xl font-bold mb-4">🎭 Diálogo e Atuação: Emoção por Baixo das Palavras</h1>
+<p class="text-lg text-neutral-400 max-w-3xl">Esta aula não é sobre escrever mais diálogo. É sobre criar emoção através de comportamento, silêncio, subtexto e conflito. No cinema, as pessoas raramente dizem exatamente o que sentem.</p>
+<div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-rose-400">6</div><div class="text-xs text-neutral-400">Tópicos</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-rose-400">40</div><div class="text-xs text-neutral-400">Minutos</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-rose-400">Inter.</div><div class="text-xs text-neutral-400">Nível</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-rose-400">Direção</div><div class="text-xs text-neutral-400">Tipo</div></div>
+</div>
+</div>
+</header>
+<main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<!-- INTRO -->
+<section class="mb-16">
+<div class="bg-gradient-to-br from-rose-900/30 to-dark-800 rounded-xl border border-rose-500/30 p-6 mb-6">
+<h3 class="text-lg font-semibold text-rose-400 mb-4 flex items-center"><span class="mr-2">🎯</span> Ideia central</h3>
+<p class="text-neutral-300 mb-4">Cenas de diálogo realmente fortes são sempre construídas através de cinco forças que agem por baixo do texto:</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+<div class="bg-dark-800 rounded-lg p-3 border border-dark-600 text-center"><div class="text-2xl mb-1">🌊</div><div class="text-xs text-neutral-300">Emoção por baixo das palavras</div></div>
+<div class="bg-dark-800 rounded-lg p-3 border border-dark-600 text-center"><div class="text-2xl mb-1">🧊</div><div class="text-xs text-neutral-300">Reações e linguagem corporal</div></div>
+<div class="bg-dark-800 rounded-lg p-3 border border-dark-600 text-center"><div class="text-2xl mb-1">⏳</div><div class="text-xs text-neutral-300">Pausas e silêncio</div></div>
+<div class="bg-dark-800 rounded-lg p-3 border border-dark-600 text-center"><div class="text-2xl mb-1">💥</div><div class="text-xs text-neutral-300">Conflito escondido</div></div>
+<div class="bg-dark-800 rounded-lg p-3 border border-dark-600 text-center"><div class="text-2xl mb-1">👁️</div><div class="text-xs text-neutral-300">Narrativa visual</div></div>
+</div>
+</div>
+<figure class="mb-6 rounded-xl overflow-hidden border border-dark-600">
+<img alt="Plano over-the-shoulder de cena de diálogo com tensão emocional" class="w-full h-auto" loading="lazy" onerror="this.closest('figure').style.display='none'" src="../../assets/ex-dialogue-ots.png"/>
+<figcaption class="text-xs text-neutral-500 px-4 py-2 bg-dark-800">Exemplo cinematográfico — gerado com IA (flux2-klein) · ilustrativo</figcaption>
+</figure>
+</section>
+<!-- TÓPICO 1 -->
+<section class="mb-16" id="topico-1">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-rose-500/20 text-rose-400 font-bold text-xl">1</span>
+<h2 class="text-2xl font-bold">🎭 Subtexto</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">O que os personagens <strong class="text-rose-400">dizem</strong> muitas vezes é completamente diferente do que eles realmente <strong class="text-rose-400">sentem</strong>. O subtexto é a camada de significado oculto que vive por baixo da fala comum — e é ele que dá profundidade à cena.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+<div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
+<h4 class="font-bold text-emerald-400 mb-4">✓ Com subtexto</h4>
+<ul class="space-y-3 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>"Está tarde." (= não quero que você vá)</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>A emoção fica escondida sob uma linguagem comum</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>O público preenche o que não foi dito</span></li>
+</ul>
+</div>
+<div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
+<h4 class="font-bold text-red-400 mb-4">✗ Tudo explicado</h4>
+<ul class="space-y-3 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>"Estou triste e com medo de te perder."</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>O personagem nomeia cada sentimento</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>A cena perde toda a tensão</span></li>
+</ul>
+</div>
+</div>
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">💡</span> Pergunta de ouro</h3>
+<p class="text-neutral-300">Antes de escrever uma fala, pergunte: <strong>"O que este personagem é emocionalmente incapaz de dizer?"</strong> A resposta é o subtexto da cena.</p>
+</div>
+</section>
+<!-- TÓPICO 2 -->
+<section class="mb-16" id="topico-2">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-rose-500/20 text-rose-400 font-bold text-xl">2</span>
+<h2 class="text-2xl font-bold">👀 Planos de Reação</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Às vezes, o momento emocional mais poderoso acontece no <strong class="text-rose-400">rosto de quem escuta</strong>, não de quem fala. O plano de reação revela o impacto verdadeiro da fala — e por isso é muitas vezes mais forte do que as palavras.</p>
+<div class="rounded-2xl border border-rose-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden">
+<svg aria-label="A fala de um personagem gera reação no rosto do outro, onde mora a emoção" class="w-full h-auto" role="img" viewbox="0 0 1000 220">
+<defs>
+<lineargradient id="m31-grad" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fb7185"></stop><stop offset="1" stop-color="#f43f5e"></stop></lineargradient>
+<filter height="180%" id="m31-glow" width="180%" x="-40%" y="-40%"><fegaussianblur result="b" stddeviation="1.8"></fegaussianblur><femerge><femergenode in="b"></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter>
+<pattern height="32" id="m31-grid" patternunits="userSpaceOnUse" width="32"><circle cx="1.3" cy="1.3" fill="#f43f5e" opacity="0.12" r="1.3"></circle></pattern>
+<marker id="m31-ah" markerheight="9" markerwidth="9" orient="auto" refx="6.5" refy="4.5"><path d="M0,0 L8,4.5 L0,9 L2.4,4.5 Z" fill="#fb7185"></path></marker>
+</defs>
+<rect fill="url(#m31-grid)" height="220" width="1000" x="0" y="0"></rect>
+<g filter="url(#m31-glow)"><rect fill="#2a0f16" height="64" rx="14" stroke="url(#m31-grad)" stroke-width="2" width="200" x="60" y="78"></rect></g>
+<text fill="#fb7185" font-family="Inter,sans-serif" font-size="17" font-weight="600" text-anchor="middle" x="160" y="105">Quem fala</text>
+<text fill="#ffd1da" font-family="Inter,sans-serif" font-size="12" text-anchor="middle" x="160" y="126">diz a fala</text>
+<g fill="none" opacity="0.7" stroke="#fb7185" stroke-width="2"><path d="M260,110 L420,110" marker-end="url(#m31-ah)"></path></g>
+<g filter="url(#m31-glow)"><rect fill="#0e1b26" height="64" rx="14" stroke="#38bdf8" stroke-width="2" width="200" x="420" y="78"></rect></g>
+<text fill="#bfe6ff" font-family="Inter,sans-serif" font-size="16" font-weight="600" text-anchor="middle" x="520" y="105">Corte para</text>
+<text fill="#bfe6ff" font-family="Inter,sans-serif" font-size="12" text-anchor="middle" x="520" y="126">quem escuta</text>
+<g fill="none" opacity="0.7" stroke="#38bdf8" stroke-width="2"><path d="M620,110 L760,110" marker-end="url(#m31-ah)"></path></g>
+<g filter="url(#m31-glow)"><rect fill="#2a0f16" height="64" rx="14" stroke="url(#m31-grad)" stroke-width="2" width="180" x="760" y="78"></rect></g>
+<text fill="#fb7185" font-family="Inter,sans-serif" font-size="16" font-weight="600" text-anchor="middle" x="850" y="105">A emoção</text>
+<text fill="#ffd1da" font-family="Inter,sans-serif" font-size="12" text-anchor="middle" x="850" y="126">acontece aqui</text>
+</svg>
+</div>
+<div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
+<h3 class="text-lg font-semibold text-blue-400 mb-3 flex items-center"><span class="mr-2">🔎</span> Na prática</h3>
+<p class="text-neutral-300">Não filme apenas quem fala. Reserve um plano para o rosto de quem ouve — uma piscada, um olhar que desvia, a mandíbula que tensiona. É ali que o público lê a verdade.</p>
+</div>
+</section>
+<!-- TÓPICO 3 -->
+<section class="mb-16" id="topico-3">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-rose-500/20 text-rose-400 font-bold text-xl">3</span>
+<h2 class="text-2xl font-bold">⚔️ Conflito</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Toda cena de diálogo forte precisa de <strong class="text-rose-400">desejos opostos</strong>. Sem atrito, não há drama. Grandes cenas de diálogo raramente são apenas conversas — são <strong class="text-rose-400">negociações emocionais</strong>.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+<div class="bg-dark-800 rounded-xl border border-rose-500/30 p-6">
+<div class="text-3xl mb-3">🛡️</div>
+<h4 class="font-bold text-rose-400 mb-2">Personagem A</h4>
+<p class="text-sm text-neutral-300">Busca segurança — enquanto o outro evita vulnerabilidade.</p>
+</div>
+<div class="bg-dark-800 rounded-xl border border-rose-500/30 p-6">
+<div class="text-3xl mb-3">🔒</div>
+<h4 class="font-bold text-rose-400 mb-2">Personagem B</h4>
+<p class="text-sm text-neutral-300">Procura honestidade — enquanto o outro tenta esconder a culpa em silêncio.</p>
+</div>
+</div>
+<div class="bg-gradient-to-br from-rose-900/30 to-dark-800 rounded-xl border border-rose-500/30 p-6">
+<p class="text-neutral-300">No momento em que os objetivos emocionais <strong class="text-rose-400">colidem</strong>, a tensão começa. O público nunca deve sentir que está apenas ouvindo pessoas conversarem — deve sentir que algo está se movendo por baixo da conversa.</p>
+</div>
+</section>
+<!-- TÓPICO 4 -->
+<section class="mb-16" id="topico-4">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-rose-500/20 text-rose-400 font-bold text-xl">4</span>
+<h2 class="text-2xl font-bold">🤐 Silêncio</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">O que permanece <strong class="text-rose-400">não dito</strong> pode parecer muito mais pesado e forte do que qualquer fala. A emoção precisa de tempo — o silêncio cria tensão emocional <em>antes</em> que as palavras cheguem.</p>
+<div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6 mb-6">
+<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">⏸️</span> Onde colocar o silêncio</h3>
+<ul class="space-y-2 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>Antes da resposta</strong> — a hesitação revela o peso da pergunta.</span></li>
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>Depois de uma revelação</strong> — o silêncio deixa a informação assentar.</span></li>
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>No lugar de uma fala</strong> — não responder é, muitas vezes, a resposta mais forte.</span></li>
+</ul>
+</div>
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">💡</span> Princípio</h3>
+<p class="text-neutral-300">Em grandes cenas de diálogo, a coisa mais importante muitas vezes é justamente aquilo que ninguém diz.</p>
+</div>
+</section>
+<!-- TÓPICO 5 -->
+<section class="mb-16" id="topico-5">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-rose-500/20 text-rose-400 font-bold text-xl">5</span>
+<h2 class="text-2xl font-bold">🎬 Atuação</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">A emoção real vem de personagens <strong class="text-rose-400">perseguindo seus objetivos</strong>, não apenas "performando" um sentimento. Atuação que parece verdadeira na tela nasce da intenção — não da imitação de uma emoção.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
+<h4 class="font-bold text-emerald-400 mb-4">✓ Perseguir um objetivo</h4>
+<ul class="space-y-3 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>"Quero que ele confesse" → ações concretas</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Comportamento revela o sentimento</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Parece vivo e internamente verdadeiro</span></li>
+</ul>
+</div>
+<div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
+<h4 class="font-bold text-red-400 mb-4">✗ Performar a emoção</h4>
+<ul class="space-y-3 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>"Pareça triste" → expressão fabricada</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Emoção sem causa interna</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Parece artificial, mesmo se realista</span></li>
+</ul>
+</div>
+</div>
+</section>
+<!-- TÓPICO 6 -->
+<section class="mb-16" id="topico-6">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-rose-500/20 text-rose-400 font-bold text-xl">6</span>
+<h2 class="text-2xl font-bold">📷 Enquadramento de Câmera</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Onde você posiciona a câmera <strong class="text-rose-400">muda completamente o significado emocional</strong> da cena. O mesmo diálogo pode parecer íntimo, frio, tenso ou solitário — dependendo apenas do enquadramento.</p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-rose-400 mb-1">Close-up</h4><p class="text-sm text-neutral-300">Intimidade e detalhe emocional — quanto mais perto, mais sentimos.</p></div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-rose-400 mb-1">Over-the-shoulder</h4><p class="text-sm text-neutral-300">Tensão entre dois — a relação é sentida através da perspectiva.</p></div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-rose-400 mb-1">Plano aberto</h4><p class="text-sm text-neutral-300">Espaço e isolamento — distância no quadro vira distância na emoção.</p></div>
+</div>
+<div class="bg-gradient-to-br from-rose-900/30 to-dark-800 rounded-xl border border-rose-500/30 p-6">
+<h3 class="text-lg font-semibold text-rose-400 mb-3 flex items-center"><span class="mr-2">⚠️</span> Princípio final</h3>
+<p class="text-neutral-300">Se os personagens explicam tudo o que sentem, a cena perde toda a tensão. O diálogo cinematográfico forte funciona através de emoção, subtexto, reação, silêncio e conflito — não de explicação.</p>
+</div>
+</section>
+<!-- TAREFA -->
+<section class="mb-12">
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h2 class="text-xl font-bold text-primary mb-4 flex items-center"><span class="mr-2">📝</span> Tarefa</h2>
+<p class="text-neutral-300 mb-4">Escreva <strong>3 cenas curtas de diálogo</strong> em que um personagem quer algo, mas não pode dizer diretamente.</p>
+<ul class="space-y-2 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🎭</span><span><strong>Use subtexto:</strong> a fala deve esconder a verdadeira emoção.</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">👀</span><span><strong>Use reação e comportamento:</strong> revele o sentimento sem nomeá-lo.</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">⚔️</span><span><strong>Defina o conflito:</strong> o que cada personagem quer e o que evita.</span></li>
+</ul>
+</div>
+</section>
+<!-- RESUMO -->
+<section class="mb-12">
+<div class="bg-gradient-to-br from-rose-900/40 via-dark-800 to-dark-800 rounded-xl border border-rose-500/30 p-8">
+<h2 class="text-2xl font-bold mb-6 flex items-center"><span class="mr-3">📌</span> Resumo do Módulo</h2>
+<div class="space-y-4 mb-8">
+<div class="flex items-start space-x-3"><span class="text-rose-400 mt-1">✓</span><div><strong class="text-white">Subtexto</strong><span class="text-neutral-400"> — o que se diz é diferente do que se sente.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-rose-400 mt-1">✓</span><div><strong class="text-white">Planos de reação</strong><span class="text-neutral-400"> — a emoção mora no rosto de quem escuta.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-rose-400 mt-1">✓</span><div><strong class="text-white">Conflito e silêncio</strong><span class="text-neutral-400"> — desejos opostos e pausas criam pressão.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-rose-400 mt-1">✓</span><div><strong class="text-white">Atuação e enquadramento</strong><span class="text-neutral-400"> — objetivo, não performance; a câmera muda o sentido.</span></div></div>
+</div>
+<div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+<h3 class="font-semibold text-rose-400 mb-2">Próximo Módulo:</h3>
+<p class="text-neutral-300">3.2 — Performance de Personagem com IA</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="index.html">← Voltar para Trilha</a>
+<a class="flex-1 text-center px-6 py-3 bg-rose-600 text-white rounded-lg font-semibold hover:bg-rose-500 transition-colors" href="modulo-3-2.html">Próximo Módulo →</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-dark-600 py-8 mt-8">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+<p>🎬 AI FILMMAKING — 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" target="_blank">INEMA.CLUB</a></p>
+</div>
+</footer>
+<script>
+    const themeToggle=document.getElementById('theme-toggle'),dIcon=document.getElementById('theme-toggle-dark-icon'),lIcon=document.getElementById('theme-toggle-light-icon'),html=document.documentElement;
+    if(localStorage.getItem('theme')==='light'){html.classList.remove('dark');dIcon.classList.remove('hidden');}else{lIcon.classList.remove('hidden');}
+    themeToggle.addEventListener('click',()=>{dIcon.classList.toggle('hidden');lIcon.classList.toggle('hidden');html.classList.toggle('dark');localStorage.setItem('theme',html.classList.contains('dark')?'dark':'light');});
+  </script>
+</body>
+</html>

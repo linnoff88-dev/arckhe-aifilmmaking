@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ruta 2 — Preproducción y guion | AI FILMMAKING</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = { darkMode: 'class', theme: { extend: { colors: {
+      primary: '#FACC15', dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' } } } } }
+  </script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+    .topic-explanation { display: none; }
+    .topic-explanation.active { display: block; }
+
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+
+    /* acento das 7 trilhas (nav) + principal (orange) */
+    html:not(.dark) .text-amber-400 { color: #92400e; }
+    html:not(.dark) .text-orange-400 { color: #c2410c; }
+    html:not(.dark) .text-rose-400 { color: #9f1239; }
+    html:not(.dark) .text-blue-400 { color: #2563eb; }
+    html:not(.dark) .text-teal-400 { color: #0d9488; }
+    html:not(.dark) .text-emerald-400 { color: #059669; }
+    html:not(.dark) .text-purple-400 { color: #7c3aed; }
+    html:not(.dark) .bg-orange-500\/20 { background-color: rgba(234,88,12,.12); }
+    html:not(.dark) .bg-orange-500\/10 { background-color: rgba(234,88,12,.08); }
+    html:not(.dark) .border-orange-500\/30 { border-color: rgba(234,88,12,.25); }
+    html:not(.dark) .hover\:bg-amber-500\/10:hover { background-color: rgba(217,119,6,.08); }
+    html:not(.dark) .hover\:bg-orange-500\/10:hover { background-color: rgba(234,88,12,.08); }
+    html:not(.dark) .hover\:bg-rose-500\/10:hover { background-color: rgba(225,29,72,.08); }
+    html:not(.dark) .hover\:bg-blue-500\/10:hover { background-color: rgba(37,99,235,.08); }
+    html:not(.dark) .hover\:bg-teal-500\/10:hover { background-color: rgba(13,148,136,.08); }
+    html:not(.dark) .hover\:bg-emerald-500\/10:hover { background-color: rgba(5,150,105,.08); }
+    html:not(.dark) .hover\:bg-purple-500\/10:hover { background-color: rgba(124,58,237,.08); }
+    html:not(.dark) .group:hover .group-hover\:text-orange-400 { color: #c2410c; }
+
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+    html:not(.dark) .text-primary { color: #a16207; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(161,98,7,.08); }
+    html:not(.dark) .border-primary\/30 { border-color: rgba(161,98,7,.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255,255,255,.95); }
+    html:not(.dark) svg[role="img"] { filter: saturate(.82) brightness(.96); }
+
+    .dark .border-dark-600 { border-color: #374151; }
+    .dark .divide-dark-600 > :not([hidden]) ~ :not([hidden]) { border-color: #374151; }
+  </style>
+<link href="https://inematds.github.io/aifilmmaking/curso/trilha2/" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/en/curso/trilha2/" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/es/curso/trilha2/" hreflang="es" rel="alternate"/></head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../../../curso/trilha2/" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha2/" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="./" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">ES</a></div>
+<!-- NAV -->
+<nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-14">
+<div class="flex items-center space-x-4">
+<a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
+<span class="text-2xl">🎬</span><span class="font-bold text-lg hidden sm:inline">AI FILMMAKING</span>
+</a>
+<span class="text-neutral-600">|</span>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium" href="https://inema.club" target="_blank">INEMA.CLUB</a>
+</div>
+<div class="flex items-center space-x-1 sm:space-x-2 overflow-x-auto">
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors whitespace-nowrap" href="../trilha1/index.html"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamentos</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-orange-400 bg-orange-500/10 whitespace-nowrap" href="index.html"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Preproducción</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-rose-400 hover:bg-rose-500/10 transition-colors whitespace-nowrap" href="../trilha3/index.html"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Actuación</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors whitespace-nowrap" href="../trilha4/index.html"><span class="sm:hidden">T4</span><span class="hidden sm:inline">Cinematografía</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-teal-400 hover:bg-teal-500/10 transition-colors whitespace-nowrap" href="../trilha5/index.html"><span class="sm:hidden">T5</span><span class="hidden sm:inline">IA visual</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors whitespace-nowrap" href="../trilha6/index.html"><span class="sm:hidden">T6</span><span class="hidden sm:inline">Posproducción</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors whitespace-nowrap" href="../trilha7/index.html"><span class="sm:hidden">T7</span><span class="hidden sm:inline">Carrera</span></a>
+<button class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2" id="theme-toggle">
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-dark-icon" viewbox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-light-icon" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd"></path></svg>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<!-- HEADER -->
+<header class="bg-gradient-to-br from-orange-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<span class="inline-block px-3 py-1 bg-orange-500/20 text-orange-400 text-xs font-semibold rounded-full mb-4">TRAYECTO 2</span>
+<h1 class="text-3xl sm:text-4xl font-bold mb-4">📝 Preproducción y guion</h1>
+<p class="text-lg text-neutral-400 max-w-3xl mb-6">En el cine profesional, cada escena empieza mucho antes de que la cámara grabe. Aquí aprenderás a replicar un pipeline real de preproducción con IA: desde el fragmento del guion hasta los frames cinematográficos finales, con personaje, vestuario, entorno y lista de planos coherentes.</p>
+<!-- HERO SVG -->
+<div class="rounded-2xl border border-orange-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden max-w-3xl">
+<svg aria-label="Pipeline de preproducción: del guion a los fotogramas finales" class="w-full h-auto" role="img" viewbox="0 0 1000 200">
+<defs>
+<lineargradient id="t2h-grad" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fb923c"></stop><stop offset="1" stop-color="#f97316"></stop></lineargradient>
+<filter height="180%" id="t2h-glow" width="180%" x="-40%" y="-40%"><fegaussianblur result="b" stddeviation="1.8"></fegaussianblur><femerge><femergenode in="b"></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter>
+<pattern height="32" id="t2h-grid" patternunits="userSpaceOnUse" width="32"><circle cx="1.3" cy="1.3" fill="#f97316" opacity="0.12" r="1.3"></circle></pattern>
+<marker id="t2h-ah" markerheight="9" markerwidth="9" orient="auto" refx="6.5" refy="4.5"><path d="M0,0 L8,4.5 L0,9 L2.4,4.5 Z" fill="#fb923c"></path></marker>
+</defs>
+<rect fill="url(#t2h-grid)" height="200" width="1000" x="0" y="0"></rect>
+<g fill="none" opacity="0.6" stroke="#fb923c" stroke-width="2">
+<path d="M150,150 L210,128" marker-end="url(#t2h-ah)"></path>
+<path d="M330,128 L390,106" marker-end="url(#t2h-ah)"></path>
+<path d="M510,106 L570,84" marker-end="url(#t2h-ah)"></path>
+<path d="M690,84 L750,62" marker-end="url(#t2h-ah)"></path>
+</g>
+<g font-family="Inter,sans-serif" font-size="13" font-weight="600">
+<g filter="url(#t2h-glow)"><rect fill="#241405" height="40" rx="11" stroke="url(#t2h-grad)" stroke-width="2" width="130" x="20" y="142"></rect></g>
+<text fill="#fb923c" text-anchor="middle" x="85" y="167">Guion</text>
+<g filter="url(#t2h-glow)"><rect fill="#241405" height="40" rx="11" stroke="url(#t2h-grad)" stroke-width="2" width="130" x="200" y="120"></rect></g>
+<text fill="#fb923c" text-anchor="middle" x="265" y="145">Storyboard</text>
+<g filter="url(#t2h-glow)"><rect fill="#241405" height="40" rx="11" stroke="url(#t2h-grad)" stroke-width="2" width="130" x="380" y="98"></rect></g>
+<text fill="#fb923c" text-anchor="middle" x="445" y="123">Personaje</text>
+<g filter="url(#t2h-glow)"><rect fill="#241405" height="40" rx="11" stroke="url(#t2h-grad)" stroke-width="2" width="130" x="560" y="76"></rect></g>
+<text fill="#fb923c" text-anchor="middle" x="625" y="101">Ambiente</text>
+<g filter="url(#t2h-glow)"><rect fill="#0e1b26" height="40" rx="11" stroke="#38bdf8" stroke-width="2" width="150" x="740" y="42"></rect></g>
+<text fill="#bfe6ff" text-anchor="middle" x="815" y="67">Fotogramas finales</text>
+</g>
+</svg>
+</div>
+<div class="grid grid-cols-4 gap-4 max-w-2xl">
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-orange-400">3</div><div class="text-xs text-neutral-400">Módulos</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-orange-400">21</div><div class="text-xs text-neutral-400">Temas</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-orange-400">~2.5h</div><div class="text-xs text-neutral-400">Duración</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-orange-400">Básico</div><div class="text-xs text-neutral-400">Nivel</div></div>
+</div>
+</div>
+</header>
+<main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<!-- MAPA DA TRILHA -->
+<section class="mb-12">
+<h2 class="text-2xl font-bold mb-6">Mapa de la ruta</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+<a class="group bg-dark-800 rounded-xl border border-dark-600 hover:border-orange-500/30 p-5 transition-all" href="#modulo-2-1">
+<div class="flex items-center justify-between mb-2"><span class="text-orange-400 font-bold text-sm">2.1</span><span class="text-xs text-neutral-500">~50 min</span></div>
+<h3 class="font-semibold mb-1 group-hover:text-orange-400 transition-colors">📝 Del guion a la escena: el pipeline</h3>
+<p class="text-xs text-neutral-400">7 etapas de preproducción</p>
+</a>
+<a class="group bg-dark-800 rounded-xl border border-dark-600 hover:border-orange-500/30 p-5 transition-all" href="#modulo-2-2">
+<div class="flex items-center justify-between mb-2"><span class="text-orange-400 font-bold text-sm">2.2</span><span class="text-xs text-neutral-500">~50 min</span></div>
+<h3 class="font-semibold mb-1 group-hover:text-orange-400 transition-colors">🎞️ Storyboard estructurado</h3>
+<p class="text-xs text-neutral-400">Boceto → render cinematográfico</p>
+</a>
+<a class="group bg-dark-800 rounded-xl border border-dark-600 hover:border-orange-500/30 p-5 transition-all" href="#modulo-2-3">
+<div class="flex items-center justify-between mb-2"><span class="text-orange-400 font-bold text-sm">2.3</span><span class="text-xs text-neutral-500">~50 min</span></div>
+<h3 class="font-semibold mb-1 group-hover:text-orange-400 transition-colors">🎭 Personaje, vestuario y lista de planos</h3>
+<p class="text-xs text-neutral-400">Los prompts completos reales</p>
+</a>
+</div>
+</section>
+<h2 class="text-2xl font-bold mb-6">Contenido detallado</h2>
+<!-- MÓDULO 2.1 -->
+<div class="bg-dark-800 rounded-xl border border-dark-600 mb-6" id="modulo-2-1">
+<div class="p-6 border-b border-dark-600">
+<div class="flex items-center justify-between mb-2"><span class="text-orange-400 font-bold">2.1</span><span class="text-xs text-neutral-500">~50 min</span></div>
+<h3 class="text-2xl font-bold mb-2">📝 Del guion a la escena: el pipeline</h3>
+<p class="text-neutral-400 text-sm">El flujo cinematográfico completo: Guion → Storyboard → Personaje → Vestuario → Entorno → Lista de planos → Fotogramas. Cómo un solo creador puede hacer el trabajo de todo un equipo de preproducción con IA.</p>
+</div>
+<div class="divide-y divide-dark-600">
+<div class="topic-item">
+<button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
+<span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">1</span>
+<span class="text-lg">📄</span><div><span class="font-medium">Análisis del guion</span><span class="text-neutral-500 text-sm ml-2">- lo que el público debe sentir</span></div>
+</button>
+<div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+<div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">Toda escena comienza con un guion. En Magnific Spaces, se crea un Nodo de Texto con una breve descripción de la escena: el samurái en el puente colgante.</p></div>
+<div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">Antes de cualquier imagen, el director se pregunta: ¿qué debe sentir el público? El aislamiento, la tensión y la anticipación del enfrentamiento guían los ángulos, la luz y la composición.</p></div>
+<div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">Guion → tono emocional → decisiones cinematográficas. La emoción va primero.</p></div>
+</div></div>
+</div>
+<div class="topic-item">
+<button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
+<span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">2</span>
+<span class="text-lg">🎞️</span><div><span class="font-medium">Desarrollo del storyboard</span><span class="text-neutral-500 text-sm ml-2">- el primer lenguaje visual</span></div>
+</button>
+<div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+<div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">Con el Asistente de IA, el guion se convierte en un boceto de storyboard de seis planos que muestra la progresión cinematográfica de la escena.</p></div>
+<div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">El storyboard define el encuadre, la perspectiva de cámara, el ritmo visual y la escalada de la tensión antes de generar imágenes detalladas.</p></div>
+<div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">Storyboard = dirección en forma de boceto. Entiende la escena visualmente antes de renderizar.</p></div>
+</div></div>
+</div>
+<div class="topic-item">
+<button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
+<span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">3</span>
+<span class="text-lg">🧍</span><div><span class="font-medium">Diseño del personaje</span><span class="text-neutral-500 text-sm ml-2">- referencia limpia en estudio</span></div>
+</button>
+<div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+<div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">El personaje se genera en un entorno de estudio neutro para aislar el diseño: proporciones realistas, vestuario básico, iluminación natural y pose neutra.</p></div>
+<div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">Crea un personaje de referencia limpio que después puedes vestir y colocar en el entorno, manteniendo la coherencia entre planos.</p></div>
+<div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">Estudio neutro → aislamiento del diseño → referencia reutilizable.</p></div>
+</div></div>
+</div>
+<div class="topic-item">
+<button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
+<span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">4</span>
+<span class="text-lg">👘</span><div><span class="font-medium">Vestuario y objetos de escena</span><span class="text-neutral-500 text-sm ml-2">- identidad visual</span></div>
+</button>
+<div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+<div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">La ropa y las armas se generan como objetos de referencia separados en un estudio: ropa de samurái, sombrero kasa tradicional, espada katana.</p></div>
+<div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">Renderizar cada objeto con iluminación de estudio permite combinarlos con el personaje después, garantizando la coherencia visual.</p></div>
+<div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">Departamentos de vestuario y utilería simulados en un pipeline de una sola persona.</p></div>
+</div></div>
+</div>
+<div class="topic-item">
+<button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
+<span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">5</span>
+<span class="text-lg">🏔️</span><div><span class="font-medium">Diseño del entorno</span><span class="text-neutral-500 text-sm ml-2">- escala y tensión dramática</span></div>
+</button>
+<div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+<div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">Como en los VFX profesionales, el personaje y el entorno se crean por separado. El puente estrecho sobre un cañón profundo, con lluvia intensa, niebla en movimiento y viento fuerte.</p></div>
+<div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">Un puente estrecho crea vulnerabilidad; un cañón gigantesco crea escala cinematográfica. El entorno es estructura dramática.</p></div>
+<div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">La atmósfera define la escala y la tensión antes de la acción.</p></div>
+</div></div>
+</div>
+<div class="topic-item">
+<button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
+<span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">6</span>
+<span class="text-lg">📋</span><div><span class="font-medium">Lista de planos</span><span class="text-neutral-500 text-sm ml-2">- la IA como directora de fotografía</span></div>
+</button>
+<div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+<div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">La comprensión visual de la escena se convierte en un plan de cinematografía: tipo de plano, posición de la cámara, movimiento de cámara y propósito narrativo.</p></div>
+<div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">Aquí, la IA actúa como directora y directora de fotografía, y diseña cómo vive el público la escena.</p></div>
+<div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">La lista de planos traduce la emoción en decisiones técnicas de cámara.</p></div>
+</div></div>
+</div>
+<div class="topic-item">
+<button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
+<span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">7</span>
+<span class="text-lg">🖼️</span><div><span class="font-medium">Generación de los fotogramas finales</span><span class="text-neutral-500 text-sm ml-2">- imágenes fijas listas para producción</span></div>
+</button>
+<div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
+<div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">Con la lista de planos lista, generamos los fotogramas cinematográficos finales. Las imágenes del storyboard se separan en planos individuales.</p></div>
+<div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">Cada fotograma se convierte en una imagen fija lista para generar video con IA, animación, previsualización y presentación.</p></div>
+<div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">El resultado es un paquete completo de preproducción para una escena de película.</p></div>
+</div></div>
+</div>
+</div>
+<div class="p-4 bg-dark-700/30 flex justify-start space-x-3">
+<button class="px-4 py-2 text-sm bg-dark-600 hover:bg-dark-500 rounded-lg transition-colors" onclick="openModal('modal-2-1')">Ver en modal</button>
+<a class="px-4 py-2 text-sm bg-orange-600 hover:bg-orange-500 text-white rounded-lg transition-colors" href="modulo-2-1.html">Ver completo</a>
+</div>
+</div>
+<!-- MÓDULO 2.2 -->
+<div class="bg-dark-800 rounded-xl border border-dark-600 mb-6" id="modulo-2-2">
+<div class="p-6 border-b border-dark-600">
+<div class="flex items-center justify-between mb-2"><span class="text-orange-400 font-bold">2.2</span><span class="text-xs text-neutral-500">~50 min</span></div>
+<h3 class="text-2xl font-bold mb-2">🎞️ Storyboard estructurado</h3>
+<p class="text-neutral-400 text-sm">Construye una secuencia visual controlada en Freepik/Magnific, donde cada plano tiene un propósito, una lógica narrativa y un ritmo emocional. Desde el boceto inicial hasta el render cinematográfico, con la lógica de dirección plano a plano.</p>
+</div>
+<div class="divide-y divide-dark-600">
+<div class="topic-item"><button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)"><span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">1</span><span class="text-lg">🧩</span><div><span class="font-medium">Freepik / Magnific Spaces</span><span class="text-neutral-500 text-sm ml-2">- flujo basado en nodos</span></div></button><div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9"><div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">El espacio de trabajo central basado en nodos, donde se conectan el guion, el personaje, el boceto y el renderizado en un único flujo visual.</p></div><div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">No estamos generando imágenes aleatorias: estamos construyendo una secuencia controlada, como en la preproducción real.</p></div><div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">Los nodos conectan etapas; Freepik es de pago, pero potente para pipelines basados en nodos.</p></div></div></div></div>
+<div class="topic-item"><button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)"><span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">2</span><span class="text-lg">✏️</span><div><span class="font-medium">Storyboard en boceto</span><span class="text-neutral-500 text-sm ml-2">- encuadre y bloqueo</span></div></button><div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9"><div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">Con el Asistente, generamos bocetos preliminares de composición: el enfoque está en el encuadre, el bloqueo de escena y el ritmo, no en los detalles.</p></div><div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">El boceto resuelve la composición y la dirección antes de invertir esfuerzo en un renderizado realista.</p></div><div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">Boceto a lápiz en blanco y negro, alto contraste, con énfasis en la composición por encima de los microdetalles.</p></div></div></div></div>
+<div class="topic-item"><button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)"><span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">3</span><span class="text-lg">🎨</span><div><span class="font-medium">Render cinematográfico</span><span class="text-neutral-500 text-sm ml-2">- boceto → fotograma realista</span></div></button><div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9"><div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">Un segundo Asistente traduce los bocetos en frames realistas, a color y renderizados, como una etapa de previsualización.</p></div><div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">Separar el boceto del render mantiene la composición fija mientras aumenta el realismo.</p></div><div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">Boceto = dirección; render = previsualización live-action.</p></div></div></div></div>
+<div class="topic-item"><button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)"><span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">4</span><span class="text-lg">🔗</span><div><span class="font-medium">Referencias con @</span><span class="text-neutral-500 text-sm ml-2">- conectar el guion y al personaje</span></div></button><div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9"><div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">Dentro del Asistente, usamos referencias con <span class="font-mono text-orange-400">@sketch</span> e <span class="font-mono text-orange-400">@character</span> para conectar el guion, el personaje y los resultados anteriores.</p></div><div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">Las referencias garantizan que la composición provenga del boceto y la apariencia del personaje, sin mezclar funciones.</p></div><div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">La calidad depende de prompts claros y precisos; la iteración es normal.</p></div></div></div></div>
+<div class="topic-item"><button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)"><span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">5</span><span class="text-lg">🎬</span><div><span class="font-medium">Lógica de dirección plano a plano</span><span class="text-neutral-500 text-sm ml-2">- por qué existe cada plano</span></div></button><div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9"><div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">Plano 1 abierto (espacio/escala), 2 personaje (emoción), 3 primer plano de acción (tensión), 4 dentro del auto (inmersión), 5 movimiento (energía), 6 abierto de nuevo (cierre).</p></div><div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">Cada plano tiene un propósito definido; la variación de escala crea ritmo y la composición guía la atención.</p></div><div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">La secuencia expresa soledad, determinación y avance.</p></div></div></div></div>
+<div class="topic-item"><button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)"><span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">6</span><span class="text-lg">🌀</span><div><span class="font-medium">Arco narrativo de la secuencia</span><span class="text-neutral-500 text-sm ml-2">- Espacio → Liberación</span></div></button><div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9"><div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">El arco completo: <span class="font-mono text-orange-400">Espacio → Personaje → Acción → Movimiento → Liberación</span>.</p></div><div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">Un arco claro transforma seis planos sueltos en una escena que respira y concluye.</p></div><div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">Empezar y terminar con la misma escala: cierre y continuidad.</p></div></div></div></div>
+</div>
+<div class="p-4 bg-dark-700/30 flex justify-start space-x-3">
+<button class="px-4 py-2 text-sm bg-dark-600 hover:bg-dark-500 rounded-lg transition-colors" onclick="openModal('modal-2-2')">Ver en modal</button>
+<a class="px-4 py-2 text-sm bg-orange-600 hover:bg-orange-500 text-white rounded-lg transition-colors" href="modulo-2-2.html">Ver completo</a>
+</div>
+</div>
+<!-- MÓDULO 2.3 -->
+<div class="bg-dark-800 rounded-xl border border-dark-600 mb-6" id="modulo-2-3">
+<div class="p-6 border-b border-dark-600">
+<div class="flex items-center justify-between mb-2"><span class="text-orange-400 font-bold">2.3</span><span class="text-xs text-neutral-500">~50 min</span></div>
+<h3 class="text-2xl font-bold mb-2">🎭 Personaje, vestuario, ambiente y lista de planos</h3>
+<p class="text-neutral-400 text-sm">La clase práctica con los prompts completos y reales: guion de 6 planos posapocalíptico, ficha de personaje, boceto en cuadrícula 2x3, storyboard renderizado con bloqueos de composición y la lista de planos 1–6.</p>
+</div>
+<div class="divide-y divide-dark-600">
+<div class="topic-item"><button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)"><span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">1</span><span class="text-lg">📜</span><div><span class="font-medium">El guion: 6 planos posapocalípticos</span><span class="text-neutral-500 text-sm ml-2">- la secuencia completa</span></div></button><div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9"><div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">Una secuencia de storyboard de exactamente 6 imágenes, 16:9, con gradación de color fría y desaturada: desde el desierto vacío hasta el auto acelerando rumbo al horizonte.</p></div><div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">Define la historia plano a plano y la regla de estilo que heredarán todos los fotogramas.</p></div><div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">Cada imagen se genera individualmente; el personaje es ficticio y genérico.</p></div></div></div></div>
+<div class="topic-item"><button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)"><span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">2</span><span class="text-lg">🧍</span><div><span class="font-medium">Ficha del personaje</span><span class="text-neutral-500 text-sm ml-2">- prompt completo de referencia</span></div></button><div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9"><div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">El prompt completo del hombre robusto de 40 años con máscara respiratoria: ropa, entorno, cámara, lente, iluminación, color y restricciones.</p></div><div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">Un prompt estructurado por secciones es lo que mantiene al personaje consistente en todos los planos.</p></div><div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">Lente de 35 mm, ángulo bajo, gradación de color azul grisácea, genérica y no identificable.</p></div></div></div></div>
+<div class="topic-item"><button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)"><span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">3</span><span class="text-lg">▦</span><div><span class="font-medium">Prompt de boceto: cuadrícula 2x3</span><span class="text-neutral-500 text-sm ml-2">- 6 frames letterbox</span></div></button><div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9"><div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">Una sola imagen de storyboard con 6 frames en una cuadrícula rígida de 2x3; cada panel es un frame panorámico 16:9 con letterboxing.</p></div><div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">Las reglas críticas de diseño evitan los paneles cuadrados y mantienen la sensación anamórfica del cine.</p></div><div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">No inventar planos, no alterar el orden, boceto a lápiz en blanco y negro.</p></div></div></div></div>
+<div class="topic-item"><button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)"><span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">4</span><span class="text-lg">🎬</span><div><span class="font-medium">Storyboard renderizado — bloqueos</span><span class="text-neutral-500 text-sm ml-2">- @sketch + @character</span></div></button><div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9"><div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">Recrear el storyboard con calidad fotorrealista usando <span class="font-mono text-orange-400">@sketch</span> para composición y <span class="font-mono text-orange-400">@character</span> para la apariencia.</p></div><div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">Las restricciones de composición, dirección y microdetalles impiden que el modelo reinterprete o refleje la escena.</p></div><div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">Iguala los ángulos, la posición, la escala y el punto de fuga, sin reinterpretarlos.</p></div></div></div></div>
+<div class="topic-item"><button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)"><span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">5</span><span class="text-lg">📋</span><div><span class="font-medium">Lista de planos 1–6</span><span class="text-neutral-500 text-sm ml-2">- sigue exactamente</span></div></button><div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9"><div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">La especificación plano por plano: aéreo extremo abierto, plano medio frontal, primer plano por encima del hombro, primer plano interno, seguimiento lateral rígido y plano aéreo abierto final.</p></div><div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">Los planos 5 y 6 son rígidos: la dirección del auto, el punto de fuga y el rastro de polvo no pueden cambiar.</p></div><div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">Posición en el cuadro, ángulo y espacio negativo definidos para cada plano.</p></div></div></div></div>
+<div class="topic-item"><button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)"><span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold flex items-center justify-center flex-shrink-0">6</span><span class="text-lg">🔒</span><div><span class="font-medium">Personaje, Entorno, Estilo y Salida</span><span class="text-neutral-500 text-sm ml-2">- consistencia final</span></div></button><div class="topic-explanation px-6 pb-4"><div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9"><div><span class="text-orange-400 font-semibold">Qué es:</span><p class="text-neutral-300 text-sm">Las secciones finales del prompt: usar <span class="font-mono text-orange-400">@character</span> exactamente, seguir <span class="font-mono text-orange-400">@sketch</span> en el entorno, con estilo fotorrealista y una salida de exactamente 6 imágenes.</p></div><div><span class="text-orange-400 font-semibold">Por qué aprender:</span><p class="text-neutral-300 text-sm">La regla final garantiza que el storyboard se traduzca directamente a frames reales, sin cambiar la dirección.</p></div><div><span class="text-orange-400 font-semibold">Conceptos clave:</span><p class="text-neutral-300 text-sm">El mismo rostro, la misma máscara, el mismo abrigo: coherencia en los 6 planos.</p></div></div></div></div>
+</div>
+<div class="p-4 bg-dark-700/30 flex justify-start space-x-3">
+<button class="px-4 py-2 text-sm bg-dark-600 hover:bg-dark-500 rounded-lg transition-colors" onclick="openModal('modal-2-3')">Ver en modal</button>
+<a class="px-4 py-2 text-sm bg-orange-600 hover:bg-orange-500 text-white rounded-lg transition-colors" href="modulo-2-3.html">Ver completo</a>
+</div>
+</div>
+<!-- NAV TRILHAS -->
+<div class="flex flex-col sm:flex-row gap-4 mt-10">
+<a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="../trilha1/index.html">← Ruta 1: Fundamentos</a>
+<a class="flex-1 text-center px-6 py-3 bg-orange-600 text-white rounded-lg font-semibold hover:bg-orange-500 transition-colors" href="../trilha3/index.html">Ruta 3: Actuación y dirección →</a>
+</div>
+</main>
+<footer class="border-t border-dark-600 py-8 mt-8">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+<p>🎬 AI FILMMAKING — 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" target="_blank">INEMA.CLUB</a></p>
+</div>
+</footer>
+<!-- MODAIS -->
+<div class="modal hidden fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/80" id="modal-2-1" onclick="if(event.target === this) closeModal()"><div class="bg-dark-800 rounded-xl w-full max-w-6xl h-[95vh] flex flex-col border border-dark-600"><div class="p-4 border-b border-dark-600 flex justify-between items-center flex-shrink-0"><div class="flex items-center space-x-3"><span class="text-orange-400 font-bold">2.1</span><span class="font-semibold">Del guion a la escena: el pipeline</span></div><button class="text-neutral-400 hover:text-white text-2xl leading-none" onclick="closeModal()">×</button></div><iframe class="flex-1 w-full rounded-b-xl" src="modulo-2-1.html"></iframe></div></div>
+<div class="modal hidden fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/80" id="modal-2-2" onclick="if(event.target === this) closeModal()"><div class="bg-dark-800 rounded-xl w-full max-w-6xl h-[95vh] flex flex-col border border-dark-600"><div class="p-4 border-b border-dark-600 flex justify-between items-center flex-shrink-0"><div class="flex items-center space-x-3"><span class="text-orange-400 font-bold">2.2</span><span class="font-semibold">Storyboard estructurado</span></div><button class="text-neutral-400 hover:text-white text-2xl leading-none" onclick="closeModal()">×</button></div><iframe class="flex-1 w-full rounded-b-xl" src="modulo-2-2.html"></iframe></div></div>
+<div class="modal hidden fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/80" id="modal-2-3" onclick="if(event.target === this) closeModal()"><div class="bg-dark-800 rounded-xl w-full max-w-6xl h-[95vh] flex flex-col border border-dark-600"><div class="p-4 border-b border-dark-600 flex justify-between items-center flex-shrink-0"><div class="flex items-center space-x-3"><span class="text-orange-400 font-bold">2.3</span><span class="font-semibold">Personaje, Vestuario, Entorno y Lista de planos</span></div><button class="text-neutral-400 hover:text-white text-2xl leading-none" onclick="closeModal()">×</button></div><iframe class="flex-1 w-full rounded-b-xl" src="modulo-2-3.html"></iframe></div></div>
+<script>
+    function toggleTopic(button){const t=button.closest('.topic-item');const e=t.querySelector('.topic-explanation');const c=button.closest('.bg-dark-800');c.querySelectorAll('.topic-explanation.active').forEach(x=>{if(x!==e)x.classList.remove('active')});e.classList.toggle('active');}
+    function openModal(id){const m=document.getElementById(id);if(m){m.classList.remove('hidden');document.body.style.overflow='hidden';}}
+    function closeModal(){document.querySelectorAll('.modal').forEach(m=>m.classList.add('hidden'));document.body.style.overflow='auto';}
+    document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+    const themeToggle=document.getElementById('theme-toggle'),dIcon=document.getElementById('theme-toggle-dark-icon'),lIcon=document.getElementById('theme-toggle-light-icon'),html=document.documentElement;
+    if(localStorage.getItem('theme')==='light'){html.classList.remove('dark');dIcon.classList.remove('hidden');}else{lIcon.classList.remove('hidden');}
+    themeToggle.addEventListener('click',()=>{dIcon.classList.toggle('hidden');lIcon.classList.toggle('hidden');html.classList.toggle('dark');localStorage.setItem('theme',html.classList.contains('dark')?'dark':'light');});
+  </script>
+</body>
+</html>

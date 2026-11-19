@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>2.2 Storyboard Estruturado | AI FILMMAKING</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = { darkMode: 'class', theme: { extend: { colors: {
+      primary: '#FACC15', dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' } } } } }
+  </script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+    html:not(.dark) .text-amber-400 { color: #92400e; }
+    html:not(.dark) .text-orange-400 { color: #c2410c; }
+    html:not(.dark) .text-rose-400 { color: #9f1239; }
+    html:not(.dark) .text-blue-400 { color: #2563eb; }
+    html:not(.dark) .text-teal-400 { color: #0d9488; }
+    html:not(.dark) .text-emerald-400 { color: #059669; }
+    html:not(.dark) .text-purple-400 { color: #7c3aed; }
+    html:not(.dark) .text-red-400 { color: #b91c1c; }
+    html:not(.dark) .bg-orange-500\/20 { background-color: rgba(234,88,12,.12); }
+    html:not(.dark) .bg-orange-500\/10 { background-color: rgba(234,88,12,.08); }
+    html:not(.dark) .border-orange-500\/30 { border-color: rgba(234,88,12,.25); }
+    html:not(.dark) .hover\:bg-amber-500\/10:hover { background-color: rgba(217,119,6,.08); }
+    html:not(.dark) .hover\:bg-rose-500\/10:hover { background-color: rgba(225,29,72,.08); }
+    html:not(.dark) .hover\:bg-blue-500\/10:hover { background-color: rgba(37,99,235,.08); }
+    html:not(.dark) .hover\:bg-teal-500\/10:hover { background-color: rgba(13,148,136,.08); }
+    html:not(.dark) .hover\:bg-emerald-500\/10:hover { background-color: rgba(5,150,105,.08); }
+    html:not(.dark) .hover\:bg-purple-500\/10:hover { background-color: rgba(124,58,237,.08); }
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+    html:not(.dark) .text-primary { color: #a16207; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(161,98,7,.08); }
+    html:not(.dark) .border-primary\/30 { border-color: rgba(161,98,7,.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255,255,255,.95); }
+    html:not(.dark) svg[role="img"] { filter: saturate(.82) brightness(.96); }
+    .dark .border-dark-600 { border-color: #374151; }
+    .dark .divide-dark-600 > :not([hidden]) ~ :not([hidden]) { border-color: #374151; }
+  </style>
+<link href="https://inematds.github.io/aifilmmaking/curso/trilha2/modulo-2-2.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/en/curso/trilha2/modulo-2-2.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/es/curso/trilha2/modulo-2-2.html" hreflang="es" rel="alternate"/></head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="modulo-2-2.html" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">PT</a><a href="../../en/curso/trilha2/modulo-2-2.html" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="../../es/curso/trilha2/modulo-2-2.html" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<!-- NAV -->
+<nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-14">
+<div class="flex items-center space-x-4">
+<a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html"><span class="text-2xl">🎬</span><span class="font-bold text-lg hidden sm:inline">AI FILMMAKING</span></a>
+<span class="text-neutral-600">|</span>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium" href="https://inema.club" target="_blank">INEMA.CLUB</a>
+</div>
+<div class="flex items-center space-x-1 sm:space-x-2 overflow-x-auto">
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors whitespace-nowrap" href="../trilha1/index.html"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamentos</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-orange-400 bg-orange-500/10 whitespace-nowrap" href="index.html"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Pré-Produção</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-rose-400 hover:bg-rose-500/10 transition-colors whitespace-nowrap" href="../trilha3/index.html"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Atuação</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors whitespace-nowrap" href="../trilha4/index.html"><span class="sm:hidden">T4</span><span class="hidden sm:inline">Cinematografia</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-teal-400 hover:bg-teal-500/10 transition-colors whitespace-nowrap" href="../trilha5/index.html"><span class="sm:hidden">T5</span><span class="hidden sm:inline">IA Visual</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors whitespace-nowrap" href="../trilha6/index.html"><span class="sm:hidden">T6</span><span class="hidden sm:inline">Pós-Produção</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors whitespace-nowrap" href="../trilha7/index.html"><span class="sm:hidden">T7</span><span class="hidden sm:inline">Carreira</span></a>
+<button class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2" id="theme-toggle">
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-dark-icon" viewbox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-light-icon" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd"></path></svg>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<!-- BREADCRUMB -->
+<nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="flex items-center space-x-2 text-sm text-neutral-400">
+<a class="hover:text-orange-400" href="../../index.html">Início</a><span>/</span>
+<a class="hover:text-orange-400" href="index.html">Trilha 2</a><span>/</span>
+<span class="text-orange-400">Módulo 2.2</span>
+</div>
+</nav>
+<!-- HEADER -->
+<header class="bg-gradient-to-br from-orange-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<span class="inline-block px-3 py-1 bg-orange-500/20 text-orange-400 text-xs font-semibold rounded-full mb-4">MÓDULO 2.2</span>
+<h1 class="text-3xl sm:text-4xl font-bold mb-4">🎞️ Storyboard Estruturado</h1>
+<p class="text-lg text-neutral-400 max-w-3xl">Não estamos gerando imagens aleatórias. Estamos construindo uma sequência visual controlada no Freepik/Magnific — onde cada plano tem propósito, lógica narrativa e ritmo emocional. É assim que a IA é usada em pré-produção real.</p>
+<div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-orange-400">6</div><div class="text-xs text-neutral-400">Tópicos</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-orange-400">50</div><div class="text-xs text-neutral-400">Minutos</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-orange-400">Básico</div><div class="text-xs text-neutral-400">Nível</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-orange-400">Prática</div><div class="text-xs text-neutral-400">Tipo</div></div>
+</div>
+</div>
+</header>
+<main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<!-- TÓPICO 1 -->
+<section class="mb-16" id="topico-1">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-orange-500/20 text-orange-400 font-bold text-xl">1</span>
+<h2 class="text-2xl font-bold">🧩 Freepik / Magnific Spaces</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">O storyboard é construído num <strong class="text-orange-400">fluxo de trabalho baseado em nós</strong>. Cada nó conecta roteiro, personagem, esboço e render num único espaço visual — exatamente como funciona em desenvolvimento visual profissional.</p>
+<div class="rounded-2xl border border-orange-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden">
+<svg aria-label="Fluxo por nós: roteiro e personagem alimentam o esboço, que alimenta o render cinematográfico" class="w-full h-auto" role="img" viewbox="0 0 1000 180">
+<defs>
+<lineargradient id="m22-grad" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fb923c"></stop><stop offset="1" stop-color="#f97316"></stop></lineargradient>
+<filter height="180%" id="m22-glow" width="180%" x="-40%" y="-40%"><fegaussianblur result="b" stddeviation="1.7"></fegaussianblur><femerge><femergenode in="b"></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter>
+<pattern height="30" id="m22-grid" patternunits="userSpaceOnUse" width="30"><circle cx="1.2" cy="1.2" fill="#f97316" opacity="0.12" r="1.2"></circle></pattern>
+<marker id="m22-ah" markerheight="9" markerwidth="9" orient="auto" refx="6.5" refy="4.5"><path d="M0,0 L8,4.5 L0,9 L2.4,4.5 Z" fill="#fb923c"></path></marker>
+<marker id="m22-ahc" markerheight="9" markerwidth="9" orient="auto" refx="6.5" refy="4.5"><path d="M0,0 L8,4.5 L0,9 L2.4,4.5 Z" fill="#38bdf8"></path></marker>
+</defs>
+<rect fill="url(#m22-grid)" height="180" width="1000" x="0" y="0"></rect>
+<g fill="none" opacity="0.65" stroke="#fb923c" stroke-width="2">
+<path d="M174,55 C300,55 300,90 400,90" marker-end="url(#m22-ah)"></path>
+<path d="M174,125 C300,125 300,90 400,90" marker-end="url(#m22-ah)"></path>
+</g>
+<g fill="none" opacity="0.6" stroke="#38bdf8" stroke-width="2">
+<path d="M560,90 L640,90" marker-end="url(#m22-ahc)"></path>
+</g>
+<g font-family="Inter,sans-serif" font-size="13" font-weight="600" text-anchor="middle">
+<g filter="url(#m22-glow)"><rect fill="#241405" height="38" rx="10" stroke="url(#m22-grad)" stroke-width="2" width="130" x="44" y="36"></rect></g><text fill="#fb923c" x="109" y="60">Roteiro</text>
+<g filter="url(#m22-glow)"><rect fill="#241405" height="38" rx="10" stroke="url(#m22-grad)" stroke-width="2" width="130" x="44" y="106"></rect></g><text fill="#fb923c" x="109" y="130">Personagem</text>
+<g filter="url(#m22-glow)"><rect fill="#241405" height="40" rx="11" stroke="url(#m22-grad)" stroke-width="2" width="160" x="400" y="70"></rect></g><text fill="#fb923c" x="480" y="95">Esboço (Assistente)</text>
+<g filter="url(#m22-glow)"><rect fill="#0e1b26" height="40" rx="11" stroke="#38bdf8" stroke-width="2" width="180" x="640" y="70"></rect></g><text fill="#bfe6ff" x="730" y="95">Render Cinematográfico</text>
+</g>
+</svg>
+</div>
+<div class="bg-gradient-to-br from-orange-900/30 to-dark-800 rounded-xl border border-orange-500/30 p-6">
+<h3 class="text-lg font-semibold text-orange-400 mb-3 flex items-center"><span class="mr-2">🎯</span> Sobre o que é esta etapa</h3>
+<p class="text-neutral-300">Estamos construindo uma sequência visual controlada — onde cada plano tem um propósito, lógica narrativa e ritmo emocional. O Freepik é pago, mas poderoso, especialmente para pipelines baseados em nós.</p>
+</div>
+</section>
+<!-- TÓPICO 2 -->
+<section class="mb-16" id="topico-2">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-orange-500/20 text-orange-400 font-bold text-xl">2</span>
+<h2 class="text-2xl font-bold">✏️ Storyboard em Esboço</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Com o Assistente, geramos <strong class="text-orange-400">esboços brutos de composição</strong> — o foco está em enquadramento, bloqueio de cena e ritmo, não em detalhes. É a direção em forma de rascunho.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+<div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
+<h4 class="font-bold text-emerald-400 mb-4">✓ Foque no esboço</h4>
+<ul class="space-y-3 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Enquadramento e bloqueio de cena</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Ritmo e silhuetas legíveis</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Esboço a lápis P&amp;B, alto contraste</span></li>
+</ul>
+</div>
+<div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
+<h4 class="font-bold text-red-400 mb-4">✗ Não se perca em</h4>
+<ul class="space-y-3 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Microdetalhes de textura</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Cor e realismo nesta etapa</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Renderização polida antes da composição</span></li>
+</ul>
+</div>
+</div>
+</section>
+<!-- TÓPICO 3 -->
+<section class="mb-16" id="topico-3">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-orange-500/20 text-orange-400 font-bold text-xl">3</span>
+<h2 class="text-2xl font-bold">🎨 Render Cinematográfico</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Um segundo Assistente traduz os esboços em <strong class="text-orange-400">frames realistas, coloridos e renderizados</strong> — como uma etapa de pré-visualização. A composição já está travada; agora elevamos o realismo.</p>
+<div class="space-y-0 mb-6">
+<div class="flex items-start space-x-4 pb-6">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-orange-500/20 flex items-center justify-center"><span class="text-orange-400 font-bold text-lg">✏️</span></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">Etapa de Esboço</h4><p class="text-neutral-300 text-sm">P&amp;B, bruto, resolve composição e direção. Barato de iterar.</p></div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-orange-500/20 flex items-center justify-center"><span class="text-orange-400 font-bold text-lg">🎨</span></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">Etapa de Render</h4><p class="text-neutral-300 text-sm">Realista, colorido, fotorrealista — uma pré-visualização live-action da cena.</p></div>
+</div>
+</div>
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">💡</span> Dica prática</h3>
+<p class="text-neutral-300">Separar esboço de render é o que mantém a <strong>composição estável</strong> enquanto você busca realismo. Se renderizar direto, perde o controle da direção.</p>
+</div>
+</section>
+<!-- TÓPICO 4 -->
+<section class="mb-16" id="topico-4">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-orange-500/20 text-orange-400 font-bold text-xl">4</span>
+<h2 class="text-2xl font-bold">🔗 Referências com @</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Dentro do Assistente, usamos referências com <strong class="text-orange-400">@</strong> para conectar roteiro, personagem e resultados anteriores. Cada referência tem uma função clara — e não se deve misturar funções.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+<div class="bg-dark-800 rounded-xl border border-orange-500/30 p-6"><h4 class="font-bold text-orange-400 mb-2 font-mono">@sketch</h4><p class="text-sm text-neutral-300">Fornece <strong>composição, enquadramento e ângulos de câmera</strong> apenas.</p></div>
+<div class="bg-dark-800 rounded-xl border border-orange-500/30 p-6"><h4 class="font-bold text-orange-400 mb-2 font-mono">@character</h4><p class="text-sm text-neutral-300">Fornece <strong>aparência</strong> apenas — rosto, roupa, proporções.</p></div>
+</div>
+<div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
+<h3 class="text-lg font-semibold text-blue-400 mb-3 flex items-center"><span class="mr-2">⚠️</span> Observações importantes</h3>
+<ul class="space-y-2 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span>A qualidade depende de prompts claros e precisos.</span></li>
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span>O primeiro resultado não será perfeito — a iteração é normal.</span></li>
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span>Não misture funções: composição vem do esboço, aparência vem do personagem.</span></li>
+</ul>
+</div>
+</section>
+<!-- TÓPICO 5 -->
+<section class="mb-16" id="topico-5">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-orange-500/20 text-orange-400 font-bold text-xl">5</span>
+<h2 class="text-2xl font-bold">🎬 Lógica de Direção Plano a Plano</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Por que este storyboard funciona? Porque <strong class="text-orange-400">cada plano tem um propósito definido</strong> e a variação de escala cria ritmo. Veja a lógica de direção dos seis planos:</p>
+<div class="space-y-4 mb-6">
+<div class="flex items-start space-x-4"><div class="flex-shrink-0 w-12 h-12 rounded-full bg-orange-500/20 flex items-center justify-center"><span class="text-orange-400 font-bold">1</span></div><div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">Aberto</h4><p class="text-neutral-300 text-sm">Estabelece espaço, isolamento e escala.</p></div></div>
+<div class="flex items-start space-x-4"><div class="flex-shrink-0 w-12 h-12 rounded-full bg-orange-500/20 flex items-center justify-center"><span class="text-orange-400 font-bold">2</span></div><div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">Personagem</h4><p class="text-neutral-300 text-sm">Muda o foco para emoção humana e conexão.</p></div></div>
+<div class="flex items-start space-x-4"><div class="flex-shrink-0 w-12 h-12 rounded-full bg-orange-500/20 flex items-center justify-center"><span class="text-orange-400 font-bold">3</span></div><div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">Close-up de ação</h4><p class="text-neutral-300 text-sm">Cria tensão através do gesto.</p></div></div>
+<div class="flex items-start space-x-4"><div class="flex-shrink-0 w-12 h-12 rounded-full bg-orange-500/20 flex items-center justify-center"><span class="text-orange-400 font-bold">4</span></div><div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">Dentro do carro</h4><p class="text-neutral-300 text-sm">Muda a perspectiva e aumenta a imersão.</p></div></div>
+<div class="flex items-start space-x-4"><div class="flex-shrink-0 w-12 h-12 rounded-full bg-orange-500/20 flex items-center justify-center"><span class="text-orange-400 font-bold">5</span></div><div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">Movimento</h4><p class="text-neutral-300 text-sm">A ação se transforma em movimento, a energia aumenta.</p></div></div>
+<div class="flex items-start space-x-4"><div class="flex-shrink-0 w-12 h-12 rounded-full bg-orange-500/20 flex items-center justify-center"><span class="text-orange-400 font-bold">6</span></div><div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">Aberto novamente</h4><p class="text-neutral-300 text-sm">Retorna à escala, criando encerramento e continuação.</p></div></div>
+</div>
+<div class="bg-dark-800 rounded-xl border border-orange-500/30 p-6">
+<h3 class="text-lg font-semibold text-orange-400 mb-3">Princípios-chave</h3>
+<ul class="space-y-2 text-neutral-300 text-sm">
+<li class="flex items-start space-x-2"><span class="text-orange-400 mt-1">•</span><span>Cada plano tem um propósito definido.</span></li>
+<li class="flex items-start space-x-2"><span class="text-orange-400 mt-1">•</span><span>A variação de escala dos planos cria ritmo.</span></li>
+<li class="flex items-start space-x-2"><span class="text-orange-400 mt-1">•</span><span>A composição guia a atenção.</span></li>
+<li class="flex items-start space-x-2"><span class="text-orange-400 mt-1">•</span><span>A sequência expressa solidão, determinação e avanço.</span></li>
+</ul>
+</div>
+</section>
+<!-- TÓPICO 6 -->
+<section class="mb-16" id="topico-6">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-orange-500/20 text-orange-400 font-bold text-xl">6</span>
+<h2 class="text-2xl font-bold">🌀 Arco Narrativo da Sequência</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">A lógica plano a plano forma um arco completo. Um arco claro transforma seis planos soltos numa cena que <strong class="text-orange-400">respira e conclui</strong>.</p>
+<div class="rounded-2xl border border-orange-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden">
+<svg aria-label="Arco narrativo: espaço, personagem, ação, movimento, liberação" class="w-full h-auto" role="img" viewbox="0 0 1000 120">
+<defs>
+<lineargradient id="m22b-grad" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fb923c"></stop><stop offset="1" stop-color="#f97316"></stop></lineargradient>
+<filter height="180%" id="m22b-glow" width="180%" x="-40%" y="-40%"><fegaussianblur result="b" stddeviation="1.6"></fegaussianblur><femerge><femergenode in="b"></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter>
+<marker id="m22b-ah" markerheight="8" markerwidth="8" orient="auto" refx="6" refy="4"><path d="M0,0 L7,4 L0,8 L2,4 Z" fill="#fb923c"></path></marker>
+</defs>
+<g font-family="Inter,sans-serif" font-size="13" font-weight="600" text-anchor="middle">
+<g filter="url(#m22b-glow)"><rect fill="#241405" height="36" rx="10" stroke="url(#m22b-grad)" stroke-width="2" width="120" x="14" y="44"></rect></g><text fill="#fb923c" x="74" y="67">Espaço</text>
+<g filter="url(#m22b-glow)"><rect fill="#241405" height="36" rx="10" stroke="url(#m22b-grad)" stroke-width="2" width="140" x="190" y="44"></rect></g><text fill="#fb923c" x="260" y="67">Personagem</text>
+<g filter="url(#m22b-glow)"><rect fill="#241405" height="36" rx="10" stroke="url(#m22b-grad)" stroke-width="2" width="120" x="386" y="44"></rect></g><text fill="#fb923c" x="446" y="67">Ação</text>
+<g filter="url(#m22b-glow)"><rect fill="#241405" height="36" rx="10" stroke="url(#m22b-grad)" stroke-width="2" width="140" x="562" y="44"></rect></g><text fill="#fb923c" x="632" y="67">Movimento</text>
+<g filter="url(#m22b-glow)"><rect fill="#0e1b26" height="36" rx="10" stroke="#38bdf8" stroke-width="2" width="140" x="758" y="44"></rect></g><text fill="#bfe6ff" x="828" y="67">Liberação</text>
+</g>
+<g opacity="0.7" stroke="#fb923c" stroke-width="2">
+<line marker-end="url(#m22b-ah)" x1="134" x2="188" y1="62" y2="62"></line>
+<line marker-end="url(#m22b-ah)" x1="330" x2="384" y1="62" y2="62"></line>
+<line marker-end="url(#m22b-ah)" x1="506" x2="560" y1="62" y2="62"></line>
+<line marker-end="url(#m22b-ah)" x1="702" x2="756" y1="62" y2="62"></line>
+</g>
+</svg>
+</div>
+<div class="bg-gradient-to-br from-orange-900/30 to-dark-800 rounded-xl border border-orange-500/30 p-6">
+<h3 class="text-lg font-semibold text-orange-400 mb-3 flex items-center"><span class="mr-2">🎯</span> O arco completo</h3>
+<p class="text-neutral-300 font-mono text-sm">Espaço → Personagem → Ação → Movimento → Liberação</p>
+<p class="text-neutral-400 text-sm mt-3">Abrir na escala e fechar na escala cria encerramento e continuação — a cena se completa sem terminar abruptamente.</p>
+</div>
+</section>
+<!-- TAREFA -->
+<section class="mb-12">
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h2 class="text-xl font-bold text-primary mb-4 flex items-center"><span class="mr-2">📝</span> Tarefa</h2>
+<p class="text-neutral-300 mb-4">Crie seu próprio storyboard seguindo o mesmo pipeline:</p>
+<div class="bg-dark-800 rounded-lg p-4 mb-4">
+<p class="text-neutral-300 font-mono text-sm">História → Personagem → Storyboard em Esboço → Render Cinematográfico</p>
+</div>
+<ul class="space-y-2 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🔗</span><span>Use o link do projeto da aula para todos os prompts — sinta-se livre para reutilizar e adaptar.</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🎯</span><span>Garanta que cada plano tenha um propósito e que a sequência forme o arco Espaço → Liberação.</span></li>
+</ul>
+</div>
+</section>
+<!-- RESUMO -->
+<section class="mb-12">
+<div class="bg-gradient-to-br from-orange-900/40 via-dark-800 to-dark-800 rounded-xl border border-orange-500/30 p-8">
+<h2 class="text-2xl font-bold mb-6 flex items-center"><span class="mr-3">📌</span> Resumo do Módulo</h2>
+<div class="space-y-4 mb-8">
+<div class="flex items-start space-x-3"><span class="text-orange-400 mt-1">✓</span><div><strong class="text-white">Fluxo por nós</strong><span class="text-neutral-400"> — roteiro e personagem alimentam o esboço, que alimenta o render.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-orange-400 mt-1">✓</span><div><strong class="text-white">Esboço antes de render</strong><span class="text-neutral-400"> — resolva composição em P&amp;B eleve realismo depois.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-orange-400 mt-1">✓</span><div><strong class="text-white">@referências separadas</strong><span class="text-neutral-400"> — @sketch para composição, @character para aparência.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-orange-400 mt-1">✓</span><div><strong class="text-white">Arco narrativo</strong><span class="text-neutral-400"> — Espaço → Personagem → Ação → Movimento → Liberação.</span></div></div>
+</div>
+<div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+<h3 class="font-semibold text-orange-400 mb-2">Próximo Módulo:</h3>
+<p class="text-neutral-300">2.3 — Personagem, Figurino, Ambiente &amp; Lista de Planos (com os prompts completos reais)</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="index.html">← Voltar para Trilha</a>
+<a class="flex-1 text-center px-6 py-3 bg-orange-600 text-white rounded-lg font-semibold hover:bg-orange-500 transition-colors" href="modulo-2-3.html">Próximo Módulo →</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-dark-600 py-8 mt-8">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+<p>🎬 AI FILMMAKING — 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" target="_blank">INEMA.CLUB</a></p>
+</div>
+</footer>
+<script>
+    const themeToggle=document.getElementById('theme-toggle'),dIcon=document.getElementById('theme-toggle-dark-icon'),lIcon=document.getElementById('theme-toggle-light-icon'),html=document.documentElement;
+    if(localStorage.getItem('theme')==='light'){html.classList.remove('dark');dIcon.classList.remove('hidden');}else{lIcon.classList.remove('hidden');}
+    themeToggle.addEventListener('click',()=>{dIcon.classList.toggle('hidden');lIcon.classList.toggle('hidden');html.classList.toggle('dark');localStorage.setItem('theme',html.classList.contains('dark')?'dark':'light');});
+  </script>
+</body>
+</html>

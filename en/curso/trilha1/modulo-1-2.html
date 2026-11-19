@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>1.2 Spatial Control &amp; Camera Language | AI FILMMAKING</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = { darkMode: 'class', theme: { extend: { colors: {
+      primary: '#FACC15', dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' } } } } }
+  </script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+    html:not(.dark) .text-amber-400 { color: #92400e; }
+    html:not(.dark) .text-orange-400 { color: #c2410c; }
+    html:not(.dark) .text-rose-400 { color: #9f1239; }
+    html:not(.dark) .text-blue-400 { color: #2563eb; }
+    html:not(.dark) .text-teal-400 { color: #0d9488; }
+    html:not(.dark) .text-emerald-400 { color: #059669; }
+    html:not(.dark) .text-purple-400 { color: #7c3aed; }
+    html:not(.dark) .text-red-400 { color: #b91c1c; }
+    html:not(.dark) .bg-amber-500\/20 { background-color: rgba(217,119,6,.12); }
+    html:not(.dark) .bg-amber-500\/10 { background-color: rgba(217,119,6,.08); }
+    html:not(.dark) .border-amber-500\/30 { border-color: rgba(217,119,6,.25); }
+    html:not(.dark) .hover\:bg-orange-500\/10:hover { background-color: rgba(234,88,12,.08); }
+    html:not(.dark) .hover\:bg-rose-500\/10:hover { background-color: rgba(225,29,72,.08); }
+    html:not(.dark) .hover\:bg-blue-500\/10:hover { background-color: rgba(37,99,235,.08); }
+    html:not(.dark) .hover\:bg-teal-500\/10:hover { background-color: rgba(13,148,136,.08); }
+    html:not(.dark) .hover\:bg-emerald-500\/10:hover { background-color: rgba(5,150,105,.08); }
+    html:not(.dark) .hover\:bg-purple-500\/10:hover { background-color: rgba(124,58,237,.08); }
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+    html:not(.dark) .text-primary { color: #a16207; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(161,98,7,.08); }
+    html:not(.dark) .border-primary\/30 { border-color: rgba(161,98,7,.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255,255,255,.95); }
+    html:not(.dark) svg[role="img"] { filter: saturate(.82) brightness(.96); }
+    .dark .border-dark-600 { border-color: #374151; }
+    .dark .divide-dark-600 > :not([hidden]) ~ :not([hidden]) { border-color: #374151; }
+  </style>
+<link href="https://inematds.github.io/aifilmmaking/curso/trilha1/modulo-1-2.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/en/curso/trilha1/modulo-1-2.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/es/curso/trilha1/modulo-1-2.html" hreflang="es" rel="alternate"/></head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../../../curso/trilha1/modulo-1-2.html" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-1-2.html" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">EN</a><a href="../../../es/curso/trilha1/modulo-1-2.html" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<!-- NAV -->
+<nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-14">
+<div class="flex items-center space-x-4">
+<a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html"><span class="text-2xl">🎬</span><span class="font-bold text-lg hidden sm:inline">AI FILMMAKING</span></a>
+<span class="text-neutral-600">|</span>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium" href="https://inema.club" target="_blank">INEMA.CLUB</a>
+</div>
+<div class="flex items-center space-x-1 sm:space-x-2 overflow-x-auto">
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-amber-400 bg-amber-500/10 whitespace-nowrap" href="index.html"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamentals</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-orange-400 hover:bg-orange-500/10 transition-colors whitespace-nowrap" href="../trilha2/index.html"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Pre-production</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-rose-400 hover:bg-rose-500/10 transition-colors whitespace-nowrap" href="../trilha3/index.html"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Performance</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors whitespace-nowrap" href="../trilha4/index.html"><span class="sm:hidden">T4</span><span class="hidden sm:inline">Cinematography</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-teal-400 hover:bg-teal-500/10 transition-colors whitespace-nowrap" href="../trilha5/index.html"><span class="sm:hidden">T5</span><span class="hidden sm:inline">Visual AI</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors whitespace-nowrap" href="../trilha6/index.html"><span class="sm:hidden">T6</span><span class="hidden sm:inline">Post-production</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors whitespace-nowrap" href="../trilha7/index.html"><span class="sm:hidden">T7</span><span class="hidden sm:inline">Career</span></a>
+<button class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2" id="theme-toggle">
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-dark-icon" viewbox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-light-icon" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd"></path></svg>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<!-- BREADCRUMB -->
+<nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="flex items-center space-x-2 text-sm text-neutral-400">
+<a class="hover:text-amber-400" href="../../index.html">Beginning</a><span>/</span>
+<a class="hover:text-amber-400" href="index.html">Track 1</a><span>/</span>
+<span class="text-amber-400">Module 1.2</span>
+</div>
+</nav>
+<!-- HEADER -->
+<header class="bg-gradient-to-br from-amber-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<span class="inline-block px-3 py-1 bg-amber-500/20 text-amber-400 text-xs font-semibold rounded-full mb-4">MODULE 1.2</span>
+<h1 class="text-3xl sm:text-4xl font-bold mb-4">🎥 Spatial Control &amp; Camera Language</h1>
+<p class="text-lg text-neutral-400 max-w-3xl">Most weak results don’t come from bad ideas—they come from unclear camera direction. Here, you learn the real language of movement: where the camera is, how it moves, and how to describe it in a single clean prompt.</p>
+<div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">6</div><div class="text-xs text-neutral-400">Topics</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">40</div><div class="text-xs text-neutral-400">Minutes</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">Basic</div><div class="text-xs text-neutral-400">Level</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">Practical</div><div class="text-xs text-neutral-400">Type</div></div>
+</div>
+</div>
+</header>
+<main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<!-- TÓPICO 1 -->
+<section class="mb-16" id="topico-1">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">1</span>
+<h2 class="text-2xl font-bold">🎥 The Three Things in Every Shot</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">AI doesn’t "make something cinematic" on its own—it executes what you tell it. Before generating any shot, think of it as a combination of just <strong class="text-amber-400">three things</strong>. If this is clear, the result will work.</p>
+<figure class="mb-6 rounded-xl overflow-hidden border border-dark-600">
+<img alt="Lone samurai walking across a long suspension bridge between mountains, with rain and fog in the canyon below" class="w-full h-auto" loading="lazy" onerror="this.closest('figure').style.display='none'" src="../../../assets/ex-samurai-bridge.png"/>
+<figcaption class="text-xs text-neutral-500 px-4 py-2 bg-dark-800">Cinematic example — AI-generated (flux2-klein) · illustrative</figcaption>
+</figure>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+<div class="bg-dark-800 rounded-xl border border-amber-500/30 p-6">
+<div class="text-3xl mb-3">📍</div>
+<h4 class="font-bold text-amber-400 mb-2">Where the camera is</h4>
+<p class="text-sm text-neutral-300">The position and framing—low angle, wide shot, close-up. It defines scale and power dynamics.</p>
+</div>
+<div class="bg-dark-800 rounded-xl border border-amber-500/30 p-6">
+<div class="text-3xl mb-3">🎞️</div>
+<h4 class="font-bold text-amber-400 mb-2">How it moves</h4>
+<p class="text-sm text-neutral-300">Movement — dolly, tracking, orbit, pan/tilt. It’s the main driver of emotion.</p>
+</div>
+<div class="bg-dark-800 rounded-xl border border-amber-500/30 p-6">
+<div class="text-3xl mb-3">🧍</div>
+<h4 class="font-bold text-amber-400 mb-2">What the subject does</h4>
+<p class="text-sm text-neutral-300">The action that gives movement meaning. Without it, the camera moves for no reason.</p>
+</div>
+</div>
+<div class="bg-gradient-to-br from-amber-900/30 to-dark-800 rounded-xl border border-amber-500/30 p-6">
+<h3 class="text-lg font-semibold text-amber-400 mb-3 flex items-center"><span class="mr-2">⚠️</span> The source of weak results</h3>
+<p class="text-neutral-300">Most bad videos don’t come from bad ideas—they come from unclear camera direction. You don’t need complex prompts. You need clear direction.</p>
+</div>
+</section>
+<!-- TÓPICO 2 -->
+<section class="mb-16" id="topico-2">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">2</span>
+<h2 class="text-2xl font-bold">🎞️ Camera Movement — The Main Driver</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">This is the most important part of your prompt. Use <strong class="text-amber-400">one clear movement per shot</strong>. Every movement carries an inherent emotion—choose what serves the scene.</p>
+<div class="overflow-x-auto mb-6">
+<table class="w-full text-left border border-dark-600 rounded-xl overflow-hidden">
+<thead class="bg-dark-800 text-amber-400">
+<tr>
+<th class="px-4 py-3 font-semibold">Movement</th>
+<th class="px-4 py-3 font-semibold">What makes</th>
+<th class="px-4 py-3 font-semibold">Emotion that adds</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-dark-600 text-neutral-300">
+<tr class="bg-dark-900/40"><td class="px-4 py-3 font-mono text-amber-400">dolly in</td><td class="px-4 py-3">Moves the camera closer to the subject</td><td class="px-4 py-3">Tension, intimacy</td></tr>
+<tr><td class="px-4 py-3 font-mono text-amber-400">tracking shot</td><td class="px-4 py-3">Follows the subject’s movement</td><td class="px-4 py-3">Fluidity</td></tr>
+<tr class="bg-dark-900/40"><td class="px-4 py-3 font-mono text-amber-400">orbit</td><td class="px-4 py-3">Circles around the subject</td><td class="px-4 py-3">Depth</td></tr>
+<tr><td class="px-4 py-3 font-mono text-amber-400">pan / tilt</td><td class="px-4 py-3">Simple directional movement</td><td class="px-4 py-3">Directional reveal</td></tr>
+</tbody>
+</table>
+</div>
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">💡</span> Start with these three</h3>
+<p class="text-neutral-300 mb-3">You don’t need to memorize 25 movements to get started. Master this trio first:</p>
+<div class="flex flex-wrap gap-3">
+<span class="px-4 py-2 rounded-lg bg-amber-500/20 text-amber-400 font-mono font-semibold">dolly in</span>
+<span class="px-4 py-2 rounded-lg bg-amber-500/20 text-amber-400 font-mono font-semibold">tracking</span>
+<span class="px-4 py-2 rounded-lg bg-amber-500/20 text-amber-400 font-mono font-semibold">orbit</span>
+</div>
+<p class="text-neutral-300 mt-3 text-sm">This already covers most cinematic shots.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
+<h4 class="font-bold text-emerald-400 mb-4">✓ One movement per shot</h4>
+<ul class="space-y-3 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Clear intent: you can tell what the shot does</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>AI has one direction to execute</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Stable, cinematic result</span></li>
+</ul>
+</div>
+<div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
+<h4 class="font-bold text-red-400 mb-4">✗ Stack movements</h4>
+<ul class="space-y-3 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span><span class="font-mono">orbit + dolly + pan + zoom…</span></span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>The camera fights itself</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Unstable, chaotic result</span></li>
+</ul>
+</div>
+</div>
+</section>
+<!-- TÓPICO 3 -->
+<section class="mb-16" id="topico-3">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">3</span>
+<h2 class="text-2xl font-bold">📏 Distance and Framing</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Camera distance defines how close the viewer feels. Before choosing, ask: <strong class="text-amber-400">what should the viewer feel at this moment?</strong></p>
+<div class="rounded-2xl border border-amber-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden">
+<svg aria-label="Three framings: close-up for emotion, medium shot for the character, and wide shot for setting and scale" class="w-full h-auto" role="img" viewbox="0 0 1000 240">
+<defs>
+<lineargradient id="m12-grad" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fbbf24"></stop><stop offset="1" stop-color="#f59e0b"></stop></lineargradient>
+<filter height="180%" id="m12-glow" width="180%" x="-40%" y="-40%"><fegaussianblur result="b" stddeviation="1.8"></fegaussianblur><femerge><femergenode in="b"></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter>
+<pattern height="32" id="m12-grid" patternunits="userSpaceOnUse" width="32"><circle cx="1.3" cy="1.3" fill="#f59e0b" opacity="0.12" r="1.3"></circle></pattern>
+</defs>
+<rect fill="url(#m12-grid)" height="240" width="1000" x="0" y="0"></rect>
+<!-- Close-up -->
+<g filter="url(#m12-glow)"><rect fill="#1f1604" height="160" rx="14" stroke="url(#m12-grad)" stroke-width="2" width="280" x="40" y="40"></rect></g>
+<circle cx="180" cy="120" fill="none" opacity="0.7" r="68" stroke="#38bdf8" stroke-width="2"></circle>
+<circle cx="180" cy="120" fill="#0e1b26" r="30" stroke="#38bdf8" stroke-width="2"></circle>
+<text fill="#fbbf24" font-family="Inter,sans-serif" font-size="16" font-weight="600" text-anchor="middle" x="180" y="225">close-up</text>
+<text fill="#fcd9a0" font-family="Inter,sans-serif" font-size="12" text-anchor="middle" x="180" y="35">emotion · detail</text>
+<!-- Médio -->
+<g><rect fill="#0e1b26" height="160" rx="14" stroke="#38bdf8" stroke-width="2" width="280" x="360" y="40"></rect></g>
+<circle cx="500" cy="105" fill="none" r="24" stroke="#fbbf24" stroke-width="2"></circle>
+<path d="M476,135 q24,-18 48,0 v55 h-48 z" fill="none" stroke="#fbbf24" stroke-width="2"></path>
+<text fill="#fbbf24" font-family="Inter,sans-serif" font-size="16" font-weight="600" text-anchor="middle" x="500" y="225">medium shot</text>
+<text fill="#9ad6ff" font-family="Inter,sans-serif" font-size="12" text-anchor="middle" x="500" y="35">focus on the character</text>
+<!-- Aberto -->
+<g><rect fill="#0e1b26" height="160" rx="14" stroke="#38bdf8" stroke-width="2" width="280" x="680" y="40"></rect></g>
+<path d="M700,160 L760,120 L810,150 L870,105 L940,160" fill="none" opacity="0.8" stroke="#38bdf8" stroke-width="2"></path>
+<circle cx="815" cy="150" fill="none" r="9" stroke="#fbbf24" stroke-width="2"></circle>
+<text fill="#fbbf24" font-family="Inter,sans-serif" font-size="16" font-weight="600" text-anchor="middle" x="820" y="225">wide shot</text>
+<text fill="#9ad6ff" font-family="Inter,sans-serif" font-size="12" text-anchor="middle" x="820" y="35">environment · scale</text>
+</svg>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-amber-400 mb-1">Close-up</h4><p class="text-sm text-neutral-300">Emotion and detail. The viewer steps into the character’s shoes.</p></div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-amber-400 mb-1">Medium shot</h4><p class="text-sm text-neutral-300">Focus on the character and their action within the frame.</p></div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-amber-400 mb-1">Wide shot</h4><p class="text-sm text-neutral-300">Setting and scale. Establishes where the scene takes place.</p></div>
+</div>
+</section>
+<!-- TÓPICO 4 -->
+<section class="mb-16" id="topico-4">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">4</span>
+<h2 class="text-2xl font-bold">🌫️ Depth, Atmosphere, and Parallax</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Cinematic shots look real because of the <strong class="text-amber-400">depth</strong>. The scene feels realistic when distinct layers move in different ways—that's what the eye reads as "real space".</p>
+<div class="space-y-4 mb-6">
+<div class="flex items-start space-x-4">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-amber-500/20 flex items-center justify-center"><span class="text-amber-400 font-bold">1</span></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600"><h4 class="font-semibold mb-2">Foreground</h4><p class="text-neutral-300 text-sm">Objects, cables, elements close to the camera. They provide reference and frame the scene.</p></div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-amber-500/20 flex items-center justify-center"><span class="text-amber-400 font-bold">2</span></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600"><h4 class="font-semibold mb-2">Background</h4><p class="text-neutral-300 text-sm">Fog, distance, light. Creates context and a sense of vastness.</p></div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-amber-500/20 flex items-center justify-center"><span class="text-amber-400 font-bold">3</span></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600"><h4 class="font-semibold mb-2">Parallax</h4><p class="text-neutral-300 text-sm">Layers moving at different speeds. That’s what separates a “flat image” from “real space.”</p></div>
+</div>
+</div>
+<div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
+<h3 class="text-lg font-semibold text-blue-400 mb-3 flex items-center"><span class="mr-2">🔎</span> How to enhance depth</h3>
+<p class="text-neutral-300">Movements like <strong>tracking</strong> e <strong>orbit</strong> naturally enhance parallax: as you move the camera, the foreground and background move at different speeds, and depth emerges on its own. On the samurai bridge, the foreground cables and the fog in the background do exactly that.</p>
+</div>
+</section>
+<!-- TÓPICO 5 -->
+<section class="mb-16" id="topico-5">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">5</span>
+<h2 class="text-2xl font-bold">🎚️ Movement Style</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">The style defines the <strong class="text-amber-400">feeling</strong> of the shot — the emotional texture of the movement. Keep it simple: <strong>one style is enough</strong>.</p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+<div class="bg-dark-800 rounded-xl border border-amber-500/30 p-6">
+<div class="text-3xl mb-3">🎯</div>
+<h4 class="font-bold text-amber-400 mb-2">steadycam</h4>
+<p class="text-sm text-neutral-300">Smooth, controlled. A sense of mastery and elegance.</p>
+</div>
+<div class="bg-dark-800 rounded-xl border border-amber-500/30 p-6">
+<div class="text-3xl mb-3">📹</div>
+<h4 class="font-bold text-amber-400 mb-2">handheld</h4>
+<p class="text-sm text-neutral-300">Raw, shaky. Urgency, realism, documentary energy.</p>
+</div>
+<div class="bg-dark-800 rounded-xl border border-amber-500/30 p-6">
+<div class="text-3xl mb-3">🐢</div>
+<h4 class="font-bold text-amber-400 mb-2">slow motion</h4>
+<p class="text-sm text-neutral-300">Heavy, dramatic. Expands time and the weight of the moment.</p>
+</div>
+</div>
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">💡</span> Practical tip</h3>
+<p class="text-neutral-300">Don’t combine styles. A steadicam shot and slow motion at the same time dilute both intentions. Choose the scene’s dominant feeling and commit to it.</p>
+</div>
+</section>
+<!-- TÓPICO 6 -->
+<section class="mb-16" id="topico-6">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">6</span>
+<h2 class="text-2xl font-bold">🧱 The Prompt Structure</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Bring everything together in one clean formula. This is the structure that turns intent into direction AI understands:</p>
+<div class="rounded-2xl border border-amber-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden">
+<svg aria-label="Prompt formula: subject plus environment plus camera movement plus style" class="w-full h-auto" role="img" viewbox="0 0 1000 150">
+<defs>
+<lineargradient id="m12b-grad" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fbbf24"></stop><stop offset="1" stop-color="#f59e0b"></stop></lineargradient>
+<filter height="180%" id="m12b-glow" width="180%" x="-40%" y="-40%"><fegaussianblur result="b" stddeviation="1.8"></fegaussianblur><femerge><femergenode in="b"></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter>
+<pattern height="32" id="m12b-grid" patternunits="userSpaceOnUse" width="32"><circle cx="1.3" cy="1.3" fill="#f59e0b" opacity="0.12" r="1.3"></circle></pattern>
+</defs>
+<rect fill="url(#m12b-grid)" height="150" width="1000" x="0" y="0"></rect>
+<g font-family="Inter,sans-serif" font-size="15" font-weight="600">
+<g><rect fill="#0e1b26" height="44" rx="11" stroke="#38bdf8" stroke-width="2" width="180" x="20" y="55"></rect><text fill="#bfe6ff" text-anchor="middle" x="110" y="82">subject</text></g>
+<text fill="#f59e0b" font-size="26" text-anchor="middle" x="222" y="86">+</text>
+<g><rect fill="#0e1b26" height="44" rx="11" stroke="#38bdf8" stroke-width="2" width="180" x="244" y="55"></rect><text fill="#bfe6ff" text-anchor="middle" x="334" y="82">environment</text></g>
+<text fill="#f59e0b" font-size="26" text-anchor="middle" x="446" y="86">+</text>
+<g><rect fill="#0e1b26" height="44" rx="11" stroke="#38bdf8" stroke-width="2" width="220" x="468" y="55"></rect><text fill="#bfe6ff" text-anchor="middle" x="578" y="82">camera movement</text></g>
+<text fill="#f59e0b" font-size="26" text-anchor="middle" x="710" y="86">+</text>
+<g filter="url(#m12b-glow)"><rect fill="#1f1604" height="54" rx="13" stroke="url(#m12b-grad)" stroke-width="2" width="248" x="732" y="50"></rect></g>
+<text fill="#fbbf24" font-size="16" text-anchor="middle" x="856" y="82">style</text>
+</g>
+</svg>
+</div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5 mb-6">
+<p class="text-xs text-neutral-500 mb-2 uppercase tracking-wide">Real example — the samurai scene</p>
+<code class="block text-sm text-amber-400 font-mono leading-relaxed">samurai solitário caminhando por uma ponte chuvosa, tracking shot lento, steadycam, iluminação cinematográfica</code>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
+<h4 class="font-bold text-emerald-400 mb-4">✓ One shot = one clear idea</h4>
+<ul class="space-y-3 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Subject, setting, one movement, one style</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Intentional direction → looks cinematic</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Easy to iterate shot by shot</span></li>
+</ul>
+</div>
+<div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
+<h4 class="font-bold text-red-400 mb-4">✗ The common mistake</h4>
+<ul class="space-y-3 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Too many movements in a single prompt</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span><span class="font-mono">orbit + dolly + pan + zoom…</span></span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Unstable, chaotic video</span></li>
+</ul>
+</div>
+</div>
+</section>
+<!-- TAREFA -->
+<section class="mb-12">
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h2 class="text-xl font-bold text-primary mb-4 flex items-center"><span class="mr-2">📝</span> Task — Animate with Clear Direction</h2>
+<p class="text-neutral-300 mb-4">Write a prompt for a single shot using the structure <span class="font-mono text-amber-400">subject + setting + movement + style</span>, and prove that it is intentional.</p>
+<ul class="space-y-2 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🎥</span><span><strong>Choose just one movement:</strong> dolly in, tracking, or orbit — and justify the emotion it adds.</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">📏</span><span><strong>Set the distance:</strong> close-up, medium, or wide — answering what the viewer should feel.</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🎚️</span><span><strong>Just one style:</strong> steadycam, handheld, or slow motion.</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">✅</span><span><strong>Objective:</strong> focus on continuity, movement, and cinematic flow — without piling on movements.</span></li>
+</ul>
+</div>
+</section>
+<!-- RESUMO -->
+<section class="mb-12">
+<div class="bg-gradient-to-br from-amber-900/40 via-dark-800 to-dark-800 rounded-xl border border-amber-500/30 p-8">
+<h2 class="text-2xl font-bold mb-6 flex items-center"><span class="mr-3">📌</span> Module Summary</h2>
+<div class="space-y-4 mb-8">
+<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">✓</span><div><strong class="text-white">Three things per shot</strong><span class="text-neutral-400"> — where the camera is, how it moves, what the subject does.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">✓</span><div><strong class="text-white">Guiding movement</strong><span class="text-neutral-400"> — dolly in (tension), tracking (fluidity), orbit (depth); start with these three.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">✓</span><div><strong class="text-white">Distance</strong><span class="text-neutral-400"> — close-up / medium / wide defines what the viewer feels.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">✓</span><div><strong class="text-white">Depth and parallax</strong><span class="text-neutral-400"> — foreground, background, and layers at different rhythms.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">✓</span><div><strong class="text-white">Formula</strong><span class="text-neutral-400"> — subject + setting + movement + style; one shot = one clear idea.</span></div></div>
+</div>
+<div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+<h3 class="font-semibold text-amber-400 mb-2">Next Module:</h3>
+<p class="text-neutral-300">1.3 — What Makes Something Cinematic</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="index.html">← Back to Track</a>
+<a class="flex-1 text-center px-6 py-3 bg-amber-600 text-white rounded-lg font-semibold hover:bg-amber-500 transition-colors" href="modulo-1-3.html">Next Module →</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-dark-600 py-8 mt-8">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+<p>🎬 AI FILMMAKING — 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" target="_blank">INEMA.CLUB</a></p>
+</div>
+</footer>
+<script>
+    const themeToggle=document.getElementById('theme-toggle'),dIcon=document.getElementById('theme-toggle-dark-icon'),lIcon=document.getElementById('theme-toggle-light-icon'),html=document.documentElement;
+    if(localStorage.getItem('theme')==='light'){html.classList.remove('dark');dIcon.classList.remove('hidden');}else{lIcon.classList.remove('hidden');}
+    themeToggle.addEventListener('click',()=>{dIcon.classList.toggle('hidden');lIcon.classList.toggle('hidden');html.classList.toggle('dark');localStorage.setItem('theme',html.classList.contains('dark')?'dark':'light');});
+  </script>
+</body>
+</html>

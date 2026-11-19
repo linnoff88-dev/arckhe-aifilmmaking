@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>4.3 Profundidade e Estrutura Espacial | AI FILMMAKING</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = { darkMode: 'class', theme: { extend: { colors: {
+      primary: '#60A5FA', dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' } } } } }
+  </script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+    html:not(.dark) .text-amber-400 { color: #92400e; }
+    html:not(.dark) .text-orange-400 { color: #c2410c; }
+    html:not(.dark) .text-rose-400 { color: #9f1239; }
+    html:not(.dark) .text-blue-400 { color: #2563eb; }
+    html:not(.dark) .text-teal-400 { color: #0d9488; }
+    html:not(.dark) .text-emerald-400 { color: #059669; }
+    html:not(.dark) .text-purple-400 { color: #7c3aed; }
+    html:not(.dark) .text-red-400 { color: #b91c1c; }
+    html:not(.dark) .bg-blue-500\/20 { background-color: rgba(37,99,235,.12); }
+    html:not(.dark) .bg-blue-500\/10 { background-color: rgba(37,99,235,.08); }
+    html:not(.dark) .border-blue-500\/30 { border-color: rgba(37,99,235,.25); }
+    html:not(.dark) .hover\:bg-amber-500\/10:hover { background-color: rgba(217,119,6,.08); }
+    html:not(.dark) .hover\:bg-orange-500\/10:hover { background-color: rgba(234,88,12,.08); }
+    html:not(.dark) .hover\:bg-rose-500\/10:hover { background-color: rgba(225,29,72,.08); }
+    html:not(.dark) .hover\:bg-blue-500\/10:hover { background-color: rgba(37,99,235,.08); }
+    html:not(.dark) .hover\:bg-teal-500\/10:hover { background-color: rgba(13,148,136,.08); }
+    html:not(.dark) .hover\:bg-emerald-500\/10:hover { background-color: rgba(5,150,105,.08); }
+    html:not(.dark) .hover\:bg-purple-500\/10:hover { background-color: rgba(124,58,237,.08); }
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+    html:not(.dark) .text-primary { color: #2563eb; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(37,99,235,.08); }
+    html:not(.dark) .border-primary\/30 { border-color: rgba(37,99,235,.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255,255,255,.95); }
+    html:not(.dark) svg[role="img"] { filter: saturate(.82) brightness(.96); }
+    .dark .border-dark-600 { border-color: #374151; }
+    .dark .divide-dark-600 > :not([hidden]) ~ :not([hidden]) { border-color: #374151; }
+  </style>
+<link href="https://inematds.github.io/aifilmmaking/curso/trilha4/modulo-4-3.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/en/curso/trilha4/modulo-4-3.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/es/curso/trilha4/modulo-4-3.html" hreflang="es" rel="alternate"/></head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="modulo-4-3.html" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">PT</a><a href="../../en/curso/trilha4/modulo-4-3.html" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="../../es/curso/trilha4/modulo-4-3.html" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<!-- NAV -->
+<nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-14">
+<div class="flex items-center space-x-4">
+<a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html"><span class="text-2xl">🎬</span><span class="font-bold text-lg hidden sm:inline">AI FILMMAKING</span></a>
+<span class="text-neutral-600">|</span>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium" href="https://inema.club" target="_blank">INEMA.CLUB</a>
+</div>
+<div class="flex items-center space-x-1 sm:space-x-2 overflow-x-auto">
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors whitespace-nowrap" href="../trilha1/index.html"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamentos</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-orange-400 hover:bg-orange-500/10 transition-colors whitespace-nowrap" href="../trilha2/index.html"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Pré-Produção</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-rose-400 hover:bg-rose-500/10 transition-colors whitespace-nowrap" href="../trilha3/index.html"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Atuação</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-blue-400 bg-blue-500/10 whitespace-nowrap" href="index.html"><span class="sm:hidden">T4</span><span class="hidden sm:inline">Cinematografia</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-teal-400 hover:bg-teal-500/10 transition-colors whitespace-nowrap" href="../trilha5/index.html"><span class="sm:hidden">T5</span><span class="hidden sm:inline">IA Visual</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors whitespace-nowrap" href="../trilha6/index.html"><span class="sm:hidden">T6</span><span class="hidden sm:inline">Pós-Produção</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors whitespace-nowrap" href="../trilha7/index.html"><span class="sm:hidden">T7</span><span class="hidden sm:inline">Carreira</span></a>
+<button class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2" id="theme-toggle">
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-dark-icon" viewbox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-light-icon" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd"></path></svg>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<!-- BREADCRUMB -->
+<nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="flex items-center space-x-2 text-sm text-neutral-400">
+<a class="hover:text-blue-400" href="../../index.html">Início</a><span>/</span>
+<a class="hover:text-blue-400" href="index.html">Trilha 4</a><span>/</span>
+<span class="text-blue-400">Módulo 4.3</span>
+</div>
+</nav>
+<!-- HEADER -->
+<header class="bg-gradient-to-br from-blue-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<span class="inline-block px-3 py-1 bg-blue-500/20 text-blue-400 text-xs font-semibold rounded-full mb-4">MÓDULO 4.3</span>
+<h1 class="text-3xl sm:text-4xl font-bold mb-4">🌄 Profundidade e Estrutura Espacial</h1>
+<p class="text-lg text-neutral-400 max-w-3xl">Como construir profundidade cinematográfica e transformar imagens planas em cenas imersivas. Profundidade é a ilusão de espaço 3D — organizada em camadas, controlada por foco e lente, e revelada pelo movimento.</p>
+<div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">6</div><div class="text-xs text-neutral-400">Tópicos</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">40</div><div class="text-xs text-neutral-400">Minutos</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">Inter.</div><div class="text-xs text-neutral-400">Nível</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">Prática</div><div class="text-xs text-neutral-400">Tipo</div></div>
+</div>
+</div>
+</header>
+<main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<!-- TÓPICO 1 -->
+<section class="mb-16" id="topico-1">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">1</span>
+<h2 class="text-2xl font-bold">🧱 Regra das Três Camadas</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Profundidade é a <strong class="text-blue-400">ilusão de espaço tridimensional</strong>. Ela é criada organizando o quadro em três camadas — e todo quadro cinematográfico tem as três.</p>
+<div class="rounded-2xl border border-blue-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden">
+<svg aria-label="As três camadas de profundidade: primeiro plano onde o espectador está, plano médio onde o sujeito está e fundo onde o contexto vive" class="w-full h-auto" role="img" viewbox="0 0 1000 260">
+<defs>
+<pattern height="32" id="m43-grid" patternunits="userSpaceOnUse" width="32"><circle cx="1.3" cy="1.3" fill="#3b82f6" opacity="0.1" r="1.3"></circle></pattern>
+<lineargradient id="m43-bg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#1e3a5f"></stop><stop offset="1" stop-color="#0a0f18"></stop></lineargradient>
+</defs>
+<rect fill="url(#m43-grid)" height="260" width="1000" x="0" y="0"></rect>
+<!-- frame -->
+<rect fill="url(#m43-bg)" height="180" rx="12" stroke="#3b82f6" stroke-width="2" width="920" x="40" y="30"></rect>
+<!-- background layer -->
+<rect fill="#1a2740" height="60" opacity="0.55" rx="6" width="860" x="70" y="60"></rect>
+<circle cx="820" cy="90" fill="#60a5fa" opacity="0.35" r="22"></circle>
+<text fill="#9cc6ff" font-family="Inter,sans-serif" font-size="13" font-weight="600" x="120" y="95">🌄 Fundo — contexto (mais escuro, com névoa)</text>
+<!-- mid layer -->
+<rect fill="#3b82f6" height="95" opacity="0.7" rx="8" width="240" x="380" y="105"></rect>
+<circle cx="500" cy="140" fill="#dbeafe" r="16"></circle>
+<text fill="#0a0f18" font-family="Inter,sans-serif" font-size="13" font-weight="700" text-anchor="middle" x="500" y="190">🎯 Sujeito</text>
+<!-- foreground layer -->
+<path d="M40 210 L260 210 L210 150 L40 165 Z" fill="#0a0f18"></path>
+<path d="M960 210 L740 210 L800 150 L960 165 Z" fill="#0a0f18"></path>
+<text fill="#bfdbff" font-family="Inter,sans-serif" font-size="13" font-weight="600" text-anchor="middle" x="150" y="235">🧱 Primeiro plano</text>
+<text fill="#bfdbff" font-family="Inter,sans-serif" font-size="13" font-weight="600" text-anchor="middle" x="850" y="235">onde você está</text>
+</svg>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<div class="bg-dark-800 rounded-xl border border-blue-500/30 p-5"><div class="text-2xl mb-2">🧱</div><h4 class="font-bold text-blue-400 mb-1">Primeiro plano</h4><p class="text-sm text-neutral-300">Onde o espectador está.</p></div>
+<div class="bg-dark-800 rounded-xl border border-blue-500/30 p-5"><div class="text-2xl mb-2">🎯</div><h4 class="font-bold text-blue-400 mb-1">Plano médio</h4><p class="text-sm text-neutral-300">Onde o sujeito está.</p></div>
+<div class="bg-dark-800 rounded-xl border border-blue-500/30 p-5"><div class="text-2xl mb-2">🌄</div><h4 class="font-bold text-blue-400 mb-1">Fundo</h4><p class="text-sm text-neutral-300">Onde o contexto vive.</p></div>
+</div>
+</section>
+<!-- TÓPICO 2 -->
+<section class="mb-16" id="topico-2">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">2</span>
+<h2 class="text-2xl font-bold">🔀 Separação das Camadas</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Ter três camadas não basta — elas precisam ser <strong class="text-blue-400">visualmente distintas</strong>. A separação se faz com foco, luz e cor. Contraste e contraluz separam o espaço; névoa e bruma empurram os elementos para a distância.</p>
+<figure class="mb-6 rounded-xl overflow-hidden border border-dark-600">
+<img alt="Cena com primeiro plano, plano médio e fundo claramente separados por foco, luz e atmosfera" class="w-full h-auto" loading="lazy" onerror="this.closest('figure').style.display='none'" src="../../assets/ex-depth-layers.png"/>
+<figcaption class="text-xs text-neutral-500 px-4 py-2 bg-dark-800">Exemplo cinematográfico — gerado com IA (flux2-klein) · ilustrativo</figcaption>
+</figure>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">🎯</div><div class="text-xs text-neutral-300">Foco</div></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">💡</div><div class="text-xs text-neutral-300">Iluminação / contraluz</div></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">🎨</div><div class="text-xs text-neutral-300">Cor</div></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">🌫️</div><div class="text-xs text-neutral-300">Atmosfera / névoa</div></div>
+</div>
+</section>
+<!-- TÓPICO 3 -->
+<section class="mb-16" id="topico-3">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">3</span>
+<h2 class="text-2xl font-bold">🎯 Profundidade de Campo</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">A profundidade de campo controla <strong class="text-blue-400">o que está nítido</strong> — e o nítido é onde o olhar vai. É uma forma silenciosa e poderosa de guiar a atenção.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
+<h4 class="font-bold text-blue-400 mb-3">🔵 Foco raso</h4>
+<ul class="space-y-2 text-neutral-300 text-sm">
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-0.5">→</span><span>Isola o sujeito, derrete o fundo (bokeh).</span></li>
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-0.5">→</span><span>Intimidade e atenção concentrada.</span></li>
+</ul>
+</div>
+<div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
+<h4 class="font-bold text-blue-400 mb-3">🔲 Foco profundo</h4>
+<ul class="space-y-2 text-neutral-300 text-sm">
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-0.5">→</span><span>Tudo nítido, do primeiro plano ao fundo.</span></li>
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-0.5">→</span><span>Entrega contexto e relação entre camadas.</span></li>
+</ul>
+</div>
+</div>
+</section>
+<!-- TÓPICO 4 -->
+<section class="mb-16" id="topico-4">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">4</span>
+<h2 class="text-2xl font-bold">🔭 Lente: Grande-Angular vs Tele</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">A escolha da lente molda a sensação de profundidade. <strong class="text-blue-400">Grande-angular expande</strong> o espaço; <strong class="text-blue-400">teleobjetiva comprime</strong> o espaço. É uma decisão emocional, não só técnica.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+<div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
+<h4 class="font-bold text-emerald-400 mb-4">🌐 Grande-angular → expande</h4>
+<ul class="space-y-3 text-neutral-300 text-sm">
+<li class="flex items-start space-x-2"><span class="text-emerald-400">→</span><span>Camadas afastadas, sensação de amplitude</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">→</span><span>Imersão e escala do ambiente</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">→</span><span>Distâncias parecem maiores</span></li>
+</ul>
+</div>
+<div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
+<h4 class="font-bold text-blue-400 mb-4">🔬 Teleobjetiva → comprime</h4>
+<ul class="space-y-3 text-neutral-300 text-sm">
+<li class="flex items-start space-x-2"><span class="text-blue-400">→</span><span>Camadas "empilhadas", planos colados</span></li>
+<li class="flex items-start space-x-2"><span class="text-blue-400">→</span><span>Intimidade e isolamento do sujeito</span></li>
+<li class="flex items-start space-x-2"><span class="text-blue-400">→</span><span>Distâncias parecem menores</span></li>
+</ul>
+</div>
+</div>
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">💡</span> Dica prática</h3>
+<p class="text-neutral-300">No prompt, declare a lente explicitamente: "wide-angle lens" para expandir o cenário, "telephoto lens" para comprimir e aproximar emocionalmente.</p>
+</div>
+</section>
+<!-- TÓPICO 5 -->
+<section class="mb-16" id="topico-5">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">5</span>
+<h2 class="text-2xl font-bold">🌀 Movimento &amp; Paralaxe</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">O movimento <strong class="text-blue-400">revela profundidade</strong> conforme as camadas se deslocam em velocidades diferentes — isso é a paralaxe. Tracking e orbit realçam esse efeito naturalmente.</p>
+<div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6 mb-6">
+<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">🌀</span> Velocidades por camada</h3>
+<div class="space-y-3">
+<div class="flex items-center space-x-3"><span class="w-28 text-sm text-neutral-300">🧱 Primeiro plano</span><div class="flex-1 bg-dark-700 rounded-full h-3"><div class="bg-blue-500 h-3 rounded-full" style="width:90%"></div></div><span class="text-xs text-neutral-400">rápido</span></div>
+<div class="flex items-center space-x-3"><span class="w-28 text-sm text-neutral-300">🎯 Plano médio</span><div class="flex-1 bg-dark-700 rounded-full h-3"><div class="bg-blue-500 h-3 rounded-full" style="width:55%"></div></div><span class="text-xs text-neutral-400">médio</span></div>
+<div class="flex items-center space-x-3"><span class="w-28 text-sm text-neutral-300">🌄 Fundo</span><div class="flex-1 bg-dark-700 rounded-full h-3"><div class="bg-blue-500 h-3 rounded-full" style="width:20%"></div></div><span class="text-xs text-neutral-400">lento</span></div>
+</div>
+</div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+<p class="text-neutral-300 text-sm"><strong class="text-blue-400">Camadas separadas + câmera em movimento = profundidade real.</strong> Sem separação, a paralaxe não aparece e o movimento revela uma cena chapada.</p>
+</div>
+</section>
+<!-- TÓPICO 6 -->
+<section class="mb-16" id="topico-6">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">6</span>
+<h2 class="text-2xl font-bold">❤️ Profundidade = Emoção</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Profundidade não é apenas visual — é <strong class="text-blue-400">emocional</strong>. Personagens posicionados em camadas diferentes mostram relações sem uma palavra de diálogo.</p>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">❤️</div><div class="text-xs text-neutral-300">Distância próxima → intimidade</div></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">🧊</div><div class="text-xs text-neutral-300">Distância longa → isolamento</div></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">🔄</div><div class="text-xs text-neutral-300">Movimento → mudança</div></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">⏸</div><div class="text-xs text-neutral-300">Imobilidade → tensão</div></div>
+</div>
+<div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6">
+<h3 class="text-lg font-semibold text-blue-400 mb-3 flex items-center"><span class="mr-2">🧠</span> Abordagem profissional</h3>
+<p class="text-neutral-300 mb-3">Um plano cinematográfico combina composição, câmera e lente, iluminação, movimento e posicionamento dos personagens — todos trabalhando como um <strong>único sistema</strong>.</p>
+<p class="text-neutral-300 text-sm">Você deixa de apenas criar imagens e passa a <strong class="text-blue-400">dirigir cenas</strong>: moldando o espaço, controlando a atenção e contando histórias através da profundidade.</p>
+</div>
+</section>
+<!-- TAREFA -->
+<section class="mb-12">
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h2 class="text-xl font-bold text-primary mb-4 flex items-center"><span class="mr-2">📝</span> Tarefa — Narrativa pela Profundidade</h2>
+<p class="text-neutral-300 mb-4">Crie 3 cenas cinematográficas, com um plano cada:</p>
+<ul class="space-y-2 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🧱</span><span>Inclua primeiro plano, plano médio e fundo.</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">💡</span><span>Use iluminação e movimento de câmera.</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🎭</span><span>Adicione 2 personagens em camadas diferentes e mostre emoção apenas pela posição e pelo olhar.</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🚫</span><span>Sem diálogo · sem ação — foque na atmosfera e na narrativa visual.</span></li>
+</ul>
+</div>
+</section>
+<!-- RESUMO -->
+<section class="mb-12">
+<div class="bg-gradient-to-br from-blue-900/40 via-dark-800 to-dark-800 rounded-xl border border-blue-500/30 p-8">
+<h2 class="text-2xl font-bold mb-6 flex items-center"><span class="mr-3">📌</span> Resumo do Módulo</h2>
+<div class="space-y-4 mb-8">
+<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">Regra das três camadas</strong><span class="text-neutral-400"> — primeiro plano, plano médio, fundo em todo quadro.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">Separação</strong><span class="text-neutral-400"> — foco, luz, cor e atmosfera tornam as camadas distintas.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">Profundidade de campo e lente</strong><span class="text-neutral-400"> — guiam o olhar; grande-angular expande, tele comprime.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">Paralaxe e emoção</strong><span class="text-neutral-400"> — o movimento revela profundidade; a profundidade conta a relação.</span></div></div>
+</div>
+<div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+<h3 class="font-semibold text-blue-400 mb-2">Próximo Módulo:</h3>
+<p class="text-neutral-300">4.4 — Tamanhos de Plano &amp; Movimento de Câmera</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="modulo-4-2.html">← Módulo Anterior</a>
+<a class="flex-1 text-center px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-500 transition-colors" href="modulo-4-4.html">Próximo Módulo →</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-dark-600 py-8 mt-8">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+<p>🎬 AI FILMMAKING — 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" target="_blank">INEMA.CLUB</a></p>
+</div>
+</footer>
+<script>
+    const themeToggle=document.getElementById('theme-toggle'),dIcon=document.getElementById('theme-toggle-dark-icon'),lIcon=document.getElementById('theme-toggle-light-icon'),html=document.documentElement;
+    if(localStorage.getItem('theme')==='light'){html.classList.remove('dark');dIcon.classList.remove('hidden');}else{lIcon.classList.remove('hidden');}
+    themeToggle.addEventListener('click',()=>{dIcon.classList.toggle('hidden');lIcon.classList.toggle('hidden');html.classList.toggle('dark');localStorage.setItem('theme',html.classList.contains('dark')?'dark':'light');});
+  </script>
+</body>
+</html>

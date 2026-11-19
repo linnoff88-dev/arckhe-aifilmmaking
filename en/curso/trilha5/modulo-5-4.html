@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>5.4 Practical Visual Effects | AI FILMMAKING</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = { darkMode: 'class', theme: { extend: { colors: {
+      primary: '#2DD4BF', dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' } } } } }
+  </script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+    html:not(.dark) .text-amber-400 { color: #92400e; }
+    html:not(.dark) .text-orange-400 { color: #c2410c; }
+    html:not(.dark) .text-rose-400 { color: #9f1239; }
+    html:not(.dark) .text-blue-400 { color: #2563eb; }
+    html:not(.dark) .text-teal-400 { color: #0d9488; }
+    html:not(.dark) .text-emerald-400 { color: #059669; }
+    html:not(.dark) .text-purple-400 { color: #7c3aed; }
+    html:not(.dark) .text-red-400 { color: #b91c1c; }
+    html:not(.dark) .bg-teal-500\/20 { background-color: rgba(13,148,136,.12); }
+    html:not(.dark) .bg-teal-500\/10 { background-color: rgba(13,148,136,.08); }
+    html:not(.dark) .border-teal-500\/30 { border-color: rgba(13,148,136,.25); }
+    html:not(.dark) .hover\:bg-amber-500\/10:hover { background-color: rgba(217,119,6,.08); }
+    html:not(.dark) .hover\:bg-orange-500\/10:hover { background-color: rgba(234,88,12,.08); }
+    html:not(.dark) .hover\:bg-rose-500\/10:hover { background-color: rgba(225,29,72,.08); }
+    html:not(.dark) .hover\:bg-blue-500\/10:hover { background-color: rgba(37,99,235,.08); }
+    html:not(.dark) .hover\:bg-teal-500\/10:hover { background-color: rgba(13,148,136,.08); }
+    html:not(.dark) .hover\:bg-emerald-500\/10:hover { background-color: rgba(5,150,105,.08); }
+    html:not(.dark) .hover\:bg-purple-500\/10:hover { background-color: rgba(124,58,237,.08); }
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+    html:not(.dark) .text-primary { color: #0f766e; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(15,118,110,.08); }
+    html:not(.dark) .border-primary\/30 { border-color: rgba(15,118,110,.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255,255,255,.95); }
+    html:not(.dark) svg[role="img"] { filter: saturate(.82) brightness(.96); }
+    html:not(.dark) .yaml-box { background-color: #0f172a; }
+    .dark .border-dark-600 { border-color: #374151; }
+    .dark .divide-dark-600 > :not([hidden]) ~ :not([hidden]) { border-color: #374151; }
+  </style>
+<link href="https://inematds.github.io/aifilmmaking/curso/trilha5/modulo-5-4.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/en/curso/trilha5/modulo-5-4.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/es/curso/trilha5/modulo-5-4.html" hreflang="es" rel="alternate"/></head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../../../curso/trilha5/modulo-5-4.html" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-5-4.html" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">EN</a><a href="../../../es/curso/trilha5/modulo-5-4.html" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<!-- NAV -->
+<nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-14">
+<div class="flex items-center space-x-4">
+<a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html"><span class="text-2xl">🎬</span><span class="font-bold text-lg hidden sm:inline">AI FILMMAKING</span></a>
+<span class="text-neutral-600">|</span>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium" href="https://inema.club" target="_blank">INEMA.CLUB</a>
+</div>
+<div class="flex items-center space-x-1 sm:space-x-2 overflow-x-auto">
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors whitespace-nowrap" href="../trilha1/index.html"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamentals</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-orange-400 hover:bg-orange-500/10 transition-colors whitespace-nowrap" href="../trilha2/index.html"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Pre-production</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-rose-400 hover:bg-rose-500/10 transition-colors whitespace-nowrap" href="../trilha3/index.html"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Performance</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors whitespace-nowrap" href="../trilha4/index.html"><span class="sm:hidden">T4</span><span class="hidden sm:inline">Cinematography</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-teal-400 bg-teal-500/10 whitespace-nowrap" href="index.html"><span class="sm:hidden">T5</span><span class="hidden sm:inline">Visual AI</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors whitespace-nowrap" href="../trilha6/index.html"><span class="sm:hidden">T6</span><span class="hidden sm:inline">Post-production</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors whitespace-nowrap" href="../trilha7/index.html"><span class="sm:hidden">T7</span><span class="hidden sm:inline">Career</span></a>
+<button class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2" id="theme-toggle">
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-dark-icon" viewbox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-light-icon" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd"></path></svg>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<!-- BREADCRUMB -->
+<nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="flex items-center space-x-2 text-sm text-neutral-400">
+<a class="hover:text-teal-400" href="../../index.html">Beginning</a><span>/</span>
+<a class="hover:text-teal-400" href="index.html">Track 5</a><span>/</span>
+<span class="text-teal-400">Module 5.4</span>
+</div>
+</nav>
+<!-- HEADER -->
+<header class="bg-gradient-to-br from-teal-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<span class="inline-block px-3 py-1 bg-teal-500/20 text-teal-400 text-xs font-semibold rounded-full mb-4">MODULE 5.4</span>
+<h1 class="text-3xl sm:text-4xl font-bold mb-4">🎆 Practical Visual Effects</h1>
+<p class="text-lg text-neutral-400 max-w-3xl">Six techniques that deliver true on-screen realism while avoiding the pitfalls of "too much CGI." The goal is singular: uncompromising physical realism — for dystopian worlds, atmospheric disasters, ruins, and isolated survival.</p>
+<div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">6</div><div class="text-xs text-neutral-400">Topics</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">45</div><div class="text-xs text-neutral-400">Minutes</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">Advanced</div><div class="text-xs text-neutral-400">Level</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">Practice</div><div class="text-xs text-neutral-400">Type</div></div>
+</div>
+</div>
+</header>
+<main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<figure class="mb-10 rounded-xl overflow-hidden border border-dark-600">
+<img alt="Scene with physical particles, sparks, and dense backlit atmosphere" class="w-full h-auto" loading="lazy" onerror="this.closest('figure').style.display='none'" src="../../../assets/ex-particles.png"/>
+<figcaption class="text-xs text-neutral-500 px-4 py-2 bg-dark-800">Cinematic example — AI-generated (flux2-klein) · illustrative</figcaption>
+</figure>
+<!-- TÓPICO 1 -->
+<section class="mb-16" id="topico-1">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">1</span>
+<h2 class="text-2xl font-bold">💡 LED Volume &amp; Practical Light</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Huge LED walls project photorealistic environments directly behind the actors during filming. The result: natural shadows, accurate reflections on costumes, and authentic rim lighting.</p>
+<div class="bg-gradient-to-br from-teal-900/30 to-dark-800 rounded-xl border border-teal-500/30 p-6">
+<h3 class="text-lg font-semibold text-teal-400 mb-3 flex items-center"><span class="mr-2">⚓</span> Impact</h3>
+<p class="text-neutral-300">The real light <strong>"anchor"</strong> the actor in the digital world perfectly — the lighting isn't added in post; it actually happens on set.</p>
+</div>
+</section>
+<!-- TÓPICO 2 -->
+<section class="mb-16" id="topico-2">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">2</span>
+<h2 class="text-2xl font-bold">🔥 Practical Fire &amp; Practical Rain</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Digital fire often looks too "clean." Real fire provides the unpredictability needed for immersion; physical water interacts with the environment in complex ways.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+<h4 class="font-bold text-teal-400 mb-3">🔥 Practical Fire</h4>
+<ul class="space-y-2 text-sm text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-teal-400 mt-1">•</span><span>Chaotic movement of flames and organic sparks</span></li>
+<li class="flex items-start space-x-2"><span class="text-teal-400 mt-1">•</span><span>Natural flow of smoke and heat distortion</span></li>
+</ul>
+</div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+<h4 class="font-bold text-teal-400 mb-3">💧 Practical Rain</h4>
+<ul class="space-y-2 text-sm text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-teal-400 mt-1">•</span><span>Soaked clothing, wet asphalt, puddles</span></li>
+<li class="flex items-start space-x-2"><span class="text-teal-400 mt-1">•</span><span>Authentic splashes and reflections on wet surfaces</span></li>
+</ul>
+</div>
+</div>
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">🗝️</span> Secret</h3>
+<p class="text-neutral-300"><strong>Perfect movement looks fake. Chaos looks real.</strong> And water physics is one of the fastest ways to spot low-quality CGI.</p>
+</div>
+</section>
+<!-- TÓPICO 3 -->
+<section class="mb-16" id="topico-3">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">3</span>
+<h2 class="text-2xl font-bold">🪢 Wire Suspension &amp; Miniatures</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Suspending actors on wires captures genuine physical responses; physical miniatures still rival digital renders with their tangible details.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+<h4 class="font-bold text-teal-400 mb-3">🪢 Wire Suspension</h4>
+<p class="text-sm text-neutral-300 mb-2">Real inertia, natural fabric drag, bodily imbalance, and realistic delayed movement.</p>
+<p class="text-xs text-neutral-400"><strong>Fact:</strong> physical weight is one of the hardest things to simulate in post-production.</p>
+</div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+<h4 class="font-bold text-teal-400 mb-3">🏯 Physical Miniatures</h4>
+<p class="text-sm text-neutral-300 mb-2">Real dust, tactile textures, chipped surfaces, and natural atmospheric haze.</p>
+<p class="text-xs text-neutral-400"><strong>Illusion:</strong> with cinematic framing, the brain perceives the miniature as a full-scale structure.</p>
+</div>
+</div>
+</section>
+<!-- TÓPICO 4 -->
+<section class="mb-16" id="topico-4">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">4</span>
+<h2 class="text-2xl font-bold">🧩 Physical + Digital Hybrid</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Combining real elements in the foreground with digital backgrounds. Creates convincing depth and realistic parallax.</p>
+<div class="rounded-2xl border border-teal-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden">
+<svg aria-label="Real foreground elements anchor a digital background, creating depth" class="w-full h-auto" role="img" viewbox="0 0 1000 180">
+<defs>
+<lineargradient id="m54-grad" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#2dd4bf"></stop><stop offset="1" stop-color="#14b8a6"></stop></lineargradient>
+<pattern height="32" id="m54-grid" patternunits="userSpaceOnUse" width="32"><circle cx="1.3" cy="1.3" fill="#14b8a6" opacity="0.1" r="1.3"></circle></pattern>
+</defs>
+<rect fill="url(#m54-grid)" height="180" width="1000" x="0" y="0"></rect>
+<rect fill="#0e1b26" height="120" opacity="0.4" rx="12" stroke="#38bdf8" stroke-width="1.5" width="880" x="60" y="30"></rect>
+<text fill="#7fc3e8" font-family="Inter,sans-serif" font-size="12" font-weight="600" text-anchor="middle" x="500" y="52">DIGITAL BACKGROUND — storm, ruins, scale</text>
+<g fill="none" opacity="0.35" stroke="#38bdf8" stroke-width="1.4">
+<path d="M120,120 Q200,80 300,118"></path><path d="M340,122 Q440,78 560,120"></path><path d="M620,118 Q720,82 860,120"></path>
+</g>
+<rect fill="#0c1f1c" height="58" rx="10" stroke="url(#m54-grad)" stroke-width="2" width="760" x="120" y="96"></rect>
+<text fill="#2dd4bf" font-family="Inter,sans-serif" font-size="14" font-weight="600" text-anchor="middle" x="500" y="130">REAL CLOSE-UP — detail that anchors the scene</text>
+</svg>
+</div>
+<div class="bg-gradient-to-br from-teal-900/30 to-dark-800 rounded-xl border border-teal-500/30 p-6">
+<h3 class="text-lg font-semibold text-teal-400 mb-3 flex items-center"><span class="mr-2">⚓</span> Principle</h3>
+<p class="text-neutral-300">Highly detailed foreground elements <strong>"anchors"</strong> the entire scene, lending credibility to the digital setting in the background.</p>
+</div>
+</section>
+<!-- TÓPICO 5 -->
+<section class="mb-16" id="topico-5">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">5</span>
+<h2 class="text-2xl font-bold">⚙️ YAML for VFX &amp; AI Limitations</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">In professional workflows, we use YAML to separate control into logical blocks. The essential rules: one purpose per field, physical focus, defined lighting, and controlled camera.</p>
+<div class="yaml-box bg-dark-900 rounded-xl border border-teal-500/30 p-6 mb-6 overflow-x-auto">
+<div class="text-xs text-teal-400 font-semibold mb-3 uppercase tracking-wide">YAML — VFX scene (practical fire)</div>
+<pre class="text-sm font-mono whitespace-pre leading-relaxed"><span class="text-purple-400">scene:</span>
+  <span class="text-sky-400">technique:</span> practical_fire
+  <span class="text-sky-400">lighting:</span>
+    <span class="text-sky-400">source:</span> <span class="text-emerald-400">"flames from frame right, flickering warm key"</span>
+    <span class="text-sky-400">rule:</span> <span class="text-emerald-400">"never leave light source to chance"</span>
+  <span class="text-sky-400">motion:</span>
+    <span class="text-sky-400">logic:</span> <span class="text-emerald-400">"chaotic flame, organic sparks rising"</span>
+    <span class="text-sky-400">secondary:</span> <span class="text-emerald-400">"smoke drifts, heat distortion"</span>
+  <span class="text-sky-400">camera:</span>
+    <span class="text-sky-400">path:</span> <span class="text-emerald-400">"slow push-in, grounded and logical"</span></pre>
+</div>
+<div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
+<h3 class="text-lg font-semibold text-red-400 mb-3 flex items-center"><span class="mr-2">⚠️</span> Keep an eye on</h3>
+<ul class="space-y-2 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-red-400 mt-1">•</span><span><strong>Motion deviation</strong> — objects “floating” or losing their trajectory</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400 mt-1">•</span><span><strong>Timing breaks</strong> — artificial acceleration or visual glitches</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400 mt-1">•</span><span><strong>Artificial textures</strong> — surfaces that are too smooth or plastic-looking</span></li>
+</ul>
+<p class="text-neutral-400 text-sm mt-3">AI approximates reality—it doesn’t truly understand physics. Iteration is a normal part of the process.</p>
+</div>
+</section>
+<!-- TÓPICO 6 -->
+<section class="mb-16" id="topico-6">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">6</span>
+<h2 class="text-2xl font-bold">🎥 The Final Blueprint</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Cinematic realism follows a specific flow. Arrange any effects scene in this order:</p>
+<div class="rounded-2xl border border-teal-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden">
+<svg aria-label="Realism follows the flow of light, texture, movement, atmosphere, emotion" class="w-full h-auto" role="img" viewbox="0 0 1000 120">
+<defs>
+<marker id="m54b-ah" markerheight="9" markerwidth="9" orient="auto" refx="6.5" refy="4.5"><path d="M0,0 L8,4.5 L0,9 L2.4,4.5 Z" fill="#2dd4bf"></path></marker>
+<pattern height="32" id="m54b-grid" patternunits="userSpaceOnUse" width="32"><circle cx="1.3" cy="1.3" fill="#14b8a6" opacity="0.1" r="1.3"></circle></pattern>
+</defs>
+<rect fill="url(#m54b-grid)" height="120" width="1000" x="0" y="0"></rect>
+<g font-family="Inter,sans-serif" font-size="13" font-weight="600">
+<g><rect fill="#0c1f1c" height="36" rx="10" stroke="#14b8a6" stroke-width="2" width="150" x="14" y="44"></rect><text fill="#2dd4bf" text-anchor="middle" x="89" y="67">Light</text></g>
+<g><rect fill="#0c1f1c" height="36" rx="10" stroke="#14b8a6" stroke-width="2" width="150" x="214" y="44"></rect><text fill="#2dd4bf" text-anchor="middle" x="289" y="67">Texture</text></g>
+<g><rect fill="#0c1f1c" height="36" rx="10" stroke="#14b8a6" stroke-width="2" width="150" x="414" y="44"></rect><text fill="#2dd4bf" text-anchor="middle" x="489" y="67">Movement</text></g>
+<g><rect fill="#0c1f1c" height="36" rx="10" stroke="#14b8a6" stroke-width="2" width="150" x="614" y="44"></rect><text fill="#2dd4bf" text-anchor="middle" x="689" y="67">Atmosphere</text></g>
+<g><rect fill="#0c1f1c" height="36" rx="10" stroke="#14b8a6" stroke-width="2" width="150" x="814" y="44"></rect><text fill="#2dd4bf" text-anchor="middle" x="889" y="67">Emotion</text></g>
+</g>
+<g fill="none" opacity="0.7" stroke="#2dd4bf" stroke-width="2.2">
+<path d="M164,62 L214,62" marker-end="url(#m54b-ah)"></path>
+<path d="M364,62 L414,62" marker-end="url(#m54b-ah)"></path>
+<path d="M564,62 L614,62" marker-end="url(#m54b-ah)"></path>
+<path d="M764,62 L814,62" marker-end="url(#m54b-ah)"></path>
+</g>
+</svg>
+</div>
+<div class="bg-gradient-to-br from-teal-900/30 to-dark-800 rounded-xl border border-teal-500/30 p-6">
+<h3 class="text-lg font-semibold text-teal-400 mb-3 flex items-center"><span class="mr-2">🎯</span> Objective</h3>
+<p class="text-neutral-300">Achieve uncompromising physical realism. <strong>Light → Texture → Movement → Atmosphere → Emotion</strong> it’s the sequence that supports any effects scene.</p>
+</div>
+</section>
+<!-- TAREFA -->
+<section class="mb-12">
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h2 class="text-xl font-bold text-primary mb-4 flex items-center"><span class="mr-2">📝</span> Task — One Technique in YAML</h2>
+<p class="text-neutral-300">Choose a technique (LED volume, practical fire, cables, rain, miniatures, or hybrid) and create a realistic 5-second scene using a structured YAML prompt. Apply the rules: one function, physical focus, defined lighting, and controlled camera.</p>
+</div>
+</section>
+<!-- RESUMO -->
+<section class="mb-12">
+<div class="bg-gradient-to-br from-teal-900/40 via-dark-800 to-dark-800 rounded-xl border border-teal-500/30 p-8">
+<h2 class="text-2xl font-bold mb-6 flex items-center"><span class="mr-3">📌</span> Module Summary</h2>
+<div class="space-y-4 mb-8">
+<div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">6 practical techniques</strong><span class="text-neutral-400"> — LED, fire, cables, rain, miniatures, hybrid.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Chaos feels real</strong><span class="text-neutral-400"> — perfect movement looks fake.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">YAML for VFX</strong><span class="text-neutral-400"> — single purpose, physics, lighting, camera.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Blueprint</strong><span class="text-neutral-400"> — Light → Texture → Movement → Atmosphere → Emotion.</span></div></div>
+</div>
+<div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+<h3 class="font-semibold text-teal-400 mb-2">Next Module:</h3>
+<p class="text-neutral-300">5.5 — Slow Motion &amp; Particle Systems</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="index.html">← Back to Track</a>
+<a class="flex-1 text-center px-6 py-3 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-500 transition-colors" href="modulo-5-5.html">Next Module →</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-dark-600 py-8 mt-8">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+<p>🎬 AI FILMMAKING — 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" target="_blank">INEMA.CLUB</a></p>
+</div>
+</footer>
+<script>
+    const themeToggle=document.getElementById('theme-toggle'),dIcon=document.getElementById('theme-toggle-dark-icon'),lIcon=document.getElementById('theme-toggle-light-icon'),html=document.documentElement;
+    if(localStorage.getItem('theme')==='light'){html.classList.remove('dark');dIcon.classList.remove('hidden');}else{lIcon.classList.remove('hidden');}
+    themeToggle.addEventListener('click',()=>{dIcon.classList.toggle('hidden');lIcon.classList.toggle('hidden');html.classList.toggle('dark');localStorage.setItem('theme',html.classList.contains('dark')?'dark':'light');});
+  </script>
+</body>
+</html>

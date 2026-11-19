@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>4.2 Iluminação e Atmosfera | AI FILMMAKING</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = { darkMode: 'class', theme: { extend: { colors: {
+      primary: '#60A5FA', dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' } } } } }
+  </script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+    html:not(.dark) .text-amber-400 { color: #92400e; }
+    html:not(.dark) .text-orange-400 { color: #c2410c; }
+    html:not(.dark) .text-rose-400 { color: #9f1239; }
+    html:not(.dark) .text-blue-400 { color: #2563eb; }
+    html:not(.dark) .text-teal-400 { color: #0d9488; }
+    html:not(.dark) .text-emerald-400 { color: #059669; }
+    html:not(.dark) .text-purple-400 { color: #7c3aed; }
+    html:not(.dark) .text-red-400 { color: #b91c1c; }
+    html:not(.dark) .bg-blue-500\/20 { background-color: rgba(37,99,235,.12); }
+    html:not(.dark) .bg-blue-500\/10 { background-color: rgba(37,99,235,.08); }
+    html:not(.dark) .border-blue-500\/30 { border-color: rgba(37,99,235,.25); }
+    html:not(.dark) .hover\:bg-amber-500\/10:hover { background-color: rgba(217,119,6,.08); }
+    html:not(.dark) .hover\:bg-orange-500\/10:hover { background-color: rgba(234,88,12,.08); }
+    html:not(.dark) .hover\:bg-rose-500\/10:hover { background-color: rgba(225,29,72,.08); }
+    html:not(.dark) .hover\:bg-blue-500\/10:hover { background-color: rgba(37,99,235,.08); }
+    html:not(.dark) .hover\:bg-teal-500\/10:hover { background-color: rgba(13,148,136,.08); }
+    html:not(.dark) .hover\:bg-emerald-500\/10:hover { background-color: rgba(5,150,105,.08); }
+    html:not(.dark) .hover\:bg-purple-500\/10:hover { background-color: rgba(124,58,237,.08); }
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+    html:not(.dark) .text-primary { color: #2563eb; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(37,99,235,.08); }
+    html:not(.dark) .border-primary\/30 { border-color: rgba(37,99,235,.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255,255,255,.95); }
+    html:not(.dark) svg[role="img"] { filter: saturate(.82) brightness(.96); }
+    .dark .border-dark-600 { border-color: #374151; }
+    .dark .divide-dark-600 > :not([hidden]) ~ :not([hidden]) { border-color: #374151; }
+  </style>
+<link href="https://inematds.github.io/aifilmmaking/curso/trilha4/modulo-4-2.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/en/curso/trilha4/modulo-4-2.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/es/curso/trilha4/modulo-4-2.html" hreflang="es" rel="alternate"/></head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="modulo-4-2.html" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">PT</a><a href="../../en/curso/trilha4/modulo-4-2.html" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="../../es/curso/trilha4/modulo-4-2.html" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<!-- NAV -->
+<nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-14">
+<div class="flex items-center space-x-4">
+<a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html"><span class="text-2xl">🎬</span><span class="font-bold text-lg hidden sm:inline">AI FILMMAKING</span></a>
+<span class="text-neutral-600">|</span>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium" href="https://inema.club" target="_blank">INEMA.CLUB</a>
+</div>
+<div class="flex items-center space-x-1 sm:space-x-2 overflow-x-auto">
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors whitespace-nowrap" href="../trilha1/index.html"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamentos</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-orange-400 hover:bg-orange-500/10 transition-colors whitespace-nowrap" href="../trilha2/index.html"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Pré-Produção</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-rose-400 hover:bg-rose-500/10 transition-colors whitespace-nowrap" href="../trilha3/index.html"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Atuação</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-blue-400 bg-blue-500/10 whitespace-nowrap" href="index.html"><span class="sm:hidden">T4</span><span class="hidden sm:inline">Cinematografia</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-teal-400 hover:bg-teal-500/10 transition-colors whitespace-nowrap" href="../trilha5/index.html"><span class="sm:hidden">T5</span><span class="hidden sm:inline">IA Visual</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors whitespace-nowrap" href="../trilha6/index.html"><span class="sm:hidden">T6</span><span class="hidden sm:inline">Pós-Produção</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors whitespace-nowrap" href="../trilha7/index.html"><span class="sm:hidden">T7</span><span class="hidden sm:inline">Carreira</span></a>
+<button class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2" id="theme-toggle">
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-dark-icon" viewbox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-light-icon" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd"></path></svg>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<!-- BREADCRUMB -->
+<nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="flex items-center space-x-2 text-sm text-neutral-400">
+<a class="hover:text-blue-400" href="../../index.html">Início</a><span>/</span>
+<a class="hover:text-blue-400" href="index.html">Trilha 4</a><span>/</span>
+<span class="text-blue-400">Módulo 4.2</span>
+</div>
+</nav>
+<!-- HEADER -->
+<header class="bg-gradient-to-br from-blue-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<span class="inline-block px-3 py-1 bg-blue-500/20 text-blue-400 text-xs font-semibold rounded-full mb-4">MÓDULO 4.2</span>
+<h1 class="text-3xl sm:text-4xl font-bold mb-4">💡 Iluminação e Atmosfera</h1>
+<p class="text-lg text-neutral-400 max-w-3xl">No cinema, luz não é visibilidade — é sentimento. Aqui você aprende a controlar emoção pela luz: subtrair em vez de adicionar, guiar o olho pelo contraste, e construir atmosfera com camadas, cor e movimento.</p>
+<div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">6</div><div class="text-xs text-neutral-400">Tópicos</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">45</div><div class="text-xs text-neutral-400">Minutos</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">Inter.</div><div class="text-xs text-neutral-400">Nível</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">Prática</div><div class="text-xs text-neutral-400">Tipo</div></div>
+</div>
+</div>
+</header>
+<main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<!-- TÓPICO 1 -->
+<section class="mb-16" id="topico-1">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">1</span>
+<h2 class="text-2xl font-bold">🌑 Negative Fill — Controle da Escuridão</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Hoje você não está apenas aprendendo sobre luz — está aprendendo a <strong class="text-blue-400">controlar emoção</strong>. Grande cinematografia não é adicionar luz: é <strong class="text-blue-400">removê-la</strong>. Quando você tira a luz, as sombras ficam mais profundas, e o quadro parece misterioso, convidativo, vivo.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+<div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
+<h4 class="font-bold text-red-400 mb-4">✗ Iluminar tudo</h4>
+<ul class="space-y-3 text-neutral-300 text-sm">
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Imagem plana, sem mistério</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Olho sem ponto de entrada claro</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>"Cara de IA" — tudo visível, nada sentido</span></li>
+</ul>
+</div>
+<div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
+<h4 class="font-bold text-emerald-400 mb-4">✓ Negative fill</h4>
+<ul class="space-y-3 text-neutral-300 text-sm">
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Sombras profundas que criam mistério</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Volume e modelagem no sujeito</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Quadro convidativo e vivo</span></li>
+</ul>
+</div>
+</div>
+<div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6">
+<p class="text-neutral-300"><strong class="text-blue-400">No cinema, luz é sentimento.</strong> A primeira pergunta não é "onde adicionar luz?", mas "<strong>onde tirar luz</strong> para a cena ganhar profundidade?".</p>
+</div>
+</section>
+<!-- TÓPICO 2 -->
+<section class="mb-16" id="topico-2">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">2</span>
+<h2 class="text-2xl font-bold">✨ Edge Contrast &amp; Rim Light</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Você não precisa iluminar tudo. Uma <strong class="text-blue-400">fina borda de luz</strong> é suficiente para definir um sujeito. O olho naturalmente segue o <strong class="text-blue-400">contraste — não o brilho</strong>. Remova a luz frontal, deixe apenas a borda iluminada: o sujeito fica misterioso, mas ainda legível.</p>
+<figure class="mb-6 rounded-xl overflow-hidden border border-dark-600">
+<img alt="Sujeito definido apenas por uma fina luz de recorte (rim light) sobre fundo escuro" class="w-full h-auto" loading="lazy" onerror="this.closest('figure').style.display='none'" src="../../assets/ex-lighting-rim.png"/>
+<figcaption class="text-xs text-neutral-500 px-4 py-2 bg-dark-800">Exemplo cinematográfico — gerado com IA (flux2-klein) · ilustrativo</figcaption>
+</figure>
+<div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
+<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">🔎</span> Por que funciona</h3>
+<ul class="space-y-2 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span>A borda separa o sujeito do fundo sem precisar revelar o rosto inteiro.</span></li>
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span>O contraste, não o brilho, é o que prende o olhar.</span></li>
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span>Mistério + legibilidade ao mesmo tempo — a definição do cinema noir.</span></li>
+</ul>
+</div>
+</section>
+<!-- TÓPICO 3 -->
+<section class="mb-16" id="topico-3">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">3</span>
+<h2 class="text-2xl font-bold">🪟 Suavidade &amp; Luz Motivada</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Luz suave não tem a ver apenas com fontes grandes — tem a ver com <strong class="text-blue-400">distância</strong>. Aproxime uma luz pequena e ela envolve o sujeito como emoção. E toda luz precisa vir de algum lugar real: o sol, uma lâmpada, uma tela.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+<div class="bg-dark-800 rounded-xl border border-blue-500/30 p-6">
+<h4 class="font-bold text-blue-400 mb-2">🪟 Suavidade pela distância</h4>
+<p class="text-sm text-neutral-300 mb-3">Quanto mais perto a fonte do sujeito, mais suave e envolvente a luz fica.</p>
+<div class="flex items-center justify-between text-xs text-neutral-400">
+<span>luz distante → dura</span><span class="text-blue-400">→</span><span>luz próxima → suave</span>
+</div>
+</div>
+<div class="bg-dark-800 rounded-xl border border-blue-500/30 p-6">
+<h4 class="font-bold text-blue-400 mb-2">💡 Luz motivada</h4>
+<p class="text-sm text-neutral-300 mb-3">Cada luz tem uma fonte crível na cena: sol, lâmpada, tela, fogo.</p>
+<p class="text-xs text-neutral-400">Se o espectador <strong class="text-blue-400">acredita na fonte</strong>, ele acredita na cena.</p>
+</div>
+</div>
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">💡</span> Dica prática</h3>
+<p class="text-neutral-300">No prompt, nomeie sempre a fonte: "luz quente de uma janela à esquerda", "brilho frio de uma tela". A motivação dá credibilidade automática à iluminação.</p>
+</div>
+</section>
+<!-- TÓPICO 4 -->
+<section class="mb-16" id="topico-4">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">4</span>
+<h2 class="text-2xl font-bold">📊 Regra 80/20 &amp; Exposição</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Apenas <strong class="text-blue-400">20% da sua luz</strong> deve estar visível. Os outros 80% permanecem escondidos. É isso que cria profundidade e faz a imagem parecer cinematográfica em vez de plana. Exponha para o que importa — e deixe o resto cair na escuridão ou estourar na luz.</p>
+<div class="rounded-2xl border border-blue-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden">
+<svg aria-label="Regra 80/20: apenas 20 por cento do quadro está iluminado, com queda suave da luz para a sombra" class="w-full h-auto" role="img" viewbox="0 0 1000 240">
+<defs>
+<lineargradient id="m42-fall" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#dbeafe"></stop><stop offset="0.2" stop-color="#60a5fa"></stop><stop offset="0.55" stop-color="#1e3a5f"></stop><stop offset="1" stop-color="#0a0f18"></stop></lineargradient>
+<pattern height="32" id="m42-grid" patternunits="userSpaceOnUse" width="32"><circle cx="1.3" cy="1.3" fill="#3b82f6" opacity="0.1" r="1.3"></circle></pattern>
+<radialgradient cx="0.5" cy="0.5" id="m42-src" r="0.5"><stop offset="0" stop-color="#eff6ff"></stop><stop offset="1" stop-color="#60a5fa"></stop></radialgradient>
+</defs>
+<rect fill="url(#m42-grid)" height="240" width="1000" x="0" y="0"></rect>
+<!-- falloff bar -->
+<rect fill="url(#m42-fall)" height="70" rx="8" width="880" x="60" y="50"></rect>
+<text fill="#0a0f18" font-family="Inter,sans-serif" font-size="18" font-weight="700" x="120" y="92">20% visível</text>
+<text fill="#9cc6ff" font-family="Inter,sans-serif" font-size="16" font-weight="600" x="640" y="92">80% escondido</text>
+<!-- divider -->
+<line stroke="#bfdbff" stroke-dasharray="5 5" stroke-width="2" x1="236" x2="236" y1="44" y2="126"></line>
+<!-- source -->
+<circle cx="110" cy="180" fill="url(#m42-src)" r="20"></circle>
+<text fill="#bfdbff" font-family="Inter,sans-serif" font-size="12" text-anchor="middle" x="110" y="222">fonte</text>
+<!-- exposure labels -->
+<g font-family="Inter,sans-serif" font-size="13" font-weight="600">
+<g><rect fill="#0e1622" height="40" rx="9" stroke="#3b82f6" stroke-width="2" width="180" x="300" y="160"></rect><text fill="#bfdbff" text-anchor="middle" x="390" y="185">exponha p/ o que importa</text></g>
+<g><rect fill="#0e1622" height="40" rx="9" stroke="#38bdf8" stroke-width="2" width="170" x="520" y="160"></rect><text fill="#bfeaff" text-anchor="middle" x="605" y="185">resto cai na sombra</text></g>
+<g><rect fill="#0e1622" height="40" rx="9" stroke="#38bdf8" stroke-width="2" width="170" x="730" y="160"></rect><text fill="#bfeaff" text-anchor="middle" x="815" y="185">= profundidade</text></g>
+</g>
+</svg>
+</div>
+<div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
+<p class="text-neutral-300 text-sm"><strong class="text-blue-400">Contraste de exposição:</strong> não tenha medo de queimar luzes ou esmagar sombras. O foco nasce justamente do que você decide deixar fora da exposição correta.</p>
+</div>
+</section>
+<!-- TÓPICO 5 -->
+<section class="mb-16" id="topico-5">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">5</span>
+<h2 class="text-2xl font-bold">🌫️ Camadas &amp; Contraste de Cor</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">A profundidade vem das <strong class="text-blue-400">camadas</strong>: primeiro plano, plano médio e fundo. Adicione névoa e a luz se torna visível no espaço. E os <strong class="text-blue-400">tons quentes e frios</strong> criam tensão, equilíbrio e emoção — é o contraste de cor que faz o quadro parecer vivo.</p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-blue-400 mb-1">🧱 Primeiro plano</h4><p class="text-sm text-neutral-300">Elementos próximos que emolduram e dão escala.</p></div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-blue-400 mb-1">🎯 Plano médio</h4><p class="text-sm text-neutral-300">Onde o sujeito vive — o foco de atenção.</p></div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-blue-400 mb-1">🌄 Fundo + névoa</h4><p class="text-sm text-neutral-300">A névoa torna a luz visível e empurra o fundo para longe.</p></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="bg-gradient-to-br from-amber-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6">
+<h4 class="font-bold text-blue-400 mb-2">🔥 Tons quentes</h4>
+<p class="text-sm text-neutral-300">Humanidade, conforto, vida. Atraem e acalmam.</p>
+</div>
+<div class="bg-gradient-to-br from-blue-900/40 to-dark-800 rounded-xl border border-blue-500/30 p-6">
+<h4 class="font-bold text-blue-400 mb-2">🧊 Tons frios</h4>
+<p class="text-sm text-neutral-300">Distância, perigo, vazio. Afastam e tensionam.</p>
+</div>
+</div>
+</section>
+<!-- TÓPICO 6 -->
+<section class="mb-16" id="topico-6">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">6</span>
+<h2 class="text-2xl font-bold">🔥 Luz Dinâmica</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">A luz deve <strong class="text-blue-400">se mover</strong>. Fogo, tochas, tremulação — eles trazem vida ao quadro. Luz estática parece morta; luz em movimento parece real.</p>
+<div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6">
+<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">🎯</span> Ideia central — Luz é emoção</h3>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+<div class="bg-dark-800/60 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">👁️</div><div class="text-xs text-neutral-300">Direciona a atenção</div></div>
+<div class="bg-dark-800/60 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">🌄</div><div class="text-xs text-neutral-300">Molda a profundidade</div></div>
+<div class="bg-dark-800/60 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">🎭</div><div class="text-xs text-neutral-300">Define o clima</div></div>
+<div class="bg-dark-800/60 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">❤️</div><div class="text-xs text-neutral-300">Cria o que sentimos</div></div>
+</div>
+</div>
+<div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
+<p class="text-neutral-300">Não apenas <strong class="text-blue-400">o que vemos</strong> — mas <strong class="text-blue-400">o que sentimos</strong>. Adicione palavras-chave de movimento de luz ("tremulação de fogo", "luz de tela piscando") para tirar a cena da imobilidade.</p>
+</div>
+</section>
+<!-- TAREFA -->
+<section class="mb-12">
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h2 class="text-xl font-bold text-primary mb-4 flex items-center"><span class="mr-2">📝</span> Tarefa — Controle pela Luz</h2>
+<p class="text-neutral-300 mb-4">Crie um prompt de vídeo de 5 a 15 segundos:</p>
+<ul class="space-y-2 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">💡</span><span>Descreva sujeito, ambiente, <strong>fontes de luz</strong>, cores e movimento de câmera.</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🌫️</span><span>Adicione de 3 a 5 palavras-chave fortes de clima.</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🔎</span><span><strong>Explique sua iluminação:</strong> por que a luz está posicionada assim? Como ela molda o sujeito? Que contraste você usa?</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🎯</span><span><strong>Objetivo:</strong> controlar o quadro através da luz e fazer o espectador sentir algo real.</span></li>
+</ul>
+</div>
+</section>
+<!-- RESUMO -->
+<section class="mb-12">
+<div class="bg-gradient-to-br from-blue-900/40 via-dark-800 to-dark-800 rounded-xl border border-blue-500/30 p-8">
+<h2 class="text-2xl font-bold mb-6 flex items-center"><span class="mr-3">📌</span> Resumo do Módulo</h2>
+<div class="space-y-4 mb-8">
+<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">Negative fill</strong><span class="text-neutral-400"> — remover luz cria mistério e profundidade.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">Edge contrast &amp; luz motivada</strong><span class="text-neutral-400"> — o olho segue o contraste; a fonte crível dá credibilidade.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">Regra 80/20</strong><span class="text-neutral-400"> — 20% visível, 80% escondido; exponha para o que importa.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">Camadas, cor e luz dinâmica</strong><span class="text-neutral-400"> — atmosfera, quente/frio e movimento dão vida ao quadro.</span></div></div>
+</div>
+<div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+<h3 class="font-semibold text-blue-400 mb-2">Próximo Módulo:</h3>
+<p class="text-neutral-300">4.3 — Profundidade e Estrutura Espacial</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="modulo-4-1.html">← Módulo Anterior</a>
+<a class="flex-1 text-center px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-500 transition-colors" href="modulo-4-3.html">Próximo Módulo →</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-dark-600 py-8 mt-8">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+<p>🎬 AI FILMMAKING — 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" target="_blank">INEMA.CLUB</a></p>
+</div>
+</footer>
+<script>
+    const themeToggle=document.getElementById('theme-toggle'),dIcon=document.getElementById('theme-toggle-dark-icon'),lIcon=document.getElementById('theme-toggle-light-icon'),html=document.documentElement;
+    if(localStorage.getItem('theme')==='light'){html.classList.remove('dark');dIcon.classList.remove('hidden');}else{lIcon.classList.remove('hidden');}
+    themeToggle.addEventListener('click',()=>{dIcon.classList.toggle('hidden');lIcon.classList.toggle('hidden');html.classList.toggle('dark');localStorage.setItem('theme',html.classList.contains('dark')?'dark':'light');});
+  </script>
+</body>
+</html>

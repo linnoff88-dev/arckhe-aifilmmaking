@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>1.3 Qué hace que algo sea cinematográfico | AI FILMMAKING</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = { darkMode: 'class', theme: { extend: { colors: {
+      primary: '#FACC15', dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' } } } } }
+  </script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+    html:not(.dark) .text-amber-400 { color: #92400e; }
+    html:not(.dark) .text-orange-400 { color: #c2410c; }
+    html:not(.dark) .text-rose-400 { color: #9f1239; }
+    html:not(.dark) .text-blue-400 { color: #2563eb; }
+    html:not(.dark) .text-teal-400 { color: #0d9488; }
+    html:not(.dark) .text-emerald-400 { color: #059669; }
+    html:not(.dark) .text-purple-400 { color: #7c3aed; }
+    html:not(.dark) .text-red-400 { color: #b91c1c; }
+    html:not(.dark) .bg-amber-500\/20 { background-color: rgba(217,119,6,.12); }
+    html:not(.dark) .bg-amber-500\/10 { background-color: rgba(217,119,6,.08); }
+    html:not(.dark) .border-amber-500\/30 { border-color: rgba(217,119,6,.25); }
+    html:not(.dark) .hover\:bg-orange-500\/10:hover { background-color: rgba(234,88,12,.08); }
+    html:not(.dark) .hover\:bg-rose-500\/10:hover { background-color: rgba(225,29,72,.08); }
+    html:not(.dark) .hover\:bg-blue-500\/10:hover { background-color: rgba(37,99,235,.08); }
+    html:not(.dark) .hover\:bg-teal-500\/10:hover { background-color: rgba(13,148,136,.08); }
+    html:not(.dark) .hover\:bg-emerald-500\/10:hover { background-color: rgba(5,150,105,.08); }
+    html:not(.dark) .hover\:bg-purple-500\/10:hover { background-color: rgba(124,58,237,.08); }
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+    html:not(.dark) .text-primary { color: #a16207; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(161,98,7,.08); }
+    html:not(.dark) .border-primary\/30 { border-color: rgba(161,98,7,.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255,255,255,.95); }
+    html:not(.dark) svg[role="img"] { filter: saturate(.82) brightness(.96); }
+    .dark .border-dark-600 { border-color: #374151; }
+    .dark .divide-dark-600 > :not([hidden]) ~ :not([hidden]) { border-color: #374151; }
+  </style>
+<link href="https://inematds.github.io/aifilmmaking/curso/trilha1/modulo-1-3.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/en/curso/trilha1/modulo-1-3.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/es/curso/trilha1/modulo-1-3.html" hreflang="es" rel="alternate"/></head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../../../curso/trilha1/modulo-1-3.html" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha1/modulo-1-3.html" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-1-3.html" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">ES</a></div>
+<!-- NAV -->
+<nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-14">
+<div class="flex items-center space-x-4">
+<a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html"><span class="text-2xl">🎬</span><span class="font-bold text-lg hidden sm:inline">AI FILMMAKING</span></a>
+<span class="text-neutral-600">|</span>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium" href="https://inema.club" target="_blank">INEMA.CLUB</a>
+</div>
+<div class="flex items-center space-x-1 sm:space-x-2 overflow-x-auto">
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-amber-400 bg-amber-500/10 whitespace-nowrap" href="index.html"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamentos</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-orange-400 hover:bg-orange-500/10 transition-colors whitespace-nowrap" href="../trilha2/index.html"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Preproducción</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-rose-400 hover:bg-rose-500/10 transition-colors whitespace-nowrap" href="../trilha3/index.html"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Actuación</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors whitespace-nowrap" href="../trilha4/index.html"><span class="sm:hidden">T4</span><span class="hidden sm:inline">Cinematografía</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-teal-400 hover:bg-teal-500/10 transition-colors whitespace-nowrap" href="../trilha5/index.html"><span class="sm:hidden">T5</span><span class="hidden sm:inline">IA visual</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors whitespace-nowrap" href="../trilha6/index.html"><span class="sm:hidden">T6</span><span class="hidden sm:inline">Posproducción</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors whitespace-nowrap" href="../trilha7/index.html"><span class="sm:hidden">T7</span><span class="hidden sm:inline">Carrera</span></a>
+<button class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2" id="theme-toggle">
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-dark-icon" viewbox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-light-icon" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd"></path></svg>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<!-- BREADCRUMB -->
+<nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="flex items-center space-x-2 text-sm text-neutral-400">
+<a class="hover:text-amber-400" href="../../index.html">Inicio</a><span>/</span>
+<a class="hover:text-amber-400" href="index.html">Ruta 1</a><span>/</span>
+<span class="text-amber-400">Módulo 1.3</span>
+</div>
+</nav>
+<!-- HEADER -->
+<header class="bg-gradient-to-br from-amber-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<span class="inline-block px-3 py-1 bg-amber-500/20 text-amber-400 text-xs font-semibold rounded-full mb-4">MÓDULO 1.3</span>
+<h1 class="text-3xl sm:text-4xl font-bold mb-4">✨ Qué hace que algo sea cinematográfico</h1>
+<p class="text-lg text-neutral-400 max-w-3xl">La calidad cinematográfica no viene de la IA: viene de la estructura. Los elementos visuales cinematográficos nacen de la claridad y el control, no de efectos aleatorios. Aquí cierras la Ruta 1 con la lista de verificación del director.</p>
+<div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">6</div><div class="text-xs text-neutral-400">Temas</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">40</div><div class="text-xs text-neutral-400">Minutos</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">Básico</div><div class="text-xs text-neutral-400">Nivel</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">Teoría</div><div class="text-xs text-neutral-400">Tipo</div></div>
+</div>
+</div>
+</header>
+<main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<!-- TÓPICO 1 -->
+<section class="mb-16" id="topico-1">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">1</span>
+<h2 class="text-2xl font-bold">✨ Estilo cinematográfico = claridad + control</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">La calidad cinematográfica no viene de la IA en sí: depende de cómo construyes y controlas el lenguaje visual. Los elementos visuales cinematográficos vienen de la <strong class="text-amber-400">estructura, no efectos aleatorios</strong>.</p>
+<div class="bg-gradient-to-br from-amber-900/30 to-dark-800 rounded-xl border border-amber-500/30 p-6 mb-6">
+<h3 class="text-lg font-semibold text-amber-400 mb-4 flex items-center"><span class="mr-2">🎯</span> La ecuación que lo rige todo</h3>
+<p class="text-neutral-300 mb-4">Un cuadro parece cinematográfico cuando reúne cinco elementos clave: todos son consecuencia de la claridad y el control, no de los filtros.</p>
+<ul class="space-y-2 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Tema claro</span></li>
+<li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Composición controlada</span></li>
+<li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Paleta de colores consistente</span></li>
+<li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Movimiento de cámara intencional</span></li>
+<li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Lógica visual estable</span></li>
+</ul>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
+<h4 class="font-bold text-emerald-400 mb-4">✓ Cinematográfico</h4>
+<ul class="space-y-3 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Estructura y lógica visual estables</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Cada elección es defendible</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>La claridad por encima de todo</span></li>
+</ul>
+</div>
+<div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
+<h4 class="font-bold text-red-400 mb-4">✗ "Parece IA"</h4>
+<ul class="space-y-3 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Efectos aleatorios superpuestos</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Ningún tema dominante</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Lógica visual inestable de un plano a otro</span></li>
+</ul>
+</div>
+</div>
+</section>
+<!-- TÓPICO 2 -->
+<section class="mb-16" id="topico-2">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">2</span>
+<h2 class="text-2xl font-bold">👁️ Ancla de atención</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">La pregunta clave para cada cuadro: <strong class="text-amber-400">¿qué ve primero el espectador?</strong> Todo encuadre debe tener un tema principal claro, que se entienda al instante.</p>
+<div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6 mb-6">
+<h3 class="text-lg font-semibold text-blue-400 mb-3 flex items-center"><span class="mr-2">🔎</span> Idea clave</h3>
+<p class="text-neutral-300">El espectador no debe <strong>buscar</strong> — debe <strong>entender</strong> la escena de inmediato. Si el ojo tiene que buscar el tema, la composición falló.</p>
+</div>
+<div class="rounded-2xl border border-amber-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden">
+<svg aria-label="Comparación: a la izquierda, elementos dispersos sin un foco; a la derecha, un único sujeto dominante que capta la mirada" class="w-full h-auto" role="img" viewbox="0 0 1000 220">
+<defs>
+<lineargradient id="m13-grad" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fbbf24"></stop><stop offset="1" stop-color="#f59e0b"></stop></lineargradient>
+<filter height="180%" id="m13-glow" width="180%" x="-40%" y="-40%"><fegaussianblur result="b" stddeviation="1.8"></fegaussianblur><femerge><femergenode in="b"></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter>
+<pattern height="32" id="m13-grid" patternunits="userSpaceOnUse" width="32"><circle cx="1.3" cy="1.3" fill="#f59e0b" opacity="0.12" r="1.3"></circle></pattern>
+</defs>
+<rect fill="url(#m13-grid)" height="220" width="1000" x="0" y="0"></rect>
+<line opacity="0.5" stroke="#9ca3af" stroke-dasharray="8 8" stroke-width="1.5" x1="500" x2="500" y1="20" y2="200"></line>
+<!-- Esquerda: disperso -->
+<rect fill="#0e1b26" height="160" opacity="0.7" rx="14" stroke="#38bdf8" stroke-width="2" width="420" x="40" y="30"></rect>
+<g fill="none" opacity="0.55" stroke="#9ca3af" stroke-width="2">
+<circle cx="110" cy="80" r="16"></circle><circle cx="200" cy="150" r="16"></circle><circle cx="300" cy="70" r="16"></circle><circle cx="380" cy="140" r="16"></circle><circle cx="250" cy="110" r="16"></circle>
+</g>
+<text fill="#bfe6ff" font-family="Inter,sans-serif" font-size="14" font-weight="600" text-anchor="middle" x="250" y="210">la mirada se pierde</text>
+<!-- Direita: foco -->
+<rect fill="#0e1b26" height="160" opacity="0.7" rx="14" stroke="#38bdf8" stroke-width="2" width="420" x="540" y="30"></rect>
+<g fill="none" opacity="0.3" stroke="#9ca3af" stroke-width="2">
+<circle cx="610" cy="70" r="12"></circle><circle cx="890" cy="150" r="12"></circle><circle cx="640" cy="160" r="12"></circle>
+</g>
+<g filter="url(#m13-glow)"><circle cx="750" cy="105" fill="#1f1604" r="34" stroke="url(#m13-grad)" stroke-width="2.5"></circle></g>
+<text fill="#fbbf24" font-family="Inter,sans-serif" font-size="22" font-weight="600" text-anchor="middle" x="750" y="112">★</text>
+<text fill="#fbbf24" font-family="Inter,sans-serif" font-size="14" font-weight="600" text-anchor="middle" x="750" y="210">tema dominante</text>
+</svg>
+</div>
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">💡</span> Consejo práctico</h3>
+<p class="text-neutral-300">Prueba de un segundo: mira tu encuadre durante solo un segundo y di en voz alta cuál es el tema. Si dudas, el espectador también lo hará.</p>
+</div>
+</section>
+<!-- TÓPICO 3 -->
+<section class="mb-16" id="topico-3">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">3</span>
+<h2 class="text-2xl font-bold">🌬️ Espacio negativo — respiro visual</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">El espacio vacío no es un error: él <strong class="text-amber-400">crea significado</strong>. El espacio forma parte de la estructura emocional del cuadro, y su cantidad cambia por completo lo que comunica la escena.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+<div class="bg-dark-800 rounded-xl border border-amber-500/30 p-6">
+<div class="text-3xl mb-3">🌌</div>
+<h4 class="font-bold text-amber-400 mb-2">Más espacio</h4>
+<p class="text-sm text-neutral-300">Libertad, escala, aislamiento. El sujeto se ve pequeño frente al mundo.</p>
+</div>
+<div class="bg-dark-800 rounded-xl border border-amber-500/30 p-6">
+<div class="text-3xl mb-3">🔒</div>
+<h4 class="font-bold text-amber-400 mb-2">Menos espacio</h4>
+<p class="text-sm text-neutral-300">Tensión, presión. El encuadre estrecha al sujeto y el espectador siente la asfixia.</p>
+</div>
+</div>
+<div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
+<h3 class="text-lg font-semibold text-blue-400 mb-3 flex items-center"><span class="mr-2">🔎</span> Idea clave</h3>
+<p class="text-neutral-300">En la escena del samurái en el puente, el vasto cañón vacío alrededor es espacio negativo que trabaja a favor de <strong>aislamiento</strong>. El vacío no es falta de contenido — es el contenido emocional.</p>
+</div>
+</section>
+<!-- TÓPICO 4 -->
+<section class="mb-16" id="topico-4">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">4</span>
+<h2 class="text-2xl font-bold">🧩 Técnicas de composición</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">La composición es cómo organizas el encuadre para guiar la mirada y generar emoción. Tres técnicas fundamentales cubren la mayoría de las decisiones:</p>
+<div class="space-y-6 mb-6">
+<div class="flex items-start space-x-4">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-amber-500/20 flex items-center justify-center"><span class="text-amber-400 font-bold">1</span></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600"><h4 class="font-semibold mb-2">Simetría</h4><p class="text-neutral-300 text-sm">Crea equilibrio y control. Se siente estable y monumental: ideal para transmitir poder, orden y ritual.</p></div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-amber-500/20 flex items-center justify-center"><span class="text-amber-400 font-bold">2</span></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600"><h4 class="font-semibold mb-2">Regla de los tercios</h4><p class="text-neutral-300 text-sm">Crea un flujo visual natural. Guía la mirada del espectador del sujeto al entorno.</p></div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-amber-500/20 flex items-center justify-center"><span class="text-amber-400 font-bold">3</span></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600"><h4 class="font-semibold mb-2">Ángulo holandés</h4><p class="text-neutral-300 text-sm">Señala el desequilibrio y crea tensión. Debe usarse con intención y moderación.</p></div>
+</div>
+</div>
+<div class="rounded-2xl border border-amber-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden">
+<svg aria-label="Tres composiciones lado a lado: simetría equilibrada, regla de los tercios con el sujeto en una intersección y ángulo holandés inclinado" class="w-full h-auto" role="img" viewbox="0 0 1000 230">
+<defs>
+<lineargradient id="m13b-grad" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fbbf24"></stop><stop offset="1" stop-color="#f59e0b"></stop></lineargradient>
+<filter height="180%" id="m13b-glow" width="180%" x="-40%" y="-40%"><fegaussianblur result="b" stddeviation="1.8"></fegaussianblur><femerge><femergenode in="b"></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter>
+<pattern height="32" id="m13b-grid" patternunits="userSpaceOnUse" width="32"><circle cx="1.3" cy="1.3" fill="#f59e0b" opacity="0.12" r="1.3"></circle></pattern>
+</defs>
+<rect fill="url(#m13b-grid)" height="230" width="1000" x="0" y="0"></rect>
+<!-- Simetria -->
+<rect fill="#0e1b26" height="150" rx="12" stroke="#38bdf8" stroke-width="2" width="280" x="30" y="30"></rect>
+<line opacity="0.6" stroke="#38bdf8" stroke-dasharray="6 6" stroke-width="1.5" x1="170" x2="170" y1="30" y2="180"></line>
+<circle cx="170" cy="105" fill="none" r="26" stroke="#fbbf24" stroke-width="2.5"></circle>
+<text fill="#fbbf24" font-family="Inter,sans-serif" font-size="15" font-weight="600" text-anchor="middle" x="170" y="210">simetría</text>
+<!-- Terços -->
+<rect fill="#0e1b26" height="150" rx="12" stroke="#38bdf8" stroke-width="2" width="280" x="360" y="30"></rect>
+<g opacity="0.45" stroke="#9ca3af" stroke-width="1.2">
+<line x1="453" x2="453" y1="30" y2="180"></line><line x1="546" x2="546" y1="30" y2="180"></line>
+<line x1="360" x2="640" y1="80" y2="80"></line><line x1="360" x2="640" y1="130" y2="130"></line>
+</g>
+<g filter="url(#m13b-glow)"><circle cx="546" cy="80" fill="#1f1604" r="22" stroke="url(#m13b-grad)" stroke-width="2.5"></circle></g>
+<text fill="#fbbf24" font-family="Inter,sans-serif" font-size="15" font-weight="600" text-anchor="middle" x="500" y="210">regla de los tercios</text>
+<!-- Holandês -->
+<g transform="rotate(-9 830 105)">
+<rect fill="#0e1b26" height="150" rx="12" stroke="#38bdf8" stroke-width="2" width="280" x="690" y="30"></rect>
+<circle cx="830" cy="105" fill="none" r="26" stroke="#fbbf24" stroke-width="2.5"></circle>
+</g>
+<text fill="#fbbf24" font-family="Inter,sans-serif" font-size="15" font-weight="600" text-anchor="middle" x="830" y="215">ángulo holandés</text>
+</svg>
+</div>
+<div class="bg-gradient-to-br from-amber-900/30 to-dark-800 rounded-xl border border-amber-500/30 p-6">
+<h3 class="text-lg font-semibold text-amber-400 mb-3 flex items-center"><span class="mr-2">⚠️</span> Usa el ángulo holandés con moderación</h3>
+<p class="text-neutral-300">El ángulo holandés es poderoso precisamente porque es poco común. Si se usa en cada plano, se vuelve un manierismo y pierde fuerza. Resérvalo para el momento exacto en que la escena necesita desestabilizar al espectador.</p>
+</div>
+</section>
+<!-- TÓPICO 5 -->
+<section class="mb-16" id="topico-5">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">5</span>
+<h2 class="text-2xl font-bold">🎨 Paleta consistente y lógica visual</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Una paleta de colores consistente es uno de los elementos que más diferencian lo cinematográfico de lo amateur. El color crea cohesión entre planos y une la escena en un solo mundo visual.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-amber-400 mb-1">Paleta consistente</h4><p class="text-sm text-neutral-300">Los mismos tonos dominantes en todos los planos. Por ejemplo, una corrección de color fría y desaturada mantiene la escena cohesionada.</p></div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-amber-400 mb-1">Movimiento intencional</h4><p class="text-sm text-neutral-300">La cámara solo se mueve cuando hay una razón. El movimiento parece natural, no impuesto.</p></div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-amber-400 mb-1">Lógica visual estable</h4><p class="text-sm text-neutral-300">Reglas de iluminación y composición mantenidas plano a plano. El ojo confía en el mundo.</p></div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-amber-400 mb-1">Conexión fluida</h4><p class="text-sm text-neutral-300">Los planos se enlazan sin sobresaltos. La edición construye fluidez sobre la coherencia visual.</p></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+<div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
+<h4 class="font-bold text-emerald-400 mb-4">✓ Paleta consistente</h4>
+<ul class="space-y-3 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Los mismos tonos dominantes en todos los planos</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>El color une la escena en un solo mundo</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>Cohesión visual entre planos</span></li>
+</ul>
+</div>
+<div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
+<h4 class="font-bold text-red-400 mb-4">✗ Color inconsistente</h4>
+<ul class="space-y-3 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Cada plano con una temperatura diferente</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>La escena se deshace en fragmentos sueltos</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Lógica visual inestable: «parece IA»</span></li>
+</ul>
+</div>
+</div>
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">💡</span> La calidad cinematográfica es un sistema</h3>
+<p class="text-neutral-300 mb-3">Ningún elemento aislado hace que el video sea cinematográfico: es la relación entre ellos:</p>
+<ul class="space-y-2 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">→</span><span><strong>Fotograma</strong> dirige la atención</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">→</span><span><strong>Composición</strong> crea significado</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">→</span><span><strong>Edición</strong> construye fluidez</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">→</span><span><strong>IA</strong> apoya el proceso</span></li>
+</ul>
+<p class="text-neutral-300 mt-3 font-semibold">La IA no vuelve cinematográfico tu video. Tú lo haces.</p>
+</div>
+</section>
+<!-- TÓPICO 6 -->
+<section class="mb-16" id="topico-6">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">6</span>
+<h2 class="text-2xl font-bold">✅ Checklist final del director</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Antes de finalizar cualquier video, responde estas siete preguntas. Si todas tienen como respuesta "sí", tienes un resultado cinematográfico.</p>
+<div class="bg-gradient-to-br from-amber-900/30 to-dark-800 rounded-xl border border-amber-500/30 p-6 mb-6">
+<ul class="space-y-3 text-neutral-300">
+<li class="flex items-start space-x-3"><span class="text-amber-400 mt-0.5">☐</span><span>¿El tema principal queda claro en menos de un segundo?</span></li>
+<li class="flex items-start space-x-3"><span class="text-amber-400 mt-0.5">☐</span><span>¿La composición es intencional?</span></li>
+<li class="flex items-start space-x-3"><span class="text-amber-400 mt-0.5">☐</span><span>¿Se usó el espacio correctamente?</span></li>
+<li class="flex items-start space-x-3"><span class="text-amber-400 mt-0.5">☐</span><span>¿La paleta de colores es consistente?</span></li>
+<li class="flex items-start space-x-3"><span class="text-amber-400 mt-0.5">☐</span><span>¿El movimiento parece natural?</span></li>
+<li class="flex items-start space-x-3"><span class="text-amber-400 mt-0.5">☐</span><span>¿Los planos se conectan con fluidez?</span></li>
+<li class="flex items-start space-x-3"><span class="text-amber-400 mt-0.5">☐</span><span>¿Se usó la herramienta adecuada para cada tarea?</span></li>
+</ul>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">🖼️</div><div class="text-xs text-neutral-400">Fotograma → atención</div></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">🧩</div><div class="text-xs text-neutral-400">Composición → significado</div></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">✂️</div><div class="text-xs text-neutral-400">Edición → fluidez</div></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600 text-center"><div class="text-2xl mb-1">🤖</div><div class="text-xs text-neutral-400">IA → apoyo</div></div>
+</div>
+</section>
+<!-- TAREFA -->
+<section class="mb-12">
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h2 class="text-xl font-bold text-primary mb-4 flex items-center"><span class="mr-2">📝</span> Tarea — Un video cinematográfico corto</h2>
+<p class="text-neutral-300 mb-4">Crea un video cinematográfico corto con IA usando la herramienta que prefieras: Freepik, Seedance, Kling, Luma o Runway. Después, responde:</p>
+<ul class="space-y-2 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🧰</span><span><strong>¿Por qué elegiste esta herramienta?</strong></span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🧩</span><span><strong>¿Cómo controlaste la composición?</strong></span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🎨</span><span><strong>¿Cómo gestionaste el movimiento, el color y la atención?</strong></span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">✨</span><span><strong>¿Qué te ayudó a lograr un resultado cinematográfico?</strong></span></li>
+</ul>
+</div>
+</section>
+<!-- RESUMO -->
+<section class="mb-12">
+<div class="bg-gradient-to-br from-amber-900/40 via-dark-800 to-dark-800 rounded-xl border border-amber-500/30 p-8">
+<h2 class="text-2xl font-bold mb-6 flex items-center"><span class="mr-3">📌</span> Resumen del módulo</h2>
+<div class="space-y-4 mb-8">
+<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">✓</span><div><strong class="text-white">Claridad + control</strong><span class="text-neutral-400"> — el estilo cinematográfico nace de la estructura, no de efectos aleatorios.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">✓</span><div><strong class="text-white">Ancla de atención</strong><span class="text-neutral-400"> — el espectador entiende la escena en un segundo, no tiene que buscarla.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">✓</span><div><strong class="text-white">Espacio negativo</strong><span class="text-neutral-400"> — más = aislamiento/escala; menos = tensión/presión.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">✓</span><div><strong class="text-white">Composición</strong><span class="text-neutral-400"> — simetría, regla de los tercios, ángulo holandés (con moderación).</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">✓</span><div><strong class="text-white">Sistema, no filtro</strong><span class="text-neutral-400"> — los frames, la composición, la edición y la IA trabajan juntos. Tú haces que sea cinematográfico.</span></div></div>
+</div>
+<div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+<h3 class="font-semibold text-amber-400 mb-2">¡Completaste la Ruta 1!</h3>
+<p class="text-neutral-300">Siguiente etapa: Ruta 2 — Preproducción y guion. Es hora de transformar el pensamiento del director en un pipeline real, del guion a los fotogramas.</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="index.html">← Volver a la ruta</a>
+<a class="flex-1 text-center px-6 py-3 bg-amber-600 text-white rounded-lg font-semibold hover:bg-amber-500 transition-colors" href="../trilha2/index.html">Ruta 2: Preproducción →</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-dark-600 py-8 mt-8">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+<p>🎬 AI FILMMAKING — 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" target="_blank">INEMA.CLUB</a></p>
+</div>
+</footer>
+<script>
+    const themeToggle=document.getElementById('theme-toggle'),dIcon=document.getElementById('theme-toggle-dark-icon'),lIcon=document.getElementById('theme-toggle-light-icon'),html=document.documentElement;
+    if(localStorage.getItem('theme')==='light'){html.classList.remove('dark');dIcon.classList.remove('hidden');}else{lIcon.classList.remove('hidden');}
+    themeToggle.addEventListener('click',()=>{dIcon.classList.toggle('hidden');lIcon.classList.toggle('hidden');html.classList.toggle('dark');localStorage.setItem('theme',html.classList.contains('dark')?'dark':'light');});
+  </script>
+</body>
+</html>

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>5.3 YAML Control in Seedance 2 | AI FILMMAKING</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = { darkMode: 'class', theme: { extend: { colors: {
+      primary: '#2DD4BF', dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' } } } } }
+  </script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+    html:not(.dark) .text-amber-400 { color: #92400e; }
+    html:not(.dark) .text-orange-400 { color: #c2410c; }
+    html:not(.dark) .text-rose-400 { color: #9f1239; }
+    html:not(.dark) .text-blue-400 { color: #2563eb; }
+    html:not(.dark) .text-teal-400 { color: #0d9488; }
+    html:not(.dark) .text-emerald-400 { color: #059669; }
+    html:not(.dark) .text-purple-400 { color: #7c3aed; }
+    html:not(.dark) .text-red-400 { color: #b91c1c; }
+    html:not(.dark) .bg-teal-500\/20 { background-color: rgba(13,148,136,.12); }
+    html:not(.dark) .bg-teal-500\/10 { background-color: rgba(13,148,136,.08); }
+    html:not(.dark) .border-teal-500\/30 { border-color: rgba(13,148,136,.25); }
+    html:not(.dark) .hover\:bg-amber-500\/10:hover { background-color: rgba(217,119,6,.08); }
+    html:not(.dark) .hover\:bg-orange-500\/10:hover { background-color: rgba(234,88,12,.08); }
+    html:not(.dark) .hover\:bg-rose-500\/10:hover { background-color: rgba(225,29,72,.08); }
+    html:not(.dark) .hover\:bg-blue-500\/10:hover { background-color: rgba(37,99,235,.08); }
+    html:not(.dark) .hover\:bg-teal-500\/10:hover { background-color: rgba(13,148,136,.08); }
+    html:not(.dark) .hover\:bg-emerald-500\/10:hover { background-color: rgba(5,150,105,.08); }
+    html:not(.dark) .hover\:bg-purple-500\/10:hover { background-color: rgba(124,58,237,.08); }
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+    html:not(.dark) .text-primary { color: #0f766e; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(15,118,110,.08); }
+    html:not(.dark) .border-primary\/30 { border-color: rgba(15,118,110,.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255,255,255,.95); }
+    html:not(.dark) svg[role="img"] { filter: saturate(.82) brightness(.96); }
+    html:not(.dark) .yaml-box { background-color: #0f172a; }
+    .dark .border-dark-600 { border-color: #374151; }
+    .dark .divide-dark-600 > :not([hidden]) ~ :not([hidden]) { border-color: #374151; }
+  </style>
+<link href="https://inematds.github.io/aifilmmaking/curso/trilha5/modulo-5-3.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/en/curso/trilha5/modulo-5-3.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/aifilmmaking/es/curso/trilha5/modulo-5-3.html" hreflang="es" rel="alternate"/></head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../../../curso/trilha5/modulo-5-3.html" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-5-3.html" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">EN</a><a href="../../../es/curso/trilha5/modulo-5-3.html" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<!-- NAV -->
+<nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-14">
+<div class="flex items-center space-x-4">
+<a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html"><span class="text-2xl">🎬</span><span class="font-bold text-lg hidden sm:inline">AI FILMMAKING</span></a>
+<span class="text-neutral-600">|</span>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium" href="https://inema.club" target="_blank">INEMA.CLUB</a>
+</div>
+<div class="flex items-center space-x-1 sm:space-x-2 overflow-x-auto">
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors whitespace-nowrap" href="../trilha1/index.html"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamentals</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-orange-400 hover:bg-orange-500/10 transition-colors whitespace-nowrap" href="../trilha2/index.html"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Pre-production</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-rose-400 hover:bg-rose-500/10 transition-colors whitespace-nowrap" href="../trilha3/index.html"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Performance</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors whitespace-nowrap" href="../trilha4/index.html"><span class="sm:hidden">T4</span><span class="hidden sm:inline">Cinematography</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-teal-400 bg-teal-500/10 whitespace-nowrap" href="index.html"><span class="sm:hidden">T5</span><span class="hidden sm:inline">Visual AI</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors whitespace-nowrap" href="../trilha6/index.html"><span class="sm:hidden">T6</span><span class="hidden sm:inline">Post-production</span></a>
+<a class="px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors whitespace-nowrap" href="../trilha7/index.html"><span class="sm:hidden">T7</span><span class="hidden sm:inline">Career</span></a>
+<button class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2" id="theme-toggle">
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-dark-icon" viewbox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+<svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-light-icon" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd"></path></svg>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<!-- BREADCRUMB -->
+<nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="flex items-center space-x-2 text-sm text-neutral-400">
+<a class="hover:text-teal-400" href="../../index.html">Beginning</a><span>/</span>
+<a class="hover:text-teal-400" href="index.html">Track 5</a><span>/</span>
+<span class="text-teal-400">Module 5.3</span>
+</div>
+</nav>
+<!-- HEADER -->
+<header class="bg-gradient-to-br from-teal-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<span class="inline-block px-3 py-1 bg-teal-500/20 text-teal-400 text-xs font-semibold rounded-full mb-4">MODULE 5.3</span>
+<h1 class="text-3xl sm:text-4xl font-bold mb-4">🧾 YAML Control in Seedance 2</h1>
+<p class="text-lg text-neutral-400 max-w-3xl">AI doesn’t think—it interprets structure. That’s why we use YAML: it’s not just formatting, it’s a control system. Storyboard, locked character, and structured transitions let you control the video like a filmmaker.</p>
+<div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">6</div><div class="text-xs text-neutral-400">Topics</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">45</div><div class="text-xs text-neutral-400">Minutes</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">Advanced</div><div class="text-xs text-neutral-400">Level</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">Practice</div><div class="text-xs text-neutral-400">Type</div></div>
+</div>
+</div>
+</header>
+<main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<!-- TÓPICO 1 -->
+<section class="mb-16" id="topico-1">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">1</span>
+<h2 class="text-2xl font-bold">🧠 Why YAML Works</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">AI doesn’t think—it <strong class="text-teal-400">interprets structure</strong>. Instead of one long, confusing prompt, we divide everything into logical blocks: camera, action, lighting, transitions. Clear structure = predictable results.</p>
+<div class="rounded-2xl border border-teal-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden">
+<svg aria-label="A long prompt becomes structured YAML blocks that the AI executes predictably" class="w-full h-auto" role="img" viewbox="0 0 1000 180">
+<defs>
+<lineargradient id="m53-grad" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#2dd4bf"></stop><stop offset="1" stop-color="#14b8a6"></stop></lineargradient>
+<filter height="180%" id="m53-glow" width="180%" x="-40%" y="-40%"><fegaussianblur result="b" stddeviation="1.6"></fegaussianblur><femerge><femergenode in="b"></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter>
+<pattern height="32" id="m53-grid" patternunits="userSpaceOnUse" width="32"><circle cx="1.3" cy="1.3" fill="#14b8a6" opacity="0.12" r="1.3"></circle></pattern>
+<marker id="m53-ah" markerheight="9" markerwidth="9" orient="auto" refx="6.5" refy="4.5"><path d="M0,0 L8,4.5 L0,9 L2.4,4.5 Z" fill="#2dd4bf"></path></marker>
+</defs>
+<rect fill="url(#m53-grid)" height="180" width="1000" x="0" y="0"></rect>
+<g filter="url(#m53-glow)"><rect fill="#0c1f1c" height="64" rx="14" stroke="url(#m53-grad)" stroke-width="2" width="180" x="40" y="58"></rect></g>
+<text fill="#2dd4bf" font-family="Inter,sans-serif" font-size="15" font-weight="600" text-anchor="middle" x="130" y="86">Long prompt</text>
+<text fill="#a7f3e6" font-family="Inter,sans-serif" font-size="12" text-anchor="middle" x="130" y="106">the model improvises</text>
+<g font-family="Inter,sans-serif" font-size="12" font-weight="600">
+<g><rect fill="#0e1b26" height="28" rx="8" stroke="#38bdf8" stroke-width="2" width="150" x="430" y="14"></rect><text fill="#bfe6ff" text-anchor="middle" x="505" y="32">camera</text></g>
+<g><rect fill="#0e1b26" height="28" rx="8" stroke="#38bdf8" stroke-width="2" width="150" x="430" y="54"></rect><text fill="#bfe6ff" text-anchor="middle" x="505" y="72">action</text></g>
+<g><rect fill="#0e1b26" height="28" rx="8" stroke="#38bdf8" stroke-width="2" width="150" x="430" y="94"></rect><text fill="#bfe6ff" text-anchor="middle" x="505" y="112">lighting</text></g>
+<g><rect fill="#0e1b26" height="28" rx="8" stroke="#38bdf8" stroke-width="2" width="150" x="430" y="134"></rect><text fill="#bfe6ff" text-anchor="middle" x="505" y="152">transitions</text></g>
+</g>
+<g fill="none" opacity="0.55" stroke="#2dd4bf" stroke-width="2">
+<path d="M220,90 C320,90 350,28 430,28" marker-end="url(#m53-ah)"></path>
+<path d="M220,90 C320,90 350,68 430,68" marker-end="url(#m53-ah)"></path>
+<path d="M220,90 C320,90 350,108 430,108" marker-end="url(#m53-ah)"></path>
+<path d="M220,90 C320,90 350,148 430,148" marker-end="url(#m53-ah)"></path>
+</g>
+<g fill="none" opacity="0.5" stroke="#14b8a6" stroke-width="1.8">
+<path d="M580,28 C700,28 740,90 780,90"></path>
+<path d="M580,68 C700,68 740,90 780,90"></path>
+<path d="M580,108 C700,108 740,90 780,90"></path>
+<path d="M580,148 C700,148 740,90 780,90"></path>
+</g>
+<g filter="url(#m53-glow)"><rect fill="#0c1f1c" height="64" rx="14" stroke="url(#m53-grad)" stroke-width="2" width="180" x="780" y="58"></rect></g>
+<text fill="#2dd4bf" font-family="Inter,sans-serif" font-size="15" font-weight="600" text-anchor="middle" x="870" y="86">Predictable</text>
+<text fill="#a7f3e6" font-family="Inter,sans-serif" font-size="12" text-anchor="middle" x="870" y="106">filmmaker control</text>
+</svg>
+</div>
+<div class="bg-gradient-to-br from-teal-900/30 to-dark-800 rounded-xl border border-teal-500/30 p-6">
+<h3 class="text-lg font-semibold text-teal-400 mb-3 flex items-center"><span class="mr-2">🎬</span> Central principle</h3>
+<p class="text-neutral-300">Without a storyboard, the model improvises and breaks continuity. We start with a clear character and a 6-shot storyboard: <strong>drone → scale · wide → speed · medium → control · close-up → emotion · action → jump · wide → release</strong>.</p>
+</div>
+</section>
+<!-- TÓPICO 2 -->
+<section class="mb-16" id="topico-2">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">2</span>
+<h2 class="text-2xl font-bold">🔒 The Identity Lock</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">We lock in the character using the reference. This preserves their face, proportions, and design—no drift, no redesigns.</p>
+<div class="yaml-box bg-dark-900 rounded-xl border border-teal-500/30 p-6 mb-6 overflow-x-auto">
+<div class="text-xs text-teal-400 font-semibold mb-3 uppercase tracking-wide">YAML — identity lock</div>
+<pre class="text-sm font-mono whitespace-pre leading-relaxed"><span class="text-purple-400">character:</span>
+  <span class="text-sky-400">id:</span> protagonist
+  <span class="text-sky-400">base:</span> <span class="text-emerald-400">"matching reference @image1 with strict identity lock"</span>
+  <span class="text-sky-400">lock:</span>
+    - face
+    - proportions
+    - design
+  <span class="text-sky-400">consistency:</span> <span class="text-emerald-400">"all shots — no drift, no redesign"</span></pre>
+</div>
+<div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
+<h3 class="text-lg font-semibold text-blue-400 mb-3 flex items-center"><span class="mr-2">🔎</span> What the lock preserves</h3>
+<ul class="space-y-2 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>Face</strong> — with no change between shots</span></li>
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>Aspect ratios</strong> — stable body and scale</span></li>
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>Design</strong> — consistent wardrobe and features</span></li>
+</ul>
+</div>
+</section>
+<!-- TÓPICO 3 -->
+<section class="mb-16" id="topico-3">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">3</span>
+<h2 class="text-2xl font-bold">🧱 The Building Blocks: Camera, Action, Lighting, Transitions</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Each block controls one dimension of the scene. See a complete shot, with time blocks in the format <span class="font-mono text-teal-400">00_02</span>:</p>
+<div class="yaml-box bg-dark-900 rounded-xl border border-teal-500/30 p-6 mb-6 overflow-x-auto">
+<div class="text-xs text-teal-400 font-semibold mb-3 uppercase tracking-wide">YAML — shot block</div>
+<pre class="text-sm font-mono whitespace-pre leading-relaxed"><span class="text-purple-400">shot_03:</span>
+  <span class="text-sky-400">camera:</span>
+    <span class="text-sky-400">type:</span> tracking
+    <span class="text-sky-400">angle:</span> low
+    <span class="text-sky-400">behavior:</span> steady
+  <span class="text-sky-400">action:</span>
+    <span class="text-sky-400">00_02:</span> <span class="text-emerald-400">"rider accelerates, dust rises behind"</span>
+    <span class="text-sky-400">02_04:</span> <span class="text-emerald-400">"jump off the cliff edge, body leans forward"</span>
+  <span class="text-sky-400">lighting:</span>
+    <span class="text-sky-400">key:</span> <span class="text-emerald-400">"golden hour, sun from camera left"</span>
+    <span class="text-sky-400">mood:</span> <span class="text-emerald-400">"warm, high contrast"</span>
+  <span class="text-sky-400">transition_out:</span> whip_pan</pre>
+</div>
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">💡</span> Functional separation</h3>
+<p class="text-neutral-300">The strength of YAML is that it isolates each function. <strong>Camera ≠ action.</strong> When something breaks, it’s obvious which block to adjust—you don’t rewrite everything.</p>
+</div>
+</section>
+<!-- TÓPICO 4 -->
+<section class="mb-16" id="topico-4">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">4</span>
+<h2 class="text-2xl font-bold">📐 The Essential YAML Rules</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">If the structure breaks, the result breaks. These are the non-negotiable rules:</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-teal-400 mb-1">One function per field</h4><p class="text-sm text-neutral-300">Camera ≠ action. Do not mix roles in the same field.</p></div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-teal-400 mb-1">Simple, controlled camera</h4><p class="text-sm text-neutral-300">A logical path per shot, without excessive movement.</p></div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-teal-400 mb-1">Physical movement, not ideas</h4><p class="text-sm text-neutral-300">Describe what moves, not abstract concepts.</p></div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-teal-400 mb-1">Always include lighting</h4><p class="text-sm text-neutral-300">Never leave the light source to chance.</p></div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-teal-400 mb-1">Set time blocks</h4><p class="text-sm text-neutral-300"><span class="font-mono text-teal-400">00_02, 02_04...</span> — divide the action over time.</p></div>
+<div class="bg-dark-800 rounded-xl border border-dark-600 p-5"><h4 class="font-bold text-teal-400 mb-1">Write the transitions</h4><p class="text-sm text-neutral-300">Explicit in every shot — never implicit.</p></div>
+</div>
+</section>
+<!-- TÓPICO 5 -->
+<section class="mb-16" id="topico-5">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">5</span>
+<h2 class="text-2xl font-bold">✂️ The Transitions — Applied</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">Transitions control pacing, emotion, and attention. They define how the scene is <em>felt</em>.</p>
+<div class="space-y-4 mb-6">
+<div class="flex items-start space-x-4">
+<div class="flex-shrink-0 w-28 text-center"><span class="inline-block px-2 py-1 rounded bg-teal-500/20 text-teal-400 text-xs font-mono">cut</span></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-4 border border-dark-600"><h4 class="font-semibold mb-1">Hard cut → structure</h4><p class="text-neutral-300 text-sm">The foundation that organizes the sequence.</p></div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="flex-shrink-0 w-28 text-center"><span class="inline-block px-2 py-1 rounded bg-teal-500/20 text-teal-400 text-xs font-mono">whip_pan</span></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-4 border border-dark-600"><h4 class="font-semibold mb-1">Fast pan → speed</h4><p class="text-neutral-300 text-sm">Connects shots with energy and movement.</p></div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="flex-shrink-0 w-28 text-center"><span class="inline-block px-2 py-1 rounded bg-teal-500/20 text-teal-400 text-xs font-mono">smash_cut</span></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-4 border border-dark-600"><h4 class="font-semibold mb-1">Impact cut → impact</h4><p class="text-neutral-300 text-sm">Abrupt cut for shock or surprise.</p></div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="flex-shrink-0 w-28 text-center"><span class="inline-block px-2 py-1 rounded bg-teal-500/20 text-teal-400 text-xs font-mono">match_on_action</span></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-4 border border-dark-600"><h4 class="font-semibold mb-1">Match-on-action cut → fluidity</h4><p class="text-neutral-300 text-sm">Hide the cut within a continuous movement.</p></div>
+</div>
+</div>
+<div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
+<h3 class="text-lg font-semibold text-red-400 mb-3 flex items-center"><span class="mr-2">⚠️</span> AI limitations</h3>
+<p class="text-neutral-300">In Seedance, transitions often break — movement can drift, timing can fail, shots can collapse. That’s normal. AI doesn’t execute perfectly — it approximates. You need to iterate.</p>
+</div>
+</section>
+<!-- TÓPICO 6 -->
+<section class="mb-16" id="topico-6">
+<div class="flex items-center space-x-4 mb-6">
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">6</span>
+<h2 class="text-2xl font-bold">🎞️ Cinematic Structure</h2>
+</div>
+<p class="text-neutral-300 mb-6 leading-relaxed">A good sequence <strong class="text-teal-400">flows</strong>. This is the backbone of every well-directed scene in Seedance 2:</p>
+<div class="rounded-2xl border border-teal-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden">
+<svg aria-label="The sequence flows from scale to speed, emotion, action, and release" class="w-full h-auto" role="img" viewbox="0 0 1000 120">
+<defs>
+<marker id="m53b-ah" markerheight="9" markerwidth="9" orient="auto" refx="6.5" refy="4.5"><path d="M0,0 L8,4.5 L0,9 L2.4,4.5 Z" fill="#2dd4bf"></path></marker>
+<pattern height="32" id="m53b-grid" patternunits="userSpaceOnUse" width="32"><circle cx="1.3" cy="1.3" fill="#14b8a6" opacity="0.1" r="1.3"></circle></pattern>
+</defs>
+<rect fill="url(#m53b-grid)" height="120" width="1000" x="0" y="0"></rect>
+<g font-family="Inter,sans-serif" font-size="13" font-weight="600">
+<g><rect fill="#0c1f1c" height="36" rx="10" stroke="#14b8a6" stroke-width="2" width="150" x="20" y="44"></rect><text fill="#2dd4bf" text-anchor="middle" x="95" y="67">scale</text></g>
+<g><rect fill="#0c1f1c" height="36" rx="10" stroke="#14b8a6" stroke-width="2" width="150" x="220" y="44"></rect><text fill="#2dd4bf" text-anchor="middle" x="295" y="67">speed</text></g>
+<g><rect fill="#0c1f1c" height="36" rx="10" stroke="#14b8a6" stroke-width="2" width="150" x="420" y="44"></rect><text fill="#2dd4bf" text-anchor="middle" x="495" y="67">emotion</text></g>
+<g><rect fill="#0c1f1c" height="36" rx="10" stroke="#14b8a6" stroke-width="2" width="150" x="620" y="44"></rect><text fill="#2dd4bf" text-anchor="middle" x="695" y="67">action</text></g>
+<g><rect fill="#0c1f1c" height="36" rx="10" stroke="#14b8a6" stroke-width="2" width="150" x="820" y="44"></rect><text fill="#2dd4bf" text-anchor="middle" x="895" y="67">release</text></g>
+</g>
+<g fill="none" opacity="0.7" stroke="#2dd4bf" stroke-width="2.2">
+<path d="M170,62 L220,62" marker-end="url(#m53b-ah)"></path>
+<path d="M370,62 L420,62" marker-end="url(#m53b-ah)"></path>
+<path d="M570,62 L620,62" marker-end="url(#m53b-ah)"></path>
+<path d="M770,62 L820,62" marker-end="url(#m53b-ah)"></path>
+</g>
+</svg>
+</div>
+<div class="bg-gradient-to-br from-teal-900/30 to-dark-800 rounded-xl border border-teal-500/30 p-6">
+<h3 class="text-lg font-semibold text-teal-400 mb-3 flex items-center"><span class="mr-2">🎥</span> Final idea</h3>
+<p class="text-neutral-300">This is cinematic structure. The goal isn't just to generate video — it's to <strong>control it</strong> like a filmmaker.</p>
+</div>
+</section>
+<!-- TAREFA -->
+<section class="mb-12">
+<div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
+<h2 class="text-xl font-bold text-primary mb-4 flex items-center"><span class="mr-2">📝</span> Task — 6-Shot Sequence in YAML</h2>
+<p class="text-neutral-300 mb-4">Create a sequence of 6 shots:</p>
+<ul class="space-y-2 text-neutral-300">
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🎬</span><span>Build a storyboard</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">🧾</span><span>Write a YAML prompt</span></li>
+<li class="flex items-start space-x-2"><span class="text-primary mt-1">✂️</span><span>Apply at least 3 transitions</span></li>
+</ul>
+<p class="text-neutral-300 mt-4">The goal is control, not just generation. 🎬</p>
+</div>
+</section>
+<!-- RESUMO -->
+<section class="mb-12">
+<div class="bg-gradient-to-br from-teal-900/40 via-dark-800 to-dark-800 rounded-xl border border-teal-500/30 p-8">
+<h2 class="text-2xl font-bold mb-6 flex items-center"><span class="mr-3">📌</span> Module Summary</h2>
+<div class="space-y-4 mb-8">
+<div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">YAML is control</strong><span class="text-neutral-400"> — AI interprets structure; it doesn't think.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Identity Lock</strong><span class="text-neutral-400"> — <span class="font-mono text-xs">strict identity lock</span> preserves the face, proportions, and design.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">One function per field</strong><span class="text-neutral-400"> — time blocks 00_02; explicit transitions.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Flow</strong><span class="text-neutral-400"> — scale → speed → emotion → action → release.</span></div></div>
+</div>
+<div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+<h3 class="font-semibold text-teal-400 mb-2">Next Module:</h3>
+<p class="text-neutral-300">5.4 — Practical Visual Effects</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="index.html">← Back to Track</a>
+<a class="flex-1 text-center px-6 py-3 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-500 transition-colors" href="modulo-5-4.html">Next Module →</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-dark-600 py-8 mt-8">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+<p>🎬 AI FILMMAKING — 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" target="_blank">INEMA.CLUB</a></p>
+</div>
+</footer>
+<script>
+    const themeToggle=document.getElementById('theme-toggle'),dIcon=document.getElementById('theme-toggle-dark-icon'),lIcon=document.getElementById('theme-toggle-light-icon'),html=document.documentElement;
+    if(localStorage.getItem('theme')==='light'){html.classList.remove('dark');dIcon.classList.remove('hidden');}else{lIcon.classList.remove('hidden');}
+    themeToggle.addEventListener('click',()=>{dIcon.classList.toggle('hidden');lIcon.classList.toggle('hidden');html.classList.toggle('dark');localStorage.setItem('theme',html.classList.contains('dark')?'dark':'light');});
+  </script>
+</body>
+</html>
