@@ -1,486 +1,486 @@
-# Bloco 1 — Traduções
+# Bloco 1 â€” TraduÃ§Ãµes
 
 ## Link do projeto
 
 Projeto no Magnific: https://www.magnific.com/app/spaces/a18e3886-f90d-4d97-9585-0ac53886ec54?page=1
 
-Observação: quando o material mencionar **Freepik Spaces**, considere como **Magnific Spaces / antigo Freepik Spaces**, pois o link do projeto está no Magnific.
+ObservaÃ§Ã£o: quando o material mencionar **Freepik Spaces**, considere como **Magnific Spaces / antigo Freepik Spaces**, pois o link do projeto estÃ¡ no Magnific.
 
 ---
 
 ## AI FILMMAKING: A Estrutura do Diretor!
 
-Olá, pessoal! O Módulo 0 do curso **AI FILMMAKING** está oficialmente no ar. Vamos direto para a execução cinematográfica.
+OlÃ¡, pessoal! O MÃ³dulo 0 do curso **AI FILMMAKING** estÃ¡ oficialmente no ar. Vamos direto para a execuÃ§Ã£o cARCKHÉtogrÃ¡fica.
 
-⚠️ **A REGRA CENTRAL:** ferramentas de IA não criam intenção — elas executam direção.
+âš ï¸ **A REGRA CENTRAL:** ferramentas de IA nÃ£o criam intenÃ§Ã£o â€” elas executam direÃ§Ã£o.
 
-Se uma cena não tem raciocínio de câmera, o resultado sempre vai parecer um caos aleatório gerado por IA.
+Se uma cena nÃ£o tem raciocÃ­nio de cÃ¢mera, o resultado sempre vai parecer um caos aleatÃ³rio gerado por IA.
 
 **Nesta aula:**
 
-**Lógica e Hierarquia de Câmera** — Controle de movimento e enquadramento.
+**LÃ³gica e Hierarquia de CÃ¢mera** â€” Controle de movimento e enquadramento.
 
-**O Conceito de Âncora** — Mudança de foco com base no formato:  
-Filme = personagem, Anúncios = produto, Videoclipes = ritmo.
+**O Conceito de Ã‚ncora** â€” MudanÃ§a de foco com base no formato:  
+Filme = personagem, AnÃºncios = produto, Videoclipes = ritmo.
 
-**O Conjunto de Ferramentas** — As funções exatas de Seedance, Kling, Runway, Midjourney e Freepik.
+**O Conjunto de Ferramentas** â€” As funÃ§Ãµes exatas de Seedance, Kling, Runway, Midjourney e Freepik.
 
-📚 **TAREFA: O Teste do Diretor**
+ðŸ“š **TAREFA: O Teste do Diretor**
 
-Crie uma sequência curta de 2 planos, com 3 a 5 segundos por plano, para um Filme, Anúncio ou Videoclipe.
+Crie uma sequÃªncia curta de 2 planos, com 3 a 5 segundos por plano, para um Filme, AnÃºncio ou Videoclipe.
 
-🎯 **Defina sua Âncora:** Qual é o foco principal? Emoção, produto ou ritmo?
+ðŸŽ¯ **Defina sua Ã‚ncora:** Qual Ã© o foco principal? EmoÃ§Ã£o, produto ou ritmo?
 
-🎬 **Justifique seus planos:** Escreva apenas uma frase para cada plano respondendo: por que esse movimento de câmera e esse enquadramento?
+ðŸŽ¬ **Justifique seus planos:** Escreva apenas uma frase para cada plano respondendo: por que esse movimento de cÃ¢mera e esse enquadramento?
 
-🎯 **Objetivo:** Provar que sua cena é guiada por uma escolha deliberada de direção, e não por uma geração aleatória.
+ðŸŽ¯ **Objetivo:** Provar que sua cena Ã© guiada por uma escolha deliberada de direÃ§Ã£o, e nÃ£o por uma geraÃ§Ã£o aleatÃ³ria.
 
 ---
 
-## Módulo 0 — A Estrutura do Diretor
+## MÃ³dulo 0 â€” A Estrutura do Diretor
 
-A próxima aula avança diretamente para a execução prática.
+A prÃ³xima aula avanÃ§a diretamente para a execuÃ§Ã£o prÃ¡tica.
 
-Este curso se concentra no pensamento cinematográfico — como construir cenas estruturadas com IA para linguagem de cinema, publicidade, videoclipes e visuais de marca.
+Este curso se concentra no pensamento cARCKHÉtogrÃ¡fico â€” como construir cenas estruturadas com IA para linguagem de cARCKHÉ, publicidade, videoclipes e visuais de marca.
 
-Ferramentas de IA não criam intenção.  
-Elas executam direção.
+Ferramentas de IA nÃ£o criam intenÃ§Ã£o.  
+Elas executam direÃ§Ã£o.
 
-Se uma cena não tem lógica interna, ponto focal definido ou raciocínio de câmera, o resultado sempre parecerá inconsistente, não importa quão avançado seja o modelo.
+Se uma cena nÃ£o tem lÃ³gica interna, ponto focal definido ou raciocÃ­nio de cÃ¢mera, o resultado sempre parecerÃ¡ inconsistente, nÃ£o importa quÃ£o avanÃ§ado seja o modelo.
 
 Dentro deste programa, focamos em:
 
-• Hierarquia visual  
-• Lógica de câmera  
-• Controle de movimento  
-• Âncora emocional  
-• Leitura da cena
+â€¢ Hierarquia visual  
+â€¢ LÃ³gica de cÃ¢mera  
+â€¢ Controle de movimento  
+â€¢ Ã‚ncora emocional  
+â€¢ Leitura da cena
 
-Cada ferramenta — Seedance, Kling, Runway, Midjourney, Luma, Freepik — tem uma função definida dentro do fluxo de trabalho, desde a geração de cenas individuais até sequências cinematográficas completas.
+Cada ferramenta â€” Seedance, Kling, Runway, Midjourney, Luma, Freepik â€” tem uma funÃ§Ã£o definida dentro do fluxo de trabalho, desde a geraÃ§Ã£o de cenas individuais atÃ© sequÃªncias cARCKHÉtogrÃ¡ficas completas.
 
-No cinema, a âncora é o personagem.  
-Na publicidade, a âncora é o produto, a ideia ou a transformação.  
-Nos videoclipes, a âncora é o ritmo e a escalada emocional.
+No cARCKHÉ, a Ã¢ncora Ã© o personagem.  
+Na publicidade, a Ã¢ncora Ã© o produto, a ideia ou a transformaÃ§Ã£o.  
+Nos videoclipes, a Ã¢ncora Ã© o ritmo e a escalada emocional.
 
 Antes de gerar qualquer coisa, perguntamos:
 
-Por que este ângulo?  
+Por que este Ã¢ngulo?  
 Por que este movimento?  
-Por que esta duração?  
-Por que esta escolha de iluminação?
+Por que esta duraÃ§Ã£o?  
+Por que esta escolha de iluminaÃ§Ã£o?
 
-Se a decisão não pode ser justificada, ela enfraquece a cena.
+Se a decisÃ£o nÃ£o pode ser justificada, ela enfraquece a cena.
 
-Esta estrutura define como abordamos todos os módulos práticos que vêm a seguir.
+Esta estrutura define como abordamos todos os mÃ³dulos prÃ¡ticos que vÃªm a seguir.
 
-O nível Comunidade Profissional recebe pipelines completos de produção dentro de cada aula.
+O nÃ­vel Comunidade Profissional recebe pipelines completos de produÃ§Ã£o dentro de cada aula.
 
-Próxima aula: construção aplicada de cena.
+PrÃ³xima aula: construÃ§Ã£o aplicada de cena.
 
 ---
 
-## Aula 1 — Controle Espacial Cinematográfico
+## Aula 1 â€” Controle Espacial CARCKHÉtogrÃ¡fico
 
-A próxima aula avança diretamente para a execução prática.
+A prÃ³xima aula avanÃ§a diretamente para a execuÃ§Ã£o prÃ¡tica.
 
-Este curso se concentra no pensamento cinematográfico — como construir cenas estruturadas com IA para linguagem de cinema, publicidade, videoclipes e visuais de marca.
+Este curso se concentra no pensamento cARCKHÉtogrÃ¡fico â€” como construir cenas estruturadas com IA para linguagem de cARCKHÉ, publicidade, videoclipes e visuais de marca.
 
-Ferramentas de IA não criam intenção.  
-Elas executam direção.
+Ferramentas de IA nÃ£o criam intenÃ§Ã£o.  
+Elas executam direÃ§Ã£o.
 
-Se uma cena não tem lógica interna, ponto focal definido ou raciocínio de câmera, o resultado sempre parecerá inconsistente, não importa quão avançado seja o modelo.
+Se uma cena nÃ£o tem lÃ³gica interna, ponto focal definido ou raciocÃ­nio de cÃ¢mera, o resultado sempre parecerÃ¡ inconsistente, nÃ£o importa quÃ£o avanÃ§ado seja o modelo.
 
 Dentro deste programa, focamos em:
 
-• Hierarquia visual  
-• Lógica de câmera  
-• Controle de movimento  
-• Âncora emocional  
-• Leitura da cena
+â€¢ Hierarquia visual  
+â€¢ LÃ³gica de cÃ¢mera  
+â€¢ Controle de movimento  
+â€¢ Ã‚ncora emocional  
+â€¢ Leitura da cena
 
-Cada ferramenta — Seedance, Kling, Runway, Midjourney, Luma, Freepik — tem uma função definida dentro do fluxo de trabalho, desde a geração de cenas individuais até sequências cinematográficas completas.
+Cada ferramenta â€” Seedance, Kling, Runway, Midjourney, Luma, Freepik â€” tem uma funÃ§Ã£o definida dentro do fluxo de trabalho, desde a geraÃ§Ã£o de cenas individuais atÃ© sequÃªncias cARCKHÉtogrÃ¡ficas completas.
 
-No cinema, a âncora é o personagem.  
-Na publicidade, a âncora é o produto, a ideia ou a transformação.  
-Nos videoclipes, a âncora é o ritmo e a escalada emocional.
+No cARCKHÉ, a Ã¢ncora Ã© o personagem.  
+Na publicidade, a Ã¢ncora Ã© o produto, a ideia ou a transformaÃ§Ã£o.  
+Nos videoclipes, a Ã¢ncora Ã© o ritmo e a escalada emocional.
 
 Antes de gerar qualquer coisa, perguntamos:
 
-Por que este ângulo?  
+Por que este Ã¢ngulo?  
 Por que este movimento?  
-Por que esta duração?  
-Por que esta escolha de iluminação?
+Por que esta duraÃ§Ã£o?  
+Por que esta escolha de iluminaÃ§Ã£o?
 
-Se a decisão não pode ser justificada, ela enfraquece a cena.
+Se a decisÃ£o nÃ£o pode ser justificada, ela enfraquece a cena.
 
-Esta estrutura define como abordamos todos os módulos práticos que vêm a seguir.
+Esta estrutura define como abordamos todos os mÃ³dulos prÃ¡ticos que vÃªm a seguir.
 
-O nível Comunidade Profissional recebe pipelines completos de produção dentro de cada aula.
+O nÃ­vel Comunidade Profissional recebe pipelines completos de produÃ§Ã£o dentro de cada aula.
 
-Próxima aula: construção aplicada de cena.
+PrÃ³xima aula: construÃ§Ã£o aplicada de cena.
 
 ---
 
-## Aula 2 — Do Roteiro à Cena (Light)
+## Aula 2 â€” Do Roteiro Ã  Cena (Light)
 
 **9:18**
 
-### Do Fragmento de Roteiro à Sequência Visual
+### Do Fragmento de Roteiro Ã  SequÃªncia Visual
 
-No cinema profissional, toda cena começa muito antes de a câmera começar a gravar.
+No cARCKHÉ profissional, toda cena comeÃ§a muito antes de a cÃ¢mera comeÃ§ar a gravar.
 
-Diretores, diretores de fotografia, designers de produção e artistas conceituais colaboram para transformar uma simples ideia escrita em um plano visual.
+Diretores, diretores de fotografia, designers de produÃ§Ã£o e artistas conceituais colaboram para transformar uma simples ideia escrita em um plano visual.
 
 Nesta aula, vamos replicar esse mesmo fluxo de trabalho usando ferramentas modernas de IA.
 
-Nosso objetivo não é simplesmente gerar imagens.
+Nosso objetivo nÃ£o Ã© simplesmente gerar imagens.
 
-Nosso objetivo é simular um pipeline real de produção cinematográfica — da interpretação do roteiro aos frames cinematográficos finais.
+Nosso objetivo Ã© simular um pipeline real de produÃ§Ã£o cARCKHÉtogrÃ¡fica â€” da interpretaÃ§Ã£o do roteiro aos frames cARCKHÉtogrÃ¡ficos finais.
 
-Ao final desta aula, você entenderá como um único criador pode realizar o trabalho de uma equipe inteira de pré-produção com a ajuda da IA.
+Ao final desta aula, vocÃª entenderÃ¡ como um Ãºnico criador pode realizar o trabalho de uma equipe inteira de prÃ©-produÃ§Ã£o com a ajuda da IA.
 
-### O Que Você Vai Aprender
+### O Que VocÃª Vai Aprender
 
-Nesta aula, vamos construir uma cena cinematográfica completa a partir de um pequeno fragmento de roteiro.
+Nesta aula, vamos construir uma cena cARCKHÉtogrÃ¡fica completa a partir de um pequeno fragmento de roteiro.
 
-Você aprenderá como:
+VocÃª aprenderÃ¡ como:
 
-• interpretar uma cena como um diretor  
-• dividir a tensão narrativa em elementos visuais  
-• construir um storyboard usando IA  
-• desenhar um personagem cinematográfico  
-• desenvolver figurino e objetos de cena para consistência visual  
-• criar um ambiente com atmosfera narrativa  
-• converter o storyboard em uma lista de planos  
-• gerar frames cinematográficos finais prontos para produção em vídeo
+â€¢ interpretar uma cena como um diretor  
+â€¢ dividir a tensÃ£o narrativa em elementos visuais  
+â€¢ construir um storyboard usando IA  
+â€¢ desenhar um personagem cARCKHÉtogrÃ¡fico  
+â€¢ desenvolver figurino e objetos de cena para consistÃªncia visual  
+â€¢ criar um ambiente com atmosfera narrativa  
+â€¢ converter o storyboard em uma lista de planos  
+â€¢ gerar frames cARCKHÉtogrÃ¡ficos finais prontos para produÃ§Ã£o em vÃ­deo
 
 Em outras palavras, vamos construir um pipeline visual completo para uma cena de filme.
 
-### O Fluxo Cinematográfico
+### O Fluxo CARCKHÉtogrÃ¡fico
 
-O cinema profissional sempre segue um processo estruturado.
+O cARCKHÉ profissional sempre segue um processo estruturado.
 
-**Roteiro → Storyboard → Personagem → Figurino → Ambiente → Lista de Planos → Frames Finais**
+**Roteiro â†’ Storyboard â†’ Personagem â†’ Figurino â†’ Ambiente â†’ Lista de Planos â†’ Frames Finais**
 
-Cada etapa informa a próxima.
+Cada etapa informa a prÃ³xima.
 
-Essa estrutura remove a aleatoriedade e a substitui por intenção cinematográfica.
+Essa estrutura remove a aleatoriedade e a substitui por intenÃ§Ã£o cARCKHÉtogrÃ¡fica.
 
-Nesta aula, seguiremos a mesma sequência usando ferramentas de IA.
+Nesta aula, seguiremos a mesma sequÃªncia usando ferramentas de IA.
 
-### Etapa 1 — Análise do Roteiro
+### Etapa 1 â€” AnÃ¡lise do Roteiro
 
-Toda cena cinematográfica começa com um roteiro.
+Toda cena cARCKHÉtogrÃ¡fica comeÃ§a com um roteiro.
 
-Dentro do **Magnific Spaces — antigo Freepik Spaces**, começamos criando um Nó de Texto e escrevendo uma breve descrição da cena.
+Dentro do **Magnific Spaces â€” antigo Freepik Spaces**, comeÃ§amos criando um NÃ³ de Texto e escrevendo uma breve descriÃ§Ã£o da cena.
 
 **Exemplo de cena:**
 
-Um samurai solitário caminha por uma longa ponte suspensa entre duas montanhas.  
-Chuva e neblina preenchem o cânion abaixo.  
-Ele segura uma katana e sente que alguém — ou alguma coisa — pode estar observando.
+Um samurai solitÃ¡rio caminha por uma longa ponte suspensa entre duas montanhas.  
+Chuva e neblina preenchem o cÃ¢nion abaixo.  
+Ele segura uma katana e sente que alguÃ©m â€” ou alguma coisa â€” pode estar observando.
 
 Antes de criar qualquer imagem, um diretor sempre faz uma pergunta fundamental:
 
-**O que o público deve sentir neste momento?**
+**O que o pÃºblico deve sentir neste momento?**
 
-Nesta cena, as emoções são:
+Nesta cena, as emoÃ§Ãµes sÃ£o:
 
-• isolamento  
-• tensão  
-• antecipação de confronto
+â€¢ isolamento  
+â€¢ tensÃ£o  
+â€¢ antecipaÃ§Ã£o de confronto
 
-Essas emoções vão determinar ângulos de câmera, iluminação e composição.
+Essas emoÃ§Ãµes vÃ£o determinar Ã¢ngulos de cÃ¢mera, iluminaÃ§Ã£o e composiÃ§Ã£o.
 
-### Etapa 2 — Desenvolvimento do Storyboard
+### Etapa 2 â€” Desenvolvimento do Storyboard
 
-O storyboard é a primeira linguagem visual da direção.
+O storyboard Ã© a primeira linguagem visual da direÃ§Ã£o.
 
 Ele define:
 
-• enquadramento  
-• perspectiva de câmera  
-• ritmo visual  
-• escalada da tensão
+â€¢ enquadramento  
+â€¢ perspectiva de cÃ¢mera  
+â€¢ ritmo visual  
+â€¢ escalada da tensÃ£o
 
-Usando o Assistente de IA, convertemos o roteiro em um esboço de storyboard com seis planos, mostrando a progressão cinematográfica da cena.
+Usando o Assistente de IA, convertemos o roteiro em um esboÃ§o de storyboard com seis planos, mostrando a progressÃ£o cARCKHÉtogrÃ¡fica da cena.
 
 Esse storyboard inicial permite entender como a cena se desenvolve visualmente antes de criar imagens detalhadas.
 
-### Etapa 3 — Design do Personagem
+### Etapa 3 â€” Design do Personagem
 
-No cinema tradicional, essa etapa pertence aos departamentos de casting e arte conceitual.
+No cARCKHÉ tradicional, essa etapa pertence aos departamentos de casting e arte conceitual.
 
-No nosso fluxo de trabalho, geramos um personagem cinematográfico usando IA.
+No nosso fluxo de trabalho, geramos um personagem cARCKHÉtogrÃ¡fico usando IA.
 
-O personagem deve ser criado em um ambiente de estúdio neutro para isolar o design.
+O personagem deve ser criado em um ambiente de estÃºdio neutro para isolar o design.
 
 Focamos em:
 
-• proporções realistas  
-• base de roupas convincente  
-• iluminação natural  
-• pose neutra
+â€¢ proporÃ§Ãµes realistas  
+â€¢ base de roupas convincente  
+â€¢ iluminaÃ§Ã£o natural  
+â€¢ pose neutra
 
-Isso cria um personagem de referência limpo, que depois poderá ser vestido e colocado no ambiente.
+Isso cria um personagem de referÃªncia limpo, que depois poderÃ¡ ser vestido e colocado no ambiente.
 
-### Etapa 4 — Figurino e Objetos de Cena
+### Etapa 4 â€” Figurino e Objetos de Cena
 
-Em seguida, construímos a identidade visual do personagem.
+Em seguida, construÃ­mos a identidade visual do personagem.
 
-Na produção cinematográfica, isso é feito pelos departamentos de figurino e objetos de cena.
+Na produÃ§Ã£o cARCKHÉtogrÃ¡fica, isso Ã© feito pelos departamentos de figurino e objetos de cena.
 
-No nosso pipeline, geramos as roupas e armas como objetos de referência separados em estúdio.
+No nosso pipeline, geramos as roupas e armas como objetos de referÃªncia separados em estÃºdio.
 
 Isso inclui:
 
-• roupa de samurai  
-• chapéu kasa tradicional  
-• espada katana
+â€¢ roupa de samurai  
+â€¢ chapÃ©u kasa tradicional  
+â€¢ espada katana
 
-Cada objeto é renderizado com iluminação de estúdio para depois poder ser combinado com o personagem.
+Cada objeto Ã© renderizado com iluminaÃ§Ã£o de estÃºdio para depois poder ser combinado com o personagem.
 
-### Etapa 5 — Design do Ambiente
+### Etapa 5 â€” Design do Ambiente
 
-Em pipelines profissionais de VFX, personagens e ambientes são criados separadamente.
+Em pipelines profissionais de VFX, personagens e ambientes sÃ£o criados separadamente.
 
-Seguimos o mesmo princípio.
+Seguimos o mesmo princÃ­pio.
 
 O ambiente da cena se torna:
 
-Uma ponte suspensa estreita entre penhascos, acima de um cânion profundo.
+Uma ponte suspensa estreita entre penhascos, acima de um cÃ¢nion profundo.
 
 Elementos de atmosfera:
 
-• chuva forte  
-• neblina em movimento  
-• vento intenso
+â€¢ chuva forte  
+â€¢ neblina em movimento  
+â€¢ vento intenso
 
-O design do ambiente define escala e tensão dramática.
+O design do ambiente define escala e tensÃ£o dramÃ¡tica.
 
 Uma ponte estreita cria vulnerabilidade.  
-Um cânion gigantesco cria escala cinematográfica.
+Um cÃ¢nion gigantesco cria escala cARCKHÉtogrÃ¡fica.
 
-### Etapa 6 — Lista de Planos
+### Etapa 6 â€” Lista de Planos
 
-Depois de entender a cena visualmente, traduzimos isso em um plano de cinematografia.
+Depois de entender a cena visualmente, traduzimos isso em um plano de cARCKHÉtografia.
 
 Uma lista de planos define:
 
-• tipo de plano  
-• posição da câmera  
-• movimento de câmera  
-• propósito narrativo
+â€¢ tipo de plano  
+â€¢ posiÃ§Ã£o da cÃ¢mera  
+â€¢ movimento de cÃ¢mera  
+â€¢ propÃ³sito narrativo
 
-Nesta etapa, a IA atua efetivamente como diretora e diretora de fotografia, ajudando a desenhar como o público vivencia a cena.
+Nesta etapa, a IA atua efetivamente como diretora e diretora de fotografia, ajudando a desenhar como o pÃºblico vivencia a cena.
 
-### Etapa 7 — Geração dos Frames
+### Etapa 7 â€” GeraÃ§Ã£o dos Frames
 
-Depois que a lista de planos é estabelecida, geramos os frames cinematográficos finais.
+Depois que a lista de planos Ã© estabelecida, geramos os frames cARCKHÉtogrÃ¡ficos finais.
 
-As imagens do storyboard são separadas em planos individuais.
+As imagens do storyboard sÃ£o separadas em planos individuais.
 
-Cada frame se torna um still cinematográfico pronto para produção.
+Cada frame se torna um still cARCKHÉtogrÃ¡fico pronto para produÃ§Ã£o.
 
 Esses frames podem ser usados posteriormente para:
 
-• geração de vídeo com IA  
-• pipelines de animação  
-• pré-visualização de filme  
-• apresentações de pitch
+â€¢ geraÃ§Ã£o de vÃ­deo com IA  
+â€¢ pipelines de animaÃ§Ã£o  
+â€¢ prÃ©-visualizaÃ§Ã£o de filme  
+â€¢ apresentaÃ§Ãµes de pitch
 
 ### Resultado Final
 
 Ao final deste fluxo de trabalho, temos:
 
-• um roteiro  
-• um storyboard  
-• um personagem desenhado  
-• figurino e objetos de cena  
-• um ambiente  
-• uma lista de planos cinematográficos  
-• frames cinematográficos finais
+â€¢ um roteiro  
+â€¢ um storyboard  
+â€¢ um personagem desenhado  
+â€¢ figurino e objetos de cena  
+â€¢ um ambiente  
+â€¢ uma lista de planos cARCKHÉtogrÃ¡ficos  
+â€¢ frames cARCKHÉtogrÃ¡ficos finais
 
 Em outras palavras:
 
-um pacote completo de pré-produção para uma cena de filme.
+um pacote completo de prÃ©-produÃ§Ã£o para uma cena de filme.
 
-### Tarefa — Estilo Escola de Cinema
+### Tarefa â€” Estilo Escola de CARCKHÉ
 
-Crie sua própria cena cinematográfica curta usando o pipeline desta aula.
+Crie sua prÃ³pria cena cARCKHÉtogrÃ¡fica curta usando o pipeline desta aula.
 
 **Requisitos:**
 
-• Escreva uma breve descrição da cena, com 3 a 4 frases  
-• Identifique o tom emocional da cena  
-• Gere um storyboard com 5 a 6 planos  
-• Crie o design de um personagem em um ambiente de estúdio neutro  
-• Crie pelo menos uma referência de figurino ou objeto de cena  
-• Gere um ambiente para a cena  
-• Produza frames cinematográficos finais
+â€¢ Escreva uma breve descriÃ§Ã£o da cena, com 3 a 4 frases  
+â€¢ Identifique o tom emocional da cena  
+â€¢ Gere um storyboard com 5 a 6 planos  
+â€¢ Crie o design de um personagem em um ambiente de estÃºdio neutro  
+â€¢ Crie pelo menos uma referÃªncia de figurino ou objeto de cena  
+â€¢ Gere um ambiente para a cena  
+â€¢ Produza frames cARCKHÉtogrÃ¡ficos finais
 
 Ao publicar seu resultado, explique:
 
-• que emoção você queria que o público sentisse  
-• por que escolheu determinados ângulos de câmera  
-• como o ambiente apoia a tensão da cena
+â€¢ que emoÃ§Ã£o vocÃª queria que o pÃºblico sentisse  
+â€¢ por que escolheu determinados Ã¢ngulos de cÃ¢mera  
+â€¢ como o ambiente apoia a tensÃ£o da cena
 
 Lembre-se:
 
-O objetivo não são imagens perfeitas.
+O objetivo nÃ£o sÃ£o imagens perfeitas.
 
-### Projeto da Aula — Pipeline Completo de Produção
+### Projeto da Aula â€” Pipeline Completo de ProduÃ§Ã£o
 
-Este é o projeto completo criado durante a aula.
+Este Ã© o projeto completo criado durante a aula.
 
-Dentro dele, você encontrará o Space completo, incluindo prompts, nós e fluxo de trabalho usados para construir a cena.
+Dentro dele, vocÃª encontrarÃ¡ o Space completo, incluindo prompts, nÃ³s e fluxo de trabalho usados para construir a cena.
 
 ---
 
-## Aula 3 — Do Frame ao Movimento (Light)
+## Aula 3 â€” Do Frame ao Movimento (Light)
 
 **3:27**
 
-Hoje levamos o projeto para o próximo nível.
+Hoje levamos o projeto para o prÃ³ximo nÃ­vel.
 
-Saímos dos frames estáticos e entramos em uma sequência cinematográfica totalmente animada.
+SaÃ­mos dos frames estÃ¡ticos e entramos em uma sequÃªncia cARCKHÉtogrÃ¡fica totalmente animada.
 
-👉 **Projeto desta aula:** https://www.magnific.com/app/spaces/a18e3886-f90d-4d97-9585-0ac53886ec54?page=1
+ðŸ‘‰ **Projeto desta aula:** https://www.magnific.com/app/spaces/a18e3886-f90d-4d97-9585-0ac53886ec54?page=1
 
-Abra e explore o fluxo de trabalho completo baseado em nós usado nesta aula.
+Abra e explore o fluxo de trabalho completo baseado em nÃ³s usado nesta aula.
 
-### Sobre o Que É Esta Etapa
+### Sobre o Que Ã‰ Esta Etapa
 
-Não estamos gerando clipes aleatórios.
+NÃ£o estamos gerando clipes aleatÃ³rios.
 
-Estamos construindo uma sequência cinematográfica controlada, onde cada plano se conecta, flui e apoia a história.
+Estamos construindo uma sequÃªncia cARCKHÉtogrÃ¡fica controlada, onde cada plano se conecta, flui e apoia a histÃ³ria.
 
-É aqui que seu projeto começa a parecer um filme.
+Ã‰ aqui que seu projeto comeÃ§a a parecer um filme.
 
 ### O Fluxo de Trabalho
 
-### Etapa 1 — Sequência Primeiro
+### Etapa 1 â€” SequÃªncia Primeiro
 
 Voltamos ao storyboard e organizamos todos os planos na ordem correta.
 
 Isso define o fluxo narrativo.
 
-Se a sequência estiver errada, o vídeo inteiro parecerá desconectado.
+Se a sequÃªncia estiver errada, o vÃ­deo inteiro parecerÃ¡ desconectado.
 
-### Etapa 2 — Assistente (Criação de Prompt)
+### Etapa 2 â€” Assistente (CriaÃ§Ã£o de Prompt)
 
-Em seguida, adicionamos um nó de Assistente.
+Em seguida, adicionamos um nÃ³ de Assistente.
 
-Aqui geramos prompts de vídeo com base no roteiro e na lista de planos.
+Aqui geramos prompts de vÃ­deo com base no roteiro e na lista de planos.
 
-Você pode usar o ChatGPT externamente ou diretamente dentro do nó.
+VocÃª pode usar o ChatGPT externamente ou diretamente dentro do nÃ³.
 
-### Etapa 3 — Nó de Lista (Prompts Plano a Plano)
+### Etapa 3 â€” NÃ³ de Lista (Prompts Plano a Plano)
 
-Agora criamos um prompt de animação separado para cada plano.
+Agora criamos um prompt de animaÃ§Ã£o separado para cada plano.
 
-Esta é a etapa mais importante do pipeline.
+Esta Ã© a etapa mais importante do pipeline.
 
-Prompts melhores = vídeos melhores.
+Prompts melhores = vÃ­deos melhores.
 
-### Etapa 4 — Gerador de Vídeo
+### Etapa 4 â€” Gerador de VÃ­deo
 
-Conectamos tudo ao nó Gerador de Vídeo.
+Conectamos tudo ao nÃ³ Gerador de VÃ­deo.
 
 Dentro dele, escolhemos:
 
-• Kling 3.0  
-• resolução  
-• duração
+â€¢ Kling 3.0  
+â€¢ resoluÃ§Ã£o  
+â€¢ duraÃ§Ã£o
 
-Depois geramos a sequência.
+Depois geramos a sequÃªncia.
 
-### Etapa 5 — Iteração
+### Etapa 5 â€” IteraÃ§Ã£o
 
-O primeiro resultado não será perfeito.
+O primeiro resultado nÃ£o serÃ¡ perfeito.
 
 Gere novamente, refine os prompts e melhore o movimento.
 
 Isso faz parte do processo.
 
-### Etapa 6 — Revisão dos Clipes
+### Etapa 6 â€” RevisÃ£o dos Clipes
 
 Baixe e revise cada clipe.
 
 Mantenha os planos fortes. Remova os fracos.
 
-### Etapa 7 — Montagem Final
+### Etapa 7 â€” Montagem Final
 
 Para melhores resultados, edite manualmente no Premiere Pro.
 
-É aqui que sua sequência se transforma em um filme.
+Ã‰ aqui que sua sequÃªncia se transforma em um filme.
 
 ### Tarefa
 
 Anime seu storyboard usando este pipeline.
 
-Foque em continuidade, movimento e fluxo cinematográfico.
+Foque em continuidade, movimento e fluxo cARCKHÉtogrÃ¡fico.
 
-Nos vemos na próxima aula.
+Nos vemos na prÃ³xima aula.
 
 ### Antes de Gerar
 
-Neste ponto, você já tem:
+Neste ponto, vocÃª jÃ¡ tem:
 
-• uma sequência de planos  
-• prompts estruturados  
-• um pipeline funcionando
+â€¢ uma sequÃªncia de planos  
+â€¢ prompts estruturados  
+â€¢ um pipeline funcionando
 
 Agora tudo se resume a uma coisa:
 
-o quão claramente você descreve o movimento.
+o quÃ£o claramente vocÃª descreve o movimento.
 
-A maioria dos resultados fracos não vem de ideias ruins —
+A maioria dos resultados fracos nÃ£o vem de ideias ruins â€”
 
-vem de uma direção de câmera pouco clara.
+vem de uma direÃ§Ã£o de cÃ¢mera pouco clara.
 
-A IA não “torna algo cinematográfico” sozinha.
+A IA nÃ£o â€œtorna algo cARCKHÉtogrÃ¡ficoâ€ sozinha.
 
-Ela executa o que você diz.
+Ela executa o que vocÃª diz.
 
-Então, antes de gerar seus planos, você precisa de uma compreensão simples de como o movimento de câmera realmente funciona.
+EntÃ£o, antes de gerar seus planos, vocÃª precisa de uma compreensÃ£o simples de como o movimento de cÃ¢mera realmente funciona.
 
 ---
 
-## Movimento de Câmera Cinematográfico — Guia Prático
+## Movimento de CÃ¢mera CARCKHÉtogrÃ¡fico â€” Guia PrÃ¡tico
 
-Pense em cada plano como uma combinação de apenas três coisas:
+Pense em cada plano como uma combinaÃ§Ã£o de apenas trÃªs coisas:
 
-• onde a câmera está  
-• como ela se move  
-• o que o sujeito está fazendo
+â€¢ onde a cÃ¢mera estÃ¡  
+â€¢ como ela se move  
+â€¢ o que o sujeito estÃ¡ fazendo
 
 Se isso estiver claro, seu resultado vai funcionar.
 
-### 1. Movimento de Câmera — Principal Condutor
+### 1. Movimento de CÃ¢mera â€” Principal Condutor
 
-Esta é a parte mais importante do seu prompt.
+Esta Ã© a parte mais importante do seu prompt.
 
 Use um movimento claro por plano:
 
-• **dolly in** → aproxima a câmera do sujeito, adicionando tensão  
-• **tracking shot** → acompanha o movimento, adicionando fluidez  
-• **orbit** → circula ao redor do sujeito, adicionando profundidade  
-• **pan / tilt** → deslocamento direcional simples
+â€¢ **dolly in** â†’ aproxima a cÃ¢mera do sujeito, adicionando tensÃ£o  
+â€¢ **tracking shot** â†’ acompanha o movimento, adicionando fluidez  
+â€¢ **orbit** â†’ circula ao redor do sujeito, adicionando profundidade  
+â€¢ **pan / tilt** â†’ deslocamento direcional simples
 
-💡 Comece com estes três:
+ðŸ’¡ Comece com estes trÃªs:
 
 **dolly in + tracking + orbit**
 
-Isso já cobre a maioria dos planos cinematográficos.
+Isso jÃ¡ cobre a maioria dos planos cARCKHÉtogrÃ¡ficos.
 
-### 2. Distância e Enquadramento
+### 2. DistÃ¢ncia e Enquadramento
 
-Isso define o quão próximo o espectador está:
+Isso define o quÃ£o prÃ³ximo o espectador estÃ¡:
 
-• **close-up** → emoção, detalhe  
-• **plano médio** → foco no personagem  
-• **plano aberto** → ambiente e escala
+â€¢ **close-up** â†’ emoÃ§Ã£o, detalhe  
+â€¢ **plano mÃ©dio** â†’ foco no personagem  
+â€¢ **plano aberto** â†’ ambiente e escala
 
 Pergunte a si mesmo:
 
@@ -488,52 +488,52 @@ O que o espectador deve sentir neste momento?
 
 ### 3. Profundidade e Ambiente
 
-Planos cinematográficos parecem reais por causa da profundidade:
+Planos cARCKHÉtogrÃ¡ficos parecem reais por causa da profundidade:
 
-• primeiro plano — objetos, cabos, elementos  
-• fundo — neblina, distância, luz  
-• paralaxe — camadas se movendo de formas diferentes
+â€¢ primeiro plano â€” objetos, cabos, elementos  
+â€¢ fundo â€” neblina, distÃ¢ncia, luz  
+â€¢ paralaxe â€” camadas se movendo de formas diferentes
 
-Movimentos como tracking e orbit realçam isso naturalmente.
+Movimentos como tracking e orbit realÃ§am isso naturalmente.
 
 ### 4. Estilo de Movimento
 
-Isso define a sensação do plano:
+Isso define a sensaÃ§Ã£o do plano:
 
-• **steadycam** → suave, controlado  
-• **handheld** → cru, instável  
-• **slow motion** → pesado, dramático
+â€¢ **steadycam** â†’ suave, controlado  
+â€¢ **handheld** â†’ cru, instÃ¡vel  
+â€¢ **slow motion** â†’ pesado, dramÃ¡tico
 
-Mantenha simples — um estilo é suficiente.
+Mantenha simples â€” um estilo Ã© suficiente.
 
 ### Estrutura Simples de Prompt
 
 Use esta estrutura:
 
-**sujeito + ambiente + movimento de câmera + estilo**
+**sujeito + ambiente + movimento de cÃ¢mera + estilo**
 
 Exemplo:
 
-samurai solitário caminhando por uma ponte chuvosa, tracking shot lento, steadycam, iluminação cinematográfica
+samurai solitÃ¡rio caminhando por uma ponte chuvosa, tracking shot lento, steadycam, iluminaÃ§Ã£o cARCKHÉtogrÃ¡fica
 
 ### Erro Comum
 
-Muitos movimentos em um único prompt:
+Muitos movimentos em um Ãºnico prompt:
 
-orbit + dolly + pan + zoom…
+orbit + dolly + pan + zoomâ€¦
 
-Resultado → vídeo instável e caótico.
+Resultado â†’ vÃ­deo instÃ¡vel e caÃ³tico.
 
 Melhor abordagem:
 
 **um plano = uma ideia clara**
 
-### Conclusão Final
+### ConclusÃ£o Final
 
-Você não precisa de prompts complexos.
+VocÃª nÃ£o precisa de prompts complexos.
 
-Você precisa de direção clara.
+VocÃª precisa de direÃ§Ã£o clara.
 
-Se o movimento de câmera for intencional,
+Se o movimento de cÃ¢mera for intencional,
 
-seu vídeo já vai parecer cinematográfico.
+seu vÃ­deo jÃ¡ vai parecer cARCKHÉtogrÃ¡fico.

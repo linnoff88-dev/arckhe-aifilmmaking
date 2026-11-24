@@ -1,31 +1,31 @@
-# Bloco 3 — Traduções
+# Bloco 3 â€” TraduÃ§Ãµes
 
 ---
 
-# Módulo 2 — Pipeline de Ferramentas de IA
+# MÃ³dulo 2 â€” Pipeline de Ferramentas de IA
 
 **12:23**
 
-A qualidade cinematográfica não vem da IA em si.  
-Ela depende de como você constrói e controla a linguagem visual.
+A qualidade cARCKHÉtogrÃ¡fica nÃ£o vem da IA em si.  
+Ela depende de como vocÃª constrÃ³i e controla a linguagem visual.
 
 ## Fatores Centrais
 
-Como você controla a atenção do espectador
+Como vocÃª controla a atenÃ§Ã£o do espectador
 
-Como você constrói a composição
+Como vocÃª constrÃ³i a composiÃ§Ã£o
 
 Como seus planos se conectam de forma fluida
 
-Como você usa as ferramentas corretamente
+Como vocÃª usa as ferramentas corretamente
 
-## 1. Atenção do Espectador — Âncora de Atenção
+## 1. AtenÃ§Ã£o do Espectador â€” Ã‚ncora de AtenÃ§Ã£o
 
 A pergunta-chave para cada quadro:
 
-**O que o espectador vê primeiro?**
+**O que o espectador vÃª primeiro?**
 
-### Princípios
+### PrincÃ­pios
 
 Todo quadro deve ter um assunto principal claro.
 
@@ -33,117 +33,117 @@ O assunto deve ser compreendido instantaneamente.
 
 ### Ideia-chave
 
-O espectador não deve procurar — ele deve entender a cena imediatamente.
+O espectador nÃ£o deve procurar â€” ele deve entender a cena imediatamente.
 
-## 2. Espaço Negativo — Respiro Visual
+## 2. EspaÃ§o Negativo â€” Respiro Visual
 
-Espaço vazio não é um erro — ele cria significado.
+EspaÃ§o vazio nÃ£o Ã© um erro â€” ele cria significado.
 
 ### Efeitos
 
-Mais espaço → liberdade, escala, isolamento
+Mais espaÃ§o â†’ liberdade, escala, isolamento
 
-Menos espaço → tensão, pressão
+Menos espaÃ§o â†’ tensÃ£o, pressÃ£o
 
 ### Ideia-chave
 
-O espaço faz parte da estrutura emocional.
+O espaÃ§o faz parte da estrutura emocional.
 
-## 3. Técnicas de Composição
+## 3. TÃ©cnicas de ComposiÃ§Ã£o
 
 ### Simetria
 
-Cria equilíbrio e controle.
+Cria equilÃ­brio e controle.
 
-Parece estável e monumental.
+Parece estÃ¡vel e monumental.
 
-### Regra dos Terços
+### Regra dos TerÃ§os
 
 Cria um fluxo visual natural.
 
 Guia o olhar do espectador do assunto para o ambiente.
 
-### Ângulo Holandês
+### Ã‚ngulo HolandÃªs
 
-Sinaliza desequilíbrio.
+Sinaliza desequilÃ­brio.
 
-Cria tensão.
+Cria tensÃ£o.
 
-Deve ser usado de forma intencional e com moderação.
+Deve ser usado de forma intencional e com moderaÃ§Ã£o.
 
-## 4. O Que Torna um Quadro Cinematográfico
+## 4. O Que Torna um Quadro CARCKHÉtogrÃ¡fico
 
-Visuais cinematográficos vêm da estrutura, não de efeitos aleatórios.
+Visuais cARCKHÉtogrÃ¡ficos vÃªm da estrutura, nÃ£o de efeitos aleatÃ³rios.
 
 ### Elementos-chave
 
 Assunto claro
 
-Composição controlada
+ComposiÃ§Ã£o controlada
 
 Paleta de cores consistente
 
-Movimento de câmera intencional
+Movimento de cÃ¢mera intencional
 
-Lógica visual estável
+LÃ³gica visual estÃ¡vel
 
 ### Ideia-chave
 
-Estilo cinematográfico = clareza + controle
+Estilo cARCKHÉtogrÃ¡fico = clareza + controle
 
 ## 5. Ferramentas de IA no Pipeline
 
 ### Freepik
 
-Espaço de trabalho central
+EspaÃ§o de trabalho central
 
 Teste de diferentes modelos
 
-Criação e gerenciamento de assets
+CriaÃ§Ã£o e gerenciamento de assets
 
 ### Seedance
 
 Forte continuidade
 
-Narrativa com múltiplos planos
+Narrativa com mÃºltiplos planos
 
-Consistência de personagem
+ConsistÃªncia de personagem
 
 ### Kling
 
-Eficiente para cenas com diálogo
+Eficiente para cenas com diÃ¡logo
 
-Mantém a identidade do personagem
+MantÃ©m a identidade do personagem
 
-Sincronização de áudio e vídeo
+SincronizaÃ§Ã£o de Ã¡udio e vÃ­deo
 
 ### Luma AI
 
 Movimento realista
 
-Comportamento cinematográfico de câmera
+Comportamento cARCKHÉtogrÃ¡fico de cÃ¢mera
 
-Forte renderização atmosférica
+Forte renderizaÃ§Ã£o atmosfÃ©rica
 
 ### Runway
 
 Controle preciso
 
-Edição de movimento
+EdiÃ§Ã£o de movimento
 
 Fluxos de trabalho no estilo VFX
 
 ## Checklist Final
 
-Antes de finalizar seu vídeo:
+Antes de finalizar seu vÃ­deo:
 
-O assunto principal está claro em até um segundo?
+O assunto principal estÃ¡ claro em atÃ© um segundo?
 
-A composição é intencional?
+A composiÃ§Ã£o Ã© intencional?
 
-O espaço foi usado corretamente?
+O espaÃ§o foi usado corretamente?
 
-A paleta de cores é consistente?
+A paleta de cores Ã© consistente?
 
 O movimento parece natural?
 
@@ -153,122 +153,122 @@ A ferramenta certa foi usada para cada tarefa?
 
 ## Insight Final
 
-Qualidade cinematográfica é um sistema:
+Qualidade cARCKHÉtogrÃ¡fica Ã© um sistema:
 
-Frame → direciona a atenção
+Frame â†’ direciona a atenÃ§Ã£o
 
-Composição → cria significado
+ComposiÃ§Ã£o â†’ cria significado
 
-Edição → constrói fluidez
+EdiÃ§Ã£o â†’ constrÃ³i fluidez
 
-IA → apoia o processo
+IA â†’ apoia o processo
 
-A IA não torna seu vídeo cinematográfico.  
-Você torna.
+A IA nÃ£o torna seu vÃ­deo cARCKHÉtogrÃ¡fico.  
+VocÃª torna.
 
 ## Tarefa
 
-Crie um vídeo cinematográfico curto com IA usando uma ferramenta de sua escolha:
+Crie um vÃ­deo cARCKHÉtogrÃ¡fico curto com IA usando uma ferramenta de sua escolha:
 
 Freepik, Seedance, Kling, Luma ou Runway.
 
 Depois responda:
 
-Por que você escolheu essa ferramenta?
+Por que vocÃª escolheu essa ferramenta?
 
-Como você controlou a composição?
+Como vocÃª controlou a composiÃ§Ã£o?
 
-Como você gerenciou movimento, cor e atenção?
+Como vocÃª gerenciou movimento, cor e atenÃ§Ã£o?
 
-O que ajudou você a alcançar um resultado cinematográfico?
+O que ajudou vocÃª a alcanÃ§ar um resultado cARCKHÉtogrÃ¡fico?
 
 ---
 
-# Aula 7 — Construção de Cena no Freepik
+# Aula 7 â€” ConstruÃ§Ã£o de Cena no Freepik
 
 **5:22**
 
-👉 **Projeto desta aula:** LINK
+ðŸ‘‰ **Projeto desta aula:** LINK
 
 https://www.freepik.com/pikaso/spaces/a1969068-bec9-4506-a4d7-ea1daa300519/invite?payload=eyJpdiI6IkplUEU1bmgvRlBCNXdsUXl0S0h4M3c9PSIsInZhbHVlIjoiU2F3Si84S01NM1EzWU10dW0yNDF5bjRnRDFWdmplYXBHbTNtWFlpL3p1YmdTRkx0QW1wZEpiQlo3YU0wc1pRUTE2WEsyTlJSUkQzUmh5QzcycFNFTzhTTlV5dThWbjVtMTZ2VEgrazYrQmpYTzR1K0liN0ZwWDlwQ3NkK21CblgiLCJtYWMiOiI1NjZlYTQ4MzlkZTc1ZmMzNjE0OWExNjk4YzA1MzY3MmIxOTQ0YzcwMGM2M2IxZDY5ZWM2YzY2OTNlNGVmZDkwIiwidGFnIjoiIn0%3D
 
-Abra para explorar o fluxo de trabalho completo baseado em nós usado para construir um storyboard cinematográfico estruturado no Freepik.
+Abra para explorar o fluxo de trabalho completo baseado em nÃ³s usado para construir um storyboard cARCKHÉtogrÃ¡fico estruturado no Freepik.
 
-## 🎯 Sobre o Que É Esta Etapa
+## ðŸŽ¯ Sobre o Que Ã‰ Esta Etapa
 
-Não estamos gerando imagens aleatórias.
+NÃ£o estamos gerando imagens aleatÃ³rias.
 
-Estamos construindo uma sequência visual controlada —
+Estamos construindo uma sequÃªncia visual controlada â€”
 
-onde cada plano tem um propósito, lógica narrativa e ritmo emocional.
+onde cada plano tem um propÃ³sito, lÃ³gica narrativa e ritmo emocional.
 
-É assim que a IA é usada em pré-produção real e desenvolvimento visual.
+Ã‰ assim que a IA Ã© usada em prÃ©-produÃ§Ã£o real e desenvolvimento visual.
 
-## 📋 O Fluxo de Trabalho
+## ðŸ“‹ O Fluxo de Trabalho
 
-### ETAPA 1 — Roteiro
+### ETAPA 1 â€” Roteiro
 
-Divida sua história em planos. Defina a sequência.
+Divida sua histÃ³ria em planos. Defina a sequÃªncia.
 
-### ETAPA 2 — Personagem
+### ETAPA 2 â€” Personagem
 
 Crie uma identidade visual para seu protagonista usando o Gerador de Imagens.
 
-### ETAPA 3 — Storyboard em Esboço — Assistente
+### ETAPA 3 â€” Storyboard em EsboÃ§o â€” Assistente
 
-Gere esboços brutos de composição — foque em enquadramento, bloqueio de cena e ritmo, não em detalhes.
+Gere esboÃ§os brutos de composiÃ§Ã£o â€” foque em enquadramento, bloqueio de cena e ritmo, nÃ£o em detalhes.
 
-### ETAPA 4 — Render Cinematográfico — Segundo Assistente
+### ETAPA 4 â€” Render CARCKHÉtogrÃ¡fico â€” Segundo Assistente
 
-Traduza os esboços em frames realistas, coloridos e renderizados — como uma etapa de pré-visualização.
+Traduza os esboÃ§os em frames realistas, coloridos e renderizados â€” como uma etapa de prÃ©-visualizaÃ§Ã£o.
 
-## ⚠️ Observações Importantes
+## âš ï¸ ObservaÃ§Ãµes Importantes
 
 A qualidade depende de prompts claros e precisos.
 
-Use referências com **@** dentro do Assistente para conectar roteiro, personagem e resultados anteriores.
+Use referÃªncias com **@** dentro do Assistente para conectar roteiro, personagem e resultados anteriores.
 
-O primeiro resultado não será perfeito — a iteração é normal.
+O primeiro resultado nÃ£o serÃ¡ perfeito â€” a iteraÃ§Ã£o Ã© normal.
 
-O Freepik é pago, mas poderoso, especialmente para pipelines baseados em nós.
+O Freepik Ã© pago, mas poderoso, especialmente para pipelines baseados em nÃ³s.
 
-## 🎥 Por Que Este Storyboard Funciona — Lógica de Direção
+## ðŸŽ¥ Por Que Este Storyboard Funciona â€” LÃ³gica de DireÃ§Ã£o
 
-**Plano 1 — Aberto:** estabelece espaço, isolamento e escala.
+**Plano 1 â€” Aberto:** estabelece espaÃ§o, isolamento e escala.
 
-**Plano 2 — Personagem:** muda o foco para emoção humana e conexão.
+**Plano 2 â€” Personagem:** muda o foco para emoÃ§Ã£o humana e conexÃ£o.
 
-**Plano 3 — Close-up de ação:** cria tensão através do gesto.
+**Plano 3 â€” Close-up de aÃ§Ã£o:** cria tensÃ£o atravÃ©s do gesto.
 
-**Plano 4 — Dentro do carro:** muda a perspectiva e aumenta a imersão.
+**Plano 4 â€” Dentro do carro:** muda a perspectiva e aumenta a imersÃ£o.
 
-**Plano 5 — Movimento:** a ação se transforma em movimento, a energia aumenta.
+**Plano 5 â€” Movimento:** a aÃ§Ã£o se transforma em movimento, a energia aumenta.
 
-**Plano 6 — Aberto novamente:** retorna à escala, criando encerramento e continuação.
+**Plano 6 â€” Aberto novamente:** retorna Ã  escala, criando encerramento e continuaÃ§Ã£o.
 
 ## Arco Narrativo
 
-Espaço → Personagem → Ação → Movimento → Liberação
+EspaÃ§o â†’ Personagem â†’ AÃ§Ã£o â†’ Movimento â†’ LiberaÃ§Ã£o
 
-## Princípios-Chave
+## PrincÃ­pios-Chave
 
-Cada plano tem um propósito definido.
+Cada plano tem um propÃ³sito definido.
 
-A variação de escala dos planos cria ritmo.
+A variaÃ§Ã£o de escala dos planos cria ritmo.
 
-A composição guia a atenção.
+A composiÃ§Ã£o guia a atenÃ§Ã£o.
 
-A sequência expressa solidão, determinação e avanço.
+A sequÃªncia expressa solidÃ£o, determinaÃ§Ã£o e avanÃ§o.
 
-## 🏠 Tarefa
+## ðŸ  Tarefa
 
-Crie seu próprio storyboard seguindo o mesmo pipeline:
+Crie seu prÃ³prio storyboard seguindo o mesmo pipeline:
 
-**História → Personagem → Storyboard em Esboço → Render Cinematográfico**
+**HistÃ³ria â†’ Personagem â†’ Storyboard em EsboÃ§o â†’ Render CARCKHÉtogrÃ¡fico**
 
-Use o link do projeto anexado para todos os prompts — sinta-se livre para reutilizar e adaptar.
+Use o link do projeto anexado para todos os prompts â€” sinta-se livre para reutilizar e adaptar.
 
-Nos vemos na próxima aula.
+Nos vemos na prÃ³xima aula.
 
 ---
 
@@ -276,203 +276,203 @@ Nos vemos na próxima aula.
 
 ## Roteiro
 
-Sequência de storyboard cinematográfico, exatamente 6 imagens separadas, nem mais, nem menos. Cada imagem deve ser gerada individualmente. Todos os planos em proporção 16:9. Color grading frio e dessaturado em tons azul-acinzentados, granulação sutil de filme, iluminação de alto contraste, realismo cinematográfico. O personagem deve ser fictício, genérico, sem se parecer com qualquer pessoa real identificável.
+SequÃªncia de storyboard cARCKHÉtogrÃ¡fico, exatamente 6 imagens separadas, nem mais, nem menos. Cada imagem deve ser gerada individualmente. Todos os planos em proporÃ§Ã£o 16:9. Color grading frio e dessaturado em tons azul-acinzentados, granulaÃ§Ã£o sutil de filme, iluminaÃ§Ã£o de alto contraste, realismo cARCKHÉtogrÃ¡fico. O personagem deve ser fictÃ­cio, genÃ©rico, sem se parecer com qualquer pessoa real identificÃ¡vel.
 
 ## PLANO 1
 
-Plano aéreo extremo aberto com drone, ângulo alto. Um vasto deserto pós-apocalíptico com uma estrada empoeirada e rachada se estendendo até o horizonte. Um muscle car vintage extremamente enferrujado está meio enterrado na areia, cercado por destroços. Um homem mais velho e solitário, usando um casaco de couro desgastado, se aproxima lentamente por trás. Máscara respiradora pendurada no pescoço. O vento move levemente seu casaco. Atmosfera: silenciosa, abandonada, vazia.
+Plano aÃ©reo extremo aberto com drone, Ã¢ngulo alto. Um vasto deserto pÃ³s-apocalÃ­ptico com uma estrada empoeirada e rachada se estendendo atÃ© o horizonte. Um muscle car vintage extremamente enferrujado estÃ¡ meio enterrado na areia, cercado por destroÃ§os. Um homem mais velho e solitÃ¡rio, usando um casaco de couro desgastado, se aproxima lentamente por trÃ¡s. MÃ¡scara respiradora pendurada no pescoÃ§o. O vento move levemente seu casaco. Atmosfera: silenciosa, abandonada, vazia.
 
 ## PLANO 2
 
-Plano médio, ângulo frontal baixo. O homem mais velho está em frente ao carro enferrujado. Rugas profundas, pele danificada pelo sol, leve sujeira no rosto, sem sangue, sem ferimentos. Expressão cansada, mas determinada. Ele abaixa a máscara respiradora para o lado. Sombras dramáticas esculpem o rosto. Profundidade de campo rasa.
+Plano mÃ©dio, Ã¢ngulo frontal baixo. O homem mais velho estÃ¡ em frente ao carro enferrujado. Rugas profundas, pele danificada pelo sol, leve sujeira no rosto, sem sangue, sem ferimentos. ExpressÃ£o cansada, mas determinada. Ele abaixa a mÃ¡scara respiradora para o lado. Sombras dramÃ¡ticas esculpem o rosto. Profundidade de campo rasa.
 
 ## PLANO 3
 
-Close-up por cima do ombro. A mão enluvada do homem puxa firmemente a maçaneta enferrujada da porta do carro enquanto a porta finalmente cede e abre com força. Poeira e pequenas lascas de ferrugem caem da superfície metálica corroída. Detalhe extremo nas texturas — luva de couro gasta, pintura lascada, metal oxidado. Profundidade de campo rasa, foco fechado na mão e na maçaneta, fundo suavemente desfocado. Momento tenso e silencioso.
+Close-up por cima do ombro. A mÃ£o enluvada do homem puxa firmemente a maÃ§aneta enferrujada da porta do carro enquanto a porta finalmente cede e abre com forÃ§a. Poeira e pequenas lascas de ferrugem caem da superfÃ­cie metÃ¡lica corroÃ­da. Detalhe extremo nas texturas â€” luva de couro gasta, pintura lascada, metal oxidado. Profundidade de campo rasa, foco fechado na mÃ£o e na maÃ§aneta, fundo suavemente desfocado. Momento tenso e silencioso.
 
 ## PLANO 4
 
-Close-up interno, cabine do carro. O homem no banco do motorista gira uma chave gasta na ignição. A primeira tentativa falha. A segunda falha. Na terceira tentativa, o motor engasga e liga. Vibração sutil da câmera causada pelo motor. Sua expressão muda de exausta para focada. A luz do painel ilumina suavemente seu rosto.
+Close-up interno, cabine do carro. O homem no banco do motorista gira uma chave gasta na igniÃ§Ã£o. A primeira tentativa falha. A segunda falha. Na terceira tentativa, o motor engasga e liga. VibraÃ§Ã£o sutil da cÃ¢mera causada pelo motor. Sua expressÃ£o muda de exausta para focada. A luz do painel ilumina suavemente seu rosto.
 
 ## PLANO 5
 
-Plano médio-aberto em tracking, a partir de um ângulo lateral baixo. O carro enferrujado acelera agressivamente pela estrada rachada do deserto, levantando grandes nuvens de poeira. O motorista é visível apenas como uma silhueta através do para-brisa sujo. Movimento forte, energia dinâmica.
+Plano mÃ©dio-aberto em tracking, a partir de um Ã¢ngulo lateral baixo. O carro enferrujado acelera agressivamente pela estrada rachada do deserto, levantando grandes nuvens de poeira. O motorista Ã© visÃ­vel apenas como uma silhueta atravÃ©s do para-brisa sujo. Movimento forte, energia dinÃ¢mica.
 
 ## PLANO 6
 
-Plano aéreo aberto em ângulo alto. O carro avança em alta velocidade por uma estrada reta através de um deserto infinito, deixando para trás uma longa trilha de poeira. O veículo fica menor em direção ao horizonte. Plumas escuras de fumaça visíveis à distância. Atmosfera de isolamento e movimento. Sensação de fade to black.
+Plano aÃ©reo aberto em Ã¢ngulo alto. O carro avanÃ§a em alta velocidade por uma estrada reta atravÃ©s de um deserto infinito, deixando para trÃ¡s uma longa trilha de poeira. O veÃ­culo fica menor em direÃ§Ã£o ao horizonte. Plumas escuras de fumaÃ§a visÃ­veis Ã  distÃ¢ncia. Atmosfera de isolamento e movimento. SensaÃ§Ã£o de fade to black.
 
 ## Regras de Estilo
 
-Cinematográfico, iluminação realista, still de filme, sem texto, sem logos, sem marca d’água, sem frames extras, sem layout em grade, sem colagem, sem painéis de quadrinhos, sem múltiplas cenas em uma única imagem.
+CARCKHÉtogrÃ¡fico, iluminaÃ§Ã£o realista, still de filme, sem texto, sem logos, sem marca dâ€™Ã¡gua, sem frames extras, sem layout em grade, sem colagem, sem painÃ©is de quadrinhos, sem mÃºltiplas cenas em uma Ãºnica imagem.
 
 ---
 
 # Personagem
 
-Plano cinematográfico de corpo inteiro de um homem robusto de 40 anos em pé, olhando diretamente para a câmera, em uma postura forte e firme, com os pés afastados na largura dos ombros, postura relaxada, mas sólida. Sua linguagem corporal transmite dureza, resiliência e intensidade silenciosa.
+Plano cARCKHÉtogrÃ¡fico de corpo inteiro de um homem robusto de 40 anos em pÃ©, olhando diretamente para a cÃ¢mera, em uma postura forte e firme, com os pÃ©s afastados na largura dos ombros, postura relaxada, mas sÃ³lida. Sua linguagem corporal transmite dureza, resiliÃªncia e intensidade silenciosa.
 
-Seu rosto está parcialmente coberto por uma máscara respiradora pesada de metal desgastado, usada completamente sobre o nariz e a boca, não pendurada. A máscara é arranhada, envelhecida e levemente enferrujada pelo longo uso. As áreas visíveis do rosto, como olhos e testa, mostram sujeira, pequenos hematomas e danos causados pelo sol.
+Seu rosto estÃ¡ parcialmente coberto por uma mÃ¡scara respiradora pesada de metal desgastado, usada completamente sobre o nariz e a boca, nÃ£o pendurada. A mÃ¡scara Ã© arranhada, envelhecida e levemente enferrujada pelo longo uso. As Ã¡reas visÃ­veis do rosto, como olhos e testa, mostram sujeira, pequenos hematomas e danos causados pelo sol.
 
-Seu olhar está fixo diretamente na câmera — intenso, focado e inflexível.
+Seu olhar estÃ¡ fixo diretamente na cÃ¢mera â€” intenso, focado e inflexÃ­vel.
 
-Ele tem cabelo curto, áspero, com mechas grisalhas, e uma aparência endurecida e desgastada, adequada para um homem no início dos 40 anos sobrevivendo a condições severas.
+Ele tem cabelo curto, Ã¡spero, com mechas grisalhas, e uma aparÃªncia endurecida e desgastada, adequada para um homem no inÃ­cio dos 40 anos sobrevivendo a condiÃ§Ãµes severas.
 
 ## Roupa
 
-Roupa de sobrevivência pós-apocalíptica robusta — casaco de couro desgastado com marcas naturais de uso, luvas reforçadas, calças táticas e botas militares muito gastas. Todos os materiais mostram envelhecimento realista, sujeira e uso.
+Roupa de sobrevivÃªncia pÃ³s-apocalÃ­ptica robusta â€” casaco de couro desgastado com marcas naturais de uso, luvas reforÃ§adas, calÃ§as tÃ¡ticas e botas militares muito gastas. Todos os materiais mostram envelhecimento realista, sujeira e uso.
 
 ## Ambiente
 
-Um vasto deserto pós-apocalíptico com uma estrada empoeirada e rachada se estendendo à distância. Destroços enferrujados, veículos queimados e colunas fracas de fumaça no horizonte. Estruturas em ruínas aparecem em silhueta ao fundo. O vento levanta partículas de poeira e move levemente as bordas do casaco.
+Um vasto deserto pÃ³s-apocalÃ­ptico com uma estrada empoeirada e rachada se estendendo Ã  distÃ¢ncia. DestroÃ§os enferrujados, veÃ­culos queimados e colunas fracas de fumaÃ§a no horizonte. Estruturas em ruÃ­nas aparecem em silhueta ao fundo. O vento levanta partÃ­culas de poeira e move levemente as bordas do casaco.
 
-## Câmera e Composição
+## CÃ¢mera e ComposiÃ§Ã£o
 
-Plano cinematográfico em ângulo baixo, ligeiramente abaixo do nível do peito, enquadramento de corpo inteiro com os pés claramente visíveis. Composição centralizada, forte presença vertical, separação limpa da silhueta em relação ao fundo.
+Plano cARCKHÉtogrÃ¡fico em Ã¢ngulo baixo, ligeiramente abaixo do nÃ­vel do peito, enquadramento de corpo inteiro com os pÃ©s claramente visÃ­veis. ComposiÃ§Ã£o centralizada, forte presenÃ§a vertical, separaÃ§Ã£o limpa da silhueta em relaÃ§Ã£o ao fundo.
 
 ## Lente e Realismo
 
-Lente cinematográfica de 35mm, perspectiva natural, sem distorção. Profundidade de campo realista — sujeito nítido, fundo suavemente desfocado com névoa atmosférica. Granulação sutil de filme, sem excesso de processamento.
+Lente cARCKHÉtogrÃ¡fica de 35mm, perspectiva natural, sem distorÃ§Ã£o. Profundidade de campo realista â€” sujeito nÃ­tido, fundo suavemente desfocado com nÃ©voa atmosfÃ©rica. GranulaÃ§Ã£o sutil de filme, sem excesso de processamento.
 
-## Iluminação
+## IluminaÃ§Ã£o
 
-Iluminação cinematográfica fisicamente precisa. Luz principal direcional criando destaques definidos e sombras profundas e controladas. Luz de recorte sutil separando a figura do fundo empoeirado.
+IluminaÃ§Ã£o cARCKHÉtogrÃ¡fica fisicamente precisa. Luz principal direcional criando destaques definidos e sombras profundas e controladas. Luz de recorte sutil separando a figura do fundo empoeirado.
 
 ## Cor e Tom
 
-Color grading frio e dessaturado em tons azul-acinzentados, com tons terrosos suaves. Tons naturais da pele preservados. Alta faixa dinâmica, contraste suave, sem saturação artificial.
+Color grading frio e dessaturado em tons azul-acinzentados, com tons terrosos suaves. Tons naturais da pele preservados. Alta faixa dinÃ¢mica, contraste suave, sem saturaÃ§Ã£o artificial.
 
 ## Qualidade
 
-Ultra-realista, fotorrealista, texturas hiper-detalhadas de pele, metal, tecido e poeira. Sem estilização.
+Ultra-realista, fotorrealista, texturas hiper-detalhadas de pele, metal, tecido e poeira. Sem estilizaÃ§Ã£o.
 
-## Restrições
+## RestriÃ§Ãµes
 
-Sem estilização, sem elementos de fantasia, sem anatomia exagerada, sem texto, sem logos, sem marca d’água. O personagem deve permanecer genérico e não se parecer com qualquer pessoa real identificável.
+Sem estilizaÃ§Ã£o, sem elementos de fantasia, sem anatomia exagerada, sem texto, sem logos, sem marca dâ€™Ã¡gua. O personagem deve permanecer genÃ©rico e nÃ£o se parecer com qualquer pessoa real identificÃ¡vel.
 
 ---
 
-# Esboço
+# EsboÃ§o
 
-Você é um artista profissional de storyboard.
+VocÃª Ã© um artista profissional de storyboard.
 
 ## Tarefa
 
-Crie uma única imagem de storyboard cinematográfico contendo exatamente 6 frames organizados em um layout rígido de grade 2x3.
+Crie uma Ãºnica imagem de storyboard cARCKHÉtogrÃ¡fico contendo exatamente 6 frames organizados em um layout rÃ­gido de grade 2x3.
 
 ## Layout
 
-● Linha superior: PLANO 1, PLANO 2, PLANO 3
+â— Linha superior: PLANO 1, PLANO 2, PLANO 3
 
-● Linha inferior: PLANO 4, PLANO 5, PLANO 6
+â— Linha inferior: PLANO 4, PLANO 5, PLANO 6
 
-● Total: exatamente 6 frames, nem mais, nem menos
+â— Total: exatamente 6 frames, nem mais, nem menos
 
-## REGRA CRÍTICA DE LAYOUT — Prioridade Máxima
+## REGRA CRÃTICA DE LAYOUT â€” Prioridade MÃ¡xima
 
-Cada painel deve conter um verdadeiro frame cinematográfico widescreen 16:9 dentro dele, em estilo letterbox.
+Cada painel deve conter um verdadeiro frame cARCKHÉtogrÃ¡fico widescreen 16:9 dentro dele, em estilo letterbox.
 
-● A imagem visível dentro de cada painel deve ser horizontal, ampla, não quadrada
+â— A imagem visÃ­vel dentro de cada painel deve ser horizontal, ampla, nÃ£o quadrada
 
-● Os painéis podem incluir margens vazias acima e abaixo, como letterbox
+â— Os painÃ©is podem incluir margens vazias acima e abaixo, como letterbox
 
-● O conteúdo cinematográfico não deve preencher o painel como um quadrado
+â— O conteÃºdo cARCKHÉtogrÃ¡fico nÃ£o deve preencher o painel como um quadrado
 
-● Cada frame deve parecer um still de filme widescreen colocado dentro de um painel de storyboard
+â— Cada frame deve parecer um still de filme widescreen colocado dentro de um painel de storyboard
 
-● Mantenha proporções widescreen consistentes em todos os 6 painéis
+â— Mantenha proporÃ§Ãµes widescreen consistentes em todos os 6 painÃ©is
 
-## REGRAS ESTRUTURAIS RÍGIDAS
+## REGRAS ESTRUTURAIS RÃGIDAS
 
-● Deve ser uma única imagem
+â— Deve ser uma Ãºnica imagem
 
-● Deve ser uma grade limpa de storyboard 2x3
+â— Deve ser uma grade limpa de storyboard 2x3
 
-● Não gere imagens separadas
+â— NÃ£o gere imagens separadas
 
-● Não crie mais de 6 frames
+â— NÃ£o crie mais de 6 frames
 
-● Não misture múltiplos planos em um único painel
+â— NÃ£o misture mÃºltiplos planos em um Ãºnico painel
 
-● Não altere a ordem dos planos
+â— NÃ£o altere a ordem dos planos
 
 ## Importante
 
-Não invente novos planos.
+NÃ£o invente novos planos.
 
 Use o roteiro fornecido exatamente como escrito, do PLANO 1 ao PLANO 6.
 
 Cada frame deve:
 
-● seguir rigorosamente sua respectiva descrição de plano
+â— seguir rigorosamente sua respectiva descriÃ§Ã£o de plano
 
-● preservar o ângulo exato da câmera — extremo aberto, médio, close-up, aéreo etc.
+â— preservar o Ã¢ngulo exato da cÃ¢mera â€” extremo aberto, mÃ©dio, close-up, aÃ©reo etc.
 
-● preservar composição, ação e clima
+â— preservar composiÃ§Ã£o, aÃ§Ã£o e clima
 
-● ser composto como um still cinematográfico, com sensação anamórfica e enquadramento horizontal
+â— ser composto como um still cARCKHÉtogrÃ¡fico, com sensaÃ§Ã£o anamÃ³rfica e enquadramento horizontal
 
 ## Estilo
 
-● esboço a lápis em preto e branco
+â— esboÃ§o a lÃ¡pis em preto e branco
 
-● estilo de desenho bruto de storyboard
+â— estilo de desenho bruto de storyboard
 
-● alto contraste, linhas expressivas
+â— alto contraste, linhas expressivas
 
-● composição cinematográfica
+â— composiÃ§Ã£o cARCKHÉtogrÃ¡fica
 
-● sem cor
+â— sem cor
 
 ## Personagem
 
-● Mantenha o personagem consistente em todos os frames
+â— Mantenha o personagem consistente em todos os frames
 
-● Use a imagem de referência, se fornecida
+â— Use a imagem de referÃªncia, se fornecida
 
-● Não reproduza nenhuma pessoa real identificável
+â— NÃ£o reproduza nenhuma pessoa real identificÃ¡vel
 
-● Mantenha o personagem genérico
+â— Mantenha o personagem genÃ©rico
 
 ## Clareza Visual
 
-● silhuetas claras e legíveis
+â— silhuetas claras e legÃ­veis
 
-● ambientes simplificados, mas precisos
+â— ambientes simplificados, mas precisos
 
-● foco na composição acima do microdetalhe
+â— foco na composiÃ§Ã£o acima do microdetalhe
 
-## Regras de Saída
+## Regras de SaÃ­da
 
-● Uma única imagem apenas
+â— Uma Ãºnica imagem apenas
 
-● Grade limpa de storyboard com bordas visíveis
+â— Grade limpa de storyboard com bordas visÃ­veis
 
-● Espaçamento e alinhamento uniformes
+â— EspaÃ§amento e alinhamento uniformes
 
-● Sem texto, sem legendas
+â— Sem texto, sem legendas
 
-● Sem logos ou marcas d’água
+â— Sem logos ou marcas dâ€™Ã¡gua
 
 ## Objetivo
 
-Criar uma folha limpa de storyboard cinematográfico com 6 painéis, 3 em cima e 3 embaixo, onde cada painel contém um verdadeiro plano cinematográfico widescreen 16:9, seguindo rigorosamente o roteiro.
+Criar uma folha limpa de storyboard cARCKHÉtogrÃ¡fico com 6 painÃ©is, 3 em cima e 3 embaixo, onde cada painel contÃ©m um verdadeiro plano cARCKHÉtogrÃ¡fico widescreen 16:9, seguindo rigorosamente o roteiro.
 
-## Reforço Adicional
+## ReforÃ§o Adicional
 
-Widescreen anamórfico, frames de filme em letterbox dentro dos painéis, composição cinematográfica horizontal, sem imagens quadradas, sem enquadramento 1:1.
+Widescreen anamÃ³rfico, frames de filme em letterbox dentro dos painÃ©is, composiÃ§Ã£o cARCKHÉtogrÃ¡fica horizontal, sem imagens quadradas, sem enquadramento 1:1.
 
 ---
 
 # Storyboard Renderizado
 
-Crie uma sequência de storyboard cinematográfico fotorrealista usando **@sketch** como referência de composição e **@character** como referência de personagem.
+Crie uma sequÃªncia de storyboard cARCKHÉtogrÃ¡fico fotorrealista usando **@sketch** como referÃªncia de composiÃ§Ã£o e **@character** como referÃªncia de personagem.
 
-O resultado deve parecer stills reais de filme live-action — não ilustração, não concept art, não renderização estilizada.
+O resultado deve parecer stills reais de filme live-action â€” nÃ£o ilustraÃ§Ã£o, nÃ£o concept art, nÃ£o renderizaÃ§Ã£o estilizada.
 
-## OBJETIVO CRÍTICO
+## OBJETIVO CRÃTICO
 
-Recriar o storyboard de **@sketch** com a maior precisão possível, preservando composição, ângulos de câmera e relações espaciais, enquanto renderiza tudo com qualidade cinematográfica realista.
+Recriar o storyboard de **@sketch** com a maior precisÃ£o possÃ­vel, preservando composiÃ§Ã£o, Ã¢ngulos de cÃ¢mera e relaÃ§Ãµes espaciais, enquanto renderiza tudo com qualidade cARCKHÉtogrÃ¡fica realista.
 
 ## ESTRUTURA
 
@@ -480,113 +480,113 @@ Gere exatamente 6 imagens.
 
 Cada imagem = um plano.
 
-Não:
+NÃ£o:
 
-● combine planos em uma grade
+â— combine planos em uma grade
 
-● crie uma folha de contato
+â— crie uma folha de contato
 
-● crie múltiplos painéis dentro de uma única imagem
+â— crie mÃºltiplos painÃ©is dentro de uma Ãºnica imagem
 
-● gere mais de 6 imagens
+â— gere mais de 6 imagens
 
-## FORMATO — RÍGIDO
+## FORMATO â€” RÃGIDO
 
-Todas as imagens devem ser frames cinematográficos widescreen:
+Todas as imagens devem ser frames cARCKHÉtogrÃ¡ficos widescreen:
 
-● composição horizontal
+â— composiÃ§Ã£o horizontal
 
-● proporção aproximada de 16:9
+â— proporÃ§Ã£o aproximada de 16:9
 
-● claramente mais largas do que altas
+â— claramente mais largas do que altas
 
-● não quadradas
+â— nÃ£o quadradas
 
-● não cortar verticalmente
+â— nÃ£o cortar verticalmente
 
-## REGRAS DE REFERÊNCIA
+## REGRAS DE REFERÃŠNCIA
 
-**@sketch** → composição, enquadramento e ângulos de câmera apenas
+**@sketch** â†’ composiÃ§Ã£o, enquadramento e Ã¢ngulos de cÃ¢mera apenas
 
-**@character** → aparência apenas
+**@character** â†’ aparÃªncia apenas
 
-Não misture funções.
+NÃ£o misture funÃ§Ãµes.
 
-## TRAVA GLOBAL DE COMPOSIÇÃO
+## TRAVA GLOBAL DE COMPOSIÃ‡ÃƒO
 
-● corresponder exatamente aos ângulos de câmera
+â— corresponder exatamente aos Ã¢ngulos de cÃ¢mera
 
-● corresponder ao posicionamento do sujeito
+â— corresponder ao posicionamento do sujeito
 
-● corresponder às distâncias e escala
+â— corresponder Ã s distÃ¢ncias e escala
 
-● corresponder à perspectiva e à linha do horizonte
+â— corresponder Ã  perspectiva e Ã  linha do horizonte
 
-● preservar espaço negativo
+â— preservar espaÃ§o negativo
 
-Sem reinterpretação.
+Sem reinterpretaÃ§Ã£o.
 
-## TRAVA DE DIREÇÃO — CRÍTICA
+## TRAVA DE DIREÃ‡ÃƒO â€” CRÃTICA
 
-● a direção do movimento deve corresponder ao esboço
+â— a direÃ§Ã£o do movimento deve corresponder ao esboÃ§o
 
-● sem inverter ou espelhar
+â— sem inverter ou espelhar
 
-● a orientação do carro deve permanecer idêntica
+â— a orientaÃ§Ã£o do carro deve permanecer idÃªntica
 
-● a orientação do personagem deve permanecer idêntica
+â— a orientaÃ§Ã£o do personagem deve permanecer idÃªntica
 
-Se uma estrada estiver visível:
+Se uma estrada estiver visÃ­vel:
 
-→ o veículo deve seguir a direção exata dessa estrada
+â†’ o veÃ­culo deve seguir a direÃ§Ã£o exata dessa estrada
 
-→ o ponto de fuga deve corresponder ao esboço
+â†’ o ponto de fuga deve corresponder ao esboÃ§o
 
 ## TRAVA DE MICRODETALHES
 
-● PLANO 3: posição exata da mão, ângulo de pegada e contato com a maçaneta
+â— PLANO 3: posiÃ§Ã£o exata da mÃ£o, Ã¢ngulo de pegada e contato com a maÃ§aneta
 
-● PLANO 4: a câmera dentro do carro deve corresponder ao ângulo lateral do esboço
+â— PLANO 4: a cÃ¢mera dentro do carro deve corresponder ao Ã¢ngulo lateral do esboÃ§o
 
-● PLANO 5: o ângulo do carro deve ser 3/4 e se mover da esquerda para a direita
+â— PLANO 5: o Ã¢ngulo do carro deve ser 3/4 e se mover da esquerda para a direita
 
-● PLANO 6: o carro deve se afastar ao longo da perspectiva da estrada
+â— PLANO 6: o carro deve se afastar ao longo da perspectiva da estrada
 
-Sem aproximações.
+Sem aproximaÃ§Ãµes.
 
 ---
 
-# LISTA DE PLANOS — SIGA EXATAMENTE
+# LISTA DE PLANOS â€” SIGA EXATAMENTE
 
-## PLANO 1 — Aéreo Extremo Aberto
+## PLANO 1 â€” AÃ©reo Extremo Aberto
 
-Ângulo alto. Vasto deserto vazio.
+Ã‚ngulo alto. Vasto deserto vazio.
 
-Estrada rachada se estendendo à distância.
+Estrada rachada se estendendo Ã  distÃ¢ncia.
 
 Carro posicionado no lado esquerdo do quadro.
 
-Homem caminhando da direita em direção ao carro, de costas para a câmera.
+Homem caminhando da direita em direÃ§Ã£o ao carro, de costas para a cÃ¢mera.
 
-Grande espaço negativo.
+Grande espaÃ§o negativo.
 
-## PLANO 2 — Médio Frontal
+## PLANO 2 â€” MÃ©dio Frontal
 
-Homem centralizado no quadro, em pé na frente do carro.
+Homem centralizado no quadro, em pÃ© na frente do carro.
 
-Câmera levemente baixa, frontal.
+CÃ¢mera levemente baixa, frontal.
 
-Carro atrás dele voltado para a câmera.
+Carro atrÃ¡s dele voltado para a cÃ¢mera.
 
-Máscara visível no peito.
+MÃ¡scara visÃ­vel no peito.
 
 Luz direcional forte moldando o rosto.
 
-## PLANO 3 — Close-up por Cima do Ombro
+## PLANO 3 â€” Close-up por Cima do Ombro
 
-A mão entra pelo lado esquerdo do quadro.
+A mÃ£o entra pelo lado esquerdo do quadro.
 
-Segura a maçaneta enferrujada da porta do carro no lado direito.
+Segura a maÃ§aneta enferrujada da porta do carro no lado direito.
 
 Enquadramento fechado.
 
@@ -594,79 +594,79 @@ Lascas de ferrugem caindo.
 
 Profundidade de campo rasa.
 
-## PLANO 4 — Close-up Interno
+## PLANO 4 â€” Close-up Interno
 
-Câmera a partir do lado do passageiro.
+CÃ¢mera a partir do lado do passageiro.
 
 Motorista no lado esquerdo do quadro.
 
-Mãos no volante e na ignição.
+MÃ£os no volante e na igniÃ§Ã£o.
 
-Painel visível.
+Painel visÃ­vel.
 
 Luz suave da janela.
 
-## PLANO 5 — Tracking Lateral — RÍGIDO
+## PLANO 5 â€” Tracking Lateral â€” RÃGIDO
 
 Carro se movendo da esquerda para a direita.
 
-Ângulo baixo.
+Ã‚ngulo baixo.
 
 Vista frontal-lateral em 3/4.
 
-Poeira ficando para trás seguindo a mesma direção.
+Poeira ficando para trÃ¡s seguindo a mesma direÃ§Ã£o.
 
-Carro levemente inclinado em direção à câmera, mas se movendo para frente.
+Carro levemente inclinado em direÃ§Ã£o Ã  cÃ¢mera, mas se movendo para frente.
 
-Não:
+NÃ£o:
 
-● inverter a direção
+â— inverter a direÃ§Ã£o
 
-● centralizar o carro incorretamente
+â— centralizar o carro incorretamente
 
-● mudar o ângulo do movimento
+â— mudar o Ã¢ngulo do movimento
 
-## PLANO 6 — Aéreo Aberto em Ângulo Alto — RÍGIDO
+## PLANO 6 â€” AÃ©reo Aberto em Ã‚ngulo Alto â€” RÃGIDO
 
-Ângulo muito alto.
+Ã‚ngulo muito alto.
 
-A estrada corre diagonalmente do canto inferior esquerdo até o horizonte no canto superior direito.
+A estrada corre diagonalmente do canto inferior esquerdo atÃ© o horizonte no canto superior direito.
 
-Carro posicionado na área inferior esquerda do quadro.
+Carro posicionado na Ã¡rea inferior esquerda do quadro.
 
-Carro se afastando da câmera ao longo da estrada em direção ao horizonte.
+Carro se afastando da cÃ¢mera ao longo da estrada em direÃ§Ã£o ao horizonte.
 
-A trilha de poeira segue exatamente a linha da estrada atrás do carro.
+A trilha de poeira segue exatamente a linha da estrada atrÃ¡s do carro.
 
-O carro fica menor com a distância.
+O carro fica menor com a distÃ¢ncia.
 
-O ponto de fuga deve se alinhar com a direção da estrada.
+O ponto de fuga deve se alinhar com a direÃ§Ã£o da estrada.
 
-Fumaça distante perto do horizonte, ligeiramente à direita do centro.
+FumaÃ§a distante perto do horizonte, ligeiramente Ã  direita do centro.
 
-Grande espaço vazio domina o quadro.
+Grande espaÃ§o vazio domina o quadro.
 
-Não:
+NÃ£o:
 
-● colocar o carro no centro
+â— colocar o carro no centro
 
-● mudar a direção da estrada
+â— mudar a direÃ§Ã£o da estrada
 
-● rotacionar a perspectiva
+â— rotacionar a perspectiva
 
-● alterar o ponto de fuga
+â— alterar o ponto de fuga
 
 ## PERSONAGEM
 
 Use **@character** exatamente:
 
-● mesmo rosto
+â— mesmo rosto
 
-● mesma máscara respiradora
+â— mesma mÃ¡scara respiradora
 
-● mesmo casaco, luvas e botas
+â— mesmo casaco, luvas e botas
 
-● mesmas proporções
+â— mesmas proporÃ§Ãµes
 
 O personagem deve permanecer consistente em todos os 6 planos.
 
@@ -674,143 +674,143 @@ O personagem deve permanecer consistente em todos os 6 planos.
 
 Siga **@sketch**:
 
-● deserto pós-apocalíptico
+â— deserto pÃ³s-apocalÃ­ptico
 
-● estrada rachada
+â— estrada rachada
 
-● carro enferrujado
+â— carro enferrujado
 
-● destroços
+â— destroÃ§os
 
-● fumaça distante
+â— fumaÃ§a distante
 
-Apenas aumente o realismo, não redesenhe o layout.
+Apenas aumente o realismo, nÃ£o redesenhe o layout.
 
 ## ESTILO
 
-● fotorrealista
+â— fotorrealista
 
-● iluminação cinematográfica
+â— iluminaÃ§Ã£o cARCKHÉtogrÃ¡fica
 
-● materiais realistas — ferrugem, poeira, couro, metal, pele
+â— materiais realistas â€” ferrugem, poeira, couro, metal, pele
 
-● tons frios e dessaturados azul-acinzentados
+â— tons frios e dessaturados azul-acinzentados
 
-● granulação sutil de filme
+â— granulaÃ§Ã£o sutil de filme
 
-● profundidade de campo natural
+â— profundidade de campo natural
 
-Evite estilização.
+Evite estilizaÃ§Ã£o.
 
-## SAÍDA
+## SAÃDA
 
-● exatamente 6 imagens
+â— exatamente 6 imagens
 
-● um plano por imagem
+â— um plano por imagem
 
-● enquadramento cinematográfico widescreen
+â— enquadramento cARCKHÉtogrÃ¡fico widescreen
 
-● sem texto
+â— sem texto
 
-● sem marca d’água
+â— sem marca dâ€™Ã¡gua
 
 ## REGRA FINAL
 
-O resultado deve parecer que o storyboard original de **@sketch** foi traduzido diretamente para imagens cinematográficas reais, sem alterar composição, enquadramento ou direção.
+O resultado deve parecer que o storyboard original de **@sketch** foi traduzido diretamente para imagens cARCKHÉtogrÃ¡ficas reais, sem alterar composiÃ§Ã£o, enquadramento ou direÃ§Ã£o.
 
 ---
 
-# Aula 8 — Geração de Movimento no Seedance
+# Aula 8 â€” GeraÃ§Ã£o de Movimento no Seedance
 
 **13:51**
 
-Esta aula explica como controlar o movimento na geração de vídeo usando a mentalidade de um diretor de cinema.
+Esta aula explica como controlar o movimento na geraÃ§Ã£o de vÃ­deo usando a mentalidade de um diretor de cARCKHÉ.
 
-Um diretor não adivinha — ele observa, mede, sequencia e testa.
+Um diretor nÃ£o adivinha â€” ele observa, mede, sequencia e testa.
 
-## ✨ Ideia Central
+## âœ¨ Ideia Central
 
-Todo movimento é construído sobre três elementos:
+Todo movimento Ã© construÃ­do sobre trÃªs elementos:
 
-⚡ **Força** — o que impulsiona o movimento
+âš¡ **ForÃ§a** â€” o que impulsiona o movimento
 
-⏱️ **Tempo** — quanto tempo as ações levam
+â±ï¸ **Tempo** â€” quanto tempo as aÃ§Ãµes levam
 
-⚖️ **Peso** — como os objetos se comportam fisicamente
+âš–ï¸ **Peso** â€” como os objetos se comportam fisicamente
 
-O Seedance entende física, não adjetivos.
+O Seedance entende fÃ­sica, nÃ£o adjetivos.
 
-## 🧠 Como um Diretor Pensa
+## ðŸ§  Como um Diretor Pensa
 
 Antes de escrever uma cena, defina:
 
-📷 **Câmera** — onde ela está e como se move
+ðŸ“· **CÃ¢mera** â€” onde ela estÃ¡ e como se move
 
-💥 **Força** — explosão, gravidade, empurrão, salto
+ðŸ’¥ **ForÃ§a** â€” explosÃ£o, gravidade, empurrÃ£o, salto
 
-🔄 **Sequência** — o que acontece primeiro → por último
+ðŸ”„ **SequÃªncia** â€” o que acontece primeiro â†’ por Ãºltimo
 
-⏳ **Atrasos** — diferenças de timing entre as ações
+â³ **Atrasos** â€” diferenÃ§as de timing entre as aÃ§Ãµes
 
-👁️ **Percepção** — o que o espectador vivencia
+ðŸ‘ï¸ **PercepÃ§Ã£o** â€” o que o espectador vivencia
 
-**Movimento = sequência controlada de eventos**
+**Movimento = sequÃªncia controlada de eventos**
 
-## 🎥 Sistema Central — Como Construir uma Cena
+## ðŸŽ¥ Sistema Central â€” Como Construir uma Cena
 
 Todo prompt forte segue esta estrutura:
 
-## 1. ⚡ Força
+## 1. âš¡ ForÃ§a
 
 O que inicia o movimento?
 
 Impacto
 
-Aceleração
+AceleraÃ§Ã£o
 
 Gravidade
 
-Interação
+InteraÃ§Ã£o
 
-## 2. 🔄 Sequência
+## 2. ðŸ”„ SequÃªncia
 
 Ordem dos eventos no tempo:
 
-Ação principal primeiro
+AÃ§Ã£o principal primeiro
 
-Movimento secundário depois
+Movimento secundÃ¡rio depois
 
-Efeitos residuais por último
+Efeitos residuais por Ãºltimo
 
-**Regra:** grande → pequeno → partículas, como poeira, fumaça e detritos.
+**Regra:** grande â†’ pequeno â†’ partÃ­culas, como poeira, fumaÃ§a e detritos.
 
-## 3. 📷 Câmera
+## 3. ðŸ“· CÃ¢mera
 
-A câmera define a percepção:
+A cÃ¢mera define a percepÃ§Ã£o:
 
-Posição: baixa, aberta, close-up
+PosiÃ§Ã£o: baixa, aberta, close-up
 
 Movimento: pan, tilt, dolly, orbit, tremor
 
-Comportamento: estável vs. handheld
+Comportamento: estÃ¡vel vs. handheld
 
-## 4. 🧍 Reação Humana
+## 4. ðŸ§ ReaÃ§Ã£o Humana
 
-A emoção é mostrada fisicamente:
+A emoÃ§Ã£o Ã© mostrada fisicamente:
 
-Respiração
+RespiraÃ§Ã£o
 
 Micromovimentos
 
 Foco dos olhos
 
-Tensão corporal
+TensÃ£o corporal
 
-Nunca diga a emoção — mostre-a através do movimento.
+Nunca diga a emoÃ§Ã£o â€” mostre-a atravÃ©s do movimento.
 
-## 🧪 O Que os Exemplos Demonstram
+## ðŸ§ª O Que os Exemplos Demonstram
 
-## 🎥 Movimento de Câmera
+## ðŸŽ¥ Movimento de CÃ¢mera
 
 Helmet cam
 
@@ -818,11 +818,11 @@ Tracking shots
 
 Drone follow
 
-Órbita contínua
+Ã“rbita contÃ­nua
 
 Pull-back constante
 
-## ⚖️ Camadas de Física
+## âš–ï¸ Camadas de FÃ­sica
 
 Movimento grande primeiro
 
@@ -832,37 +832,37 @@ Depois efeitos atrasados
 
 Exemplos:
 
-Detritos → poeira → fumaça
+Detritos â†’ poeira â†’ fumaÃ§a
 
-Respingo → gotas → névoa
+Respingo â†’ gotas â†’ nÃ©voa
 
-## ⏱️ Controle de Timing
+## â±ï¸ Controle de Timing
 
-Ação em tempo real
+AÃ§Ã£o em tempo real
 
-30% em câmera lenta
+30% em cÃ¢mera lenta
 
-Durações precisas, como 0,3s, 1,2s etc.
+DuraÃ§Ãµes precisas, como 0,3s, 1,2s etc.
 
 O timing cria realismo.
 
-## 🔁 Movimento Secundário
+## ðŸ” Movimento SecundÃ¡rio
 
-Tudo continua depois da ação principal:
+Tudo continua depois da aÃ§Ã£o principal:
 
 A poeira permanece no ar
 
-A fumaça deixa rastros
+A fumaÃ§a deixa rastros
 
-A água fica suspensa no ar
+A Ã¡gua fica suspensa no ar
 
 Essas camadas criam profundidade e realismo.
 
-## 😶 Emoção Através do Movimento
+## ðŸ˜¶ EmoÃ§Ã£o AtravÃ©s do Movimento
 
 Em vez de:
 
-❌ “Ele está assustado”
+âŒ â€œEle estÃ¡ assustadoâ€
 
 Mostre:
 
@@ -870,277 +870,277 @@ Dedos escorregando
 
 Olhos se arregalando
 
-Respiração mudando
+RespiraÃ§Ã£o mudando
 
-## 📌 Regras-Chave
+## ðŸ“Œ Regras-Chave
 
-❗ Sem descrições vagas
+â— Sem descriÃ§Ãµes vagas
 
-📏 Use detalhes mensuráveis, como tempo, distância e ângulo
+ðŸ“ Use detalhes mensurÃ¡veis, como tempo, distÃ¢ncia e Ã¢ngulo
 
-🎯 Foque em ações observáveis
+ðŸŽ¯ Foque em aÃ§Ãµes observÃ¡veis
 
-🔄 Pense sempre em sequências
+ðŸ”„ Pense sempre em sequÃªncias
 
-🎥 Sempre defina o comportamento da câmera
+ðŸŽ¥ Sempre defina o comportamento da cÃ¢mera
 
-## 🧠 Conclusão Final
+## ðŸ§  ConclusÃ£o Final
 
-Você não precisa descrever tudo.
+VocÃª nÃ£o precisa descrever tudo.
 
-Você só precisa de:
+VocÃª sÃ³ precisa de:
 
-Força
+ForÃ§a
 
-Sequência
+SequÃªncia
 
-Câmera
+CÃ¢mera
 
-Reação humana
+ReaÃ§Ã£o humana
 
 O Seedance converte isso em movimento.
 
-## 📝 Tarefa
+## ðŸ“ Tarefa
 
-Crie sua própria cena usando este método.
+Crie sua prÃ³pria cena usando este mÃ©todo.
 
 Inclua:
 
-⚡ Força
+âš¡ ForÃ§a
 
-🔄 Sequência
+ðŸ”„ SequÃªncia
 
-📷 Câmera
+ðŸ“· CÃ¢mera
 
-🧍 Reação humana
+ðŸ§ ReaÃ§Ã£o humana
 
 Depois explique:
 
 Por que essa velocidade?
 
-Por que essa câmera?
+Por que essa cÃ¢mera?
 
-O que o espectador sente, sem nomear emoções?
+O que o espectador sente, sem nomear emoÃ§Ãµes?
 
-Mostre tudo através do movimento e do timing.
+Mostre tudo atravÃ©s do movimento e do timing.
 
 ---
 
-# Aula 9 — Controle de Câmera no Kling
+# Aula 9 â€” Controle de CÃ¢mera no Kling
 
 **13:42**
 
-## ⚡️ Movimento de Câmera Cinematográfico — Análise Profissional
+## âš¡ï¸ Movimento de CÃ¢mera CARCKHÉtogrÃ¡fico â€” AnÃ¡lise Profissional
 
-Olá, pessoal. Hoje vamos analisar de forma estruturada e profissional o movimento de câmera cinematográfico e como aplicá-lo com intenção.
+OlÃ¡, pessoal. Hoje vamos analisar de forma estruturada e profissional o movimento de cÃ¢mera cARCKHÉtogrÃ¡fico e como aplicÃ¡-lo com intenÃ§Ã£o.
 
-Nesta aula, você vai entender não apenas a diferença técnica entre **dolly**, **zoom** e **dolly zoom**, mas — mais importante ainda — o propósito narrativo de cada um.
+Nesta aula, vocÃª vai entender nÃ£o apenas a diferenÃ§a tÃ©cnica entre **dolly**, **zoom** e **dolly zoom**, mas â€” mais importante ainda â€” o propÃ³sito narrativo de cada um.
 
-O objetivo não é apenas saber o que usar, mas quando e por que usar, para alcançar resultados verdadeiramente cinematográficos.
+O objetivo nÃ£o Ã© apenas saber o que usar, mas quando e por que usar, para alcanÃ§ar resultados verdadeiramente cARCKHÉtogrÃ¡ficos.
 
-## 🎬 Princípio Central
+## ðŸŽ¬ PrincÃ­pio Central
 
-**Dolly** — a câmera se move fisicamente pelo espaço.  
-Isso introduz paralaxe, profundidade e uma forte sensação de realismo.
+**Dolly** â€” a cÃ¢mera se move fisicamente pelo espaÃ§o.  
+Isso introduz paralaxe, profundidade e uma forte sensaÃ§Ã£o de realismo.
 
-**Zoom** — a lente muda a distância focal sem movimento da câmera.  
+**Zoom** â€” a lente muda a distÃ¢ncia focal sem movimento da cÃ¢mera.  
 O resultado parece mais plano, mais observacional e menos imersivo.
 
-**Dolly Zoom** — um efeito combinado em que o movimento da câmera e o zoom se opõem.  
-Isso cria distorção espacial, frequentemente usada para provocar tensão ou desconforto psicológico.
+**Dolly Zoom** â€” um efeito combinado em que o movimento da cÃ¢mera e o zoom se opÃµem.  
+Isso cria distorÃ§Ã£o espacial, frequentemente usada para provocar tensÃ£o ou desconforto psicolÃ³gico.
 
-## 👉 Regra de Ouro
+## ðŸ‘‰ Regra de Ouro
 
-Use **dolly** para criar imersão e profundidade cinematográfica.
+Use **dolly** para criar imersÃ£o e profundidade cARCKHÉtogrÃ¡fica.
 
 Use **zoom** para enquadramento observacional ou com estilo documental.
 
-Use **dolly zoom** para introduzir desorientação e tensão emocional.
+Use **dolly zoom** para introduzir desorientaÃ§Ã£o e tensÃ£o emocional.
 
-## ⚡️ O Que Você Vai Aprender Nesta Aula
+## âš¡ï¸ O Que VocÃª Vai Aprender Nesta Aula
 
-Uma análise completa de mais de 25 movimentos de câmera, como dolly, truck, pan, tilt, crane, orbit e outros.
+Uma anÃ¡lise completa de mais de 25 movimentos de cÃ¢mera, como dolly, truck, pan, tilt, crane, orbit e outros.
 
-A intenção cinematográfica por trás de cada movimento e como ele é usado no cinema profissional.
+A intenÃ§Ã£o cARCKHÉtogrÃ¡fica por trÃ¡s de cada movimento e como ele Ã© usado no cARCKHÉ profissional.
 
-Como o movimento de câmera molda a percepção emocional:
+Como o movimento de cÃ¢mera molda a percepÃ§Ã£o emocional:
 
-**Intimidade** → dolly in
+**Intimidade** â†’ dolly in
 
-**Isolamento** → dolly out
+**Isolamento** â†’ dolly out
 
-**Tensão** → dutch angle / dolly zoom
+**TensÃ£o** â†’ dutch angle / dolly zoom
 
-**Escala** → crane shots / movimento espacial amplo
+**Escala** â†’ crane shots / movimento espacial amplo
 
-Como a paralaxe aumenta a profundidade por meio da separação entre primeiro plano, sujeito e fundo.
+Como a paralaxe aumenta a profundidade por meio da separaÃ§Ã£o entre primeiro plano, sujeito e fundo.
 
-A distinção crítica entre movimento de câmera e movimento de lente.
+A distinÃ§Ã£o crÃ­tica entre movimento de cÃ¢mera e movimento de lente.
 
-Técnicas para alcançar uma aparência cinematográfica premium em vídeos gerados por IA.
+TÃ©cnicas para alcanÃ§ar uma aparÃªncia cARCKHÉtogrÃ¡fica premium em vÃ­deos gerados por IA.
 
-## 🎥 Sistema de Demonstração
+## ðŸŽ¥ Sistema de DemonstraÃ§Ã£o
 
-Todos os movimentos são ilustrados dentro de uma única cena controlada — um esqueleto dentro de uma suíte de hotel de luxo.
+Todos os movimentos sÃ£o ilustrados dentro de uma Ãºnica cena controlada â€” um esqueleto dentro de uma suÃ­te de hotel de luxo.
 
-Isso permite observar com precisão:
+Isso permite observar com precisÃ£o:
 
-Variação de profundidade
+VariaÃ§Ã£o de profundidade
 
 Movimento relativo dos objetos
 
 Comportamento do fundo
 
-Percepção cinematográfica geral
+PercepÃ§Ã£o cARCKHÉtogrÃ¡fica geral
 
-## 🎬 Guia Prático de Referência
+## ðŸŽ¬ Guia PrÃ¡tico de ReferÃªncia
 
-Para criar proximidade emocional → **dolly in**
+Para criar proximidade emocional â†’ **dolly in**
 
-Para enfatizar escala ou solidão → **dolly out**
+Para enfatizar escala ou solidÃ£o â†’ **dolly out**
 
-Para revelar verticalmente, de baixo para cima → **tilt up**
+Para revelar verticalmente, de baixo para cima â†’ **tilt up**
 
-Para conectar elementos visuais → **rack focus**
+Para conectar elementos visuais â†’ **rack focus**
 
-Para alcançar uma sensação cinematográfica premium → **arc shot**
+Para alcanÃ§ar uma sensaÃ§Ã£o cARCKHÉtogrÃ¡fica premium â†’ **arc shot**
 
-Para introduzir realismo ou energia documental → **handheld**
+Para introduzir realismo ou energia documental â†’ **handheld**
 
-Para criar desconforto ou instabilidade → **dutch angle**
+Para criar desconforto ou instabilidade â†’ **dutch angle**
 
-Para adicionar impacto ou choque → **fast dolly in / crash zoom**
+Para adicionar impacto ou choque â†’ **fast dolly in / crash zoom**
 
-Para revelar o ambiente lateralmente → **truck movement**
+Para revelar o ambiente lateralmente â†’ **truck movement**
 
-Para fazer uma transição dinâmica → **whip pan**
+Para fazer uma transiÃ§Ã£o dinÃ¢mica â†’ **whip pan**
 
-Para distorcer a percepção e induzir tensão → **dolly zoom**
+Para distorcer a percepÃ§Ã£o e induzir tensÃ£o â†’ **dolly zoom**
 
-## 🏠 Tarefa
+## ðŸ  Tarefa
 
-Crie 3 vídeos curtos usando diferentes movimentos de câmera:
+Crie 3 vÃ­deos curtos usando diferentes movimentos de cÃ¢mera:
 
-Selecione um movimento de câmera específico.
+Selecione um movimento de cÃ¢mera especÃ­fico.
 
 Escreva um prompt preciso.
 
-Explique seu raciocínio:
+Explique seu raciocÃ­nio:
 
 Por que esse movimento?
 
-Qual propósito emocional ou cinematográfico ele serve?
+Qual propÃ³sito emocional ou cARCKHÉtogrÃ¡fico ele serve?
 
-🎬 Foque na intencionalidade — não apenas em como o plano parece, mas por que exatamente aquele movimento foi escolhido.
+ðŸŽ¬ Foque na intencionalidade â€” nÃ£o apenas em como o plano parece, mas por que exatamente aquele movimento foi escolhido.
 
 ---
 
-# Aula 10 — Integração com Luma e Runway
+# Aula 10 â€” IntegraÃ§Ã£o com Luma e Runway
 
 **7:15**
 
-Olá, pessoal.
+OlÃ¡, pessoal.
 
 Hoje vamos analisar como criar filmes com o **Uni-1 da Luma AI**.
 
-Isto não é apenas mais um gerador de imagem ou vídeo — é um ambiente criativo de filmmaking,
+Isto nÃ£o Ã© apenas mais um gerador de imagem ou vÃ­deo â€” Ã© um ambiente criativo de filmmaking,
 
-onde você atua como diretor, não como engenheiro de prompt.
+onde vocÃª atua como diretor, nÃ£o como engenheiro de prompt.
 
-## 🎥 Por Que Isso Funciona para Filmmaking
+## ðŸŽ¥ Por Que Isso Funciona para Filmmaking
 
-✨ Chega de alternar entre ferramentas
+âœ¨ Chega de alternar entre ferramentas
 
-✨ Personagens consistentes entre os planos
+âœ¨ Personagens consistentes entre os planos
 
-✨ Iluminação, estilo e tom estáveis
+âœ¨ IluminaÃ§Ã£o, estilo e tom estÃ¡veis
 
-O Uni-1 usa um sistema de Inteligência Unificada que lembra o contexto do seu projeto — então seu filme
+O Uni-1 usa um sistema de InteligÃªncia Unificada que lembra o contexto do seu projeto â€” entÃ£o seu filme
 
 permanece visual e narrativamente coerente.
 
-👉 Você não escreve comandos.
+ðŸ‘‰ VocÃª nÃ£o escreve comandos.
 
-👉 Você conversa, descreve e dirige.
+ðŸ‘‰ VocÃª conversa, descreve e dirige.
 
-## 🧠 O Fluxo Prático de Filmmaking
+## ðŸ§  O Fluxo PrÃ¡tico de Filmmaking
 
 ## Etapa 1: Crie Seu Personagem
 
-Peça uma ficha completa de personagem para garantir consistência:
+PeÃ§a uma ficha completa de personagem para garantir consistÃªncia:
 
-💬 **Exemplo:**
+ðŸ’¬ **Exemplo:**
 
-“Ei, vamos criar nosso personagem principal... cowboy cinematográfico e fotorrealista... início dos 40 anos... aparência rústica...
+â€œEi, vamos criar nosso personagem principal... cowboy cARCKHÉtogrÃ¡fico e fotorrealista... inÃ­cio dos 40 anos... aparÃªncia rÃºstica...
 
-ficha de corpo inteiro com vistas frontal, lateral e traseira... mesmo rosto, mesma roupa...”
+ficha de corpo inteiro com vistas frontal, lateral e traseira... mesmo rosto, mesma roupa...â€
 
-⚠️ **Dica:**
+âš ï¸ **Dica:**
 
-● A IA pode começar com apenas uma vista primeiro
+â— A IA pode comeÃ§ar com apenas uma vista primeiro
 
-● Guie passo a passo — a iteração é essencial
+â— Guie passo a passo â€” a iteraÃ§Ã£o Ã© essencial
 
-## 🎬 Etapa 2: Dirija um Plano Cinematográfico
+## ðŸŽ¬ Etapa 2: Dirija um Plano CARCKHÉtogrÃ¡fico
 
 Agora pense como um diretor:
 
-💬 **Exemplo:**
+ðŸ’¬ **Exemplo:**
 
-“Me dê um plano ultra-aberto de drone... visão de cima sobre colinas douradas... descendo até o cowboy cavalgando
+â€œMe dÃª um plano ultra-aberto de drone... visÃ£o de cima sobre colinas douradas... descendo atÃ© o cowboy cavalgando
 
-em velocidade máxima... saltando entre penhascos...”
+em velocidade mÃ¡xima... saltando entre penhascos...â€
 
-🎯 **Você controla:**
+ðŸŽ¯ **VocÃª controla:**
 
-● Movimento de câmera
+â— Movimento de cÃ¢mera
 
-● Composição
+â— ComposiÃ§Ã£o
 
-● Iluminação
+â— IluminaÃ§Ã£o
 
-● Emoção
+â— EmoÃ§Ã£o
 
 Refine naturalmente:
 
-“Manter tudo igual, apenas adicionar um cowboy à esquerda...”
+â€œManter tudo igual, apenas adicionar um cowboy Ã  esquerda...â€
 
-## 🚀 Etapa 3: Anime o Plano
+## ðŸš€ Etapa 3: Anime o Plano
 
-Dê vida à cena:
+DÃª vida Ã  cena:
 
-💬 **Exemplo:**
+ðŸ’¬ **Exemplo:**
 
-“Faça a câmera parecer um drone rápido... contornando o cavaleiro... alta energia... movimento realista...”
+â€œFaÃ§a a cÃ¢mera parecer um drone rÃ¡pido... contornando o cavaleiro... alta energia... movimento realista...â€
 
 Depois refine:
 
-● “Deixe o salto mais realista”
+â— â€œDeixe o salto mais realistaâ€
 
-● “Melhore o fluxo cinematográfico”
+â— â€œMelhore o fluxo cARCKHÉtogrÃ¡ficoâ€
 
-🔥 Você pode comparar resultados, por exemplo, **Kling vs Ray 3.14**, e escolher o que melhor se encaixa na sua visão.
+ðŸ”¥ VocÃª pode comparar resultados, por exemplo, **Kling vs Ray 3.14**, e escolher o que melhor se encaixa na sua visÃ£o.
 
-## 💡 Por Que Essa Abordagem Funciona
+## ðŸ’¡ Por Que Essa Abordagem Funciona
 
-Quando você fala de forma natural:
+Quando vocÃª fala de forma natural:
 
-1⃣ A IA entende intenção, não apenas palavras-chave
+1âƒ£ A IA entende intenÃ§Ã£o, nÃ£o apenas palavras-chave
 
-2⃣ Ela lembra o contexto entre as etapas
+2âƒ£ Ela lembra o contexto entre as etapas
 
-3⃣ Você permanece em uma mentalidade criativa
+3âƒ£ VocÃª permanece em uma mentalidade criativa
 
-👉 Você não está apenas criando prompts.
+ðŸ‘‰ VocÃª nÃ£o estÃ¡ apenas criando prompts.
 
-👉 Você está dirigindo seu parceiro criativo.
+ðŸ‘‰ VocÃª estÃ¡ dirigindo seu parceiro criativo.
 
-## 📚 Tarefa
+## ðŸ“š Tarefa
 
-Faça estas três coisas com o assistente:
+FaÃ§a estas trÃªs coisas com o assistente:
 
-1⃣ Crie sua ficha de personagem
+1âƒ£ Crie sua ficha de personagem
 
-2⃣ Gere um plano cinematográfico
+2âƒ£ Gere um plano cARCKHÉtogrÃ¡fico
 
-3⃣ Anime o plano
+3âƒ£ Anime o plano

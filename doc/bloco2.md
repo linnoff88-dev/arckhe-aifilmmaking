@@ -1,60 +1,60 @@
-# Bloco 2 — Traduções
+# Bloco 2 â€” TraduÃ§Ãµes
 
 ---
 
-## Módulo 1 — Pensamento Visual
+## MÃ³dulo 1 â€” Pensamento Visual
 
-Um prompt profissional não apenas descreve uma cena — ele controla como o espectador a vivencia ao longo do tempo.
+Um prompt profissional nÃ£o apenas descreve uma cena â€” ele controla como o espectador a vivencia ao longo do tempo.
 
-## 1. Formato = Comportamento da Câmera
+## 1. Formato = Comportamento da CÃ¢mera
 
-Define como a cena é sentida:
+Define como a cena Ã© sentida:
 
-● Proporção de tela, lente, profundidade de campo → composição e espaço
+â— ProporÃ§Ã£o de tela, lente, profundidade de campo â†’ composiÃ§Ã£o e espaÃ§o
 
-● Desfoque de movimento, taxa de quadros → realismo
+â— Desfoque de movimento, taxa de quadros â†’ realismo
 
-● Movimento de câmera → energia
+â— Movimento de cÃ¢mera â†’ energia
 
-👉 Resultado: não é estático, mas sim movimento cinematográfico controlado.
+ðŸ‘‰ Resultado: nÃ£o Ã© estÃ¡tico, mas sim movimento cARCKHÉtogrÃ¡fico controlado.
 
-## 2. Ambiente = História Sem Palavras
+## 2. Ambiente = HistÃ³ria Sem Palavras
 
-O mundo já conta uma história:
+O mundo jÃ¡ conta uma histÃ³ria:
 
-● Megacidade em ruínas → civilização perdida
+â— Megacidade em ruÃ­nas â†’ civilizaÃ§Ã£o perdida
 
-● Arquitetura misturada → história em camadas
+â— Arquitetura misturada â†’ histÃ³ria em camadas
 
-● Poeira, destroços → movimento constante
+â— Poeira, destroÃ§os â†’ movimento constante
 
-👉 O espectador entende que algo está errado sem precisar de explicação.
+ðŸ‘‰ O espectador entende que algo estÃ¡ errado sem precisar de explicaÃ§Ã£o.
 
-## 3. Iluminação = Emoção
+## 3. IluminaÃ§Ã£o = EmoÃ§Ã£o
 
-● Luz quente → humanidade, beleza
+â— Luz quente â†’ humanidade, beleza
 
-● Sombras frias → perigo, vazio
+â— Sombras frias â†’ perigo, vazio
 
-👉 O contraste cria tensão emocional.
+ðŸ‘‰ O contraste cria tensÃ£o emocional.
 
-## 4. Personagem = Contradição
+## 4. Personagem = ContradiÃ§Ã£o
 
-Mulher elegante em um mundo destruído.
+Mulher elegante em um mundo destruÃ­do.
 
-● Vestido vermelho → foco visual
+â— Vestido vermelho â†’ foco visual
 
-● Saltos altos → domínio, não sobrevivência
+â— Saltos altos â†’ domÃ­nio, nÃ£o sobrevivÃªncia
 
-● Óculos escuros → mistério
+â— Ã“culos escuros â†’ mistÃ©rio
 
-● Arma enorme → poder
+â— Arma enorme â†’ poder
 
-👉 A contradição cria intriga e perguntas.
+ðŸ‘‰ A contradiÃ§Ã£o cria intriga e perguntas.
 
-## 5. Estrutura da Cena = Sequência
+## 5. Estrutura da Cena = SequÃªncia
 
-Não é um único plano — é uma progressão:
+NÃ£o Ã© um Ãºnico plano â€” Ã© uma progressÃ£o:
 
 1. Mostrar o mundo
 
@@ -64,200 +64,200 @@ Não é um único plano — é uma progressão:
 
 4. Adicionar ruptura
 
-5. Mostrar intenção
+5. Mostrar intenÃ§Ã£o
 
-👉 O espectador descobre, não apenas recebe a informação.
+ðŸ‘‰ O espectador descobre, nÃ£o apenas recebe a informaÃ§Ã£o.
 
-## Por Que Parece Cinematográfico
+## Por Que Parece CARCKHÉtogrÃ¡fico
 
 Porque usa:
 
-● Escala vs. intimidade
+â— Escala vs. intimidade
 
-● Caos vs. controle
+â— Caos vs. controle
 
-● Beleza vs. destruição
+â— Beleza vs. destruiÃ§Ã£o
 
 E controla:
 
-● O que você vê
+â— O que vocÃª vÃª
 
-● Para onde você olha
+â— Para onde vocÃª olha
 
-● Como as coisas se movem
+â— Como as coisas se movem
 
-● Quando a informação é revelada
+â— Quando a informaÃ§Ã£o Ã© revelada
 
 ## Ideia Central
 
-Você não está criando uma cena.
+VocÃª nÃ£o estÃ¡ criando uma cena.
 
-Você está criando uma pergunta na mente do espectador.
+VocÃª estÃ¡ criando uma pergunta na mente do espectador.
 
 ## Tarefa
 
-Crie sua própria versão:
+Crie sua prÃ³pria versÃ£o:
 
-● Mantenha a estrutura
+â— Mantenha a estrutura
 
-● Mude a contradição
+â— Mude a contradiÃ§Ã£o
 
-● Defina: contraste, tensão, pergunta
+â— Defina: contraste, tensÃ£o, pergunta
 
-👉 Objetivo: fazer o espectador sentir algo e se perguntar por quê.
+ðŸ‘‰ Objetivo: fazer o espectador sentir algo e se perguntar por quÃª.
 
 ---
 
-# 🎬 Aula 4 — Composição para Cinema
+# ðŸŽ¬ Aula 4 â€” ComposiÃ§Ã£o para CARCKHÉ
 
-Olá, pessoal. Hoje vamos criar um vídeo cinematográfico no CapCut usando o Seedance 2.0 — e, ao mesmo tempo, aprender composição na prática.
+OlÃ¡, pessoal. Hoje vamos criar um vÃ­deo cARCKHÉtogrÃ¡fico no CapCut usando o Seedance 2.0 â€” e, ao mesmo tempo, aprender composiÃ§Ã£o na prÃ¡tica.
 
 A ideia principal:
 
-**O prompt se torna uma sequência, não uma única ideia.**
+**O prompt se torna uma sequÃªncia, nÃ£o uma Ãºnica ideia.**
 
-Mesmo que você escreva um prompt estruturado, o resultado sempre será uma cadeia de planos separados.
+Mesmo que vocÃª escreva um prompt estruturado, o resultado sempre serÃ¡ uma cadeia de planos separados.
 
 Cada plano tem:
 
-● sua própria composição  
-● seu próprio propósito  
-● sua própria função dentro da sequência
+â— sua prÃ³pria composiÃ§Ã£o  
+â— seu prÃ³prio propÃ³sito  
+â— sua prÃ³pria funÃ§Ã£o dentro da sequÃªncia
 
-Cada composição resolve uma tarefa diferente.
+Cada composiÃ§Ã£o resolve uma tarefa diferente.
 
 Ao longo dos planos, usamos:
 
-● **Diagonal** → energia e movimento  
-● **Linhas de condução** → guiam o olhar  
-● **Regra dos terços** → equilíbrio e direção  
-● **Espaço negativo** → isola momentos-chave  
-● **Centro / simetria** → controle e estabilidade  
-● **Macro** → detalhe e realismo  
-● **Plano aberto / escala** → atmosfera e espaço  
-● **Enquadramento + profundidade** → camadas cinematográficas  
-● **Contraste** → foco e intensidade
+â— **Diagonal** â†’ energia e movimento  
+â— **Linhas de conduÃ§Ã£o** â†’ guiam o olhar  
+â— **Regra dos terÃ§os** â†’ equilÃ­brio e direÃ§Ã£o  
+â— **EspaÃ§o negativo** â†’ isola momentos-chave  
+â— **Centro / simetria** â†’ controle e estabilidade  
+â— **Macro** â†’ detalhe e realismo  
+â— **Plano aberto / escala** â†’ atmosfera e espaÃ§o  
+â— **Enquadramento + profundidade** â†’ camadas cARCKHÉtogrÃ¡ficas  
+â— **Contraste** â†’ foco e intensidade
 
-A cena evolui, não se repete.
+A cena evolui, nÃ£o se repete.
 
-## Por que parece cinematográfico
+## Por que parece cARCKHÉtogrÃ¡fico
 
 Porque usa:
 
-● composição por plano  
-● mudanças de escala, do detalhe ao plano aberto  
-● movimento contínuo  
-● hierarquia visual clara  
-● timing controlado
+â— composiÃ§Ã£o por plano  
+â— mudanÃ§as de escala, do detalhe ao plano aberto  
+â— movimento contÃ­nuo  
+â— hierarquia visual clara  
+â— timing controlado
 
 E, o mais importante:
 
-**A composição é usada no momento certo.**
+**A composiÃ§Ã£o Ã© usada no momento certo.**
 
 ## Ideia central
 
-Você não está apenas escrevendo um prompt.
+VocÃª nÃ£o estÃ¡ apenas escrevendo um prompt.
 
-Você está desenhando uma sequência de composições ao longo do tempo.
+VocÃª estÃ¡ desenhando uma sequÃªncia de composiÃ§Ãµes ao longo do tempo.
 
-Essa é a diferença entre:
+Essa Ã© a diferenÃ§a entre:
 
-● um vídeo bonito
+â— um vÃ­deo bonito
 
 e
 
-● uma sequência cinematográfica
+â— uma sequÃªncia cARCKHÉtogrÃ¡fica
 
-## 📝 Tarefa
+## ðŸ“ Tarefa
 
-Crie sua própria versão:
+Crie sua prÃ³pria versÃ£o:
 
-● Pegue qualquer assunto simples  
-● Construa de 5 a 7 planos  
-● Use pelo menos 3 composições: centro, regra dos terços e espaço negativo  
-● Verifique para onde seu olhar vai em cada plano
+â— Pegue qualquer assunto simples  
+â— Construa de 5 a 7 planos  
+â— Use pelo menos 3 composiÃ§Ãµes: centro, regra dos terÃ§os e espaÃ§o negativo  
+â— Verifique para onde seu olhar vai em cada plano
 
 ## Objetivo
 
-👉 Controlar não apenas os visuais — mas também a atenção, o ritmo e o timing.
+ðŸ‘‰ Controlar nÃ£o apenas os visuais â€” mas tambÃ©m a atenÃ§Ã£o, o ritmo e o timing.
 
 ---
 
-# 🎬 Aula 5 — Iluminação e Atmosfera
+# ðŸŽ¬ Aula 5 â€” IluminaÃ§Ã£o e Atmosfera
 
 **9:04**
 
-Hoje você não está apenas aprendendo sobre luz.  
-Você está aprendendo como controlar emoção.
+Hoje vocÃª nÃ£o estÃ¡ apenas aprendendo sobre luz.  
+VocÃª estÃ¡ aprendendo como controlar emoÃ§Ã£o.
 
-Porque, no cinema, luz não é visibilidade.  
-Luz é sentimento.
+Porque, no cARCKHÉ, luz nÃ£o Ã© visibilidade.  
+Luz Ã© sentimento.
 
-## Negative Fill — Controle da Escuridão
+## Negative Fill â€” Controle da EscuridÃ£o
 
-Grande cinematografia não é sobre adicionar luz…
+Grande cARCKHÉtografia nÃ£o Ã© sobre adicionar luzâ€¦
 
-é sobre removê-la.
+Ã© sobre removÃª-la.
 
-Quando você tira a luz, as sombras ficam mais profundas —
+Quando vocÃª tira a luz, as sombras ficam mais profundas â€”
 
 e, de repente, o quadro parece misterioso, convidativo, vivo.
 
-## Edge Contrast — Guiar o Olhar
+## Edge Contrast â€” Guiar o Olhar
 
-Você não precisa iluminar tudo.
+VocÃª nÃ£o precisa iluminar tudo.
 
-Uma fina borda de luz é suficiente para definir um sujeito.
+Uma fina borda de luz Ã© suficiente para definir um sujeito.
 
-O olho naturalmente segue o contraste — não o brilho.
+O olho naturalmente segue o contraste â€” nÃ£o o brilho.
 
-## Suavidade pela Distância
+## Suavidade pela DistÃ¢ncia
 
-Luz suave não tem a ver apenas com fontes grandes —
+Luz suave nÃ£o tem a ver apenas com fontes grandes â€”
 
-tem a ver com distância.
+tem a ver com distÃ¢ncia.
 
-Aproxime uma luz pequena…
+Aproxime uma luz pequenaâ€¦
 
-e ela envolve o sujeito como emoção.
+e ela envolve o sujeito como emoÃ§Ã£o.
 
-## Iluminação Motivada
+## IluminaÃ§Ã£o Motivada
 
 Toda luz precisa vir de algum lugar real.
 
-O sol. Uma lâmpada. Uma tela.
+O sol. Uma lÃ¢mpada. Uma tela.
 
-Se o espectador acredita na fonte —
+Se o espectador acredita na fonte â€”
 
 ele acredita na cena.
 
 ## Regra 80/20
 
-Apenas 20% da sua luz deve estar visível.
+Apenas 20% da sua luz deve estar visÃ­vel.
 
 Os outros 80% permanecem escondidos.
 
-É isso que cria profundidade…
+Ã‰ isso que cria profundidadeâ€¦
 
-e faz a imagem parecer cinematográfica em vez de plana.
+e faz a imagem parecer cARCKHÉtogrÃ¡fica em vez de plana.
 
 ## Camadas de Atmosfera
 
 A profundidade vem das camadas.
 
-Primeiro plano. Plano médio. Fundo.
+Primeiro plano. Plano mÃ©dio. Fundo.
 
-Adicione névoa —
+Adicione nÃ©voa â€”
 
-e a luz se torna visível no espaço.
+e a luz se torna visÃ­vel no espaÃ§o.
 
 ## Contraste de Cor
 
-Tons quentes e frios criam tensão.
+Tons quentes e frios criam tensÃ£o.
 
-Equilíbrio. Emoção.
+EquilÃ­brio. EmoÃ§Ã£o.
 
-Esse contraste é o que faz o quadro parecer vivo.
+Esse contraste Ã© o que faz o quadro parecer vivo.
 
 ## Apenas Luz de Recorte
 
@@ -265,167 +265,167 @@ Remova completamente a luz frontal.
 
 Deixe apenas a borda iluminada.
 
-Agora seu sujeito se torna misterioso —
+Agora seu sujeito se torna misterioso â€”
 
-mas ainda legível.
+mas ainda legÃ­vel.
 
-## Contraste de Exposição
+## Contraste de ExposiÃ§Ã£o
 
 Exponha para o que importa.
 
-Deixe o resto cair na escuridão…
+Deixe o resto cair na escuridÃ£oâ€¦
 
 ou estourar na luz.
 
-É assim que você cria foco.
+Ã‰ assim que vocÃª cria foco.
 
-## Luz Dinâmica
+## Luz DinÃ¢mica
 
 A luz deve se mover.
 
-Fogo, tochas, tremulação —
+Fogo, tochas, tremulaÃ§Ã£o â€”
 
 eles trazem vida ao quadro.
 
-Luz estática parece morta.
+Luz estÃ¡tica parece morta.
 
 Luz em movimento parece real.
 
-## 🎯 Ideia Central
+## ðŸŽ¯ Ideia Central
 
-Luz é emoção.
+Luz Ã© emoÃ§Ã£o.
 
-Ela direciona a atenção.
+Ela direciona a atenÃ§Ã£o.
 
 Molda a profundidade.
 
 Define o clima.
 
-Não apenas o que vemos —
+NÃ£o apenas o que vemos â€”
 
 mas o que sentimos.
 
-## 📝 Tarefa
+## ðŸ“ Tarefa
 
-Agora é a sua vez.
+Agora Ã© a sua vez.
 
-Crie um prompt de vídeo de 5 a 15 segundos.
+Crie um prompt de vÃ­deo de 5 a 15 segundos.
 
-Descreva seu sujeito, ambiente, fontes de luz, cores e movimento de câmera.
+Descreva seu sujeito, ambiente, fontes de luz, cores e movimento de cÃ¢mera.
 
 Adicione de 3 a 5 palavras-chave fortes de clima.
 
-## Explique sua iluminação
+## Explique sua iluminaÃ§Ã£o
 
-Por que a luz está posicionada dessa forma?
+Por que a luz estÃ¡ posicionada dessa forma?
 
 Como ela molda o sujeito?
 
-Que contraste você está usando?
+Que contraste vocÃª estÃ¡ usando?
 
 ## Explique a atmosfera
 
-O que o espectador sente — e por quê?
+O que o espectador sente â€” e por quÃª?
 
-Quais palavras exatas no seu prompt criam essa sensação?
+Quais palavras exatas no seu prompt criam essa sensaÃ§Ã£o?
 
-Seu objetivo é simples:
+Seu objetivo Ã© simples:
 
-Controlar o quadro através da luz…
+Controlar o quadro atravÃ©s da luzâ€¦
 
 e fazer o espectador sentir algo real.
 
 ---
 
-# 🎬 Aula 6 — Profundidade e Estrutura Espacial
+# ðŸŽ¬ Aula 6 â€” Profundidade e Estrutura Espacial
 
 **5:21**
 
-Nesta aula, você aprende como construir profundidade cinematográfica e transformar imagens planas em cenas visuais imersivas.
+Nesta aula, vocÃª aprende como construir profundidade cARCKHÉtogrÃ¡fica e transformar imagens planas em cenas visuais imersivas.
 
-## ✨ Ideia Central
+## âœ¨ Ideia Central
 
-Profundidade é a ilusão de espaço tridimensional.
+Profundidade Ã© a ilusÃ£o de espaÃ§o tridimensional.
 
-Ela é criada organizando:
+Ela Ã© criada organizando:
 
-● 🧱 **Primeiro plano** — onde o espectador está  
-● 🎯 **Plano médio** — onde o sujeito está  
-● 🌄 **Fundo** — onde o contexto vive
+â— ðŸ§± **Primeiro plano** â€” onde o espectador estÃ¡  
+â— ðŸŽ¯ **Plano mÃ©dio** â€” onde o sujeito estÃ¡  
+â— ðŸŒ„ **Fundo** â€” onde o contexto vive
 
-## 🎥 Princípios-Chave
+## ðŸŽ¥ PrincÃ­pios-Chave
 
-### 1. Regra das Três Camadas
+### 1. Regra das TrÃªs Camadas
 
-Todo quadro deve ter primeiro plano, plano médio e fundo.
+Todo quadro deve ter primeiro plano, plano mÃ©dio e fundo.
 
-### 2. Separação
+### 2. SeparaÃ§Ã£o
 
 As camadas precisam ser visualmente distintas usando foco, luz ou cor.
 
 ### 3. Profundidade de Campo
 
-Controla o que está nítido → guia a atenção.
+Controla o que estÃ¡ nÃ­tido â†’ guia a atenÃ§Ã£o.
 
-### 4. Iluminação
+### 4. IluminaÃ§Ã£o
 
-Contraste e contraluz separam o espaço.
+Contraste e contraluz separam o espaÃ§o.
 
 ### 5. Atmosfera
 
-Névoa e bruma empurram os elementos para a distância.
+NÃ©voa e bruma empurram os elementos para a distÃ¢ncia.
 
 ### 6. Escolha da Lente
 
-○ **Grande-angular** → expande o espaço  
-○ **Teleobjetiva** → comprime o espaço
+â—‹ **Grande-angular** â†’ expande o espaÃ§o  
+â—‹ **Teleobjetiva** â†’ comprime o espaÃ§o
 
 ### 7. Movimento e Paralaxe
 
 O movimento revela profundidade conforme as camadas se deslocam em velocidades diferentes.
 
-## 🎭 Profundidade = Emoção
+## ðŸŽ­ Profundidade = EmoÃ§Ã£o
 
-Profundidade não é apenas visual — é emocional:
+Profundidade nÃ£o Ã© apenas visual â€” Ã© emocional:
 
-● ❤️ Distância próxima → intimidade  
-● 🧊 Distância longa → isolamento  
-● 🔄 Movimento → mudança  
-● ⏸ Imobilidade → tensão
+â— â¤ï¸ DistÃ¢ncia prÃ³xima â†’ intimidade  
+â— ðŸ§Š DistÃ¢ncia longa â†’ isolamento  
+â— ðŸ”„ Movimento â†’ mudanÃ§a  
+â— â¸ Imobilidade â†’ tensÃ£o
 
-Personagens posicionados em camadas diferentes mostram relações sem diálogo.
+Personagens posicionados em camadas diferentes mostram relaÃ§Ãµes sem diÃ¡logo.
 
-## 🧠 Abordagem Profissional
+## ðŸ§  Abordagem Profissional
 
-Um plano cinematográfico combina:
+Um plano cARCKHÉtogrÃ¡fico combina:
 
-● composição  
-● câmera e lente  
-● iluminação  
-● movimento  
-● posicionamento dos personagens
+â— composiÃ§Ã£o  
+â— cÃ¢mera e lente  
+â— iluminaÃ§Ã£o  
+â— movimento  
+â— posicionamento dos personagens
 
-Todos os elementos trabalham juntos como um único sistema.
+Todos os elementos trabalham juntos como um Ãºnico sistema.
 
-## 🚀 Resultado
+## ðŸš€ Resultado
 
-Você deixa de apenas criar imagens e passa a dirigir cenas:
+VocÃª deixa de apenas criar imagens e passa a dirigir cenas:
 
-● moldando o espaço  
-● controlando a atenção  
-● contando histórias através da profundidade
+â— moldando o espaÃ§o  
+â— controlando a atenÃ§Ã£o  
+â— contando histÃ³rias atravÃ©s da profundidade
 
-## 📝 Tarefa
+## ðŸ“ Tarefa
 
-Crie 3 cenas cinematográficas, com um plano cada:
+Crie 3 cenas cARCKHÉtogrÃ¡ficas, com um plano cada:
 
-● inclua primeiro plano, plano médio e fundo  
-● use iluminação e movimento de câmera  
-● adicione 2 personagens em camadas diferentes  
-● mostre emoção apenas pela posição e pelo olhar
+â— inclua primeiro plano, plano mÃ©dio e fundo  
+â— use iluminaÃ§Ã£o e movimento de cÃ¢mera  
+â— adicione 2 personagens em camadas diferentes  
+â— mostre emoÃ§Ã£o apenas pela posiÃ§Ã£o e pelo olhar
 
-🚫 Sem diálogo
+ðŸš« Sem diÃ¡logo
 
-🚫 Sem ação
+ðŸš« Sem aÃ§Ã£o
 
-🎯 Foque na atmosfera e na narrativa visual.
+ðŸŽ¯ Foque na atmosfera e na narrativa visual.
