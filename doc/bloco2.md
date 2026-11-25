@@ -1,60 +1,60 @@
-# Bloco 2 â€” TraduÃ§Ãµes
+# Bloco 2 ê¢â¬â TraduêÂ§êÂµes
 
 ---
 
-## MÃ³dulo 1 â€” Pensamento Visual
+## MêÂ³dulo 1 ê¢â¬â Pensamento Visual
 
-Um prompt profissional nÃ£o apenas descreve uma cena â€” ele controla como o espectador a vivencia ao longo do tempo.
+Um prompt profissional nêÂ£o apenas descreve uma cena ê¢â¬â ele controla como o espectador a vivencia ao longo do tempo.
 
-## 1. Formato = Comportamento da CÃ¢mera
+## 1. Formato = Comportamento da CêÂ¢mera
 
-Define como a cena Ã© sentida:
+Define como a cena êÂ© sentida:
 
-â— ProporÃ§Ã£o de tela, lente, profundidade de campo â†’ composiÃ§Ã£o e espaÃ§o
+ê¢âÂ ProporêÂ§êÂ£o de tela, lente, profundidade de campo ê¢â â composiêÂ§êÂ£o e espaêÂ§o
 
-â— Desfoque de movimento, taxa de quadros â†’ realismo
+ê¢âÂ Desfoque de movimento, taxa de quadros ê¢â â realismo
 
-â— Movimento de cÃ¢mera â†’ energia
+ê¢âÂ Movimento de cêÂ¢mera ê¢â â energia
 
-ðŸ‘‰ Resultado: nÃ£o Ã© estÃ¡tico, mas sim movimento cARCKHÉtogrÃ¡fico controlado.
+ê°Å¸ââ° Resultado: nêÂ£o êÂ© estêÂ¡tico, mas sim movimento cARCKHêtogrêÂ¡fico controlado.
 
-## 2. Ambiente = HistÃ³ria Sem Palavras
+## 2. Ambiente = HistêÂ³ria Sem Palavras
 
-O mundo jÃ¡ conta uma histÃ³ria:
+O mundo jêÂ¡ conta uma histêÂ³ria:
 
-â— Megacidade em ruÃ­nas â†’ civilizaÃ§Ã£o perdida
+ê¢âÂ Megacidade em ruêÂ­nas ê¢â â civilizaêÂ§êÂ£o perdida
 
-â— Arquitetura misturada â†’ histÃ³ria em camadas
+ê¢âÂ Arquitetura misturada ê¢â â histêÂ³ria em camadas
 
-â— Poeira, destroÃ§os â†’ movimento constante
+ê¢âÂ Poeira, destroêÂ§os ê¢â â movimento constante
 
-ðŸ‘‰ O espectador entende que algo estÃ¡ errado sem precisar de explicaÃ§Ã£o.
+ê°Å¸ââ° O espectador entende que algo estêÂ¡ errado sem precisar de explicaêÂ§êÂ£o.
 
-## 3. IluminaÃ§Ã£o = EmoÃ§Ã£o
+## 3. IluminaêÂ§êÂ£o = EmoêÂ§êÂ£o
 
-â— Luz quente â†’ humanidade, beleza
+ê¢âÂ Luz quente ê¢â â humanidade, beleza
 
-â— Sombras frias â†’ perigo, vazio
+ê¢âÂ Sombras frias ê¢â â perigo, vazio
 
-ðŸ‘‰ O contraste cria tensÃ£o emocional.
+ê°Å¸ââ° O contraste cria tensêÂ£o emocional.
 
-## 4. Personagem = ContradiÃ§Ã£o
+## 4. Personagem = ContradiêÂ§êÂ£o
 
-Mulher elegante em um mundo destruÃ­do.
+Mulher elegante em um mundo destruêÂ­do.
 
-â— Vestido vermelho â†’ foco visual
+ê¢âÂ Vestido vermelho ê¢â â foco visual
 
-â— Saltos altos â†’ domÃ­nio, nÃ£o sobrevivÃªncia
+ê¢âÂ Saltos altos ê¢â â domêÂ­nio, nêÂ£o sobrevivêÂªncia
 
-â— Ã“culos escuros â†’ mistÃ©rio
+ê¢âÂ êâculos escuros ê¢â â mistêÂ©rio
 
-â— Arma enorme â†’ poder
+ê¢âÂ Arma enorme ê¢â â poder
 
-ðŸ‘‰ A contradiÃ§Ã£o cria intriga e perguntas.
+ê°Å¸ââ° A contradiêÂ§êÂ£o cria intriga e perguntas.
 
-## 5. Estrutura da Cena = SequÃªncia
+## 5. Estrutura da Cena = SequêÂªncia
 
-NÃ£o Ã© um Ãºnico plano â€” Ã© uma progressÃ£o:
+NêÂ£o êÂ© um êÂºnico plano ê¢â¬â êÂ© uma progressêÂ£o:
 
 1. Mostrar o mundo
 
@@ -64,200 +64,200 @@ NÃ£o Ã© um Ãºnico plano â€” Ã© uma progressÃ£o:
 
 4. Adicionar ruptura
 
-5. Mostrar intenÃ§Ã£o
+5. Mostrar intenêÂ§êÂ£o
 
-ðŸ‘‰ O espectador descobre, nÃ£o apenas recebe a informaÃ§Ã£o.
+ê°Å¸ââ° O espectador descobre, nêÂ£o apenas recebe a informaêÂ§êÂ£o.
 
-## Por Que Parece CARCKHÉtogrÃ¡fico
+## Por Que Parece CARCKHêtogrêÂ¡fico
 
 Porque usa:
 
-â— Escala vs. intimidade
+ê¢âÂ Escala vs. intimidade
 
-â— Caos vs. controle
+ê¢âÂ Caos vs. controle
 
-â— Beleza vs. destruiÃ§Ã£o
+ê¢âÂ Beleza vs. destruiêÂ§êÂ£o
 
 E controla:
 
-â— O que vocÃª vÃª
+ê¢âÂ O que vocêÂª vêÂª
 
-â— Para onde vocÃª olha
+ê¢âÂ Para onde vocêÂª olha
 
-â— Como as coisas se movem
+ê¢âÂ Como as coisas se movem
 
-â— Quando a informaÃ§Ã£o Ã© revelada
+ê¢âÂ Quando a informaêÂ§êÂ£o êÂ© revelada
 
 ## Ideia Central
 
-VocÃª nÃ£o estÃ¡ criando uma cena.
+VocêÂª nêÂ£o estêÂ¡ criando uma cena.
 
-VocÃª estÃ¡ criando uma pergunta na mente do espectador.
+VocêÂª estêÂ¡ criando uma pergunta na mente do espectador.
 
 ## Tarefa
 
-Crie sua prÃ³pria versÃ£o:
+Crie sua prêÂ³pria versêÂ£o:
 
-â— Mantenha a estrutura
+ê¢âÂ Mantenha a estrutura
 
-â— Mude a contradiÃ§Ã£o
+ê¢âÂ Mude a contradiêÂ§êÂ£o
 
-â— Defina: contraste, tensÃ£o, pergunta
+ê¢âÂ Defina: contraste, tensêÂ£o, pergunta
 
-ðŸ‘‰ Objetivo: fazer o espectador sentir algo e se perguntar por quÃª.
+ê°Å¸ââ° Objetivo: fazer o espectador sentir algo e se perguntar por quêÂª.
 
 ---
 
-# ðŸŽ¬ Aula 4 â€” ComposiÃ§Ã£o para CARCKHÉ
+# ê°Å¸Å½Â¬ Aula 4 ê¢â¬â ComposiêÂ§êÂ£o para CARCKHê
 
-OlÃ¡, pessoal. Hoje vamos criar um vÃ­deo cARCKHÉtogrÃ¡fico no CapCut usando o Seedance 2.0 â€” e, ao mesmo tempo, aprender composiÃ§Ã£o na prÃ¡tica.
+OlêÂ¡, pessoal. Hoje vamos criar um vêÂ­deo cARCKHêtogrêÂ¡fico no CapCut usando o Seedance 2.0 ê¢â¬â e, ao mesmo tempo, aprender composiêÂ§êÂ£o na prêÂ¡tica.
 
 A ideia principal:
 
-**O prompt se torna uma sequÃªncia, nÃ£o uma Ãºnica ideia.**
+**O prompt se torna uma sequêÂªncia, nêÂ£o uma êÂºnica ideia.**
 
-Mesmo que vocÃª escreva um prompt estruturado, o resultado sempre serÃ¡ uma cadeia de planos separados.
+Mesmo que vocêÂª escreva um prompt estruturado, o resultado sempre serêÂ¡ uma cadeia de planos separados.
 
 Cada plano tem:
 
-â— sua prÃ³pria composiÃ§Ã£o  
-â— seu prÃ³prio propÃ³sito  
-â— sua prÃ³pria funÃ§Ã£o dentro da sequÃªncia
+ê¢âÂ sua prêÂ³pria composiêÂ§êÂ£o  
+ê¢âÂ seu prêÂ³prio propêÂ³sito  
+ê¢âÂ sua prêÂ³pria funêÂ§êÂ£o dentro da sequêÂªncia
 
-Cada composiÃ§Ã£o resolve uma tarefa diferente.
+Cada composiêÂ§êÂ£o resolve uma tarefa diferente.
 
 Ao longo dos planos, usamos:
 
-â— **Diagonal** â†’ energia e movimento  
-â— **Linhas de conduÃ§Ã£o** â†’ guiam o olhar  
-â— **Regra dos terÃ§os** â†’ equilÃ­brio e direÃ§Ã£o  
-â— **EspaÃ§o negativo** â†’ isola momentos-chave  
-â— **Centro / simetria** â†’ controle e estabilidade  
-â— **Macro** â†’ detalhe e realismo  
-â— **Plano aberto / escala** â†’ atmosfera e espaÃ§o  
-â— **Enquadramento + profundidade** â†’ camadas cARCKHÉtogrÃ¡ficas  
-â— **Contraste** â†’ foco e intensidade
+ê¢âÂ **Diagonal** ê¢â â energia e movimento  
+ê¢âÂ **Linhas de conduêÂ§êÂ£o** ê¢â â guiam o olhar  
+ê¢âÂ **Regra dos terêÂ§os** ê¢â â equilêÂ­brio e direêÂ§êÂ£o  
+ê¢âÂ **EspaêÂ§o negativo** ê¢â â isola momentos-chave  
+ê¢âÂ **Centro / simetria** ê¢â â controle e estabilidade  
+ê¢âÂ **Macro** ê¢â â detalhe e realismo  
+ê¢âÂ **Plano aberto / escala** ê¢â â atmosfera e espaêÂ§o  
+ê¢âÂ **Enquadramento + profundidade** ê¢â â camadas cARCKHêtogrêÂ¡ficas  
+ê¢âÂ **Contraste** ê¢â â foco e intensidade
 
-A cena evolui, nÃ£o se repete.
+A cena evolui, nêÂ£o se repete.
 
-## Por que parece cARCKHÉtogrÃ¡fico
+## Por que parece cARCKHêtogrêÂ¡fico
 
 Porque usa:
 
-â— composiÃ§Ã£o por plano  
-â— mudanÃ§as de escala, do detalhe ao plano aberto  
-â— movimento contÃ­nuo  
-â— hierarquia visual clara  
-â— timing controlado
+ê¢âÂ composiêÂ§êÂ£o por plano  
+ê¢âÂ mudanêÂ§as de escala, do detalhe ao plano aberto  
+ê¢âÂ movimento contêÂ­nuo  
+ê¢âÂ hierarquia visual clara  
+ê¢âÂ timing controlado
 
 E, o mais importante:
 
-**A composiÃ§Ã£o Ã© usada no momento certo.**
+**A composiêÂ§êÂ£o êÂ© usada no momento certo.**
 
 ## Ideia central
 
-VocÃª nÃ£o estÃ¡ apenas escrevendo um prompt.
+VocêÂª nêÂ£o estêÂ¡ apenas escrevendo um prompt.
 
-VocÃª estÃ¡ desenhando uma sequÃªncia de composiÃ§Ãµes ao longo do tempo.
+VocêÂª estêÂ¡ desenhando uma sequêÂªncia de composiêÂ§êÂµes ao longo do tempo.
 
-Essa Ã© a diferenÃ§a entre:
+Essa êÂ© a diferenêÂ§a entre:
 
-â— um vÃ­deo bonito
+ê¢âÂ um vêÂ­deo bonito
 
 e
 
-â— uma sequÃªncia cARCKHÉtogrÃ¡fica
+ê¢âÂ uma sequêÂªncia cARCKHêtogrêÂ¡fica
 
-## ðŸ“ Tarefa
+## ê°Å¸âÂ Tarefa
 
-Crie sua prÃ³pria versÃ£o:
+Crie sua prêÂ³pria versêÂ£o:
 
-â— Pegue qualquer assunto simples  
-â— Construa de 5 a 7 planos  
-â— Use pelo menos 3 composiÃ§Ãµes: centro, regra dos terÃ§os e espaÃ§o negativo  
-â— Verifique para onde seu olhar vai em cada plano
+ê¢âÂ Pegue qualquer assunto simples  
+ê¢âÂ Construa de 5 a 7 planos  
+ê¢âÂ Use pelo menos 3 composiêÂ§êÂµes: centro, regra dos terêÂ§os e espaêÂ§o negativo  
+ê¢âÂ Verifique para onde seu olhar vai em cada plano
 
 ## Objetivo
 
-ðŸ‘‰ Controlar nÃ£o apenas os visuais â€” mas tambÃ©m a atenÃ§Ã£o, o ritmo e o timing.
+ê°Å¸ââ° Controlar nêÂ£o apenas os visuais ê¢â¬â mas tambêÂ©m a atenêÂ§êÂ£o, o ritmo e o timing.
 
 ---
 
-# ðŸŽ¬ Aula 5 â€” IluminaÃ§Ã£o e Atmosfera
+# ê°Å¸Å½Â¬ Aula 5 ê¢â¬â IluminaêÂ§êÂ£o e Atmosfera
 
 **9:04**
 
-Hoje vocÃª nÃ£o estÃ¡ apenas aprendendo sobre luz.  
-VocÃª estÃ¡ aprendendo como controlar emoÃ§Ã£o.
+Hoje vocêÂª nêÂ£o estêÂ¡ apenas aprendendo sobre luz.  
+VocêÂª estêÂ¡ aprendendo como controlar emoêÂ§êÂ£o.
 
-Porque, no cARCKHÉ, luz nÃ£o Ã© visibilidade.  
-Luz Ã© sentimento.
+Porque, no cARCKHê, luz nêÂ£o êÂ© visibilidade.  
+Luz êÂ© sentimento.
 
-## Negative Fill â€” Controle da EscuridÃ£o
+## Negative Fill ê¢â¬â Controle da EscuridêÂ£o
 
-Grande cARCKHÉtografia nÃ£o Ã© sobre adicionar luzâ€¦
+Grande cARCKHêtografia nêÂ£o êÂ© sobre adicionar luzê¢â¬Â¦
 
-Ã© sobre removÃª-la.
+êÂ© sobre removêÂª-la.
 
-Quando vocÃª tira a luz, as sombras ficam mais profundas â€”
+Quando vocêÂª tira a luz, as sombras ficam mais profundas ê¢â¬â
 
 e, de repente, o quadro parece misterioso, convidativo, vivo.
 
-## Edge Contrast â€” Guiar o Olhar
+## Edge Contrast ê¢â¬â Guiar o Olhar
 
-VocÃª nÃ£o precisa iluminar tudo.
+VocêÂª nêÂ£o precisa iluminar tudo.
 
-Uma fina borda de luz Ã© suficiente para definir um sujeito.
+Uma fina borda de luz êÂ© suficiente para definir um sujeito.
 
-O olho naturalmente segue o contraste â€” nÃ£o o brilho.
+O olho naturalmente segue o contraste ê¢â¬â nêÂ£o o brilho.
 
-## Suavidade pela DistÃ¢ncia
+## Suavidade pela DistêÂ¢ncia
 
-Luz suave nÃ£o tem a ver apenas com fontes grandes â€”
+Luz suave nêÂ£o tem a ver apenas com fontes grandes ê¢â¬â
 
-tem a ver com distÃ¢ncia.
+tem a ver com distêÂ¢ncia.
 
-Aproxime uma luz pequenaâ€¦
+Aproxime uma luz pequenaê¢â¬Â¦
 
-e ela envolve o sujeito como emoÃ§Ã£o.
+e ela envolve o sujeito como emoêÂ§êÂ£o.
 
-## IluminaÃ§Ã£o Motivada
+## IluminaêÂ§êÂ£o Motivada
 
 Toda luz precisa vir de algum lugar real.
 
-O sol. Uma lÃ¢mpada. Uma tela.
+O sol. Uma lêÂ¢mpada. Uma tela.
 
-Se o espectador acredita na fonte â€”
+Se o espectador acredita na fonte ê¢â¬â
 
 ele acredita na cena.
 
 ## Regra 80/20
 
-Apenas 20% da sua luz deve estar visÃ­vel.
+Apenas 20% da sua luz deve estar visêÂ­vel.
 
 Os outros 80% permanecem escondidos.
 
-Ã‰ isso que cria profundidadeâ€¦
+êâ° isso que cria profundidadeê¢â¬Â¦
 
-e faz a imagem parecer cARCKHÉtogrÃ¡fica em vez de plana.
+e faz a imagem parecer cARCKHêtogrêÂ¡fica em vez de plana.
 
 ## Camadas de Atmosfera
 
 A profundidade vem das camadas.
 
-Primeiro plano. Plano mÃ©dio. Fundo.
+Primeiro plano. Plano mêÂ©dio. Fundo.
 
-Adicione nÃ©voa â€”
+Adicione nêÂ©voa ê¢â¬â
 
-e a luz se torna visÃ­vel no espaÃ§o.
+e a luz se torna visêÂ­vel no espaêÂ§o.
 
 ## Contraste de Cor
 
-Tons quentes e frios criam tensÃ£o.
+Tons quentes e frios criam tensêÂ£o.
 
-EquilÃ­brio. EmoÃ§Ã£o.
+EquilêÂ­brio. EmoêÂ§êÂ£o.
 
-Esse contraste Ã© o que faz o quadro parecer vivo.
+Esse contraste êÂ© o que faz o quadro parecer vivo.
 
 ## Apenas Luz de Recorte
 
@@ -265,167 +265,167 @@ Remova completamente a luz frontal.
 
 Deixe apenas a borda iluminada.
 
-Agora seu sujeito se torna misterioso â€”
+Agora seu sujeito se torna misterioso ê¢â¬â
 
-mas ainda legÃ­vel.
+mas ainda legêÂ­vel.
 
-## Contraste de ExposiÃ§Ã£o
+## Contraste de ExposiêÂ§êÂ£o
 
 Exponha para o que importa.
 
-Deixe o resto cair na escuridÃ£oâ€¦
+Deixe o resto cair na escuridêÂ£oê¢â¬Â¦
 
 ou estourar na luz.
 
-Ã‰ assim que vocÃª cria foco.
+êâ° assim que vocêÂª cria foco.
 
-## Luz DinÃ¢mica
+## Luz DinêÂ¢mica
 
 A luz deve se mover.
 
-Fogo, tochas, tremulaÃ§Ã£o â€”
+Fogo, tochas, tremulaêÂ§êÂ£o ê¢â¬â
 
 eles trazem vida ao quadro.
 
-Luz estÃ¡tica parece morta.
+Luz estêÂ¡tica parece morta.
 
 Luz em movimento parece real.
 
-## ðŸŽ¯ Ideia Central
+## ê°Å¸Å½Â¯ Ideia Central
 
-Luz Ã© emoÃ§Ã£o.
+Luz êÂ© emoêÂ§êÂ£o.
 
-Ela direciona a atenÃ§Ã£o.
+Ela direciona a atenêÂ§êÂ£o.
 
 Molda a profundidade.
 
 Define o clima.
 
-NÃ£o apenas o que vemos â€”
+NêÂ£o apenas o que vemos ê¢â¬â
 
 mas o que sentimos.
 
-## ðŸ“ Tarefa
+## ê°Å¸âÂ Tarefa
 
-Agora Ã© a sua vez.
+Agora êÂ© a sua vez.
 
-Crie um prompt de vÃ­deo de 5 a 15 segundos.
+Crie um prompt de vêÂ­deo de 5 a 15 segundos.
 
-Descreva seu sujeito, ambiente, fontes de luz, cores e movimento de cÃ¢mera.
+Descreva seu sujeito, ambiente, fontes de luz, cores e movimento de cêÂ¢mera.
 
 Adicione de 3 a 5 palavras-chave fortes de clima.
 
-## Explique sua iluminaÃ§Ã£o
+## Explique sua iluminaêÂ§êÂ£o
 
-Por que a luz estÃ¡ posicionada dessa forma?
+Por que a luz estêÂ¡ posicionada dessa forma?
 
 Como ela molda o sujeito?
 
-Que contraste vocÃª estÃ¡ usando?
+Que contraste vocêÂª estêÂ¡ usando?
 
 ## Explique a atmosfera
 
-O que o espectador sente â€” e por quÃª?
+O que o espectador sente ê¢â¬â e por quêÂª?
 
-Quais palavras exatas no seu prompt criam essa sensaÃ§Ã£o?
+Quais palavras exatas no seu prompt criam essa sensaêÂ§êÂ£o?
 
-Seu objetivo Ã© simples:
+Seu objetivo êÂ© simples:
 
-Controlar o quadro atravÃ©s da luzâ€¦
+Controlar o quadro atravêÂ©s da luzê¢â¬Â¦
 
 e fazer o espectador sentir algo real.
 
 ---
 
-# ðŸŽ¬ Aula 6 â€” Profundidade e Estrutura Espacial
+# ê°Å¸Å½Â¬ Aula 6 ê¢â¬â Profundidade e Estrutura Espacial
 
 **5:21**
 
-Nesta aula, vocÃª aprende como construir profundidade cARCKHÉtogrÃ¡fica e transformar imagens planas em cenas visuais imersivas.
+Nesta aula, vocêÂª aprende como construir profundidade cARCKHêtogrêÂ¡fica e transformar imagens planas em cenas visuais imersivas.
 
-## âœ¨ Ideia Central
+## ê¢ÅÂ¨ Ideia Central
 
-Profundidade Ã© a ilusÃ£o de espaÃ§o tridimensional.
+Profundidade êÂ© a ilusêÂ£o de espaêÂ§o tridimensional.
 
-Ela Ã© criada organizando:
+Ela êÂ© criada organizando:
 
-â— ðŸ§± **Primeiro plano** â€” onde o espectador estÃ¡  
-â— ðŸŽ¯ **Plano mÃ©dio** â€” onde o sujeito estÃ¡  
-â— ðŸŒ„ **Fundo** â€” onde o contexto vive
+ê¢âÂ ê°Å¸Â§Â± **Primeiro plano** ê¢â¬â onde o espectador estêÂ¡  
+ê¢âÂ ê°Å¸Å½Â¯ **Plano mêÂ©dio** ê¢â¬â onde o sujeito estêÂ¡  
+ê¢âÂ ê°Å¸Åâ **Fundo** ê¢â¬â onde o contexto vive
 
-## ðŸŽ¥ PrincÃ­pios-Chave
+## ê°Å¸Å½Â¥ PrincêÂ­pios-Chave
 
-### 1. Regra das TrÃªs Camadas
+### 1. Regra das TrêÂªs Camadas
 
-Todo quadro deve ter primeiro plano, plano mÃ©dio e fundo.
+Todo quadro deve ter primeiro plano, plano mêÂ©dio e fundo.
 
-### 2. SeparaÃ§Ã£o
+### 2. SeparaêÂ§êÂ£o
 
 As camadas precisam ser visualmente distintas usando foco, luz ou cor.
 
 ### 3. Profundidade de Campo
 
-Controla o que estÃ¡ nÃ­tido â†’ guia a atenÃ§Ã£o.
+Controla o que estêÂ¡ nêÂ­tido ê¢â â guia a atenêÂ§êÂ£o.
 
-### 4. IluminaÃ§Ã£o
+### 4. IluminaêÂ§êÂ£o
 
-Contraste e contraluz separam o espaÃ§o.
+Contraste e contraluz separam o espaêÂ§o.
 
 ### 5. Atmosfera
 
-NÃ©voa e bruma empurram os elementos para a distÃ¢ncia.
+NêÂ©voa e bruma empurram os elementos para a distêÂ¢ncia.
 
 ### 6. Escolha da Lente
 
-â—‹ **Grande-angular** â†’ expande o espaÃ§o  
-â—‹ **Teleobjetiva** â†’ comprime o espaÃ§o
+ê¢ââ¹ **Grande-angular** ê¢â â expande o espaêÂ§o  
+ê¢ââ¹ **Teleobjetiva** ê¢â â comprime o espaêÂ§o
 
 ### 7. Movimento e Paralaxe
 
 O movimento revela profundidade conforme as camadas se deslocam em velocidades diferentes.
 
-## ðŸŽ­ Profundidade = EmoÃ§Ã£o
+## ê°Å¸Å½Â­ Profundidade = EmoêÂ§êÂ£o
 
-Profundidade nÃ£o Ã© apenas visual â€” Ã© emocional:
+Profundidade nêÂ£o êÂ© apenas visual ê¢â¬â êÂ© emocional:
 
-â— â¤ï¸ DistÃ¢ncia prÃ³xima â†’ intimidade  
-â— ðŸ§Š DistÃ¢ncia longa â†’ isolamento  
-â— ðŸ”„ Movimento â†’ mudanÃ§a  
-â— â¸ Imobilidade â†’ tensÃ£o
+ê¢âÂ ê¢ÂÂ¤ê¯Â¸Â DistêÂ¢ncia prêÂ³xima ê¢â â intimidade  
+ê¢âÂ ê°Å¸Â§Å  DistêÂ¢ncia longa ê¢â â isolamento  
+ê¢âÂ ê°Å¸ââ Movimento ê¢â â mudanêÂ§a  
+ê¢âÂ ê¢ÂÂ¸ Imobilidade ê¢â â tensêÂ£o
 
-Personagens posicionados em camadas diferentes mostram relaÃ§Ãµes sem diÃ¡logo.
+Personagens posicionados em camadas diferentes mostram relaêÂ§êÂµes sem diêÂ¡logo.
 
-## ðŸ§  Abordagem Profissional
+## ê°Å¸Â§Â  Abordagem Profissional
 
-Um plano cARCKHÉtogrÃ¡fico combina:
+Um plano cARCKHêtogrêÂ¡fico combina:
 
-â— composiÃ§Ã£o  
-â— cÃ¢mera e lente  
-â— iluminaÃ§Ã£o  
-â— movimento  
-â— posicionamento dos personagens
+ê¢âÂ composiêÂ§êÂ£o  
+ê¢âÂ cêÂ¢mera e lente  
+ê¢âÂ iluminaêÂ§êÂ£o  
+ê¢âÂ movimento  
+ê¢âÂ posicionamento dos personagens
 
-Todos os elementos trabalham juntos como um Ãºnico sistema.
+Todos os elementos trabalham juntos como um êÂºnico sistema.
 
-## ðŸš€ Resultado
+## ê°Å¸Å¡â¬ Resultado
 
-VocÃª deixa de apenas criar imagens e passa a dirigir cenas:
+VocêÂª deixa de apenas criar imagens e passa a dirigir cenas:
 
-â— moldando o espaÃ§o  
-â— controlando a atenÃ§Ã£o  
-â— contando histÃ³rias atravÃ©s da profundidade
+ê¢âÂ moldando o espaêÂ§o  
+ê¢âÂ controlando a atenêÂ§êÂ£o  
+ê¢âÂ contando histêÂ³rias atravêÂ©s da profundidade
 
-## ðŸ“ Tarefa
+## ê°Å¸âÂ Tarefa
 
-Crie 3 cenas cARCKHÉtogrÃ¡ficas, com um plano cada:
+Crie 3 cenas cARCKHêtogrêÂ¡ficas, com um plano cada:
 
-â— inclua primeiro plano, plano mÃ©dio e fundo  
-â— use iluminaÃ§Ã£o e movimento de cÃ¢mera  
-â— adicione 2 personagens em camadas diferentes  
-â— mostre emoÃ§Ã£o apenas pela posiÃ§Ã£o e pelo olhar
+ê¢âÂ inclua primeiro plano, plano mêÂ©dio e fundo  
+ê¢âÂ use iluminaêÂ§êÂ£o e movimento de cêÂ¢mera  
+ê¢âÂ adicione 2 personagens em camadas diferentes  
+ê¢âÂ mostre emoêÂ§êÂ£o apenas pela posiêÂ§êÂ£o e pelo olhar
 
-ðŸš« Sem diÃ¡logo
+ê°Å¸Å¡Â« Sem diêÂ¡logo
 
-ðŸš« Sem aÃ§Ã£o
+ê°Å¸Å¡Â« Sem aêÂ§êÂ£o
 
-ðŸŽ¯ Foque na atmosfera e na narrativa visual.
+ê°Å¸Å½Â¯ Foque na atmosfera e na narrativa visual.

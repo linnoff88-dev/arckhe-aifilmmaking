@@ -1,465 +1,465 @@
-# Bloco 4 â€” TraduÃ§Ãµes
+# Bloco 4 ê¢â¬â TraduêÂ§êÂµes
 
 ---
 
-# MÃ³dulo 3 â€” CARCKHÉtografia
+# MêÂ³dulo 3 ê¢â¬â CARCKHêtografia
 
 **4:50**
 
-OlÃ¡, pessoal.
+OlêÂ¡, pessoal.
 
-Hoje nÃ£o estamos apenas gerando vÃ­deo com IA â€”  
-estamos aprendendo a pensar como um diretor de fotografia e diretor de cARCKHÉ.
+Hoje nêÂ£o estamos apenas gerando vêÂ­deo com IA ê¢â¬â  
+estamos aprendendo a pensar como um diretor de fotografia e diretor de cARCKHê.
 
-## ðŸŽ¥ IDEIA CENTRAL
+## ê°Å¸Å½Â¥ IDEIA CENTRAL
 
-ðŸŽ¬ A IA nÃ£o cria cARCKHÉ  
-ðŸŽ¬ A cARCKHÉtografia cria cARCKHÉ
+ê°Å¸Å½Â¬ A IA nêÂ£o cria cARCKHê  
+ê°Å¸Å½Â¬ A cARCKHêtografia cria cARCKHê
 
-ðŸ‘‰ Seedance = ferramenta  
-ðŸ‘‰ VocÃª = diretor
+ê°Å¸ââ° Seedance = ferramenta  
+ê°Å¸ââ° VocêÂª = diretor
 
-## ðŸ”¥ O QUE TORNA ALGO CARCKHÉTOGRÃFICO
+## ê°Å¸âÂ¥ O QUE TORNA ALGO CARCKHêTOGRêÂFICO
 
 4 elementos-chave:
 
-ðŸ“ **ComposiÃ§Ã£o** â€” profundidade: primeiro plano / plano mÃ©dio / fundo  
-ðŸ’¡ **IluminaÃ§Ã£o** â€” contraste, direÃ§Ã£o, atmosfera  
-ðŸŽ¥ **CÃ¢mera** â€” Ã¢ngulo, movimento, sensaÃ§Ã£o de lente  
-â± **Ritmo** â€” timing dos planos e ediÃ§Ã£o
+ê°Å¸âÂ **ComposiêÂ§êÂ£o** ê¢â¬â profundidade: primeiro plano / plano mêÂ©dio / fundo  
+ê°Å¸âÂ¡ **IluminaêÂ§êÂ£o** ê¢â¬â contraste, direêÂ§êÂ£o, atmosfera  
+ê°Å¸Å½Â¥ **CêÂ¢mera** ê¢â¬â êÂ¢ngulo, movimento, sensaêÂ§êÂ£o de lente  
+ê¢ÂÂ± **Ritmo** ê¢â¬â timing dos planos e ediêÂ§êÂ£o
 
-ðŸ‘‰ Falta um deles â†’ parece IA  
-ðŸ‘‰ Todos juntos â†’ parece um filme
+ê°Å¸ââ° Falta um deles ê¢â â parece IA  
+ê°Å¸ââ° Todos juntos ê¢â â parece um filme
 
-## ðŸ§  FLUXO DE TRABALHO
+## ê°Å¸Â§Â  FLUXO DE TRABALHO
 
-## ðŸŽ­ ETAPA 1 â€” Personagens
+## ê°Å¸Å½Â­ ETAPA 1 ê¢â¬â Personagens
 
 Crie fichas de personagem:
 
-â€” frente / lateral / costas  
-â€” corpo inteiro  
-â€” mesma identidade em todas as vistas
+ê¢â¬â frente / lateral / costas  
+ê¢â¬â corpo inteiro  
+ê¢â¬â mesma identidade em todas as vistas
 
-ðŸ‘‰ isso cria consistÃªncia
+ê°Å¸ââ° isso cria consistêÂªncia
 
-## ðŸ¤– ETAPA 2 â€” RobÃ´
+## ê°Å¸Â¤â ETAPA 2 ê¢â¬â RobêÂ´
 
-â€” simples  
-â€” levemente danificado  
-â€” mas amigÃ¡vel e Ãºtil
+ê¢â¬â simples  
+ê¢â¬â levemente danificado  
+ê¢â¬â mas amigêÂ¡vel e êÂºtil
 
-ðŸ‘‰ adiciona interaÃ§Ã£o e histÃ³ria
+ê°Å¸ââ° adiciona interaêÂ§êÂ£o e histêÂ³ria
 
-## ðŸŒ ETAPA 3 â€” Ambiente
+## ê°Å¸ÅÂ ETAPA 3 ê¢â¬â Ambiente
 
 Construa como um set de filmagem:
 
-â€” profundidade  
-â€” iluminaÃ§Ã£o  
-â€” atmosfera  
-â€” escala
+ê¢â¬â profundidade  
+ê¢â¬â iluminaêÂ§êÂ£o  
+ê¢â¬â atmosfera  
+ê¢â¬â escala
 
-ðŸ‘‰ exemplo: tempestade Ã  distÃ¢ncia
+ê°Å¸ââ° exemplo: tempestade êÂ  distêÂ¢ncia
 
-## ðŸŽ¬ ETAPA 4 â€” Prompt em Linha do Tempo
+## ê°Å¸Å½Â¬ ETAPA 4 ê¢â¬â Prompt em Linha do Tempo
 
-ðŸ“Œ FaÃ§a upload:
+ê°Å¸âÅ FaêÂ§a upload:
 
-**@Image 1** â€” humano  
-**@Image 2** â€” robÃ´  
-**@Image 3** â€” ambiente
+**@Image 1** ê¢â¬â humano  
+**@Image 2** ê¢â¬â robêÂ´  
+**@Image 3** ê¢â¬â ambiente
 
-ðŸ‘‰ Escreva a cena como uma linha do tempo, de **0:00 â†’ 0:15**
+ê°Å¸ââ° Escreva a cena como uma linha do tempo, de **0:00 ê¢â â 0:15**
 
-## âš ï¸ CORREÃ‡ÃƒO IMPORTANTE â€” Rostos
+## ê¢Å¡Â ê¯Â¸Â CORREêâ¡êÆO IMPORTANTE ê¢â¬â Rostos
 
 O Seedance tem dificuldade com rostos.
 
-âœ”ï¸ **SoluÃ§Ã£o:**  
-adicione uma sobreposiÃ§Ã£o sutil de grade no Photoshop.
+ê¢Åâê¯Â¸Â **SoluêÂ§êÂ£o:**  
+adicione uma sobreposiêÂ§êÂ£o sutil de grade no Photoshop.
 
-ðŸ‘‰ parece CG â†’ evita bloqueios
+ê°Å¸ââ° parece CG ê¢â â evita bloqueios
 
-## ðŸŽ¥ LÃ“GICA DA CENA
+## ê°Å¸Å½Â¥ LêâGICA DA CENA
 
-â€” o robÃ´ ajuda a ligar o carro  
-â€” o motor liga  
-â€” o carro acelera  
-â€” escapa para LONGE da tempestade de areia
+ê¢â¬â o robêÂ´ ajuda a ligar o carro  
+ê¢â¬â o motor liga  
+ê¢â¬â o carro acelera  
+ê¢â¬â escapa para LONGE da tempestade de areia
 
-ðŸ‘‰ tensÃ£o â†’ aÃ§Ã£o â†’ fuga
+ê°Å¸ââ° tensêÂ£o ê¢â â aêÂ§êÂ£o ê¢â â fuga
 
-## ðŸš€ IDEIA FINAL
+## ê°Å¸Å¡â¬ IDEIA FINAL
 
-ðŸŽ¬ VocÃª nÃ£o estÃ¡ criando prompts  
-ðŸŽ¬ VocÃª estÃ¡ dirigindo
+ê°Å¸Å½Â¬ VocêÂª nêÂ£o estêÂ¡ criando prompts  
+ê°Å¸Å½Â¬ VocêÂª estêÂ¡ dirigindo
 
-ðŸ‘‰ Quanto mais precisa for sua linguagem de cÃ¢mera â€”  
-mais cARCKHÉtogrÃ¡fico serÃ¡ o resultado
+ê°Å¸ââ° Quanto mais precisa for sua linguagem de cêÂ¢mera ê¢â¬â  
+mais cARCKHêtogrêÂ¡fico serêÂ¡ o resultado
 
-## ðŸ“š Tarefa
+## ê°Å¸âÅ¡ Tarefa
 
-ðŸŽ¯ Crie sua prÃ³pria cena:
+ê°Å¸Å½Â¯ Crie sua prêÂ³pria cena:
 
-â€” 2 personagens: humano + nÃ£o humano  
-â€” 1 ambiente  
-â€” histÃ³ria curta: tensÃ£o â†’ resoluÃ§Ã£o  
-â€” 8 a 15 segundos
+ê¢â¬â 2 personagens: humano + nêÂ£o humano  
+ê¢â¬â 1 ambiente  
+ê¢â¬â histêÂ³ria curta: tensêÂ£o ê¢â â resoluêÂ§êÂ£o  
+ê¢â¬â 8 a 15 segundos
 
-ðŸ‘‰ Pense como um diretor, nÃ£o como um usuÃ¡rio.
+ê°Å¸ââ° Pense como um diretor, nêÂ£o como um usuêÂ¡rio.
 
 ---
 
-# Aula 11 â€” Movimento de CÃ¢mera
+# Aula 11 ê¢â¬â Movimento de CêÂ¢mera
 
 **4:46**
 
-OlÃ¡, pessoal.
+OlêÂ¡, pessoal.
 
-Nesta aula, estudamos as tÃ©cnicas fundamentais de ediÃ§Ã£o cARCKHÉtogrÃ¡fica usadas no cARCKHÉ.
+Nesta aula, estudamos as têÂ©cnicas fundamentais de ediêÂ§êÂ£o cARCKHêtogrêÂ¡fica usadas no cARCKHê.
 
-VocÃª vai aprender:
+VocêÂª vai aprender:
 
-â— o que Ã© cada tipo de corte
+ê¢âÂ o que êÂ© cada tipo de corte
 
-â— quando usar cada um
+ê¢âÂ quando usar cada um
 
-â— como ele funciona do ponto de vista do espectador
+ê¢âÂ como ele funciona do ponto de vista do espectador
 
-Cada tÃ©cnica inclui um prompt prÃ¡tico para Seedance, para que vocÃª possa ver o resultado imediatamente.
+Cada têÂ©cnica inclui um prompt prêÂ¡tico para Seedance, para que vocêÂª possa ver o resultado imediatamente.
 
-## ðŸŽ¯ Sobre o Que Ã‰ Esta Aula
+## ê°Å¸Å½Â¯ Sobre o Que êâ° Esta Aula
 
-Isto nÃ£o Ã© sobre transiÃ§Ãµes.
+Isto nêÂ£o êÂ© sobre transiêÂ§êÂµes.
 
-ðŸ‘‰ Isto Ã© sobre cortes e sobre como os planos se relacionam entre si.
+ê°Å¸ââ° Isto êÂ© sobre cortes e sobre como os planos se relacionam entre si.
 
-Um corte sÃ³ funciona quando algo continua:
+Um corte sêÂ³ funciona quando algo continua:
 
-â— movimento
+ê¢âÂ movimento
 
-â— composiÃ§Ã£o
+ê¢âÂ composiêÂ§êÂ£o
 
-â— ou significado
+ê¢âÂ ou significado
 
-Essa Ã© a base da ediÃ§Ã£o cARCKHÉtogrÃ¡fica.
+Essa êÂ© a base da ediêÂ§êÂ£o cARCKHêtogrêÂ¡fica.
 
-## ðŸŽ¬ O Que VocÃª Aprende
+## ê°Å¸Å½Â¬ O Que VocêÂª Aprende
 
-Cobrimos seis tÃ©cnicas essenciais:
+Cobrimos seis têÂ©cnicas essenciais:
 
-â— **Jump Cut** â€” remove tempo
+ê¢âÂ **Jump Cut** ê¢â¬â remove tempo
 
-â— **Match Cut** â€” conecta imagens atravÃ©s da forma
+ê¢âÂ **Match Cut** ê¢â¬â conecta imagens atravêÂ©s da forma
 
-â— **Cut on Action** â€” esconde o corte dentro do movimento
+ê¢âÂ **Cut on Action** ê¢â¬â esconde o corte dentro do movimento
 
-â— **Cross Cutting** â€” conecta eventos no tempo
+ê¢âÂ **Cross Cutting** ê¢â¬â conecta eventos no tempo
 
-â— **Double Cut** â€” repete um momento
+ê¢âÂ **Double Cut** ê¢â¬â repete um momento
 
-â— **Fast Cutting** â€” cria ritmo e intensidade
+ê¢âÂ **Fast Cutting** ê¢â¬â cria ritmo e intensidade
 
-Cada uma Ã© uma maneira diferente de conectar planos.
+Cada uma êÂ© uma maneira diferente de conectar planos.
 
-## âš™ï¸ Como Trabalhar
+## ê¢Å¡â¢ê¯Â¸Â Como Trabalhar
 
-NÃ£o gere apenas clipes.
+NêÂ£o gere apenas clipes.
 
-ðŸ‘‰ Gere â†’ assista â†’ analise o momento do corte
+ê°Å¸ââ° Gere ê¢â â assista ê¢â â analise o momento do corte
 
 Foque em:
 
-â— o que permanece igual
+ê¢âÂ o que permanece igual
 
-â— o que muda
+ê¢âÂ o que muda
 
-â— por que o corte funciona
+ê¢âÂ por que o corte funciona
 
-Esse momento Ã© a chave.
+Esse momento êÂ© a chave.
 
-## ðŸ§  PrincÃ­pio Central
+## ê°Å¸Â§Â  PrincêÂ­pio Central
 
-EdiÃ§Ã£o nÃ£o Ã© sobre transiÃ§Ãµes.
+EdiêÂ§êÂ£o nêÂ£o êÂ© sobre transiêÂ§êÂµes.
 
-Ã‰ sobre a relaÃ§Ã£o entre os planos.
+êâ° sobre a relaêÂ§êÂ£o entre os planos.
 
-## ðŸ“ Tarefa
+## ê°Å¸âÂ Tarefa
 
-Crie trÃªs sequÃªncias curtas usando Seedance:
+Crie trêÂªs sequêÂªncias curtas usando Seedance:
 
 ### 1. Jump Cut
 
-Observe como a posiÃ§Ã£o muda enquanto a cÃ¢mera permanece a mesma.
+Observe como a posiêÂ§êÂ£o muda enquanto a cêÂ¢mera permanece a mesma.
 
 ### 2. Match Cut
 
-Verifique se forma, tamanho e enquadramento estÃ£o alinhados.
+Verifique se forma, tamanho e enquadramento estêÂ£o alinhados.
 
 ### 3. Cut on Action
 
 Encontre o momento exato do corte.
 
-Se for feito corretamente, deve parecer quase invisÃ­vel.
+Se for feito corretamente, deve parecer quase invisêÂ­vel.
 
-ðŸ‘‰ Para cada exemplo, escreva de 1 a 2 frases:
+ê°Å¸ââ° Para cada exemplo, escreva de 1 a 2 frases:
 
-â— o que permanece igual
+ê¢âÂ o que permanece igual
 
-â— o que muda
+ê¢âÂ o que muda
 
 ---
 
-# Aula 12 â€” Tamanhos de Plano e Enquadramento
+# Aula 12 ê¢â¬â Tamanhos de Plano e Enquadramento
 
 **16:13**
 
-## âš¡ï¸ Tamanhos de Plano e Enquadramento
+## ê¢Å¡Â¡ê¯Â¸Â Tamanhos de Plano e Enquadramento
 
-OlÃ¡, pessoal. Hoje vamos explorar uma das ferramentas mais essenciais da narrativa visual: o tamanho do plano.
+OlêÂ¡, pessoal. Hoje vamos explorar uma das ferramentas mais essenciais da narrativa visual: o tamanho do plano.
 
-Nesta aula, vocÃª vai entender nÃ£o apenas os nomes dos diferentes planos, mas tambÃ©m por que os diretores os escolhem, como eles moldam a emoÃ§Ã£o e como escrever prompts cARCKHÉtogrÃ¡ficos precisos para geraÃ§Ã£o de vÃ­deo com IA.
+Nesta aula, vocêÂª vai entender nêÂ£o apenas os nomes dos diferentes planos, mas tambêÂ©m por que os diretores os escolhem, como eles moldam a emoêÂ§êÂ£o e como escrever prompts cARCKHêtogrêÂ¡ficos precisos para geraêÂ§êÂ£o de vêÂ­deo com IA.
 
-## ðŸŽ¬ PrincÃ­pio Central
+## ê°Å¸Å½Â¬ PrincêÂ­pio Central
 
-O tamanho do plano nÃ£o Ã© apenas sobre distÃ¢ncia da cÃ¢mera.  
-Ã‰ uma decisÃ£o emocional e narrativa.
+O tamanho do plano nêÂ£o êÂ© apenas sobre distêÂ¢ncia da cêÂ¢mera.  
+êâ° uma decisêÂ£o emocional e narrativa.
 
-â— **Planos abertos** respondem: onde estamos?
+ê¢âÂ **Planos abertos** respondem: onde estamos?
 
-â— **Planos fechados** respondem: como isso se sente?
+ê¢âÂ **Planos fechados** respondem: como isso se sente?
 
-â— **Extremos close-ups** revelam detalhes que podem mudar a histÃ³ria.
+ê¢âÂ **Extremos close-ups** revelam detalhes que podem mudar a histêÂ³ria.
 
-## ðŸ‘‰ Regra de Ouro
+## ê°Å¸ââ° Regra de Ouro
 
 Comece aberto para estabelecer o mundo.  
-Aproxime-se para revelar emoÃ§Ã£o.  
-Termine em um close-up ou extremo close-up para impacto mÃ¡ximo.
+Aproxime-se para revelar emoêÂ§êÂ£o.  
+Termine em um close-up ou extremo close-up para impacto mêÂ¡ximo.
 
-## âš¡ï¸ O Que VocÃª Vai Aprender Nesta Aula
+## ê¢Å¡Â¡ê¯Â¸Â O Que VocêÂª Vai Aprender Nesta Aula
 
-VocÃª vai aprender como usar:
+VocêÂª vai aprender como usar:
 
-â— **Establishing Shot / Plano de Estabelecimento** â€” para mostrar localizaÃ§Ã£o, clima e escala
+ê¢âÂ **Establishing Shot / Plano de Estabelecimento** ê¢â¬â para mostrar localizaêÂ§êÂ£o, clima e escala
 
-â— **Wide Shot / Plano Aberto** â€” para mostrar isolamento, perigo ou poder
+ê¢âÂ **Wide Shot / Plano Aberto** ê¢â¬â para mostrar isolamento, perigo ou poder
 
-â— **Medium Wide Shot / Cowboy Shot / Plano MÃ©dio Aberto** â€” para mostrar aÃ§Ã£o e linguagem corporal
+ê¢âÂ **Medium Wide Shot / Cowboy Shot / Plano MêÂ©dio Aberto** ê¢â¬â para mostrar aêÂ§êÂ£o e linguagem corporal
 
-â— **Medium Shot / Plano MÃ©dio** â€” para diÃ¡logo ou movimento neutro e realista
+ê¢âÂ **Medium Shot / Plano MêÂ©dio** ê¢â¬â para diêÂ¡logo ou movimento neutro e realista
 
-â— **Medium Close-Up / Plano MÃ©dio Fechado** â€” para reaÃ§Ã£o emocional e intimidade
+ê¢âÂ **Medium Close-Up / Plano MêÂ©dio Fechado** ê¢â¬â para reaêÂ§êÂ£o emocional e intimidade
 
-â— **Close-Up / Primeiro Plano** â€” para emoÃ§Ã£o forte, alegria, medo ou decisÃ£o
+ê¢âÂ **Close-Up / Primeiro Plano** ê¢â¬â para emoêÂ§êÂ£o forte, alegria, medo ou decisêÂ£o
 
-â— **Extreme Close-Up / Plano Detalhe Extremo** â€” para detalhes, suspense e pistas narrativas
+ê¢âÂ **Extreme Close-Up / Plano Detalhe Extremo** ê¢â¬â para detalhes, suspense e pistas narrativas
 
-VocÃª tambÃ©m vai aprender como a escolha da lente, o movimento de cÃ¢mera, a iluminaÃ§Ã£o e o design de som influenciam o significado emocional de cada quadro.
+VocêÂª tambêÂ©m vai aprender como a escolha da lente, o movimento de cêÂ¢mera, a iluminaêÂ§êÂ£o e o design de som influenciam o significado emocional de cada quadro.
 
-## ðŸŽ¥ Sistema de DemonstraÃ§Ã£o
+## ê°Å¸Å½Â¥ Sistema de DemonstraêÂ§êÂ£o
 
-Todos os tamanhos de plano sÃ£o demonstrados atravÃ©s de uma histÃ³ria cARCKHÉtogrÃ¡fica no deserto, com:
+Todos os tamanhos de plano sêÂ£o demonstrados atravêÂ©s de uma histêÂ³ria cARCKHêtogrêÂ¡fica no deserto, com:
 
-â— Uma nave espacial caÃ­da no Saara
+ê¢âÂ Uma nave espacial caêÂ­da no Saara
 
-â— Tempestades de areia e efeitos prÃ¡ticos
+ê¢âÂ Tempestades de areia e efeitos prêÂ¡ticos
 
-â— Uma personagem chamada Ella usando um traje espacial rosa
+ê¢âÂ Uma personagem chamada Ella usando um traje espacial rosa
 
-â— Um homem misterioso carregando uma orquÃ­dea branca
+ê¢âÂ Um homem misterioso carregando uma orquêÂ­dea branca
 
-â— Um reflexo macro no olho com naves espaciais
+ê¢âÂ Um reflexo macro no olho com naves espaciais
 
-Esse mundo visual controlado ajuda a comparar como cada plano muda a escala, a emoÃ§Ã£o e a atenÃ§Ã£o do pÃºblico.
+Esse mundo visual controlado ajuda a comparar como cada plano muda a escala, a emoêÂ§êÂ£o e a atenêÂ§êÂ£o do pêÂºblico.
 
-## ðŸŽ¬ Guia PrÃ¡tico de ReferÃªncia
+## ê°Å¸Å½Â¬ Guia PrêÂ¡tico de ReferêÂªncia
 
-â— Para mostrar um novo mundo â†’ **Plano de Estabelecimento**
+ê¢âÂ Para mostrar um novo mundo ê¢â â **Plano de Estabelecimento**
 
-â— Para mostrar escala ou solidÃ£o â†’ **Plano Aberto**
+ê¢âÂ Para mostrar escala ou solidêÂ£o ê¢â â **Plano Aberto**
 
-â— Para mostrar aÃ§Ã£o e confianÃ§a â†’ **Plano MÃ©dio Aberto**
+ê¢âÂ Para mostrar aêÂ§êÂ£o e confianêÂ§a ê¢â â **Plano MêÂ©dio Aberto**
 
-â— Para mostrar uma conversa natural â†’ **Plano MÃ©dio**
+ê¢âÂ Para mostrar uma conversa natural ê¢â â **Plano MêÂ©dio**
 
-â— Para mostrar reaÃ§Ã£o emocional â†’ **Plano MÃ©dio Fechado**
+ê¢âÂ Para mostrar reaêÂ§êÂ£o emocional ê¢â â **Plano MêÂ©dio Fechado**
 
-â— Para mostrar um sentimento forte â†’ **Close-Up**
+ê¢âÂ Para mostrar um sentimento forte ê¢â â **Close-Up**
 
-â— Para mostrar um detalhe importante â†’ **Extremo Close-Up**
+ê¢âÂ Para mostrar um detalhe importante ê¢â â **Extremo Close-Up**
 
-## ðŸ‘‰ Regra Simples de DecisÃ£o
+## ê°Å¸ââ° Regra Simples de DecisêÂ£o
 
-Se a localizaÃ§Ã£o ou a aÃ§Ã£o importa mais â€” vÃ¡ para o plano aberto.
+Se a localizaêÂ§êÂ£o ou a aêÂ§êÂ£o importa mais ê¢â¬â vêÂ¡ para o plano aberto.
 
-Se a emoÃ§Ã£o ou a reaÃ§Ã£o importa mais â€” vÃ¡ para o plano fechado.
+Se a emoêÂ§êÂ£o ou a reaêÂ§êÂ£o importa mais ê¢â¬â vêÂ¡ para o plano fechado.
 
-Se um detalhe muda a histÃ³ria â€” use um extremo close-up.
+Se um detalhe muda a histêÂ³ria ê¢â¬â use um extremo close-up.
 
-## ðŸ  Tarefa
+## ê°Å¸ÂÂ  Tarefa
 
-Crie um prompt cARCKHÉtogrÃ¡fico de 5 segundos:
+Crie um prompt cARCKHêtogrêÂ¡fico de 5 segundos:
 
 Escolha um tamanho de plano.
 
-Explique por que um diretor usaria esse plano para uma emoÃ§Ã£o especÃ­fica.
+Explique por que um diretor usaria esse plano para uma emoêÂ§êÂ£o especêÂ­fica.
 
 Escreva um prompt realista com:
 
-â—‹ Formato
+ê¢ââ¹ Formato
 
-â—‹ Tamanho do plano
+ê¢ââ¹ Tamanho do plano
 
-â—‹ Ambiente
+ê¢ââ¹ Ambiente
 
-â—‹ IluminaÃ§Ã£o
+ê¢ââ¹ IluminaêÂ§êÂ£o
 
-â—‹ Personagem
+ê¢ââ¹ Personagem
 
-â—‹ Dois timestamps com aÃ§Ã£o
+ê¢ââ¹ Dois timestamps com aêÂ§êÂ£o
 
-Use efeitos prÃ¡ticos, iluminaÃ§Ã£o natural e sem CGI.
+Use efeitos prêÂ¡ticos, iluminaêÂ§êÂ£o natural e sem CGI.
 
-Compartilhe seu prompt e o resultado esperado na discussÃ£o da aula.
+Compartilhe seu prompt e o resultado esperado na discussêÂ£o da aula.
 
 ---
 
-# Aula 13 â€” âš¡ï¸ VÃ­deo CARCKHÉtogrÃ¡fico no Seedance 2
+# Aula 13 ê¢â¬â ê¢Å¡Â¡ê¯Â¸Â VêÂ­deo CARCKHêtogrêÂ¡fico no Seedance 2
 
 **6:17**
 
-OlÃ¡, pessoal. Hoje vamos criar um vÃ­deo cARCKHÉtogrÃ¡fico no Seedance usando um storyboard, um personagem travado e transiÃ§Ãµes estruturadas.
+OlêÂ¡, pessoal. Hoje vamos criar um vêÂ­deo cARCKHêtogrêÂ¡fico no Seedance usando um storyboard, um personagem travado e transiêÂ§êÂµes estruturadas.
 
-O objetivo nÃ£o Ã© apenas gerar vÃ­deo, mas controlÃ¡-lo como um cineasta.
+O objetivo nêÂ£o êÂ© apenas gerar vêÂ­deo, mas controlêÂ¡-lo como um cineasta.
 
-## ðŸŽ¬ PrincÃ­pio Central
+## ê°Å¸Å½Â¬ PrincêÂ­pio Central
 
-A IA nÃ£o pensa â€” ela interpreta estrutura.
+A IA nêÂ£o pensa ê¢â¬â ela interpreta estrutura.
 
-ðŸ‘‰ Ã‰ por isso que usamos YAML.
+ê°Å¸ââ° êâ° por isso que usamos YAML.
 
-NÃ£o Ã© apenas formataÃ§Ã£o â€” Ã© um sistema de controle.
+NêÂ£o êÂ© apenas formataêÂ§êÂ£o ê¢â¬â êÂ© um sistema de controle.
 
-## âš¡ï¸ Storyboard e Personagem
+## ê¢Å¡Â¡ê¯Â¸Â Storyboard e Personagem
 
-ComeÃ§amos com um personagem claro e um storyboard de 6 planos:
+ComeêÂ§amos com um personagem claro e um storyboard de 6 planos:
 
-â— Drone â†’ escala
+ê¢âÂ Drone ê¢â â escala
 
-â— Aberto â†’ velocidade
+ê¢âÂ Aberto ê¢â â velocidade
 
-â— MÃ©dio â†’ controle
+ê¢âÂ MêÂ©dio ê¢â â controle
 
-â— Close-up â†’ emoÃ§Ã£o
+ê¢âÂ Close-up ê¢â â emoêÂ§êÂ£o
 
-â— AÃ§Ã£o â†’ salto
+ê¢âÂ AêÂ§êÂ£o ê¢â â salto
 
-â— Aberto â†’ liberaÃ§Ã£o
+ê¢âÂ Aberto ê¢â â liberaêÂ§êÂ£o
 
-ðŸ‘‰ Sem um storyboard, o modelo improvisa e quebra a continuidade.
+ê°Å¸ââ° Sem um storyboard, o modelo improvisa e quebra a continuidade.
 
-## âš¡ï¸ Trava de Identidade
+## ê¢Å¡Â¡ê¯Â¸Â Trava de Identidade
 
-Travamos o personagem usando a referÃªncia:
+Travamos o personagem usando a referêÂªncia:
 
 `base: "matching reference @image1 with strict identity lock"`
 
-Isso mantÃ©m:
+Isso mantêÂ©m:
 
-â— rosto
+ê¢âÂ rosto
 
-â— proporÃ§Ãµes
+ê¢âÂ proporêÂ§êÂµes
 
-â— design
+ê¢âÂ design
 
-ðŸ‘‰ Sem desvio, sem redesigns.
+ê°Å¸ââ° Sem desvio, sem redesigns.
 
-## âš¡ï¸ Por Que YAML Funciona
+## ê¢Å¡Â¡ê¯Â¸Â Por Que YAML Funciona
 
 Em vez de um prompt longo, dividimos tudo em blocos:
 
-â— cÃ¢mera
+ê¢âÂ cêÂ¢mera
 
-â— aÃ§Ã£o
+ê¢âÂ aêÂ§êÂ£o
 
-â— iluminaÃ§Ã£o
+ê¢âÂ iluminaêÂ§êÂ£o
 
-â— transiÃ§Ãµes
+ê¢âÂ transiêÂ§êÂµes
 
-ðŸ‘‰ Estrutura clara = resultado previsÃ­vel
+ê°Å¸ââ° Estrutura clara = resultado previsêÂ­vel
 
-## âš¡ï¸ Regras do YAML â€” Essenciais
+## ê¢Å¡Â¡ê¯Â¸Â Regras do YAML ê¢â¬â Essenciais
 
-â— Uma funÃ§Ã£o por campo: cÃ¢mera â‰  aÃ§Ã£o
+ê¢âÂ Uma funêÂ§êÂ£o por campo: cêÂ¢mera ê¢â°Â  aêÂ§êÂ£o
 
-â— Mantenha a cÃ¢mera simples e controlada
+ê¢âÂ Mantenha a cêÂ¢mera simples e controlada
 
-â— Descreva movimento fÃ­sico, nÃ£o ideias
+ê¢âÂ Descreva movimento fêÂ­sico, nêÂ£o ideias
 
-â— Sempre inclua iluminaÃ§Ã£o
+ê¢âÂ Sempre inclua iluminaêÂ§êÂ£o
 
-â— Defina blocos de tempo: 00_02, 02_04...
+ê¢âÂ Defina blocos de tempo: 00_02, 02_04...
 
-â— Escreva as transiÃ§Ãµes explicitamente
+ê¢âÂ Escreva as transiêÂ§êÂµes explicitamente
 
-ðŸ‘‰ Se a estrutura quebra â€” o resultado quebra.
+ê°Å¸ââ° Se a estrutura quebra ê¢â¬â o resultado quebra.
 
-## ðŸŽ¬ TransiÃ§Ãµes â€” Aplicadas
+## ê°Å¸Å½Â¬ TransiêÂ§êÂµes ê¢â¬â Aplicadas
 
-As transiÃ§Ãµes controlam:
+As transiêÂ§êÂµes controlam:
 
-â— ritmo
+ê¢âÂ ritmo
 
-â— emoÃ§Ã£o
+ê¢âÂ emoêÂ§êÂ£o
 
-â— atenÃ§Ã£o
+ê¢âÂ atenêÂ§êÂ£o
 
 Nesta cena:
 
-â— **Cut / Corte seco** â†’ estrutura
+ê¢âÂ **Cut / Corte seco** ê¢â â estrutura
 
-â— **Whip Pan / PanorÃ¢mica rÃ¡pida** â†’ velocidade
+ê¢âÂ **Whip Pan / PanorêÂ¢mica rêÂ¡pida** ê¢â â velocidade
 
-â— **Smash Cut / Corte de impacto** â†’ impacto
+ê¢âÂ **Smash Cut / Corte de impacto** ê¢â â impacto
 
-â— **Match on Action / Corte por aÃ§Ã£o correspondente** â†’ fluidez
+ê¢âÂ **Match on Action / Corte por aêÂ§êÂ£o correspondente** ê¢â â fluidez
 
-ðŸ‘‰ Elas definem como a cena Ã© sentida.
+ê°Å¸ââ° Elas definem como a cena êÂ© sentida.
 
-## âš ï¸ LimitaÃ§Ã£o da IA
+## ê¢Å¡Â ê¯Â¸Â LimitaêÂ§êÂ£o da IA
 
-No Seedance, as transiÃ§Ãµes frequentemente quebram.
+No Seedance, as transiêÂ§êÂµes frequentemente quebram.
 
 Mesmo com um prompt correto:
 
-â— o movimento pode se desviar
+ê¢âÂ o movimento pode se desviar
 
-â— o timing pode falhar
+ê¢âÂ o timing pode falhar
 
-â— os planos podem colapsar
+ê¢âÂ os planos podem colapsar
 
-ðŸ‘‰ Isso Ã© normal. VocÃª precisa iterar.
+ê°Å¸ââ° Isso êÂ© normal. VocêÂª precisa iterar.
 
-A IA nÃ£o executa perfeitamente â€” ela aproxima.
+A IA nêÂ£o executa perfeitamente ê¢â¬â ela aproxima.
 
-## ðŸŽ¥ Ideia Final
+## ê°Å¸Å½Â¥ Ideia Final
 
-Uma boa sequÃªncia flui:
+Uma boa sequêÂªncia flui:
 
-**escala â†’ velocidade â†’ emoÃ§Ã£o â†’ aÃ§Ã£o â†’ liberaÃ§Ã£o**
+**escala ê¢â â velocidade ê¢â â emoêÂ§êÂ£o ê¢â â aêÂ§êÂ£o ê¢â â liberaêÂ§êÂ£o**
 
-ðŸ‘‰ Isso Ã© estrutura cARCKHÉtogrÃ¡fica.
+ê°Å¸ââ° Isso êÂ© estrutura cARCKHêtogrêÂ¡fica.
 
-## ðŸ  Tarefa
+## ê°Å¸ÂÂ  Tarefa
 
-Crie uma sequÃªncia de 6 planos:
+Crie uma sequêÂªncia de 6 planos:
 
-â— construa um storyboard
+ê¢âÂ construa um storyboard
 
-â— escreva um prompt em YAML
+ê¢âÂ escreva um prompt em YAML
 
-â— aplique pelo menos 3 transiÃ§Ãµes
+ê¢âÂ aplique pelo menos 3 transiêÂ§êÂµes
 
-ðŸ‘‰ O objetivo Ã© controle, nÃ£o apenas geraÃ§Ã£o ðŸŽ¬
+ê°Å¸ââ° O objetivo êÂ© controle, nêÂ£o apenas geraêÂ§êÂ£o ê°Å¸Å½Â¬

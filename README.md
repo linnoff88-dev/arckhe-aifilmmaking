@@ -1,4 +1,4 @@
-# ðŸŽ¬ AI FILMMAKING â€” Do Conceito ao Filme Final
+# ê°Å¸Å½Â¬ AI FILMMAKING ê¢â¬â Do Conceito ao Filme Final
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,29 +6,29 @@
 </div>
 
 
-Curso completo de **filmmaking com IA** no formato ARCKHÉ AI. Ensina criadores a contar histÃ³rias cARCKHÉtogrÃ¡ficas completas com ferramentas de IA â€” pensando como diretor, nÃ£o como usuÃ¡rio de prompt.
+Curso completo de **filmmaking com IA** no formato ARCKHê AI. Ensina criadores a contar histêÂ³rias cARCKHêtogrêÂ¡ficas completas com ferramentas de IA ê¢â¬â pensando como diretor, nêÂ£o como usuêÂ¡rio de prompt.
 
 **No ar:** https://linnoff88-dev.github.io/
 
-## Estrutura â€” 7 trilhas, 31 mÃ³dulos
+## Estrutura ê¢â¬â 7 trilhas, 31 mêÂ³dulos
 
 | # | Trilha | Status |
 |---|--------|--------|
-| 1 | Fundamentos do CARCKHÉ | âœ… 3 mÃ³dulos |
-| 2 | PrÃ©-ProduÃ§Ã£o e Roteiro | âœ… 3 mÃ³dulos |
-| 3 | AtuaÃ§Ã£o e DireÃ§Ã£o | âœ… 3 mÃ³dulos |
-| 4 | CARCKHÉtografia e Visual | âœ… 4 mÃ³dulos |
-| 5 | IA Visual e GeraÃ§Ã£o | âœ… 6 mÃ³dulos |
-| 6 | Som, EdiÃ§Ã£o e PÃ³s-ProduÃ§Ã£o | ðŸŸ¡ 2 prontos Â· resto em construÃ§Ã£o |
-| 7 | ProduÃ§Ã£o e Carreira | ðŸŸ¡ 1 pronto Â· resto em construÃ§Ã£o |
+| 1 | Fundamentos do CARCKHê | ê¢Åâ¦ 3 mêÂ³dulos |
+| 2 | PrêÂ©-ProduêÂ§êÂ£o e Roteiro | ê¢Åâ¦ 3 mêÂ³dulos |
+| 3 | AtuaêÂ§êÂ£o e DireêÂ§êÂ£o | ê¢Åâ¦ 3 mêÂ³dulos |
+| 4 | CARCKHêtografia e Visual | ê¢Åâ¦ 4 mêÂ³dulos |
+| 5 | IA Visual e GeraêÂ§êÂ£o | ê¢Åâ¦ 6 mêÂ³dulos |
+| 6 | Som, EdiêÂ§êÂ£o e PêÂ³s-ProduêÂ§êÂ£o | ê°Å¸Å¸Â¡ 2 prontos êÂ· resto em construêÂ§êÂ£o |
+| 7 | ProduêÂ§êÂ£o e Carreira | ê°Å¸Å¸Â¡ 1 pronto êÂ· resto em construêÂ§êÂ£o |
 
-Cobre: linguagem e lÃ³gica de cÃ¢mera, roteiroâ†’storyboardâ†’frames, direÃ§Ã£o de atores e diÃ¡logo, composiÃ§Ã£o/iluminaÃ§Ã£o/profundidade, geraÃ§Ã£o de vÃ­deo (Seedance, Kling, Luma, Runway), controle por YAML, efeitos visuais e partÃ­culas, ediÃ§Ã£o, cenas de aÃ§Ã£o e narrativa visual.
+Cobre: linguagem e lêÂ³gica de cêÂ¢mera, roteiroê¢â âstoryboardê¢â âframes, direêÂ§êÂ£o de atores e diêÂ¡logo, composiêÂ§êÂ£o/iluminaêÂ§êÂ£o/profundidade, geraêÂ§êÂ£o de vêÂ­deo (Seedance, Kling, Luma, Runway), controle por YAML, efeitos visuais e partêÂ­culas, ediêÂ§êÂ£o, cenas de aêÂ§êÂ£o e narrativa visual.
 
 ## Como funciona
-HTML estÃ¡tico (Tailwind via CDN), dark/light mode, diagramas SVG inline e exemplos cARCKHÉtogrÃ¡ficos ilustrativos. Sem build â€” abra `index.html`.
+HTML estêÂ¡tico (Tailwind via CDN), dark/light mode, diagramas SVG inline e exemplos cARCKHêtogrêÂ¡ficos ilustrativos. Sem build ê¢â¬â abra `index.html`.
 
 ---
-ðŸŽ¬ [ARCKHÉ AI](https://ARCKHÉ AI)
+ê°Å¸Å½Â¬ [ARCKHê AI](https://ARCKHê AI)
 
 ---
 
